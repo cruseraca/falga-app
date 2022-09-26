@@ -12,6 +12,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ["Istok Web", ...defaultTheme.fontFamily.sans],
+                hero: ["Poppins",'sans-serif'],
             },
             colors: {
                 "purple-falga": "#2b4290",
