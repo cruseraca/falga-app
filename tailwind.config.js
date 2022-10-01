@@ -12,10 +12,11 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ["Istok Web", ...defaultTheme.fontFamily.sans],
-                hero: ["Poppins",'sans-serif'],
+                poppins: ["Poppins",'sans-serif'],
             },
             colors: {
-                "purple-falga": "#2b4290",
+                'purple-falga': '#2b4290',
+                'red-falga': '#972540',
             },
             backgroundImage: {
                 'hero-image': "url('/img/hero-image.jpg')",
