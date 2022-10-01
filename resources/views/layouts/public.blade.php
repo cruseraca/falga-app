@@ -23,12 +23,8 @@
 </head>
 
 <body>
-
+    @livewire('components.navbar')
     <div>
-        @livewire('components.navbar')
-    </div>
-
-    <div class="font-sans text-gray-900 antialiased">
         {{ $slot }}
     </div>
 </body>

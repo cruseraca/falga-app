@@ -17,6 +17,9 @@ module.exports = {
             colors: {
                 "purple-falga": "#2b4290",
             },
+            backgroundImage: {
+                'hero-image': "url('/img/hero-image.jpg')",
+            }
         },
     },
 

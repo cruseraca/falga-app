@@ -1,4 +1,4 @@
-<header class="sticky top-0 flex items-center justify-between flex-wrap bg-white-500 py-5 px-12">
+<nav class="fixed top-0 flex items-center justify-between flex-wrap bg-white-500 py-5 px-12 bg-white w-full">
     <div class="flex items-center h-12 mr-6">
         <img class="object-cover relative h-full" src="{{ asset('img/logo-falga.svg') }}" alt="">
     </div>
@@ -40,4 +40,4 @@
             class="inline-block text-sm px-4 py-2 leading-none border rounded-[8px] bg-purple-falga text-white border-white hover:border-purple-falga hover:text-purple-falga hover:bg-white mt-4 lg:mt-0">Contact
             Us</a>
     </div>
-</header>
+</nav>
