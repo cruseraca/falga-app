@@ -1,4 +1,4 @@
-<nav class="fixed top-0 flex items-center justify-between flex-wrap bg-white-500 py-5 px-12 bg-white w-full">
+<nav class="fixed top-0 flex items-center justify-between flex-wrap bg-white-500 py-5 px-12 bg-white w-full shadow-box-nav">
     <div class="flex items-center h-12 mr-6">
         <img class="object-cover relative h-full" src="{{ asset('img/logo-falga.svg') }}" alt="">
     </div>
@@ -14,7 +14,7 @@
     <div class="w-full block lg:flex lg:items-center lg:w-auto  justify-items-center">
         <div class="text-md lg:flex-grow">
             <a href="#responsive-header"
-                class="block mt-4 lg:inline-block lg:mt-0 text-purple-falga hover:text-white mx-4">
+                class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-purple-falga mx-4">
                 About Us
             </a>
             <a href="#responsive-header"

@@ -12,21 +12,27 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Istok+Web&family=Poppins&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web&family=Poppins&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('flickity/flickity.css') }}">
+    @livewireStyles
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 
 <body>
-    @livewire('components.navbar')
+    <div class="z-100">
+        @livewire('components.navbar')
+    </div>
     <div>
         {{ $slot }}
     </div>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    @stack('scripts')
+    @livewireScripts
 </body>
 
 </html>
