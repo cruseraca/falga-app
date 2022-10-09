@@ -5,3 +5,18 @@
 .shadow-box {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
+.shadow-box-nav {
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.carousel {
+  background: white;
+  width: 100%;
+}
+
+.carousel-cell {
+  width: 310px;
+  height: 448px;
+  background-color: aquamarine;
+}
