@@ -10965,20 +10965,11 @@ select {
 .right-0 {
   right: 0px;
 }
-.top-0 {
-  top: 0px;
-}
-.bottom-0 {
-  bottom: 0px;
-}
-.bottom-2 {
-  bottom: 0.5rem;
-}
 .bottom-10 {
   bottom: 2.5rem;
 }
-.left-1\/2 {
-  left: 50%;
+.top-0 {
+  top: 0px;
 }
 .z-0 {
   z-index: 0;
@@ -11164,6 +11155,9 @@ select {
 .h-\[56px\] {
   height: 56px;
 }
+.h-40 {
+  height: 10rem;
+}
 .h-8 {
   height: 2rem;
 }
@@ -11175,9 +11169,6 @@ select {
 }
 .h-9 {
   height: 2.25rem;
-}
-.h-40 {
-  height: 10rem;
 }
 .min-h-screen {
   min-height: 100vh;
@@ -11677,9 +11668,6 @@ select {
 }
 .pb-4 {
   padding-bottom: 1rem;
-}
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 .text-left {
   text-align: left;
