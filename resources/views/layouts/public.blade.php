@@ -17,7 +17,6 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('flickity/flickity.css') }}">
-    @livewireStyles
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -32,7 +31,6 @@
     </div>
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     @stack('scripts')
-    @livewireScripts
 </body>
 
 </html>
