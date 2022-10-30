@@ -23,14 +23,13 @@
 </head>
 
 <body>
-    <div class="z-100">
-        @livewire('components.navbar')
-    </div>
+    @livewire('components.navbar-flowbite')
     <div>
         {{ $slot }}
     </div>
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     @stack('scripts')
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
 </body>
 
 </html>
