@@ -344,57 +344,80 @@
 <footer class="relative pt-8 bg-violet-falga">
     <div class="container mx-auto px-4 text-white">
         <div class="flex flex-wrap text-left lg:text-left">
-            <div class="w-full lg:w-6/12 px-4">
+            <div class="w-1/2 lg:w-6/12 px-4">
                 <img src="{{ asset('img/logo-falga-white.png') }}" alt="" class="h-[60px] object-cover">
-                <div class="grid grid-cols-2 mt-4">
-                    <div>Phone</div>
-                    <div>: (021) 123 45 678</div>
+                <div class="grid grid-cols-5 mt-10 text-sm">
+                    <div class="font-semibold">Phone</div>
+                    <div class="col-span-4">: (021) 123 45 678</div>
+                    <div class="font-semibold">Email</div>
+                    <div class="col-span-4">: corporate.secretary@falga.co.id</div>
+                    <div class="font-semibold">Address</div>
+                    <div class="col-span-4">: Menara Dea Tower II, Mega Kuningan Street, Kuningan, Setiabudi, South Jakarta, Jakarta</div>
+                    <div class="font-semibold">Website</div>
+                    <div class="col-span-4">: www.falga.co.id</div>
                 </div>
             </div>
-            <div class="w-full lg:w-6/12 px-4">
+            <div class="w-1/2 lg:w-6/12 pl-10 pr-4">
                 <div class="flex flex-wrap items-top mb-6">
-                    <div class="w-full lg:w-4/12 px-4 ml-auto">
-                        <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+                    <div class="w-auto lg:w-6/12 px-4">
+                        <span class="block text-blueGray-500 text-sm font-semibold mb-2">About Us</span>
                         <ul class="list-unstyled">
                             <li>
-                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                    href="https://www.creative-tim.com/presentation?ref=njs-profile">About Us</a>
+                                <a class="block text-sm" href="">About</a>
                             </li>
                             <li>
-                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                    href="https://blog.creative-tim.com?ref=njs-profile">Blog</a>
+                                <a class="block text-sm" href="">Vision & Missions</a>
                             </li>
                             <li>
-                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                    href="https://www.github.com/creativetimofficial?ref=njs-profile">Github</a>
+                                <a class="block text-sm" href="">Milestones</a>
                             </li>
                             <li>
-                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                    href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Free
-                                    Products</a>
+                                <a class="block text-sm" href="">Core Values</a>
+                            </li>
+                            <li>
+                                <a class="block text-sm" href="">Key Person</a>
                             </li>
                         </ul>
-                    </div>
-                    <div class="w-full lg:w-4/12 px-4">
-                        <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other
-                            Resources</span>
+                        <span class="block text-sm font-semibold mb-2 mt-4">ESG</span>
                         <ul class="list-unstyled">
                             <li>
-                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                    href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">MIT
-                                    License</a>
+                                <a class="block text-sm" href="">Sustainability Report</a>
                             </li>
                             <li>
-                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                    href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
+                                <a class="block text-sm" href="">Good Corporate Governance</a>
+                            </li>
+                        </ul>
+                        <span class="block text-sm font-semibold mb-2 mt-4">Career</span>
+                    </div>
+                    <div class="w-full lg:w-6/12 px-4">
+                        <span class="block text-blueGray-500 text-sm font-semibold mb-2">Our Business</span>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="block text-sm" href="">Engineering, Procurement & Construction</a>
                             </li>
                             <li>
-                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                    href="https://creative-tim.com/privacy?ref=njs-profile">Privacy Policy</a>
+                                <a class="block text-sm" href="">Oil & Gas Services</a>
                             </li>
                             <li>
-                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                    href="https://creative-tim.com/contact-us?ref=njs-profile">Contact Us</a>
+                                <a class="block text-sm" href="">Industrial Equipment Rental</a>
+                            </li>
+                            <li>
+                                <a class="block text-sm" href="">Property & Hospitality</a>
+                            </li>
+                            <li>
+                                <a class="block text-sm" href="">Business Builder</a>
+                            </li>
+                        </ul>
+                        <span class="block text-sm font-semibold mb-2 mt-4">Media</span>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="block text-sm" href="">Portofolio</a>
+                            </li>
+                            <li>
+                                <a class="block text-sm" href="">Blog</a>
+                            </li>
+                            <li>
+                                <a class="block text-sm" href="">Videos</a>
                             </li>
                         </ul>
                     </div>
@@ -404,12 +427,10 @@
     </div>
     <div class="flex flex-wrap items-center md:justify-between justify-center bg-white">
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-            <div class="text-sm text-blueGray-500 py-1">
-                Copyright © <span id="get-current-year">2021</span><a
-                    href="https://www.creative-tim.com/product/notus-js"
-                    class="text-blueGray-500 hover:text-gray-800" target="_blank"> Notus JS by
-                    <a href="https://www.creative-tim.com?ref=njs-profile"
-                        class="text-blueGray-500 hover:text-blueGray-800">Creative Tim</a>.
+            <div class="text-xs py-4">
+                Copyright © <span id="get-current-year">2022</span><a
+                    href="https://www.falga.co.id"
+                    class="font-black hover:text-gray-800" target="_blank"> FALGA GROUP
             </div>
         </div>
     </div>
