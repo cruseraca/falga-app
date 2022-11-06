@@ -12,11 +12,11 @@
 
 .carousel {
   background: white;
-  width: 100%;
+  width: 85%;
 }
 
 .carousel-cell {
-  width: 310px;
+  width: 30%;
   height: 448px;
   background-color: aquamarine;
 }

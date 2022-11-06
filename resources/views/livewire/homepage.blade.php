@@ -14,20 +14,25 @@
 {{-- Falga at glance --}}
 <div class="container flex flex-col mx-auto my-20 font-poppins">
     <div class="relative md:h-[600px] w-full">
-        <div class="md:absolute text-xl right-[50px] xl:right-[200px] top-[90px] text-[#986185] font-black transform -translate-x-1/2 -translate-y-1/2">
-            Engineering, Procurement,<br/>and Construction (EPC)
+        <div
+            class="md:absolute text-xl right-[50px] xl:right-[200px] top-[90px] text-[#986185] font-black transform -translate-x-1/2 -translate-y-1/2">
+            Engineering, Procurement,<br />and Construction (EPC)
         </div>
-        <div class="md:absolute text-right text-xl left-[260px] xl:left-[360px] top-[150px] text-[#ac5e72] font-black transform -translate-x-1/2 -translate-y-1/2">
-            Industrial<br/>Equipment Rental
+        <div
+            class="md:absolute text-right text-xl left-[260px] xl:left-[360px] top-[150px] text-[#ac5e72] font-black transform -translate-x-1/2 -translate-y-1/2">
+            Industrial<br />Equipment Rental
         </div>
-        <div class="md:absolute text-xl right-[35px] xl:right-[185px] top-[280px] text-[#816092] font-black transform -translate-x-1/2 -translate-y-1/2">
+        <div
+            class="md:absolute text-xl right-[35px] xl:right-[185px] top-[280px] text-[#816092] font-black transform -translate-x-1/2 -translate-y-1/2">
             Oil & Gas Service
         </div>
-        <div class="md:absolute text-right text-xl left-[100px] xl:left-[200px] bottom-[200px] text-[#646EA6] font-black transform translate-x-1/2 translate-y-1/2">
-            Property and<br/>Hospitality
+        <div
+            class="md:absolute text-right text-xl left-[100px] xl:left-[200px] bottom-[200px] text-[#646EA6] font-black transform translate-x-1/2 translate-y-1/2">
+            Property and<br />Hospitality
         </div>
-        <div class="md:absolute text-xl right-[120px] xl:right-[220px] bottom-[140px] text-[#68609B] font-black transform -translate-x-1/2 translate-y-1/2">
-            Future Business 
+        <div
+            class="md:absolute text-xl right-[120px] xl:right-[220px] bottom-[140px] text-[#68609B] font-black transform -translate-x-1/2 translate-y-1/2">
+            Future Business
         </div>
         <div class="md:absolute w-[400px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <img class="contain" src="{{ asset('img/homepage/glance.png') }}" alt="">
@@ -35,10 +40,12 @@
     </div>
     <div class="flex flex-row divide-x-2 divide-black font-sans text-lg">
         <div class="basis-1/2 py-6 pr-10 pl-40 text-justify">
-            We set the direction of <strong>FALGA</strong> to be an <strong>Investment Holding Company</strong>. We just started our portfolio in Engineering Procurement and Construction, Oil and Gas, and Property.
+            We set the direction of <strong>FALGA</strong> to be an <strong>Investment Holding Company</strong>. We just
+            started our portfolio in Engineering Procurement and Construction, Oil and Gas, and Property.
         </div>
         <div class="basis-1/2 py-6 pl-10 pr-40 text-justify">
-            <strong>FALGA Investment Powerhouse</strong><br/>We invest with proper understanding, long-term approach, and encourage collaboration for our future business development.
+            <strong>FALGA Investment Powerhouse</strong><br />We invest with proper understanding, long-term approach,
+            and encourage collaboration for our future business development.
         </div>
     </div>
 </div>
@@ -95,7 +102,7 @@
         </div>
         <div class="flex flex-col w-1/4 rounded-lg border py-5 px-2 shadow-box text-center">
             <div class="my-auto mx-6 xl:mx-16">
-                <p class="font-black text-md">Population below<br/>40 years old (2021)</p>
+                <p class="font-black text-md">Population below<br />40 years old (2021)</p>
                 <p class="font-black text-2xl my-3 text-red-falga">64,68%</p>
                 <p class="font-black text-xs">Which equal to 176 million</p>
                 <p class="font-light text-xs">Source: BPS Indonesia</p>
@@ -185,71 +192,228 @@
     </div>
 </div> --}}
 {{-- Slider Our Business --}}
-<div class="container mx-auto my-20 px-20">
+<div class="container mx-auto my-20 px-6">
     <div class="text-center my-28">
         <p class="text-3xl text-red-falga font-black font-poppins">
             Our Business
         </p>
     </div>
-    <div class="relative">
-        <div class="flex absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 z-40 carousel-button-left cursor-pointer">
+    <div class="relative flex">
+        <div class="flex absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 carousel-button-left cursor-pointer">
             <span class="fa-stack fa-xl my-auto">
                 <i class="fa-solid fa-circle fa-stack-2x text-purple-falga"></i>
                 <i class="fa-solid fa-angle-left fa-stack-1x text-white"></i>
             </span>
         </div>
-        <div class="flex absolute right-0 top-1/2 translate-x-1/2 -translate-y-1/2 z-40 carousel-button-right cursor-pointer">
+        <div
+            class="flex absolute right-0 top-1/2 translate-x-1/2 -translate-y-1/2 carousel-button-right cursor-pointer">
             <span class="fa-stack fa-xl my-auto">
                 <i class="fa-solid fa-circle fa-stack-2x text-purple-falga"></i>
                 <i class="fa-solid fa-angle-right fa-stack-1x text-white"></i>
             </span>
         </div>
-        <div class="carousel px-16">
-            <div class="carousel-cell mx-10 rounded-xl flex overflow-hidden">
+        <div class="carousel mx-auto">
+            <div class="carousel-cell mx-4 rounded-xl flex overflow-hidden">
                 <div class="h-full">
-                    <img src="{{ asset('img/slider/image-3.jpeg') }}" class="h-full">
+                    <img src="{{ asset('img/slider/image-7.jpeg') }}" class="h-full object-cover object-left-top">
                 </div>
-                <div class="absolute bottom-10 inset-x-0 text-white text-center text-xl">
+                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg">
                     <p>Engineering, Procurement, and Construction (EPC)</p>
                 </div>
             </div>
-            <div class="carousel-cell mx-10 rounded-xl flex overflow-hidden">
+            <div class="carousel-cell mx-4 rounded-xl flex overflow-hidden">
                 <div class="h-full">
-                    <img src="{{ asset('img/slider/image-1.jpeg') }}" class="h-full">
+                    <img src="{{ asset('img/slider/image-1.jpeg') }}" class="h-full object-cover object-center-bottom">
                 </div>
-                <div class="absolute bottom-10 inset-x-0 text-white text-center text-xl">
+                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg">
                     <p>Oil & Gas Services</p>
                 </div>
             </div>
-            <div class="carousel-cell mx-10 rounded-xl flex overflow-hidden">
+            <div class="carousel-cell mx-4 rounded-xl flex overflow-hidden">
                 <div class="h-full">
-                    <img src="{{ asset('img/slider/image-2.jpeg') }}" class="h-full">
+                    <img src="{{ asset('img/slider/image-6.jpg') }}" class="h-full object-cover object-center-bottom">
                 </div>
-                <div class="absolute bottom-10 inset-x-0 text-white text-center text-xl">
+                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg">
                     <p>Industrial Equipment Rental</p>
                 </div>
             </div>
-            <div class="carousel-cell mx-10 rounded-xl flex overflow-hidden"></div>
+            <div class="carousel-cell mx-4 rounded-xl flex overflow-hidden">
+                <div class="h-full w-full">
+                    <img src="{{ asset('img/slider/image-4.jpeg') }}" class="h-full w-full object-fill">
+                </div>
+                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg">
+                    <p>Business Builder</p>
+                </div>
+            </div>
+            <div class="carousel-cell mx-4 rounded-xl flex overflow-hidden">
+                <div class="h-full w-full">
+                    <img src="{{ asset('img/slider/image-5.jpeg') }}" class="h-full w-full object-fill">
+                </div>
+                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg">
+                    <p>Property & Hospitality</p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="text-center my-10">
         <a href="#"
-            class="inline-block text-sm px-4 py-2 leading-none border rounded-[8px] bg-purple-falga text-white border-white hover:border-purple-falga hover:text-purple-falga hover:bg-white mt-4 lg:mt-0">See All Bussiness</a>
+            class="inline-block text-sm px-4 py-2 leading-none border rounded-[8px] bg-purple-falga text-white border-white hover:border-purple-falga hover:text-purple-falga hover:bg-white mt-4 lg:mt-0">See
+            All Bussiness</a>
     </div>
 </div>
 {{-- Clients & Partners --}}
-<div class="container mx-auto my-20 px-20">
-    <div class="text-center my-28">
+<div class="container mx-auto my-8 px-20">
+    <div class="text-center my-8">
         <p class="text-3xl text-red-falga font-black font-poppins">
             Clients & Partners
         </p>
     </div>
-    <div class="flex">
-        <div class="h-40">
-            <img src="" alt="">
+    <div class="flex px-20">
+        <div class="h-40 w-1/3">
+            <img src="{{ asset('img/logo/logo-pgn.png') }}" alt="" class="h-full w-full object-contain">
+        </div>
+        <div class="h-40 w-1/3">
+            <img src="{{ asset('img/logo/logo-pertamina.png') }}" alt=""
+                class="h-full w-full object-contain">
+        </div>
+        <div class="flex h-40 w-1/3 items-center">
+            <img src="{{ asset('img/logo/logo-bph.png') }}" alt="" class="h-[70%] w-full object-contain">
+        </div>
+    </div>
+    <div class="flex px-20 justify-center">
+        <div class="h-40 w-1/3">
+            <img src="{{ asset('img/logo/logo-yokogawa.png') }}" alt="" class="h-full w-full object-contain">
+        </div>
+        <div class="h-40 w-1/3">
+            <img src="{{ asset('img/logo/logo-siemens.png') }}" alt="" class="h-full w-full object-contain">
         </div>
     </div>
 </div>
+{{-- Contact Us --}}
+<div class="w-full bg-[url('/img/homepage/background-contact.jpeg')] bg-cover bg-no-repeat">
+    <div class="container mx-auto py-16">
+        <div class="flex w-full">
+            <div>
+                <p class="text-3xl text-red-falga font-black font-poppins text-center my-10">
+                    Site Map
+                </p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2672422268975!2d106.81961217838374!3d-6.228454948295916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e4a175a33f%3A0xc96c83f443f46e81!2sDea%20Tower%2C%20Jl.%20Mega%20Kuningan%20Barat%20No.1%2C%20RT.5%2FRW.2%2C%20Kuningan%2C%20East%20Kuningan%2C%20Setiabudi%2C%20South%20Jakarta%20City%2C%20Jakarta%2012950!5e0!3m2!1sid!2sid!4v1667672120239!5m2!1sid!2sid"
+                    width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="w-full p-10">
+                <p class="text-3xl text-red-falga font-black font-poppins text-center mb-10">
+                    Contact Us
+                </p>
+                <form>
+                    <div class="mb-6">
+                        <label class="block text-md font-medium text-red-falga">Full Name</label>
+                        <input
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Enter your full name" required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="email" class="block text-md font-medium text-red-falga">Email</label>
+                        <input type="email" id="email"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-md font-medium text-red-falga">Subject</label>
+                        <input
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Enter your subject" required>
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-md font-medium text-red-falga">Message</label>
+                        <textarea id="message" rows="3"
+                            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit"
+                            class="text-white bg-purple-falga hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2 text-center">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{{-- Footer --}}
+<footer class="relative pt-8 bg-violet-falga">
+    <div class="container mx-auto px-4 text-white">
+        <div class="flex flex-wrap text-left lg:text-left">
+            <div class="w-full lg:w-6/12 px-4">
+                <img src="{{ asset('img/logo-falga-white.png') }}" alt="" class="h-[60px] object-cover">
+                <div class="grid grid-cols-2 mt-4">
+                    <div>Phone</div>
+                    <div>: (021) 123 45 678</div>
+                </div>
+            </div>
+            <div class="w-full lg:w-6/12 px-4">
+                <div class="flex flex-wrap items-top mb-6">
+                    <div class="w-full lg:w-4/12 px-4 ml-auto">
+                        <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                                    href="https://www.creative-tim.com/presentation?ref=njs-profile">About Us</a>
+                            </li>
+                            <li>
+                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                                    href="https://blog.creative-tim.com?ref=njs-profile">Blog</a>
+                            </li>
+                            <li>
+                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                                    href="https://www.github.com/creativetimofficial?ref=njs-profile">Github</a>
+                            </li>
+                            <li>
+                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                                    href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Free
+                                    Products</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-full lg:w-4/12 px-4">
+                        <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other
+                            Resources</span>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                                    href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">MIT
+                                    License</a>
+                            </li>
+                            <li>
+                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                                    href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
+                            </li>
+                            <li>
+                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                                    href="https://creative-tim.com/privacy?ref=njs-profile">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                                    href="https://creative-tim.com/contact-us?ref=njs-profile">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-wrap items-center md:justify-between justify-center bg-white">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+            <div class="text-sm text-blueGray-500 py-1">
+                Copyright © <span id="get-current-year">2021</span><a
+                    href="https://www.creative-tim.com/product/notus-js"
+                    class="text-blueGray-500 hover:text-gray-800" target="_blank"> Notus JS by
+                    <a href="https://www.creative-tim.com?ref=njs-profile"
+                        class="text-blueGray-500 hover:text-blueGray-800">Creative Tim</a>.
+            </div>
+        </div>
+    </div>
+</footer>
 
 @push('scripts')
     <script src="{{ asset('flickity/flickity.pkgd.min.js') }}"></script>
