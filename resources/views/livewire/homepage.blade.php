@@ -3,10 +3,10 @@
     <div class="px-4 py-32 ml-9 sm:px-6 lg:px-8 lg:h-[766px] lg:items-center lg:flex">
         <div class="text-center sm:text-left">
             <h1 class="text-sm font-poppins font-extrabold sm:text-4xl">
-                Find the Path to Diversity
+                Core Emphasis on Business Building
             </h1>
             <h1 class="text-sm font-poppins font-extrabold sm:text-4xl mt-4">
-                with Optimum Profitability
+                through Sustainable Investing
             </h1>
         </div>
     </div>
@@ -16,23 +16,33 @@
     <div class="relative md:h-[600px] w-full">
         <div
             class="md:absolute text-xl right-[50px] xl:right-[200px] top-[90px] text-[#986185] font-black transform -translate-x-1/2 -translate-y-1/2">
-            Engineering, Procurement,<br />and Construction (EPC)
+            <a href="#">
+                Engineering, Procurement,<br />and Construction (EPC)
+            </a>
         </div>
         <div
             class="md:absolute text-right text-xl left-[260px] xl:left-[360px] top-[150px] text-[#ac5e72] font-black transform -translate-x-1/2 -translate-y-1/2">
-            Industrial<br />Equipment Rental
+            <a href="#">
+                Industrial<br />Equipment Rental
+            </a>
         </div>
         <div
             class="md:absolute text-xl right-[35px] xl:right-[185px] top-[280px] text-[#816092] font-black transform -translate-x-1/2 -translate-y-1/2">
-            Oil & Gas Service
+            <a href="#">
+                Oil & Gas Service
+            </a>
         </div>
         <div
             class="md:absolute text-right text-xl left-[100px] xl:left-[200px] bottom-[200px] text-[#646EA6] font-black transform translate-x-1/2 translate-y-1/2">
-            Property and<br />Hospitality
+            <a href="#">
+                Property and<br />Hospitality
+            </a>
         </div>
         <div
             class="md:absolute text-xl right-[120px] xl:right-[220px] bottom-[140px] text-[#68609B] font-black transform -translate-x-1/2 translate-y-1/2">
-            Future Business
+            <a href="#">
+                Future Business
+            </a>
         </div>
         <div class="md:absolute w-[400px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <img class="contain" src="{{ asset('img/homepage/glance.png') }}" alt="">
@@ -40,12 +50,17 @@
     </div>
     <div class="flex flex-row divide-x-2 divide-black font-sans text-lg">
         <div class="basis-1/2 py-6 pr-10 pl-40 text-justify">
-            We set the direction of <strong>FALGA</strong> to be an <strong>Investment Holding Company</strong>. We just
-            started our portfolio in Engineering Procurement and Construction, Oil and Gas, and Property.
+            <strong>FALGA GROUP</strong> is an Indonesian-incorporated investment holding company founded in 1986 with
+            ownership interests in EPC Contractor, Oil & Gas Retail, Properties and Industrial Equipment Rental
+            companies. Our Group integrates agile operating models and proactively appraise future business development
+            & opportunities.
         </div>
         <div class="basis-1/2 py-6 pl-10 pr-40 text-justify">
-            <strong>FALGA Investment Powerhouse</strong><br />We invest with proper understanding, long-term approach,
-            and encourage collaboration for our future business development.
+            <strong>FALGA GROUP</strong> core priorities are building viable large-scale businesses that can stand
+            against industry disruptions and economic shocks through organizational agility and resilience. Our Group
+            strives to expand our diversified business portfolio by mobilizing investment for further sustainable
+            development.
+
         </div>
     </div>
 </div>
@@ -53,7 +68,7 @@
 <div class="container mx-auto my-20">
     <div class="text-center my-10">
         <p class="text-3xl text-red-falga font-black font-poppins">
-            Indonesia has Strong Growth for Our Future Market Exploration
+            Our investment focus gravitates on Indonesia Economic Prospects
         </p>
     </div>
     <div class="flex justify-between gap-4">
@@ -128,7 +143,7 @@
         </div>
     </div>
     <div class="text-xs">
-        *) including USA, Singapore, South Korea, China, Taiwan,and many more
+        *) including USA, Singapore, South Korea, China, Taiwan, etc
     </div>
 </div>
 {{-- Recent Update --}}
@@ -268,24 +283,47 @@
             Clients & Partners
         </p>
     </div>
-    <div class="flex px-20">
-        <div class="h-40 w-1/3">
-            <img src="{{ asset('img/logo/logo-pgn.png') }}" alt="" class="h-full w-full object-contain">
-        </div>
-        <div class="h-40 w-1/3">
+    <div class="flex justify-between">
+        <div class="h-40 w-1/4 mx-4">
             <img src="{{ asset('img/logo/logo-pertamina.png') }}" alt=""
                 class="h-full w-full object-contain">
         </div>
-        <div class="flex h-40 w-1/3 items-center">
-            <img src="{{ asset('img/logo/logo-bph.png') }}" alt="" class="h-[70%] w-full object-contain">
+        <div class="h-40 w-1/6 mx-4">
+            <img src="{{ asset('img/logo/logo-pgn.png') }}" alt="" class="h-full w-full object-contain">
+        </div>
+        <div class="flex h-40 w-1/6 mx-4 items-center">
+            <img src="{{ asset('img/logo/logo-wika.png') }}" alt="" class="h-[60%] object-contain">
+        </div>
+        <div class="flex h-40 w-1/6 mx-4 items-center justify-center">
+            <img src="{{ asset('img/logo/logo-waskita.png') }}" alt="" class="h-[60%] object-contain">
+        </div>
+        <div class="flex h-40 w-1/6 mx-4 items-center">
+            <img src="{{ asset('img/logo/logo-schneider.png') }}" alt="" class="w-full object-contain">
+        </div>
+        <div class="flex h-40 w-1/6 mx-4 items-center">
+            <img src="{{ asset('img/logo/logo-yokogawa.png') }}" alt="" class="w-full object-contain">
         </div>
     </div>
-    <div class="flex px-20 justify-center">
-        <div class="h-40 w-1/3">
-            <img src="{{ asset('img/logo/logo-yokogawa.png') }}" alt="" class="h-full w-full object-contain">
+    <div class="flex justify-between">
+        <div class="h-40 w-1/6 mx-6">
+            <img src="{{ asset('img/logo/logo-endress.png') }}" alt="" class="h-full w-full object-contain">
         </div>
-        <div class="h-40 w-1/3">
-            <img src="{{ asset('img/logo/logo-siemens.png') }}" alt="" class="h-full w-full object-contain">
+        <div class="h-40 w-1/6 mx-6">
+            <img src="{{ asset('img/logo/logo-patterson.png') }}" alt=""
+                class="h-full w-full object-contain">
+        </div>
+        <div class="h-40 w-1/6 mx-6">
+            <img src="{{ asset('img/logo/logo-akzonobel.png') }}" alt=""
+                class="h-full w-full object-contain">
+        </div>
+        <div class="h-40 w-1/6 mx-6">
+            <img src="{{ asset('img/logo/logo-kansai.png') }}" alt="" class="h-full w-full object-contain">
+        </div>
+        <div class="h-40 w-1/6 mx-6">
+            <img src="{{ asset('img/logo/logo-sulzer.png') }}" alt="" class="h-full w-full object-contain">
+        </div>
+        <div class="h-40 w-1/6 mx-6">
+            <img src="{{ asset('img/logo/logo-comeca.png') }}" alt="" class="h-full w-full object-contain">
         </div>
     </div>
 </div>
@@ -298,7 +336,7 @@
                     Site Map
                 </p>
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2672422268975!2d106.81961217838374!3d-6.228454948295916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e4a175a33f%3A0xc96c83f443f46e81!2sDea%20Tower%2C%20Jl.%20Mega%20Kuningan%20Barat%20No.1%2C%20RT.5%2FRW.2%2C%20Kuningan%2C%20East%20Kuningan%2C%20Setiabudi%2C%20South%20Jakarta%20City%2C%20Jakarta%2012950!5e0!3m2!1sid!2sid!4v1667672120239!5m2!1sid!2sid"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2672018290027!2d106.82190816512019!3d-6.228460295491357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e4a175a33f%3A0xc96c83f443f46e81!2sDea%20Tower%2C%20Jl.%20Mega%20Kuningan%20Barat%20No.1%2C%20RT.5%2FRW.2%2C%20Kuningan%2C%20East%20Kuningan%2C%20Setiabudi%2C%20South%20Jakarta%20City%2C%20Jakarta%2012950!5e0!3m2!1sid!2sid!4v1668005572898!5m2!1sid!2sid"
                     width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -352,7 +390,8 @@
                     <div class="font-semibold">Email</div>
                     <div class="col-span-4">: corporate.secretary@falga.co.id</div>
                     <div class="font-semibold">Address</div>
-                    <div class="col-span-4">: Menara Dea Tower II, Mega Kuningan Street, Kuningan, Setiabudi, South Jakarta, Jakarta</div>
+                    <div class="col-span-4">: Menara Dea Tower II, Mega Kuningan Street, Kuningan, Setiabudi, South
+                        Jakarta, Jakarta</div>
                     <div class="font-semibold">Website</div>
                     <div class="col-span-4">: www.falga.co.id</div>
                 </div>
@@ -428,8 +467,7 @@
     <div class="flex flex-wrap items-center md:justify-between justify-center bg-white">
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
             <div class="text-xs py-4">
-                Copyright © <span id="get-current-year">2022</span><a
-                    href="https://www.falga.co.id"
+                Copyright © <span id="get-current-year">2022</span><a href="https://www.falga.co.id"
                     class="font-black hover:text-gray-800" target="_blank"> FALGA GROUP
             </div>
         </div>
