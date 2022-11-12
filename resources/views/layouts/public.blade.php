@@ -27,6 +27,7 @@
     <div>
         {{ $slot }}
     </div>
+    @livewire('components.footer')
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     @stack('scripts')
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
