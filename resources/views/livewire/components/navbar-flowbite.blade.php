@@ -60,8 +60,7 @@
                             </li>
                             <li>
                                 <a href="#"
-                                    class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Business
-                                    Builder</a>
+                                    class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Future Bussiness</a>
                             </li>
                         </ul>
                     </div>
