@@ -11495,6 +11495,10 @@ input:checked + .toggle-bg {
   margin-top: auto;
   margin-bottom: auto;
 }
+.my-auto-x {
+  margin-left: auto;
+  margin-right: auto;
+}
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -11538,6 +11542,27 @@ input:checked + .toggle-bg {
 .my-20 {
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+.my-title {
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  max-width: 800px;
+}
+@media (min-width: 640px) {
+  .my-title {
+    line-height: 60px;
+    font-size: 40px;
+    max-width: 800px;
+  }
+}
+.my-button-white {
+  color: #7e7e7e;
+  min-width: 312px;
+  padding: 5px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
 }
 .mx-8 {
   margin-left: 2rem;
@@ -12215,7 +12240,7 @@ input:checked + .toggle-bg {
   --tw-bg-opacity: 0.5;
 }
 .bg-hero-image {
-  background-image: url('/img/hero-image.jpg');
+  background-image: url('/img/hero-image-1.jpg');
 }
 .bg-\[url\(\'\/img\/homepage\/background-contact\.jpeg\'\)\] {
   background-image: url('/img/homepage/background-contact.jpeg');
