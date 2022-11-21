@@ -1,9 +1,7 @@
 {{-- Hero --}}
-<div
-    class="h-screen sm:w-full bg-hero-image bg-no-repeat bg-cover bg-center flex"
->
+<div class="sm:w-full bg-hero-image bg-no-repeat bg-cover bg-center flex">
     <div
-        class="px-10 sm:px-4 py-32 sm:px-6 lg:px-8 lg:h-[766px] lg:items-center flex text-white my-auto-x"
+        class="px-10 sm:px-4 sm:px-6 lg:px-8 lg:h-[766px] lg:items-center flex text-white my-auto-x"
     >
         <div
             class="text-center my-auto sm:text-center"
