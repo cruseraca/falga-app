@@ -17,7 +17,7 @@
         <div
             class="text-center my-4 md:absolute md:text-xl md:right-[50px] xl:right-[200px] md:top-[90px] text-[#986185] font-black md:transform md:-translate-x-1/2 md:-translate-y-1/2">
             <a href="#">
-                Engineering, Procurement,<br />and Construction (EPC)
+                Engineering, Procurement,<br />and Construction (EPCI)
             </a>
         </div>
         <div
@@ -48,10 +48,10 @@
             </a>
         </div>
     </div>
-    <div class="flex flex-col divide-y-2 px-6 md:flex-row md:divide-x-2 md:divide-y-0 divide-black font-sans text-sm md:text-lg">
+    <div class="flex flex-col divide-y-2 px-6 md:flex-row md:divide-x-2 md:divide-y-0 divide-black font-sans text-sm md:text-base">
         <div class="py-6 md:basis-1/2 md:py-6 md:pr-10 md:pl-40 text-justify">
             <strong>FALGA GROUP</strong> is an Indonesian-incorporated investment holding company founded in 1986 with
-            ownership interests in EPC Contractor, Oil & Gas Retail, Properties and Industrial Equipment Rental
+            ownership interests in EPCI Contractor, Oil & Gas Retail, Properties and Industrial Equipment Rental
             companies. Our Group integrates agile operating models and proactively appraise future business development
             & opportunities.
         </div>
@@ -60,7 +60,6 @@
             against industry disruptions and economic shocks through organizational agility and resilience. Our Group
             strives to expand our diversified business portfolio by mobilizing investment for further sustainable
             development.
-
         </div>
     </div>
 </div>
@@ -228,14 +227,14 @@
             </span>
         </div>
         <div class="carousel sm:w-[85%] mx-auto w-screen">
-            <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
+            <!-- <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <div class="h-full">
                     <img src="{{ asset('img/slider/image-7.jpeg') }}" class="h-full object-cover object-left-top">
                 </div>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg">
-                    <p>Engineering, Procurement, and Construction (EPC)</p>
+                    <p>Engineering, Procurement, and Construction (EPCI)</p>
                 </div>
-            </div>
+            </div> -->
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <div class="h-full">
                     <img src="{{ asset('img/slider/image-1.jpeg') }}" class="h-full object-cover object-center-bottom">
@@ -257,7 +256,7 @@
                     <img src="{{ asset('img/slider/image-4.jpeg') }}" class="h-full w-full object-fill">
                 </div>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg">
-                    <p>Business Builder</p>
+                    <p>Future Bussiness</p>
                 </div>
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
