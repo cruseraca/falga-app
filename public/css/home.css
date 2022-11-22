@@ -1,0 +1,96 @@
+.my-partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.my-partners-container {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+@media screen and (min-width: 1260px) {
+  .my-partners-container {
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.my-partners-items {
+  margin: 20px;
+}
+
+.my-partners-items-pertamina {
+  width: 251px;
+  object-fit: contain;
+}
+
+.my-partners-items-pgn {
+  width: 100px;
+  object-fit: contain;
+}
+
+.my-partners-items-wika {
+  width: 118px;
+  object-fit: contain;
+}
+
+.my-partners-items-waskita {
+  width: 124px;
+  object-fit: contain;
+}
+
+.my-partners-items-siemens {
+  width: 189px;
+  object-fit: contain;
+}
+
+.my-partners-items-schneider {
+  width: 216px;
+  object-fit: contain;
+}
+
+.my-partners-items-yokogawa {
+  width: 257px;
+  object-fit: contain;
+}
+
+.my-partners-items-patterson {
+  width: 175px;
+  object-fit: contain;
+}
+
+.my-partners-items-emco {
+  width: 225px;
+  object-fit: contain;
+}
+
+.my-partners-items-sulzer {
+  width: 164px;
+  object-fit: contain;
+}
+
+.my-partners-items-ingersoll {
+  width: 268px;
+  object-fit: contain;
+}
+
+.my-partners-items-deutz {
+  width: 102px;
+  object-fit: contain;
+}
+
+.my-partners-items-kansai {
+  width: 177px;
+  object-fit: contain;
+}
+
+.my-partners-items-inter {
+  width: 264px;
+  object-fit: contain;
+}
