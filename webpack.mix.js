@@ -1,4 +1,4 @@
-const mix = require('laravel-mix');
+const mix = require("laravel-mix");
 
 /*
  |--------------------------------------------------------------------------
@@ -11,14 +11,21 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js').postCss('resources/css/app.css', 'public/css', [
-    require('tailwindcss'),
-    require('autoprefixer'),
-])
-.sass('resources/sass/app.scss', 'public/css')
-.copy(
-    'node_modules/@fortawesome/fontawesome-free/webfonts',
-    'public/webfonts'
-);
+mix.js("resources/js/app.js", "public/js")
+    .postCss("resources/css/app.css", "public/css", [
+        require("tailwindcss"),
+        require("autoprefixer"),
+    ])
+    .sass("resources/sass/app.scss", "public/css")
+    .postCss("resources/css/home.css", "public/css", [
+        require("tailwindcss"),
+        require("autoprefixer"),
+    ])
+    .copy(
+        "node_modules/@fortawesome/fontawesome-free/webfonts",
+        "public/webfonts"
+    );
 
-mix.browserSync('localhost:8000');
+mix.browserSync({
+    proxy: "http://127.0.0.1:8000",
+});

@@ -53,7 +53,7 @@
                             <span class="block text-blueGray-500 text-sm font-semibold mb-2">Our Business</span>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a class="block text-sm" href="">Engineering, Procurement & Construction</a>
+                                    <a class="block text-sm" href="">Engineering, Procurement, Construction, & Installation</a>
                                 </li>
                                 <li>
                                     <a class="block text-sm" href="">Oil & Gas Services</a>
@@ -88,8 +88,7 @@
         <div class="flex flex-wrap items-center md:justify-between justify-center bg-white">
             <div class="w-full md:w-4/12 px-4 mx-auto text-center">
                 <div class="text-xs py-4">
-                    Copyright © <span id="get-current-year">2022</span><a href="https://www.falga.co.id"
-                        class="font-black hover:text-gray-800" target="_blank"> FALGA GROUP
+                    Copyright © <span id="get-current-year">2022</span><a href="https://www.falga.co.id" class="font-black hover:text-gray-800" target="_blank"> FALGA GROUP
                 </div>
             </div>
         </div>

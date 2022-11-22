@@ -3,12 +3,13 @@
 @endpush
 {{-- Hero --}}
 <div class="sm:w-full bg-hero-image bg-no-repeat bg-cover bg-center flex">
-    <div class="px-10 sm:px-4 sm:px-6 lg:px-8 lg:h-[766px] lg:items-center flex text-white my-auto-x">
-        <div class="text-center my-auto sm:text-center" style="margin-bottom: 80px">
-            <h1 class="font-poppins font-extrabold my-title">
-                Core Emphasis on Business Building through Sustainable Investing
-            </h1>
-            <button class="my-button-white mt-8">Learn More</button>
+    <div class="falga-container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center" style="margin-bottom: 80px">
+        <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed">
+            Core Emphasis on Business Building through Sustainable Investing
+        </h1>
+        <div class="flex mt-6 flex-wrap justify-center">
+            <button class="falga-button-white m-2">Learn More</button>
+            <button class="falga-button-white m-2">Contact Us</button>
         </div>
     </div>
 </div>
@@ -17,7 +18,7 @@
     <div class="flex flex-col md:relative md:h-[600px] w-full">
         <div class="text-center my-4 md:absolute md:text-xl md:right-[50px] xl:right-[200px] md:top-[90px] text-[#986185] font-black md:transform md:-translate-x-1/2 md:-translate-y-1/2">
             <a href="#">
-                Engineering, Procurement,<br />and Construction (EPCI)
+                Engineering, Procurement,<br /> Construction, and Installation (EPCI)
             </a>
         </div>
         <div class="text-center my-4 md:absolute md:text-right md:text-xl md:left-[260px] xl:left-[360px] top-[150px] text-[#ac5e72] font-black md:transform md:-translate-x-1/2 md:-translate-y-1/2">
@@ -240,20 +241,20 @@ class="h-full w-full"
 </div>
 --}}
 {{-- Slider Our Business --}}
-<div class="container mx-auto sm:my-20 sm:px-6">
+<div class="sm:container mx-auto sm:my-20 sm:px-6">
     <div class="text-center my-14 sm:my-28">
         <p class="text-2xl sm:text-3xl text-red-falga font-black font-poppins">
             Our Business
         </p>
     </div>
     <div class="sm:relative flex">
-        <div class="flex absolute invisible sm:visible left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 carousel-button-left cursor-pointer">
+        <div class="flex absolute invisible sm:visible left-0 top-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 carousel-button-left cursor-pointer">
             <span class="fa-stack fa-xl my-auto">
                 <i class="fa-solid fa-circle fa-stack-2x text-purple-falga"></i>
                 <i class="fa-solid fa-angle-left fa-stack-1x text-white"></i>
             </span>
         </div>
-        <div class="flex absolute invisible sm:visible right-0 top-1/2 translate-x-1/2 -translate-y-1/2 carousel-button-right cursor-pointer">
+        <div class="flex absolute invisible sm:visible right-0 top-1/2 sm:translate-x-1/2 sm:-translate-y-1/2 carousel-button-right cursor-pointer">
             <span class="fa-stack fa-xl my-auto">
                 <i class="fa-solid fa-circle fa-stack-2x text-purple-falga"></i>
                 <i class="fa-solid fa-angle-right fa-stack-1x text-white"></i>
@@ -265,7 +266,7 @@ class="h-full w-full"
                     <img src="{{ asset('img/slider/image-7-1.jpeg') }}" class="h-full object-cover object-center">
                 </div>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg">
-                    <p>Engineering, Procurement, and Construction (EPCI)</p>
+                    <p>Engineering, Procurement, Construction, and Installation (EPCI)</p>
                 </div>
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
@@ -307,29 +308,27 @@ class="h-full w-full"
     </div>
 </div>
 {{-- Clients & Partners --}}
-<div class="container mx-auto my-8 px-8 sm:px-20">
-    <div class="text-center my-4 sm:my-8">
-        <p class="text-2xl sm:text-3xl text-red-falga font-black font-poppins">
-            Clients & Partners
-        </p>
-    </div>
-    <div class="my-partners-container">
-        <div class="my-partners">
-            <img src="{{ asset('img/logo/logo-pertamina.png') }}" alt="pertamina" class="my-partners-items my-partners-items-pertamina" />
-            <img src="{{ asset('img/logo/logo-pgn.png') }}" alt="pgn" class="my-partners-items my-partners-items-pgn" />
-            <img src="{{ asset('img/logo/logo-wika.png') }}" alt="wika" class="my-partners-items my-partners-items-wika" />
-            <img src="{{ asset('img/logo/logo-waskita.png') }}" alt="waskita" class="my-partners-items my-partners-items-waskita" />
-            <img src="{{ asset('img/logo/logo-siemens.png') }}" alt="siemens" class="my-partners-items my-partners-items-siemens" />
-            <img src="{{ asset('img/logo/logo-schneider.png') }}" alt="schneider" class="my-partners-items my-partners-items-schneider" />
-            <img src="{{ asset('img/logo/logo-yokogawa.png') }}" alt="yokogawa" class="my-partners-items my-partners-items-yokogawa" />
-            <img src="{{ asset('img/logo/logo-patterson.png') }}" alt="patterson" class="my-partners-items my-partners-items-patterson" />
-            <img src="{{ asset('img/logo/logo-emco.jpg') }}" alt="emco" class="my-partners-items my-partners-items-emco" />
-            <img src="{{ asset('img/logo/logo-sulzer.png') }}" alt="sulzer" class="my-partners-items my-partners-items-sulzer" />
-            <img src="{{ asset('img/logo/logo-ingersoll.jpg') }}" alt="ingersoll" class="my-partners-items my-partners-items-ingersoll" />
-            <img src="{{ asset('img/logo/logo-deutz.svg') }}" alt="deutz" class="my-partners-items my-partners-items-deutz" />
-            <img src="{{ asset('img/logo/logo-kansai.png') }}" alt="kansai" class="my-partners-items my-partners-items-kansai" />
-            <img src="{{ asset('img/logo/logo-inter.png') }}" alt="inter" class="my-partners-items my-partners-items-inter" />
-        </div>
+<div class="falga-container text-center my-4 sm:my-8">
+    <p class="text-2xl sm:text-3xl text-red-falga font-black font-poppins">
+        Clients & Partners
+    </p>
+</div>
+<div class="falga-container home-partners-container my-8">
+    <div class="home-partners">
+        <img src="{{ asset('img/logo/logo-pertamina.png') }}" alt="pertamina" class="home-partners-items home-partners-items-pertamina" />
+        <img src="{{ asset('img/logo/logo-pgn.png') }}" alt="pgn" class="home-partners-items home-partners-items-pgn" />
+        <img src="{{ asset('img/logo/logo-wika.png') }}" alt="wika" class="home-partners-items home-partners-items-wika" />
+        <img src="{{ asset('img/logo/logo-waskita.png') }}" alt="waskita" class="home-partners-items home-partners-items-waskita" />
+        <img src="{{ asset('img/logo/logo-siemens.png') }}" alt="siemens" class="home-partners-items home-partners-items-siemens" />
+        <img src="{{ asset('img/logo/logo-schneider.png') }}" alt="schneider" class="home-partners-items home-partners-items-schneider" />
+        <img src="{{ asset('img/logo/logo-yokogawa.png') }}" alt="yokogawa" class="home-partners-items home-partners-items-yokogawa" />
+        <img src="{{ asset('img/logo/logo-patterson.png') }}" alt="patterson" class="home-partners-items home-partners-items-patterson" />
+        <img src="{{ asset('img/logo/logo-emco.jpg') }}" alt="emco" class="home-partners-items home-partners-items-emco" />
+        <img src="{{ asset('img/logo/logo-sulzer.png') }}" alt="sulzer" class="home-partners-items home-partners-items-sulzer" />
+        <img src="{{ asset('img/logo/logo-ingersoll.jpg') }}" alt="ingersoll" class="home-partners-items home-partners-items-ingersoll" />
+        <img src="{{ asset('img/logo/logo-deutz.svg') }}" alt="deutz" class="home-partners-items home-partners-items-deutz" />
+        <img src="{{ asset('img/logo/logo-kansai.png') }}" alt="kansai" class="home-partners-items home-partners-items-kansai" />
+        <img src="{{ asset('img/logo/logo-inter.png') }}" alt="inter" class="home-partners-items home-partners-items-inter" />
     </div>
 </div>
 {{-- Contact Us --}}
