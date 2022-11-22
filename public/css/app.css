@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
@@ -233,14 +233,14 @@
 
 @media (prefers-reduced-motion: reduce) {
   .fa-beat,
-.fa-bounce,
-.fa-fade,
-.fa-beat-fade,
-.fa-flip,
-.fa-pulse,
-.fa-shake,
-.fa-spin,
-.fa-spin-pulse {
+  .fa-bounce,
+  .fa-fade,
+  .fa-beat-fade,
+  .fa-flip,
+  .fa-pulse,
+  .fa-shake,
+  .fa-spin,
+  .fa-spin-pulse {
     animation-delay: -1ms;
     animation-duration: 1ms;
     animation-iteration-count: 1;
@@ -1731,6 +1731,10 @@ readers do not read off random characters that represent icons */
 
 .fa-v::before {
   content: "V";
+}
+
+.fa-bangladeshi-taka-sign::before {
+  content: "\e2e6";
 }
 
 .fa-bicycle::before {
@@ -5161,10 +5165,6 @@ readers do not read off random characters that represent icons */
   content: "\f068";
 }
 
-.fa-child-rifle::before {
-  content: "\e4e0";
-}
-
 .fa-chess::before {
   content: "\f439";
 }
@@ -6641,6 +6641,14 @@ readers do not read off random characters that represent icons */
   content: "\f14d";
 }
 
+.fa-child-combatant::before {
+  content: "\e4e0";
+}
+
+.fa-child-rifle::before {
+  content: "\e4e0";
+}
+
 .fa-gun::before {
   content: "\e19b";
 }
@@ -6875,6 +6883,10 @@ readers do not read off random characters that represent icons */
 
 .fa-hand-lizard::before {
   content: "\f258";
+}
+
+.fa-notdef::before {
+  content: "\e1fe";
 }
 
 .fa-disease::before {
@@ -8216,7 +8228,7 @@ readers do not read off random characters that represent icons */
 }
 
 /*!
- * Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
@@ -8230,7 +8242,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff2?639d2000c1ece92eaec8800924b6a0dd) format("woff2"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.ttf?abf801b7acb6705a15adbe198ec6b118) format("truetype");
+  src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff2?1f3772178d9e5bed38a6ca738d28cd4b) format("woff2"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.ttf?3cd9fb8fcec4ad0f99d4062cd547a4ba) format("truetype");
 }
 .far,
 .fa-regular {
@@ -8238,7 +8250,7 @@ readers do not read off random characters that represent icons */
 }
 
 /*!
- * Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
@@ -8252,7 +8264,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2?66104b766c3d0462b3c5a310ce92e1aa) format("woff2"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf?b48ad290d0335879a92bb6a7e8e08976) format("truetype");
+  src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2?41c0f706d8ce93933771be0292757b92) format("woff2"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf?b1a653db79258eeccc5d0bb8726f6600) format("truetype");
 }
 .fas,
 .fa-solid {
@@ -8260,7 +8272,7 @@ readers do not read off random characters that represent icons */
 }
 
 /*!
- * Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
@@ -8274,7 +8286,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2?e1a247a5ef41e1975742ccac2bcdd2b3) format("woff2"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf?f9ee61fab3c11e2f3ed358f7f7e08fd1) format("truetype");
+  src: url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2?3ac6859b28be946745f95de1136a7251) format("woff2"), url(/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf?450a5c898f0b184b968b971eaf7c5fa4) format("truetype");
 }
 .fab,
 .fa-brands {
@@ -10277,7 +10289,7 @@ readers do not read off random characters that represent icons */
   content: "\f3f6";
 }
 /*
-! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
+! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -10302,6 +10314,7 @@ readers do not read off random characters that represent icons */
 2. Prevent adjustments of font size after orientation changes in iOS.
 3. Use a more readable tab size.
 4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
 */
 
 html {
@@ -10311,6 +10324,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
   font-family: Istok Web, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
 }
 
 /*
@@ -10644,6 +10658,11 @@ img,
 video {
   max-width: 100%;
   height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden] {
+  display: none;
 }
 
 [type='text'],[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select {
@@ -11096,7 +11115,7 @@ input:checked + .toggle-bg {
 
 [data-tooltip-style^='light'] + .tooltip > .tooltip-arrow:before {
   border-style: solid;
-  border-color: #E5E7EB;
+  border-color: #e5e7eb;
 }
 
 [data-tooltip-style^='light'] + .tooltip[data-popper-placement^='top'] > .tooltip-arrow:before {
@@ -11168,22 +11187,22 @@ input:checked + .toggle-bg {
 
 [role="tooltip"] > [data-popper-arrow]:before {
   border-style: solid;
-  border-color: #E5E7EB;
+  border-color: #e5e7eb;
 }
 
 .dark [role="tooltip"] > [data-popper-arrow]:before {
   border-style: solid;
-  border-color: #4B5563;
+  border-color: #4b5563;
 }
 
 [role="tooltip"] > [data-popper-arrow]:after {
   border-style: solid;
-  border-color: #E5E7EB;
+  border-color: #e5e7eb;
 }
 
 .dark [role="tooltip"] > [data-popper-arrow]:after {
   border-style: solid;
-  border-color: #4B5563;
+  border-color: #4b5563;
 }
 
 [data-popover][role="tooltip"][data-popper-placement^='top'] > [data-popper-arrow]:before {
@@ -11393,6 +11412,9 @@ input:checked + .toggle-bg {
 .invisible {
   visibility: hidden;
 }
+.collapse {
+  visibility: collapse;
+}
 .static {
   position: static;
 }
@@ -11484,13 +11506,13 @@ input:checked + .toggle-bg {
 .col-span-6 {
   grid-column: span 6 / span 6;
 }
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
-}
-.my-auto-x {
-  margin-left: auto;
-  margin-right: auto;
 }
 .my-6 {
   margin-top: 1.5rem;
@@ -11536,27 +11558,6 @@ input:checked + .toggle-bg {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-.my-title {
-  line-height: 1.75rem;
-  font-size: 1.25rem;
-  max-width: 800px;
-}
-@media (min-width: 640px) {
-  .my-title {
-    line-height: 60px;
-    font-size: 40px;
-    max-width: 800px;
-  }
-}
-.my-button-white {
-  color: #7e7e7e;
-  min-width: 312px;
-  padding: 5px;
-  background-color: #ffffff;
-  text-align: center;
-  border-radius: 20px;
-  font-size: 20px;
-}
 .mx-8 {
   margin-left: 2rem;
   margin-right: 2rem;
@@ -11566,6 +11567,9 @@ input:checked + .toggle-bg {
 }
 .-ml-px {
   margin-left: -1px;
+}
+.mt-8 {
+  margin-top: 2rem;
 }
 .mt-4 {
   margin-top: 1rem;
@@ -11590,9 +11594,6 @@ input:checked + .toggle-bg {
 }
 .ml-4 {
   margin-left: 1rem;
-}
-.mt-8 {
-  margin-top: 2rem;
 }
 .ml-12 {
   margin-left: 3rem;
@@ -11678,17 +11679,8 @@ input:checked + .toggle-bg {
 .h-5 {
   height: 1.25rem;
 }
-.h-screen {
-  height: 100vh;
-}
 .h-full {
   height: 100%;
-}
-.h-20 {
-  height: 5rem;
-}
-.h-\[60\%\] {
-  height: 60%;
 }
 .h-\[300px\] {
   height: 300px;
@@ -11708,6 +11700,9 @@ input:checked + .toggle-bg {
 .h-\[60px\] {
   height: 60px;
 }
+.h-screen {
+  height: 100vh;
+}
 .h-96 {
   height: 24rem;
 }
@@ -11725,6 +11720,9 @@ input:checked + .toggle-bg {
 }
 .h-9 {
   height: 2.25rem;
+}
+.h-20 {
+  height: 5rem;
 }
 .h-\[448px\] {
   height: 448px;
@@ -11752,9 +11750,6 @@ input:checked + .toggle-bg {
 }
 .w-auto {
   width: auto;
-}
-.w-1\/2 {
-  width: 50%;
 }
 .w-4\/5 {
   width: 80%;
@@ -11794,6 +11789,9 @@ input:checked + .toggle-bg {
 }
 .w-3\/4 {
   width: 75%;
+}
+.w-1\/2 {
+  width: 50%;
 }
 .w-12 {
   width: 3rem;
@@ -12200,7 +12198,7 @@ input:checked + .toggle-bg {
   --tw-bg-opacity: 0.5;
 }
 .bg-hero-image {
-  background-image: url('/img/hero-image-1.jpg');
+  background-image: url('/img/hero-image.jpg');
 }
 .bg-\[url\(\'\/img\/homepage\/background-contact\.jpeg\'\)\] {
   background-image: url('/img/homepage/background-contact.jpeg');
@@ -12217,10 +12215,6 @@ input:checked + .toggle-bg {
 .fill-current {
   fill: currentColor;
 }
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -12229,9 +12223,9 @@ input:checked + .toggle-bg {
   -o-object-fit: fill;
      object-fit: fill;
 }
-.object-left-top {
-  -o-object-position: left top;
-     object-position: left top;
+.object-center {
+  -o-object-position: center;
+     object-position: center;
 }
 .p-10 {
   padding: 2.5rem;
@@ -12272,10 +12266,6 @@ input:checked + .toggle-bg {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-}
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
 }
 .px-6 {
   padding-left: 1.5rem;
@@ -12410,10 +12400,6 @@ input:checked + .toggle-bg {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -12433,6 +12419,10 @@ input:checked + .toggle-bg {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 .text-\[36px\] {
   font-size: 36px;
@@ -12493,6 +12483,10 @@ input:checked + .toggle-bg {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
 .text-\[\#986185\] {
   --tw-text-opacity: 1;
   color: rgb(152 97 133 / var(--tw-text-opacity));
@@ -12520,10 +12514,6 @@ input:checked + .toggle-bg {
 .text-purple-falga {
   --tw-text-opacity: 1;
   color: rgb(43 66 144 / var(--tw-text-opacity));
-}
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .text-gray-900 {
   --tw-text-opacity: 1;
@@ -13195,15 +13185,15 @@ input:checked + .toggle-bg {
     }
   }
 
+  .sm\:visible {
+    visibility: visible;
+  }
+
   @media (min-width: 1536px) {
 
     .sm\:container {
       max-width: 1536px;
     }
-  }
-
-  .sm\:visible {
-    visibility: visible;
   }
 
   .sm\:relative {
@@ -13258,14 +13248,6 @@ input:checked + .toggle-bg {
     margin-right: auto;
   }
 
-  .sm\:ml-9 {
-    margin-left: 2.25rem;
-  }
-
-  .sm\:mt-4 {
-    margin-top: 1rem;
-  }
-
   .sm\:ml-10 {
     margin-left: 2.5rem;
   }
@@ -13310,10 +13292,6 @@ input:checked + .toggle-bg {
     display: none;
   }
 
-  .sm\:h-40 {
-    height: 10rem;
-  }
-
   .sm\:h-\[400px\] {
     height: 400px;
   }
@@ -13348,10 +13326,6 @@ input:checked + .toggle-bg {
 
   .sm\:w-\[30\%\] {
     width: 30%;
-  }
-
-  .sm\:w-1\/6 {
-    width: 16.666667%;
   }
 
   .sm\:w-\[500px\] {
@@ -13428,10 +13402,6 @@ input:checked + .toggle-bg {
 
   .sm\:flex-row {
     flex-direction: row;
-  }
-
-  .sm\:flex-col {
-    flex-direction: column;
   }
 
   .sm\:items-start {
@@ -13523,13 +13493,12 @@ input:checked + .toggle-bg {
     text-align: left;
   }
 
-  .sm\:text-right {
-    text-align: right;
+  .sm\:text-center {
+    text-align: center;
   }
 
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  .sm\:text-right {
+    text-align: right;
   }
 
   .sm\:text-3xl {
@@ -13742,9 +13711,9 @@ input:checked + .toggle-bg {
     line-height: 1.75rem;
   }
 
-  .md\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .md\:text-sm {
