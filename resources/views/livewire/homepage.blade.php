@@ -207,21 +207,21 @@
     </div>
 </div> --}}
 {{-- Slider Our Business --}}
-<div class="container mx-auto sm:my-20 sm:px-6">
+<div class="sm:container mx-auto sm:my-20 sm:px-6">
     <div class="text-center my-14 sm:my-28">
         <p class="text-2xl sm:text-3xl text-red-falga font-black font-poppins">
             Our Business
         </p>
     </div>
     <div class="sm:relative flex">
-        <div class="flex absolute invisible sm:visible left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 carousel-button-left cursor-pointer">
+        <div class="flex absolute invisible sm:visible left-0 top-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 carousel-button-left cursor-pointer">
             <span class="fa-stack fa-xl my-auto">
                 <i class="fa-solid fa-circle fa-stack-2x text-purple-falga"></i>
                 <i class="fa-solid fa-angle-left fa-stack-1x text-white"></i>
             </span>
         </div>
         <div
-            class="flex absolute invisible sm:visible right-0 top-1/2 translate-x-1/2 -translate-y-1/2 carousel-button-right cursor-pointer">
+            class="flex absolute invisible sm:visible right-0 top-1/2 sm:translate-x-1/2 sm:-translate-y-1/2 carousel-button-right cursor-pointer">
             <span class="fa-stack fa-xl my-auto">
                 <i class="fa-solid fa-circle fa-stack-2x text-purple-falga"></i>
                 <i class="fa-solid fa-angle-right fa-stack-1x text-white"></i>
