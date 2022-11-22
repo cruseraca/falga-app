@@ -3,7 +3,7 @@
 @endpush
 {{-- Hero --}}
 <div class="sm:w-full bg-hero-image bg-no-repeat bg-cover bg-center flex">
-    <div class="px-10 sm:px-4 sm:px-6 lg:px-8 lg:h-[766px] lg:items-center flex text-white my-auto-x">
+    <div class="px-10 sm:px-4 sm:px-6 lg:px-8 lg:h-[766px] lg:items-center flex text-white mx-auto">
         <div class="text-center my-auto sm:text-center" style="margin-bottom: 80px">
             <h1 class="font-poppins font-extrabold my-title">
                 Core Emphasis on Business Building through Sustainable Investing
