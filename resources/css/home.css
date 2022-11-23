@@ -121,6 +121,7 @@
   width: 50%;
   max-width: 200px;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 .home-glance-item:hover {
   transform: scale(1.2);
@@ -130,6 +131,12 @@
   width: 100%;
   max-width: 100%;
   object-fit: contain;
+}
+.home-glance-future-bussiness {
+  margin-top: 16px;
+}
+.home-glance-oil-gas-rental {
+  margin-top: 16px;
 }
 @media screen and (min-width: 470px) {
   .home-glance {
@@ -144,26 +151,31 @@
     width: 264px;
     height: 264px;
     max-width: 264px;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
   }
   .home-glance-epci-business {
     top: 0;
-    left: 278px;
+    left: 310px;
   }
   .home-glance-property-hospitality {
-    top: 146px;
+    top: 178px;
     right: 0;
   }
   .home-glance-industrial-rental {
-    top: 146px;
+    top: 178px;
     left: 0;
   }
   .home-glance-future-bussiness {
-    top: 484px;
+    top: 512px;
     right: 0;
+    margin-top: 0;
   }
   .home-glance-oil-gas-rental {
-    top: 484px;
+    top: 512px;
     left: 0;
+    margin-top: 0;
   }
 }
 

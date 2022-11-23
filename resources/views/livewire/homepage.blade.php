@@ -3,30 +3,24 @@
 @endpush
 {{-- Hero --}}
 <div class="sm:w-full bg-hero-image bg-no-repeat bg-cover bg-center flex">
-    <div class="falga-container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center" style="margin-bottom: 80px">
+    <div class="falga-container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center uppercase" style="margin-bottom: 80px">
         <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed">
             Core Emphasis on Business Building through Sustainable Investing
         </h1>
         <div class="flex mt-6 flex-wrap justify-center">
-            <button class="falga-button-white m-2">Learn More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 falga-button-white-icon">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                </svg>
-            </button>
-            <button class="falga-button-white m-2">Contact Us <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 falga-button-white-icon">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                </svg>
-            </button>
+            <button class="falga-button-white m-2 uppercase falga-transition">Learn More</button>
+            <button class="falga-button-white m-2 uppercase falga-transition">Contact Us</button>
         </div>
     </div>
 </div>
 {{-- Falga at glance --}}
 <div class="home-glance">
-    <img alt="EPCI Business" src="{{ asset('img/homepage/at-glance.png') }}" class="home-glance-image" />
-    <img alt="at glance" src="{{ asset('img/homepage/epci-business.png') }}" class="home-glance-item home-glance-epci-business" />
-    <img alt="industrial rental" src="{{ asset('img/homepage/industrial-rental.png') }}" class="home-glance-item home-glance-industrial-rental" />
-    <img alt="property & hospitality" src="{{ asset('img/homepage/property-hospitality.png') }}" class="home-glance-item home-glance-property-hospitality" />
-    <img alt="oil gas rental" src="{{ asset('img/homepage/oil-gas-rental.png') }}" class="home-glance-item home-glance-oil-gas-rental" />
-    <img alt="future bussiness" src="{{ asset('img/homepage/future-bussiness.png') }}" class="home-glance-item home-glance-future-bussiness" />
+    <img alt="at glance" src="{{ asset('img/homepage/at-glance.png') }}" class="home-glance-image" />
+    <img alt="EPCI Business" src="{{ asset('img/homepage/epci-business-n.png') }}" class="home-glance-item home-glance-epci-business" />
+    <img alt="industrial rental" src="{{ asset('img/homepage/industrial-rental-n.png') }}" class="home-glance-item home-glance-industrial-rental" />
+    <img alt="property & hospitality" src="{{ asset('img/homepage/property-hospitality-n.png') }}" class="home-glance-item home-glance-property-hospitality" />
+    <img alt="oil & gas retail" src="{{ asset('img/homepage/oil-gas-rental-n.png') }}" class="home-glance-item home-glance-oil-gas-rental" />
+    <img alt="future bussiness" src="{{ asset('img/homepage/future-bussiness-n.png') }}" class="home-glance-item home-glance-future-bussiness" />
 </div>
 <div class="max-w-screen flex flex-col mx-auto my-6 md:my-20 font-poppins">
     <div class="flex flex-col divide-y-2 px-6 md:flex-row md:divide-x-2 md:divide-y-0 divide-black font-sans text-sm md:text-base">
@@ -35,8 +29,7 @@
             investment holding company founded in 1986 with ownership interests
             in EPCI Contractor, Oil & Gas Retail, Properties and Industrial
             Equipment Rental companies. Our Group integrates agile operating
-            models and proactively appraise future business development &
-            opportunities.
+            models and proactively appraise future business opportunities.
         </div>
         <div class="py-6 md:basis-1/2 md:py-6 md:pl-10 md:pr-40 text-justify">
             <strong>FALGA GROUP</strong> core priorities are building viable
@@ -130,7 +123,10 @@
                     Infrastructure Development<br />
                     (2016-2022)
                 </p>
-                <p class="font-black text-2xl my-3 text-red-falga">Rp 858 T</p>
+                <p class="font-black text-2xl my-3 text-red-falga">$ 54,6 B</p>
+                <p class="font-light text-xs">
+                    exchange rate by Nov 23, 2022 ($1 = IDR 15.706)
+                </p>
                 <p class="font-black text-xs">
                     Has been invested to 135<br />
                     National Strategic Projects
@@ -266,7 +262,7 @@ class="h-full w-full"
                     <img src="{{ asset('img/slider/image-1.jpeg') }}" class="h-full object-cover object-center-bottom" />
                 </div>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg">
-                    <p>Oil & Gas Services</p>
+                    <p>Oil & Gas Retail</p>
                 </div>
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
@@ -296,7 +292,7 @@ class="h-full w-full"
         </div>
     </div>
     <div class="text-center my-10">
-        <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded-[8px] bg-purple-falga text-white border-white hover:border-purple-falga hover:text-purple-falga hover:bg-white mt-4 lg:mt-0">See All Bussiness</a>
+        <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded-[8px] bg-purple-falga text-white border-white hover:border-purple-falga hover:text-purple-falga hover:bg-white mt-4 lg:mt-0 falga-transition">See All Bussiness</a>
     </div>
 </div>
 {{-- Clients & Partners --}}
@@ -361,7 +357,7 @@ class="h-full w-full"
                         <textarea id="message" rows="3" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your message"></textarea>
                     </div>
                     <div class="text-center">
-                        <button type="submit" class="text-white bg-purple-falga hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2 text-center">
+                        <button type="submit" class="inline-block px-4 py-2 mt-4 leading-none border rounded-[8px] bg-purple-falga text-white border-white hover:border-purple-falga hover:text-purple-falga hover:bg-white sm:mt-0 falga-transition">
                             Submit
                         </button>
                     </div>
