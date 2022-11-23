@@ -8,35 +8,24 @@
             Core Emphasis on Business Building through Sustainable Investing
         </h1>
         <div class="flex mt-6 flex-wrap justify-center">
-            <button class="falga-button-white m-2">Learn More</button>
+            <button class="falga-button-white m-2">Learn More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+            </button>
             <button class="falga-button-white m-2">Contact Us</button>
         </div>
     </div>
 </div>
 {{-- Falga at glance --}}
+<div class="home-glance">
+    <img alt="EPCI Business" src="{{ asset('img/homepage/at-glance.png') }}" class="home-glance-image" />
+    <img alt="at glance" src="{{ asset('img/homepage/epci-business.png') }}" class="home-glance-item home-glance-epci-business" />
+    <img alt="industrial rental" src="{{ asset('img/homepage/industrial-rental.png') }}" class="home-glance-item home-glance-industrial-rental" />
+    <img alt="property & hospitality" src="{{ asset('img/homepage/property-hospitality.png') }}" class="home-glance-item home-glance-property-hospitality" />
+    <img alt="oil gas rental" src="{{ asset('img/homepage/oil-gas-rental.png') }}" class="home-glance-item home-glance-oil-gas-rental" />
+    <img alt="future bussiness" src="{{ asset('img/homepage/future-bussiness.png') }}" class="home-glance-item home-glance-future-bussiness" />
+</div>
 <div class="max-w-screen flex flex-col mx-auto my-6 md:my-20 font-poppins">
-    <div class="flex flex-col md:relative md:h-[600px] w-full">
-        <div class="text-center my-4 md:absolute md:text-xl md:right-[50px] xl:right-[200px] md:top-[90px] text-[#986185] font-black md:transform md:-translate-x-1/2 md:-translate-y-1/2">
-            <a href="#">
-                Engineering, Procurement,<br /> Construction, and Installation (EPCI)
-            </a>
-        </div>
-        <div class="text-center my-4 md:absolute md:text-right md:text-xl md:left-[260px] xl:left-[360px] top-[150px] text-[#ac5e72] font-black md:transform md:-translate-x-1/2 md:-translate-y-1/2">
-            <a href="#"> Industrial<br />Equipment Rental </a>
-        </div>
-        <div class="flex justify-center md:absolute w-screen sm:w-[400px] md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2">
-            <img class="w-2/3 md:w-full contain" src="{{ asset('img/homepage/glance.png') }}" alt="" />
-        </div>
-        <div class="text-center my-4 md:absolute md:text-xl right-[35px] xl:right-[185px] top-[280px] text-[#816092] font-black md:transform md:-translate-x-1/2 md:-translate-y-1/2">
-            <a href="#"> Oil & Gas Service </a>
-        </div>
-        <div class="text-center my-4 md:absolute md:text-right md:text-xl left-[100px] xl:left-[200px] bottom-[200px] text-[#646EA6] font-black md:transform md:translate-x-1/2 md:translate-y-1/2">
-            <a href="#"> Property and<br />Hospitality </a>
-        </div>
-        <div class="text-center my-4 md:absolute md:text-xl right-[120px] xl:right-[220px] bottom-[140px] text-[#68609B] font-black md:transform md:-translate-x-1/2 md:translate-y-1/2">
-            <a href="#"> Future Business </a>
-        </div>
-    </div>
     <div class="flex flex-col divide-y-2 px-6 md:flex-row md:divide-x-2 md:divide-y-0 divide-black font-sans text-sm md:text-base">
         <div class="py-6 md:basis-1/2 md:py-6 md:pr-10 md:pl-40 text-justify">
             <strong>FALGA GROUP</strong> is an Indonesian-incorporated
@@ -315,20 +304,24 @@ class="h-full w-full"
 </div>
 <div class="falga-container home-partners-container my-8">
     <div class="home-partners">
-        <img src="{{ asset('img/logo/logo-pertamina.png') }}" alt="pertamina" class="home-partners-items home-partners-items-pertamina" />
-        <img src="{{ asset('img/logo/logo-pgn.png') }}" alt="pgn" class="home-partners-items home-partners-items-pgn" />
-        <img src="{{ asset('img/logo/logo-wika.png') }}" alt="wika" class="home-partners-items home-partners-items-wika" />
-        <img src="{{ asset('img/logo/logo-waskita.png') }}" alt="waskita" class="home-partners-items home-partners-items-waskita" />
-        <img src="{{ asset('img/logo/logo-siemens.png') }}" alt="siemens" class="home-partners-items home-partners-items-siemens" />
-        <img src="{{ asset('img/logo/logo-schneider.png') }}" alt="schneider" class="home-partners-items home-partners-items-schneider" />
-        <img src="{{ asset('img/logo/logo-yokogawa.png') }}" alt="yokogawa" class="home-partners-items home-partners-items-yokogawa" />
-        <img src="{{ asset('img/logo/logo-patterson.png') }}" alt="patterson" class="home-partners-items home-partners-items-patterson" />
-        <img src="{{ asset('img/logo/logo-emco.jpg') }}" alt="emco" class="home-partners-items home-partners-items-emco" />
-        <img src="{{ asset('img/logo/logo-sulzer.png') }}" alt="sulzer" class="home-partners-items home-partners-items-sulzer" />
-        <img src="{{ asset('img/logo/logo-ingersoll.jpg') }}" alt="ingersoll" class="home-partners-items home-partners-items-ingersoll" />
-        <img src="{{ asset('img/logo/logo-deutz.svg') }}" alt="deutz" class="home-partners-items home-partners-items-deutz" />
-        <img src="{{ asset('img/logo/logo-kansai.png') }}" alt="kansai" class="home-partners-items home-partners-items-kansai" />
-        <img src="{{ asset('img/logo/logo-inter.png') }}" alt="inter" class="home-partners-items home-partners-items-inter" />
+        <div class="home-partners-row">
+            <img src="{{ asset('img/logo/logo-pertamina.png') }}" alt="pertamina" class="home-partners-items home-partners-items-pertamina" />
+            <img src="{{ asset('img/logo/logo-schneider.png') }}" alt="schneider" class="home-partners-items home-partners-items-schneider" />
+        </div>
+        <div class="home-partners-row">
+            <img src="{{ asset('img/logo/logo-pgn.png') }}" alt="pgn" class="home-partners-items home-partners-items-pgn" />
+            <img src="{{ asset('img/logo/logo-wika.png') }}" alt="wika" class="home-partners-items home-partners-items-wika" />
+            <img src="{{ asset('img/logo/logo-waskita.png') }}" alt="waskita" class="home-partners-items home-partners-items-waskita" />
+            <img src="{{ asset('img/logo/logo-siemens.png') }}" alt="siemens" class="home-partners-items home-partners-items-siemens" />
+            <img src="{{ asset('img/logo/logo-yokogawa.png') }}" alt="yokogawa" class="home-partners-items home-partners-items-yokogawa" />
+            <img src="{{ asset('img/logo/logo-patterson.png') }}" alt="patterson" class="home-partners-items home-partners-items-patterson" />
+            <img src="{{ asset('img/logo/logo-emco.jpg') }}" alt="emco" class="home-partners-items home-partners-items-emco" />
+            <img src="{{ asset('img/logo/logo-sulzer.png') }}" alt="sulzer" class="home-partners-items home-partners-items-sulzer" />
+            <img src="{{ asset('img/logo/logo-ingersoll.jpg') }}" alt="ingersoll" class="home-partners-items home-partners-items-ingersoll" />
+            <img src="{{ asset('img/logo/logo-deutz.svg') }}" alt="deutz" class="home-partners-items home-partners-items-deutz" />
+            <img src="{{ asset('img/logo/logo-kansai.png') }}" alt="kansai" class="home-partners-items home-partners-items-kansai" />
+            <img src="{{ asset('img/logo/logo-inter.png') }}" alt="inter" class="home-partners-items home-partners-items-inter" />
+        </div>
     </div>
 </div>
 {{-- Contact Us --}}
