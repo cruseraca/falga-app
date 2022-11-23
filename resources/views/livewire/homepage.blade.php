@@ -8,11 +8,14 @@
             Core Emphasis on Business Building through Sustainable Investing
         </h1>
         <div class="flex mt-6 flex-wrap justify-center">
-            <button class="falga-button-white m-2">Learn More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <button class="falga-button-white m-2">Learn More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 falga-button-white-icon">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                 </svg>
             </button>
-            <button class="falga-button-white m-2">Contact Us</button>
+            <button class="falga-button-white m-2">Contact Us <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 falga-button-white-icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+            </button>
         </div>
     </div>
 </div>

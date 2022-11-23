@@ -28,6 +28,12 @@
   text-align: center;
   border-radius: 20px;
   font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.falga-button-white-icon {
+  margin-left: 12px;
 }
 .falga-button-white:hover {
   background-color: #87ceeb;
