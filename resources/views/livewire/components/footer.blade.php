@@ -56,7 +56,7 @@
                                     <a class="block text-sm" href="">Engineering, Procurement, Construction, & Installation</a>
                                 </li>
                                 <li>
-                                    <a class="block text-sm" href="">Oil & Gas Services</a>
+                                    <a class="block text-sm" href="">Oil & Gas Retail</a>
                                 </li>
                                 <li>
                                     <a class="block text-sm" href="">Industrial Equipment Rental</a>
