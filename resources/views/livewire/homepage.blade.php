@@ -23,7 +23,7 @@
     <img alt="future bussiness" src="{{ asset('img/homepage/future-bussiness-n.png') }}" class="home-glance-item home-glance-future-bussiness" />
 </div>
 <div class="max-w-screen flex flex-col mx-auto my-6 md:my-20 font-poppins">
-    <div class="flex flex-col divide-y-2 px-6 md:flex-row md:divide-x-2 md:divide-y-0 divide-black font-sans text-sm md:text-base">
+    <div class="flex flex-col divide-y px-6 md:flex-row md:divide-x md:divide-y-0 divide-black font-sans text-sm md:text-base">
         <div class="py-6 md:basis-1/2 md:py-6 md:pr-10 md:pl-40 text-justify">
             <strong>FALGA GROUP</strong> is an Indonesian-incorporated
             investment holding company founded in 1986 with ownership interests
