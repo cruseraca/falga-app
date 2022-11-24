@@ -2,15 +2,15 @@
 <link href="{{ asset('css/home.css') }}" rel="stylesheet">
 @endpush
 {{-- Hero --}}
-<div class="sm:w-full bg-hero-image bg-no-repeat bg-cover bg-center flex">
+<div class="sm:w-full bg-hero-image bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]">
     <div class="falga-container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center uppercase" style="margin-bottom: 80px">
         <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed">
             Core Emphasis on Business Building through Sustainable Investing
         </h1>
-        <div class="flex mt-6 flex-wrap justify-center">
-            <button class="falga-button-white m-2 uppercase falga-transition">Learn More</button>
-            <button class="falga-button-white m-2 uppercase falga-transition">Contact Us</button>
-        </div>
+        <button class="falga-button mt-8 uppercase" style="padding-left: 28px">Learn More <svg style="width:28px;height:28px" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M10,17L15,12L10,7V17Z" />
+            </svg>
+        </button>
     </div>
 </div>
 {{-- Falga at glance --}}
@@ -251,17 +251,17 @@ class="h-full w-full"
         <div class="carousel sm:w-[85%] mx-auto w-screen">
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <div class="h-full">
-                    <img src="{{ asset('img/slider/image-7-1.jpeg') }}" class="h-full object-cover object-center">
+                    <img src="{{ asset('img/slider/image-7-2.jpeg') }}" class="h-full object-cover object-center">
                 </div>
-                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg">
+                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Engineering, Procurement, Construction, and Installation (EPCI)</p>
                 </div>
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <div class="h-full">
-                    <img src="{{ asset('img/slider/image-1.jpeg') }}" class="h-full object-cover object-center-bottom" />
+                    <img src="{{ asset('img/slider/pertamina.png') }}" class="h-full object-cover object-center-bottom" />
                 </div>
-                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg">
+                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Oil & Gas Retail</p>
                 </div>
             </div>
@@ -269,7 +269,7 @@ class="h-full w-full"
                 <div class="h-full">
                     <img src="{{ asset('img/slider/image-6.jpg') }}" class="h-full object-cover object-center-bottom" />
                 </div>
-                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg">
+                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Industrial Equipment Rental</p>
                 </div>
             </div>
@@ -277,7 +277,7 @@ class="h-full w-full"
                 <div class="h-full w-full">
                     <img src="{{ asset('img/slider/image-4.jpeg') }}" class="h-full w-full object-fill" />
                 </div>
-                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg">
+                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Future Bussiness</p>
                 </div>
             </div>
@@ -285,7 +285,7 @@ class="h-full w-full"
                 <div class="h-full w-full">
                     <img src="{{ asset('img/slider/image-5.jpeg') }}" class="h-full w-full object-fill" />
                 </div>
-                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg">
+                <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Property & Hospitality</p>
                 </div>
             </div>

@@ -19,9 +19,10 @@ module.exports = {
                 "purple-falga": "#2b4290",
                 "red-falga": "#972540",
                 "violet-falga": "rgba(105, 43, 105, 0.85)",
+                "red-falga": "#972540",
             },
             backgroundImage: {
-                "hero-image": "url('/img/hero-image-1.jpg')",
+                "hero-image": "url('/img/hero-image-2.jpg')",
             },
         },
     },
