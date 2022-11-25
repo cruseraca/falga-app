@@ -21,6 +21,10 @@ mix.js("resources/js/app.js", "public/js")
         require("tailwindcss"),
         require("autoprefixer"),
     ])
+    .postCss("resources/css/about-us.css", "public/css", [
+        require("tailwindcss"),
+        require("autoprefixer"),
+    ])
     .copy(
         "node_modules/@fortawesome/fontawesome-free/webfonts",
         "public/webfonts"

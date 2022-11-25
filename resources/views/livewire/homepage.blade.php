@@ -43,7 +43,7 @@
 {{-- Information --}}
 <div class="container mx-auto my-10 sm:my-20">
     <div class="text-center my-10 px-4">
-        <p class="text-2xl sm:text-3xl text-red-falga font-black font-poppins">
+        <p class="falga-section-title">
             Our investment focus gravitates on Indonesia Economic Prospects
         </p>
     </div>
@@ -231,7 +231,7 @@ class="h-full w-full"
 {{-- Slider Our Business --}}
 <div class="sm:container mx-auto sm:my-20 sm:px-6">
     <div class="text-center my-14 sm:my-28">
-        <p class="text-2xl sm:text-3xl text-red-falga font-black font-poppins">
+        <p class="falga-section-title">
             Our Business
         </p>
     </div>
@@ -297,11 +297,11 @@ class="h-full w-full"
 </div>
 {{-- Clients & Partners --}}
 <div class="falga-container text-center my-4 sm:my-8">
-    <p class="text-2xl sm:text-3xl text-red-falga font-black font-poppins">
+    <p class="falga-section-title">
         Clients & Partners
     </p>
 </div>
-<div class="falga-container home-partners-container my-8">
+<div class="falga-container home-partners-container my-8 md:mt-12">
     <div class="home-partners">
         <div class="home-partners-row">
             <img src="{{ asset('img/logo/logo-pertamina.png') }}" alt="pertamina" class="home-partners-items home-partners-items-pertamina" />

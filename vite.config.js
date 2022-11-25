@@ -6,6 +6,7 @@ export default defineConfig({
         laravel([
             "resources/css/app.css",
             "resources/css/home.css",
+            "resources/css/about-us.css",
             "resources/js/app.js",
         ]),
     ],
