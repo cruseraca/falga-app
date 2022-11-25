@@ -253,6 +253,7 @@
   height: 329px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 12px;
 }
 .falga-founder-bg {
   position: absolute;

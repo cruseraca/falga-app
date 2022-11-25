@@ -40,10 +40,12 @@
   box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease-in-out;
   font-size: 14px;
+  border: 1px solid #40559b;
 }
 .falga-button:hover {
   background-color: white;
   color: #40559b;
+  border: 1px solid rgba(0, 0, 0, 0.12);
 }
 .falga-button-white {
   color: #7e7e7e;

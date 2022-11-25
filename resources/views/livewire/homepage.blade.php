@@ -7,13 +7,18 @@
         <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed">
             Core Emphasis on Business Building through Sustainable Investing
         </h1>
-        <button class="falga-button mt-8 uppercase" style="padding-left: 28px">Learn More <svg style="width:28px;height:28px" viewBox="0 0 24 24">
+        <button class="falga-button mt-8 uppercase" style="padding-left: 28px">Learn More <svg style="width:24px;height:24px" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M10,17L15,12L10,7V17Z" />
             </svg>
         </button>
     </div>
 </div>
 {{-- Falga at glance --}}
+<div class="text-center mt-12 md:mt-14">
+    <p class="falga-section-title uppercase">
+        Our Business Pillars
+    </p>
+</div>
 <div class="home-glance">
     <img alt="at glance" src="{{ asset('img/homepage/at-glance.png') }}" class="home-glance-image" />
     <img alt="EPCI Business" src="{{ asset('img/homepage/epci-business-n.png') }}" class="home-glance-item home-glance-epci-business" />
@@ -44,7 +49,7 @@
 <div class="container mx-auto my-10 sm:my-20">
     <div class="text-center my-10 px-4">
         <p class="falga-section-title">
-            Our investment focus gravitates on Indonesia Economic Prospects
+            OUR FOCUS ON INDONESIA ECONOMIC PROSPECT
         </p>
     </div>
     <div class="flex flex-col sm:flex-row justify-between gap-4 px-20 sm:px-0">
@@ -230,8 +235,8 @@ class="h-full w-full"
 --}}
 {{-- Slider Our Business --}}
 <div class="sm:container mx-auto sm:my-20 sm:px-6">
-    <div class="text-center my-14 sm:my-28">
-        <p class="falga-section-title">
+    <div class="text-center mt-14 sm:mt-28 mb-12 sm:mb-14">
+        <p class="falga-section-title uppercase">
             Our Business
         </p>
     </div>
@@ -292,12 +297,12 @@ class="h-full w-full"
         </div>
     </div>
     <div class="text-center my-10">
-        <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded-[8px] bg-purple-falga text-white border-white hover:border-purple-falga hover:text-purple-falga hover:bg-white mt-4 lg:mt-0 falga-transition">See All Bussiness</a>
+        <button class="falga-button mt-8 uppercase mx-auto" style="padding-left: 28px">See All Business</button>
     </div>
 </div>
 {{-- Clients & Partners --}}
 <div class="falga-container text-center my-4 sm:my-8">
-    <p class="falga-section-title">
+    <p class="falga-section-title uppercase">
         Clients & Partners
     </p>
 </div>
@@ -357,9 +362,7 @@ class="h-full w-full"
                         <textarea id="message" rows="3" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your message"></textarea>
                     </div>
                     <div class="text-center">
-                        <button type="submit" class="inline-block px-4 py-2 mt-4 leading-none border rounded-[8px] bg-purple-falga text-white border-white hover:border-purple-falga hover:text-purple-falga hover:bg-white sm:mt-0 falga-transition">
-                            Submit
-                        </button>
+                        <button class="falga-button mt-8 uppercase mx-auto" style="padding-left: 28px">Submit</button>
                     </div>
                 </form>
             </div>
