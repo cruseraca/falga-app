@@ -1,0 +1,162 @@
+.falga-vm-left {
+  width: 344px;
+  height: 576px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    #1a2b6f 15.1%,
+    #312181 50.69%,
+    #5b2767 72.36%,
+    #8b264d 100%
+  );
+}
+.falga-vm-left .ellipse-1 {
+  position: absolute;
+  width: 500px;
+  height: 800px;
+  left: 100px;
+  top: -240px;
+  -webkit-clip-path: ellipse(25% 40% at 50% 50%);
+  clip-path: ellipse(25% 40% at 50% 50%);
+  background: linear-gradient(
+    180deg,
+    #942543 0%,
+    #5c296d 22.75%,
+    #34267a 48.94%,
+    #2c3f8e 73.17%
+  );
+  transform: rotate(-36.85deg);
+}
+.falga-vm-left .ellipse-0 {
+  position: absolute;
+  width: 318px;
+  height: 623px;
+  left: -32px;
+  top: 0px;
+  -webkit-clip-path: ellipse(50% 49% at 50% 50%);
+  clip-path: ellipse(50% 49% at 50% 50%);
+  background: linear-gradient(
+    180deg,
+    #455595 5.95%,
+    #453785 29.46%,
+    #61356c 63.6%,
+    #8a3258 100%
+  );
+}
+.falga-vm-left .ellipse-2 {
+  position: absolute;
+  width: 314px;
+  height: 332.57px;
+  left: -10;
+  top: 400px;
+
+  background: linear-gradient(
+    180deg,
+    #942543 48.33%,
+    #5c296d 87.88%,
+    #34267a 133.41%,
+    #2c3f8e 175.52%
+  );
+  border-radius: 33% 67% 82% 18% / 84% 37% 63% 16%;
+}
+.falga-vm-v {
+  width: 8px;
+  height: 640px;
+
+  background: linear-gradient(
+    180deg,
+    #2b4290 0%,
+    #352479 26.13%,
+    #692b69 65.76%,
+    #972540 100%
+  );
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.falga-vm-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.falga-cv-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 192px;
+  flex: 1;
+  font-family: "Istok Web", sans-serif;
+}
+.falga-cv-item .circle-bg {
+  position: relative;
+  width: 117px;
+  height: 117px;
+  border-radius: 50%;
+  background: linear-gradient(
+    131.61deg,
+    #2b4290 17.27%,
+    #352479 39.37%,
+    #692b69 57.85%,
+    #972540 79.07%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  margin-left: 38px;
+  margin-right: 38px;
+}
+.falga-cv-item .circle {
+  width: 103px;
+  height: 103px;
+  background-color: white;
+  color: #352479;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 900;
+  border-radius: 50%;
+}
+.falga-cv-bg {
+  position: relative;
+  margin-top: -58px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  border-width: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.falga-cv-bg .title {
+  padding-top: 78px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.falga-cv-bg .description {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.falga-cv-bg .underline {
+  height: 16px;
+  margin-top: 9px;
+  background: linear-gradient(
+    90deg,
+    #2b4290 0%,
+    #352479 26.13%,
+    #692b69 65.76%,
+    #972540 100%
+  );
+  border-radius: 12px;
+}
