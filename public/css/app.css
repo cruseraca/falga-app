@@ -11770,6 +11770,9 @@ input:checked + .toggle-bg {
 .max-w-3xl {
   max-width: 48rem;
 }
+.max-w-5xl {
+  max-width: 64rem;
+}
 .max-w-xl {
   max-width: 36rem;
 }
@@ -11778,9 +11781,6 @@ input:checked + .toggle-bg {
 }
 .max-w-7xl {
   max-width: 80rem;
-}
-.max-w-5xl {
-  max-width: 64rem;
 }
 .max-w-screen-xl {
   max-width: 1280px;
@@ -11956,11 +11956,6 @@ input:checked + .toggle-bg {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
   border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
-}
-.divide-x-\[16px\] > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-x-reverse: 0;
-  border-right-width: calc(16px * var(--tw-divide-x-reverse));
-  border-left-width: calc(16px * calc(1 - var(--tw-divide-x-reverse)));
 }
 .divide-black > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
@@ -12309,11 +12304,14 @@ input:checked + .toggle-bg {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
-.pt-12 {
-  padding-top: 3rem;
-}
 .pt-14 {
   padding-top: 3.5rem;
+}
+.pb-14 {
+  padding-bottom: 3.5rem;
+}
+.pb-12 {
+  padding-bottom: 3rem;
 }
 .pr-4 {
   padding-right: 1rem;
@@ -12341,12 +12339,6 @@ input:checked + .toggle-bg {
 }
 .pt-1 {
   padding-top: 0.25rem;
-}
-.pb-14 {
-  padding-bottom: 3.5rem;
-}
-.pb-12 {
-  padding-bottom: 3rem;
 }
 .pl-40 {
   padding-left: 10rem;
@@ -13609,16 +13601,12 @@ input:checked + .toggle-bg {
     padding-right: 10rem;
   }
 
-  .md\:pt-14 {
-    padding-top: 3.5rem;
+  .md\:pt-16 {
+    padding-top: 4rem;
   }
 
   .md\:pb-8 {
     padding-bottom: 2rem;
-  }
-
-  .md\:pt-16 {
-    padding-top: 4rem;
   }
 
   .md\:pb-16 {

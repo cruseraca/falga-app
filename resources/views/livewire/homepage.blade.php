@@ -319,9 +319,9 @@ class="h-full w-full"
             <img src="{{ asset('img/logo/logo-siemens.png') }}" alt="siemens" class="home-partners-items home-partners-items-siemens" />
             <img src="{{ asset('img/logo/logo-yokogawa.png') }}" alt="yokogawa" class="home-partners-items home-partners-items-yokogawa" />
             <img src="{{ asset('img/logo/logo-patterson.png') }}" alt="patterson" class="home-partners-items home-partners-items-patterson" />
-            <img src="{{ asset('img/logo/logo-emco.jpg') }}" alt="emco" class="home-partners-items home-partners-items-emco" />
+            <img src="{{ asset('img/logo/logo-emco-2.png') }}" alt="emco" class="home-partners-items home-partners-items-emco" />
             <img src="{{ asset('img/logo/logo-sulzer.png') }}" alt="sulzer" class="home-partners-items home-partners-items-sulzer" />
-            <img src="{{ asset('img/logo/logo-ingersoll.jpg') }}" alt="ingersoll" class="home-partners-items home-partners-items-ingersoll" />
+            <img src="{{ asset('img/logo/logo-ingersoll-1.png') }}" alt="ingersoll" class="home-partners-items home-partners-items-ingersoll" />
             <img src="{{ asset('img/logo/logo-deutz.svg') }}" alt="deutz" class="home-partners-items home-partners-items-deutz" />
             <img src="{{ asset('img/logo/logo-kansai.png') }}" alt="kansai" class="home-partners-items home-partners-items-kansai" />
             <img src="{{ asset('img/logo/logo-inter.png') }}" alt="inter" class="home-partners-items home-partners-items-inter" />
