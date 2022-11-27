@@ -2,6 +2,7 @@
 
 use App\Http\Livewire\Homepage;
 use App\Http\Livewire\AboutUsPage;
+use App\Http\Livewire\OurBusinessPage;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', Homepage::class);
 Route::get('/about-us', AboutUsPage::class);
+Route::get('/our-business', OurBusinessPage::class);
 
 Route::get('/default', function () {
     return view('welcome');
