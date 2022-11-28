@@ -61,8 +61,8 @@
 <div class="falga-container pt-14 md:pt-16">
     <div class="falga-section-title text-center">MANAGING PARTNERS</div>
     <div class="flex flex-wrap md:divide-x-[72px] divide-transparent justify-center items-stretch">
-        <x-managing-partner-item name="Tommy Hesarid Simamora" position="Partner" image="{{ url('/img/about-us/tommy.jpg') }}"></x-managing-partner-item>
-        <x-managing-partner-item name="Ronald Edy Simamora" position="Partner" image="{{ url('/img/about-us/ronald.jpg') }}"></x-managing-partner-item>
+        <x-managing-partner-item name="Tommy Hesarid Simamora" position="Partner" image="{{ url('/img/about-us/tommy.jpeg') }}"></x-managing-partner-item>
+        <x-managing-partner-item name="Ronald Edy Simamora" position="Partner" image="{{ url('/img/about-us/ronald.jpeg') }}"></x-managing-partner-item>
     </div>
 </div>
 {{-- Founder --}}
@@ -71,7 +71,7 @@
     <div class="max-w-5xl falga-founder">
         <div class="falga-founder-bg"></div>
         <div class="falga-founder-c md:divide-x-[68px] divide-transparent">
-            <img src="{{ url('/img/about-us/sarimin.jpg') }}" class="falga-founder-i"></img>
+            <img src="{{ url('/img/about-us/sarimin.jpeg') }}" class="falga-founder-i"></img>
             <div class="md:mt-0 mt-8 flex-1">
                 <div class="falga-founder-name">Ir. Sarimin Simamora</div>
                 <div>
