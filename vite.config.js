@@ -7,6 +7,7 @@ export default defineConfig({
             "resources/css/app.css",
             "resources/css/home.css",
             "resources/css/about-us.css",
+            "resources/css/epci.css",
             "resources/js/app.js",
         ]),
     ],
