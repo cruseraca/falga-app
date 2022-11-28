@@ -1,0 +1,130 @@
+.falga-banner {
+  background-image: url("/img/about-us/banner.png");
+}
+.falga-epci-o {
+  background-color: rgba(0, 0, 0, 0.05);
+  position: relative;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+.falga-epci-o.reverse {
+  background-color: unset;
+}
+@media screen and (min-width: 520px) {
+  .falga-epci-o {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+}
+.falga-epci-c {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  position: relative;
+}
+.falga-epci-i {
+  position: relative;
+  display: flex;
+  min-height: 288px;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 520px) {
+  .falga-epci-i {
+    min-height: 576px;
+    flex-direction: row;
+  }
+}
+.falga-epci-images {
+  position: relative;
+  height: 240px;
+  width: 288px;
+  z-index: 1;
+}
+.falga-epci-background {
+  position: absolute;
+  top: 34px;
+  bottom: 34px;
+  left: 0;
+  right: 0;
+}
+.falga-epci-image {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  top: 0;
+  bottom: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 240px;
+}
+@media screen and (min-width: 520px) {
+  .falga-epci-images {
+    position: absolute;
+    width: 480px;
+    height: 576px;
+    margin-top: unset;
+  }
+  .falga-epci-image {
+    top: 48px;
+    bottom: 48px;
+    width: 480px;
+    left: 0;
+    right: 0;
+  }
+  .falga-epci-background {
+    left: 68px;
+    right: 68px;
+    top: 0;
+    bottom: 0;
+  }
+}
+.falga-epci-content {
+  position: relative;
+  margin-top: 16px;
+  z-index: 2;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  padding: 18px 32px;
+}
+@media screen and (min-width: 520px) {
+  .falga-epci-content {
+    margin-left: 352px;
+    margin-top: 0;
+  }
+}
+.falga-epci-line {
+  background: linear-gradient(
+    0deg,
+    #2b4290 0%,
+    #352479 26.13%,
+    #692b69 65.76%,
+    #972540 100%
+  );
+  border-radius: 12px;
+  width: 16px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -1px;
+  bottom: 0;
+}
+.falga-epci-o.reverse .falga-epci-images {
+  right: 0;
+}
+.falga-epci-o.reverse .falga-epci-title {
+  text-align: right;
+}
+.falga-epci-o.reverse .falga-epci-line {
+  right: unset;
+  left: -1px;
+}
+@media screen and (min-width: 520px) {
+  .falga-epci-o.reverse .falga-epci-content {
+    margin-right: 352px;
+    margin-left: 0;
+  }
+}
+
