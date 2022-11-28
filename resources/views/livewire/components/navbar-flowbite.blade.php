@@ -1,4 +1,4 @@
-<nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-screen z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+<nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-screen z-[1000] top-0 left-0 border-b border-gray-200 dark:border-gray-600">
     <div class="container flex flex-wrap justify-between items-center mx-auto h-auto">
         <a href="{{ url('') }}">
             <img class="h-9 sm:h-14 object-cover" src="{{ asset('img/logo-falga.svg') }}" alt="">
@@ -33,7 +33,7 @@
                                     <a href="{{ url('epci-business') }}" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">EPCI Business</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Oil & Gas Retail</a>
+                                    <a href="{{ url('oil-and-gas-business') }}" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Oil & Gas Retail</a>
                                 </li>
                                 <li>
                                     <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Industrial Rental</a>
