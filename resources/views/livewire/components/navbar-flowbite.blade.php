@@ -39,7 +39,7 @@
                                     <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Industrial Rental</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Property & Hospitality</a>
+                                    <a href="{{ url('prop-business') }}" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Property & Hospitality</a>
                                 </li>
                                 <li>
                                     <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Future Bussiness</a>

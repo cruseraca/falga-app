@@ -11509,6 +11509,9 @@ input:checked + .toggle-bg {
 .z-30 {
   z-index: 30;
 }
+.z-\[11\] {
+  z-index: 11;
+}
 .order-last {
   order: 9999;
 }
@@ -11674,6 +11677,12 @@ input:checked + .toggle-bg {
 .mb-1 {
   margin-bottom: 0.25rem;
 }
+.mt-\[10\%\] {
+  margin-top: 10%;
+}
+.mt-\[20\%\] {
+  margin-top: 20%;
+}
 .block {
   display: block;
 }
@@ -11763,6 +11772,21 @@ input:checked + .toggle-bg {
 }
 .h-3 {
   height: 0.75rem;
+}
+.h-\[720px\] {
+  height: 720px;
+}
+.h-\[40\%\] {
+  height: 40%;
+}
+.h-\[\%\] {
+  height: %;
+}
+.h-\[95\%\] {
+  height: 95%;
+}
+.h-\[90\%\] {
+  height: 90%;
 }
 .min-h-screen {
   min-height: 100vh;
@@ -12272,6 +12296,9 @@ input:checked + .toggle-bg {
 }
 .bg-\[url\(\'\/img\/homepage\/background-contact\.jpeg\'\)\] {
   background-image: url('/img/homepage/background-contact.jpeg');
+}
+.bg-\[url\(\'\/img\/our-business\/prop-and-hospitality\/banner\.jpeg\'\)\] {
+  background-image: url('/img/our-business/prop-and-hospitality/banner.jpeg');
 }
 .from-indigo-900 {
   --tw-gradient-from: #362F78;
@@ -13620,6 +13647,34 @@ input:checked + .toggle-bg {
     right: 10%;
   }
 
+  .md\:top-\[10\%\] {
+    top: 10%;
+  }
+
+  .md\:bottom-\[10\%\] {
+    bottom: 10%;
+  }
+
+  .md\:left-\[30\%\] {
+    left: 30%;
+  }
+
+  .md\:left-\[20\%\] {
+    left: 20%;
+  }
+
+  .md\:top-\[60\%\] {
+    top: 60%;
+  }
+
+  .md\:top-\[40\%\] {
+    top: 40%;
+  }
+
+  .md\:left-\[15\%\] {
+    left: 15%;
+  }
+
   .md\:z-20 {
     z-index: 20;
   }
@@ -13711,6 +13766,10 @@ input:checked + .toggle-bg {
     margin-top: 3rem;
   }
 
+  .md\:mt-\[5\%\] {
+    margin-top: 5%;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -13751,6 +13810,10 @@ input:checked + .toggle-bg {
     height: 566px;
   }
 
+  .md\:h-\[260px\] {
+    height: 260px;
+  }
+
   .md\:w-4\/12 {
     width: 33.333333%;
   }
@@ -13781,6 +13844,14 @@ input:checked + .toggle-bg {
 
   .md\:w-\[20px\] {
     width: 20px;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .md\:w-\[372px\] {
+    width: 372px;
   }
 
   .md\:basis-1\/2 {
