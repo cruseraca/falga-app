@@ -13,12 +13,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Istok+Web&family=Poppins&display=swap" rel="stylesheet" />
 
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
     <link rel="stylesheet" href="{{ asset('flickity/flickity.css') }}" />
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
     <!-- push target to head -->
     @stack('styles')
 </head>
@@ -30,7 +31,7 @@
     </div>
     @livewire('components.footer')
     <script src="{{ asset('js/jquery.min.js') }}"></script>
-    @stack('scripts')
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    @stack('scripts')
 </body>
 </html>

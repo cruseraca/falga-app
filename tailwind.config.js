@@ -23,7 +23,8 @@ module.exports = {
             },
             backgroundImage: {
                 "hero-image": "url('/img/hero-image-2.jpg')",
-                "our-business-banner": "url('/img/our-business/OB_banner.jpeg')",
+                "our-business-banner":
+                    "url('/img/our-business/OB_banner.jpeg')",
             },
         },
     },
