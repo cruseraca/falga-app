@@ -1,5 +1,5 @@
 .falga-banner {
-  background-image: url("/img/about-us/banner.png");
+  background-image: url("/img/epci-business/banner.jpg");
 }
 .falga-epci-o {
   background-color: rgba(0, 0, 0, 0.05);
@@ -56,6 +56,7 @@
   bottom: 0;
   object-fit: cover;
   width: 240px;
+  height: 240px;
 }
 @media screen and (min-width: 520px) {
   .falga-epci-images {
@@ -68,6 +69,7 @@
     top: 48px;
     bottom: 48px;
     width: 480px;
+    height: 480px;
     left: 0;
     right: 0;
   }
@@ -124,5 +126,106 @@
   .falga-epci-o.reverse .falga-epci-content {
     margin-right: 352px;
     margin-left: 0;
+  }
+}
+.falga-wd {
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+.falga-wd-c {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+.falga-wd-civil,
+.falga-wd-electrical,
+.falga-wd-instrumentation,
+.falga-wd-mechanical,
+.falga-wd-automation,
+.falga-wd-others {
+  cursor: pointer;
+}
+.falga-wd-civil {
+  object-fit: cover;
+  height: 109px;
+}
+.falga-wd-electrical {
+  object-fit: cover;
+  height: 109px;
+}
+.falga-wd-instrumentation {
+  object-fit: cover;
+  height: 109px;
+}
+.falga-wd-mechanical {
+  object-fit: cover;
+  height: 109px;
+}
+.falga-wd-automation {
+  object-fit: cover;
+  height: 109px;
+}
+.falga-wd-others {
+  object-fit: cover;
+  height: 109px;
+}
+@media screen and (min-width: 1060px) {
+  .falga-wd {
+    flex-direction: row;
+  }
+  .falga-wd-c {
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+    margin-top: 121px;
+    margin-bottom: 130px;
+  }
+  .falga-wd-civil {
+    position: absolute;
+    top: 0px;
+    right: 281px;
+    object-fit: cover;
+    height: 109px;
+  }
+  .falga-wd-electrical {
+    position: absolute;
+    top: 81px;
+    left: 108px;
+    object-fit: cover;
+    height: 109px;
+  }
+  .falga-wd-instrumentation {
+    position: absolute;
+    top: 216px;
+    right: 10px;
+    object-fit: cover;
+    height: 109px;
+  }
+  .falga-wd-mechanical {
+    position: absolute;
+    top: 364px;
+    left: 24px;
+    object-fit: cover;
+    height: 109px;
+  }
+  .falga-wd-automation {
+    position: absolute;
+    top: 455px;
+    right: 51px;
+    object-fit: cover;
+    height: 109px;
+  }
+  .falga-wd-others {
+    position: absolute;
+    top: 592px;
+    left: 300px;
+    object-fit: cover;
+    height: 109px;
   }
 }
