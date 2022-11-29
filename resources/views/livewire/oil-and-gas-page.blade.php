@@ -17,11 +17,11 @@
             <img class="object-cover h-full w-full" src="{{ asset('img/our-business/oil_gas.jpg') }}" alt="">
         </div>
     </div>
-    <div class="font-poppins relative w-[85%] mx-auto bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 overflow-hidden md:absolute md:z-20 md:top-[50%] md:left-[10%] md:w-[575px]">
+    <div class="relative w-[85%] mx-auto bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 overflow-hidden md:absolute md:z-20 md:top-[50%] md:left-[10%] md:w-[575px]">
         <div class="absolute h-full w-[5%] top-0 bg-gradient-to-b from-indigo-900 to to-pink-700 md:w-[20px]"></div>
         <div class="py-6 pl-10 pr-6">
-            <h5 class="mb-4 text-2xl font-bold tracking-tight text-rose-900">FUEL GAS STATION</h5>
-            <p class="font-normal text-justify">FALGA owns and manages multiple Pertamina Fuel Gas Stations (SPBU) across Indonesia partnering with Pertamina under CODO scheme. Each station is compliant to the standard operational procedures, ethics and work standards set by PERTAMINA as the regulating Oil & Gas State Owned Enterprise. Each station is equipped with supporting facilities e.g. minimarkets, tire pressure refills, prayer rooms, etc
+            <h5 class="font-poppins mb-4 text-[28px] font-bold tracking-tight text-rose-900">FUEL GAS STATION</h5>
+            <p class="font-sans text-justify text-[16px]">FALGA owns and manages multiple Pertamina Fuel Gas Stations (SPBU) across Indonesia partnering with Pertamina under CODO scheme. Each station is compliant to the standard operational procedures, ethics and work standards set by PERTAMINA as the regulating Oil & Gas State Owned Enterprise. Each station is equipped with supporting facilities e.g. minimarkets, tire pressure refills, prayer rooms, etc
             </p>
         </div>
     </div>
@@ -34,11 +34,11 @@
             <img class="object-cover h-full w-full" src="{{ asset('/img/our-business/oil-and-gas/gas.jpg') }}" alt="">
         </div>
     </div>
-    <div class="font-poppins relative w-[85%] mx-auto bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 overflow-hidden md:absolute md:z-20 md:top-[50%] md:right-[10%] md:w-[575px]">
+    <div class="relative w-[85%] mx-auto bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 overflow-hidden md:absolute md:z-20 md:top-[50%] md:right-[10%] md:w-[575px]">
         <div class="absolute h-full w-[5%] top-0 right-0 bg-gradient-to-t from-indigo-900 to to-pink-700 md:w-[20px]"></div>
         <div class="py-6 pl-6 pr-10">
-            <h5 class="mb-4 text-2xl font-bold tracking-tight text-rose-900">LPG RETESTER STATION</h5>
-            <p class="font-normal text-justify">FALGA owns and manages multiple LPG Retester Stations across Indonesia, which are Quality Assurance facilities where LPG gas cylinders are retested, repaint and/or repaired before distribution. Our station provides technical services for subsidized 3kg LPG cylinders and non-subsidized 5kg, 12kg and 50kg LPG cylinders. Our station adhere to the strict standards set by PERTAMINA.</p>
+            <h5 class="font-poppins mb-4 text-[28px] font-bold tracking-tight text-rose-900">LPG RETESTER STATION</h5>
+            <p class="font-sans text-justify text-[16px]">FALGA owns and manages multiple LPG Retester Stations across Indonesia, which are Quality Assurance facilities where LPG gas cylinders are retested, repaint and/or repaired before distribution. Our station provides technical services for subsidized 3kg LPG cylinders and non-subsidized 5kg, 12kg and 50kg LPG cylinders. Our station adhere to the strict standards set by PERTAMINA.</p>
         </div>
     </div>
 </div>
