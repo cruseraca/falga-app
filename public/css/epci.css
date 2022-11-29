@@ -1,5 +1,5 @@
 .falga-banner {
-  background-image: url("/img/about-us/banner.png");
+  background-image: url("/img/epci-business/banner.jpg");
 }
 .falga-epci-o {
   background-color: rgba(0, 0, 0, 0.05);
@@ -57,6 +57,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   width: 240px;
+  height: 240px;
 }
 @media screen and (min-width: 520px) {
   .falga-epci-images {
@@ -69,6 +70,7 @@
     top: 48px;
     bottom: 48px;
     width: 480px;
+    height: 480px;
     left: 0;
     right: 0;
   }

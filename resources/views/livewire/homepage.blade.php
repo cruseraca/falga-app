@@ -177,7 +177,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <div class="h-full">
-                    <img src="{{ asset('img/slider/pertamina.png') }}" class="h-full object-cover object-center-bottom" />
+                    <img src="{{ asset('img/slider/pom-bensin.jpg') }}" class="h-full object-cover object-center-bottom" />
                 </div>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Oil & Gas Retail</p>

@@ -3,11 +3,11 @@
 @endpush
 {{-- Banner --}}
 <div class="sm:w-full falga-banner bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]">
-    <div class="falga-container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center" style="margin-bottom: 80px">
+    <div class="falga-container text-center h-[400px] lg:h-[566px] text-white flex flex-col justify-end items-center" style="margin-bottom: 80px">
         <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed uppercase">
             ABOUT US
         </h1>
-        <div class="mt-8 normal-case md:text-2xl" style="text-shadow: 0px 4px 4px #000000;">
+        <div class="mt-8 normal-case md:text-2xl">
             FALGA is an Indonesian-incorporated Investment Holding Company that strives to continuously build viable large-scale businesses that deliver sustainable performance
         </div>
     </div>
@@ -21,7 +21,7 @@
             <div class="ellipse-2"></div>
         </div>
         <div class="falga-vm-v mr-8 hidden lg:block"></div>
-        <div class="falga-vm-text font-poppins">
+        <div class="falga-vm-text">
             <div class="falga-section-title">VISION</div>
             <div class="mt-4 text-xl md:text-2xl md:pb-8">
                 To be a world-class Business Builder that originates and empowers viable, large-scale enterprises that deliver sustainable performance.
