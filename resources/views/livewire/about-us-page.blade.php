@@ -23,20 +23,20 @@
         <div class="falga-vm-v mr-8 hidden lg:block"></div>
         <div class="falga-vm-text">
             <div class="falga-section-title">VISION</div>
-            <div class="mt-4 text-xl md:text-2xl md:pb-8">
+            <div class="mt-4 text-sm md:text-base md:pb-8">
                 To be a world-class Business Builder that originates and empowers viable, large-scale enterprises that deliver sustainable performance.
             </div>
             <div class="falga-section-title mt-12">MISSIONS</div>
-            <div class="mt-4 text-xl md:text-2xl">
+            <div class="mt-4 text-sm md:text-base">
                 To drive strategic agility and operational excellence to withstand market dynamics and business turbulence
             </div>
-            <div class="mt-3 text-xl md:text-2xl">
+            <div class="mt-3 text-sm md:text-base">
                 To enhance talent capabilities and synergies through healthy and sustainable workforce ecosystem
             </div>
-            <div class="mt-3 text-xl md:text-2xl">
+            <div class="mt-3 text-sm md:text-base">
                 To encourage ESG integration in business and investment workflow
             </div>
-            <div class="mt-3 text-xl md:text-2xl">
+            <div class="mt-3 text-sm md:text-base">
                 To continue exploration of new business building through appraisals of business viability and sustainability
             </div>
         </div>
@@ -45,7 +45,7 @@
 {{-- Core Values --}}
 <div class="falga-container pt-14 md:pt-18">
     <div class="falga-section-title text-center">CORE VALUES</div>
-    <div class="mt-12 text-xl md:text-2xl">
+    <div class="mt-12 text-sm md:text-base">
         FALGA have adopted core values that have carried our group to thrive for the past 36 years. Our core values aim to shape agility, resilience and sustainability in our portfolio of businesses to continue to thrive in this disruptive era.
     </div>
     <div class="flex flex-wrap md:divide-x-[16px] divide-transparent items-stretch">

@@ -20,7 +20,7 @@
     </p>
 </div>
 <div class="home-glance">
-    <img alt="at glance" src="{{ asset('img/homepage/at-glance.png') }}" class="home-glance-image" />
+    <img alt="at glance" src="{{ asset('img/homepage/at-glance-1.png') }}" class="home-glance-image" />
     <img alt="EPCI Business" src="{{ asset('img/homepage/epci-business-n.png') }}" class="home-glance-item home-glance-epci-business" />
     <img alt="industrial rental" src="{{ asset('img/homepage/industrial-rental-n.png') }}" class="home-glance-item home-glance-industrial-rental" />
     <img alt="property & hospitality" src="{{ asset('img/homepage/property-hospitality-n.png') }}" class="home-glance-item home-glance-property-hospitality" />
