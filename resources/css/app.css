@@ -18,6 +18,14 @@
   height: 448px;
   background-color: aquamarine;
 }
+.carousel1 {
+  background: transparent;
+}
+
+.carousel-cell1 {
+  height: 300px;
+  background-color: aquamarine;
+}
 .falga-header {
   max-width: 1312px;
   margin-left: auto;
