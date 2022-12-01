@@ -14,7 +14,7 @@
                         <div class="col-span-4">: Menara Dea Tower II, Mega Kuningan Street, Kuningan, Setiabudi, South
                             Jakarta, Jakarta</div>
                         <div class="font-semibold">Website</div>
-                        <div class="col-span-4">: www.falga.co.id</div>
+                        <div class="col-span-4">: <a href="{{ url('') }}">www.falga.co.id</a></div>
                     </div>
                 </div>
                 <div class="sm:w-1/2 lg:w-6/12 sm:pl-10 pr-4">
@@ -23,19 +23,16 @@
                             <span class="block text-blueGray-500 text-sm font-semibold mb-2">About Us</span>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a class="block text-sm" href="">About</a>
+                                    <a href="{{ url('about-us') }}" class="block text-sm" href="">About</a>
                                 </li>
                                 <li>
-                                    <a class="block text-sm" href="">Vision & Missions</a>
+                                    <a href="{{ url('about-us#vision-missions') }}" class="block text-sm" href="">Vision & Missions</a>
                                 </li>
                                 <li>
-                                    <a class="block text-sm" href="">Milestones</a>
+                                    <a href="{{ url('about-us#core-values') }}" class="block text-sm" href="">Core Values</a>
                                 </li>
                                 <li>
-                                    <a class="block text-sm" href="">Core Values</a>
-                                </li>
-                                <li>
-                                    <a class="block text-sm" href="">Key Person</a>
+                                    <a href="{{ url('about-us#key-person') }}" class="block text-sm" href="">Key Person</a>
                                 </li>
                             </ul>
                             <span class="block text-sm font-semibold mb-2 mt-4">ESG</span>
@@ -53,19 +50,19 @@
                             <span class="block text-blueGray-500 text-sm font-semibold mb-2">Our Business</span>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a class="block text-sm" href="">Engineering, Procurement, Construction, & Installation</a>
+                                    <a href="{{ url('epci-business') }}" class="block text-sm" href="">EPCI Business</a>
                                 </li>
                                 <li>
-                                    <a class="block text-sm" href="">Oil & Gas Retail</a>
+                                    <a href="{{ url('oil-and-gas-business') }}" class="block text-sm" href="">Oil & Gas Retail</a>
                                 </li>
                                 <li>
                                     <a class="block text-sm" href="">Industrial Equipment Rental</a>
                                 </li>
                                 <li>
-                                    <a class="block text-sm" href="">Property & Hospitality</a>
+                                    <a href="{{ url('prop-business') }}" class="block text-sm" href="">Property & Hospitality</a>
                                 </li>
                                 <li>
-                                    <a class="block text-sm" href="">Future Business</a>
+                                    <a href="{{ url('future-business') }}" class="block text-sm" href="">Future Business</a>
                                 </li>
                             </ul>
                             <span class="block text-sm font-semibold mb-2 mt-4">Media</span>

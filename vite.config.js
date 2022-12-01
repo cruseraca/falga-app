@@ -8,7 +8,9 @@ export default defineConfig({
             "resources/css/home.css",
             "resources/css/about-us.css",
             "resources/css/epci.css",
+            "resources/css/esg.css",
             "resources/js/app.js",
+            "resources/js/esg.js",
         ]),
     ],
 });
