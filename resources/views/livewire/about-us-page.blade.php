@@ -12,6 +12,11 @@
         </div>
     </div>
 </div>
+@component('components.bread-crumbs', ["items" => [
+    [ "title" => "HOME", "href" => url("") ],
+    [ "title" => "ABOUT US", "color" => "red-falga" ]
+]])
+@endcomponent
 {{-- Vision & Mission --}}
 <div id="vision-missions" class="falga-container pt-16 md:pt-20">
     <div class="flex items-center">

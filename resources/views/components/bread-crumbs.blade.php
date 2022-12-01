@@ -1,4 +1,4 @@
-<div id="breadrumbs" class="flex items-center justify-center text-base uppercase bg-[#F2F2F2] py-1">
+<div id="breadrumbs" class="flex items-center justify-center text-xs md:text-base uppercase bg-[#F2F2F2] py-1">
     @for($i = 0; $i < count($items); $i++)
         @php
             $item = $items[$i]
