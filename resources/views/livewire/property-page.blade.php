@@ -1,6 +1,6 @@
 {{-- Banner --}}
 <div
-    class="md:w-full bg-[url('/img/our-business/prop-and-hospitality/banner.jpeg')] bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]">
+    class="md:w-full bg-[url('/img/property/banner.png')] bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]">
     <div class="container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center mx-auto"
         style="margin-bottom: 80px">
         <h1 class="font-poppins font-extrabold text-xl md:text-2xl lg:text-4xl lg:leading-relaxed uppercase"
@@ -9,6 +9,12 @@
         </h1>
     </div>
 </div>
+@component('components.bread-crumbs', ["items" => [
+    [ "title" => "HOME", "href" => url("") ],
+    [ "title" => "OUR BUSINESS", "href" => url("our-business") ],
+    [ "title" => "PROPERTY AND HOSPITALITY", "color" => "red-falga" ]
+]])
+@endcomponent
 <div class="flex flex-col my-4 md:relative">
     <div class="flex relative h-[360px] w-full md:h-screen">
         <div class="absolute bg-rose-900 h-[75%] w-[20%] bottom-[50%] translate-y-1/2 right-[10%] md:right-[5%] md:bottom-[55%]">

@@ -8,6 +8,9 @@ use App\Http\Livewire\EpciPage;
 use App\Http\Livewire\PropertyPage;
 use App\Http\Livewire\FutureBusinessPage;
 use App\Http\Livewire\IndustrialRentalPage;
+use App\Http\Livewire\EsgPage;
+use App\Http\Livewire\CareerPage;
+use App\Http\Livewire\MediaPage;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,6 +32,9 @@ Route::get('/epci-business', EpciPage::class);
 Route::get('/prop-business', PropertyPage::class);
 Route::get('/future-business', FutureBusinessPage::class);
 Route::get('/industrial-rental', IndustrialRentalPage::class);
+Route::get('/esg', EsgPage::class);
+Route::get('/career', CareerPage::class);
+Route::get('/media-and-information', MediaPage::class);
 
 Route::get('/default', function () {
     return view('welcome');

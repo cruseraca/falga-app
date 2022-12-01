@@ -12,8 +12,13 @@
         </div>
     </div>
 </div>
+@component('components.bread-crumbs', ["items" => [
+    [ "title" => "HOME", "href" => url("") ],
+    [ "title" => "ABOUT US", "color" => "red-falga" ]
+]])
+@endcomponent
 {{-- Vision & Mission --}}
-<div class="falga-container pt-14 md:pt-16">
+<div id="vision-missions" class="falga-container pt-16 md:pt-20">
     <div class="flex items-center">
         <div class="falga-vm-left hidden lg:block">
             <div class="ellipse-0"></div>
@@ -43,7 +48,7 @@
     </div>
 </div>
 {{-- Core Values --}}
-<div class="falga-container pt-14 md:pt-18">
+<div id="core-values" class="falga-container pt-16 md:pt-20">
     <div class="falga-section-title text-center">CORE VALUES</div>
     <div class="mt-12 text-sm md:text-base">
         FALGA have adopted core values that have carried our group to thrive for the past 36 years. Our core values aim to shape agility, resilience and sustainability in our portfolio of businesses to continue to thrive in this disruptive era.
@@ -58,7 +63,7 @@
     </div>
 </div>
 {{-- Managing Partners --}}
-<div class="falga-container pt-14 md:pt-16">
+<div id="key-person" class="falga-container pt-16 md:pt-20">
     <div class="falga-section-title text-center">MANAGING PARTNERS</div>
     <div class="flex flex-wrap md:divide-x-[72px] divide-transparent justify-center items-stretch">
         <x-managing-partner-item name="Tommy Hesarid Simamora" position="Partner" image="{{ url('/img/about-us/tommy.jpeg') }}"></x-managing-partner-item>
