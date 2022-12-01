@@ -24,9 +24,6 @@
         <div class="mb-4 falga-section-title overflow-auto">
             <ul class="flex md:flex-col items-stretch" id="esg-tab" role="tablist">
                 <li class="mr-2 md:mr-0" role="presentation">
-                    <a href="{{ url("esg?q=financial#breadrumbs") }}" class="{{ $q == "financial" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap" id="financial-tab" type="button" role="tab" aria-controls="financial" aria-selected="false">Financial Highlights</a>
-                </li>
-                <li class="mr-2 md:mr-0" role="presentation">
                     <a href="{{ url("esg?q=sustainability#breadrumbs") }}" class="{{ $q == "sustainability" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap" id="sustainability-tab" type="button" role="tab" aria-controls="sustainability" aria-selected="false">Sustainability Reports</a>
                 </li>
                 <li class="mr-2 md:mr-0" role="presentation">

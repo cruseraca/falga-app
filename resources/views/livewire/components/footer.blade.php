@@ -7,9 +7,9 @@
                     <img src="{{ asset('img/logo-falga-white.png') }}" alt="" class="h-[60px] object-cover">
                     <div class="grid grid-cols-5 mt-10 text-sm">
                         <div class="font-semibold">Phone</div>
-                        <div class="col-span-4">: (021) 123 45 678</div>
+                        <div class="col-span-4">: <a href="tel:+6221576080">(021) 576-0880</a></div>
                         <div class="font-semibold">Email</div>
-                        <div class="col-span-4">: corporate.secretary@falga.co.id</div>
+                        <div class="col-span-4">: <a href="mailto:corporate.secretary@falga.co.id">corporate.secretary@falga.co.id</a></div>
                         <div class="font-semibold">Address</div>
                         <div class="col-span-4">: Menara Dea Tower II, Mega Kuningan Street, Kuningan, Setiabudi, South
                             Jakarta, Jakarta</div>
