@@ -5,7 +5,7 @@
     <script src="{{ asset('js/esg.js') }}" rel="stylesheet"></script>
 @endpush
 {{-- Banner --}}
-<div class="sm:w-full falga-banner bg-no-repeat bg-cover flex mt-[61px] md:mt-[77px] items-center justify-center">
+<div class="sm:w-full falga-banner bg-no-repeat bg-center bg-cover flex mt-[61px] md:mt-[77px] items-center justify-center">
     <h1 class="font-poppins text-white my-[212px] md:my-[312px] text-center font-extrabold lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px #000000;">
         Environmental, Social, and Governance
     </h1>

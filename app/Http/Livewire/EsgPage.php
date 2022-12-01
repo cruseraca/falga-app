@@ -55,7 +55,7 @@ class EsgPage extends Component
                 ]
             ];
         $this->q = empty(app('request')->input('q')) ? "financial" : app('request')->input('q');
-        $this->title = isset($this->title[$this->q]) ? $this->title[$this->q] : "Financial Highlights";
+        $this->title = $this->titles[$this->q];
         $this->items = $this->all_items[$this->q];
     }
 
