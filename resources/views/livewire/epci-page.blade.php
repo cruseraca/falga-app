@@ -1,11 +1,12 @@
 @push('styles')
+<x-embed-styles />
 <link href="{{ asset('css/epci.css') }}" rel="stylesheet">
 @endpush
 {{-- Banner --}}
 <div class="sm:w-full falga-banner bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]">
     <div class="falga-container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center" style="padding-bottom: 226px">
         <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
-            ENGINEERING, PROCUREMENT, CONSTRUCTION AND INSTALLMENT(EPCI)
+            ENGINEERING, PROCUREMENT, CONSTRUCTION AND INSTALLATION(EPCI)
         </h1>
     </div>
 </div>
@@ -15,8 +16,13 @@
     [ "title" => "EPCI BUSINESS", "color" => "red-falga" ]
 ]])
 @endcomponent
-<div class="falga-container my-16 text-sm md:text-base font-poppins">
-    FALGA EPCI Business has robust track record in Engineering, Procurement, Construction and Installation (EPCI) projects since 1986 with more than 110 EPCI Infrastructure Projects delivered with high quality services and solutions for Indonesian SOEs and Public/Private Companies. CSU is committed to provide comprehensive EPCI services for clients across infrastructure industry that deliver quality, certainty, safety and capital efficiency. Our team of highly skilled and experienced professionals combine multiple aspects of technical & non-technical resources to ensure delivery of project timeline and cost target while ensuring regulatory compliance in our deliverables.
+<div class="falga-container my-16 text-sm md:text-base flex flex-col md:flex-row items-center justify-center">
+    <div class="flex-1 w-full md:w-[200px] md:mr-12">
+        <x-embed url="https://www.youtube.com/watch?v=ThpRlt9o2_0" />
+    </div>
+    <div class="flex-1 mt-8 md:mt-0">
+        FALGA EPCI Business has robust track record in Engineering, Procurement, Construction and Installation (EPCI) projects since 1986 with more than 110 EPCI Infrastructure Projects delivered with high quality services and solutions for Indonesian SOEs and Public/Private Companies. CSU is committed to provide comprehensive EPCI services for clients across infrastructure industry that deliver quality, certainty, safety and capital efficiency. Our team of highly skilled and experienced professionals combine multiple aspects of technical & non-technical resources to ensure delivery of project timeline and cost target while ensuring regulatory compliance in our deliverables.
+    </div>
 </div>
 <x-epci-item
     title="ENGINEERING"
