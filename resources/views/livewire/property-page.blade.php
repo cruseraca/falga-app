@@ -9,6 +9,12 @@
         </h1>
     </div>
 </div>
+@component('components.bread-crumbs', ["items" => [
+    [ "title" => "HOME", "href" => url("") ],
+    [ "title" => "OUR BUSINESS", "href" => url("our-business") ],
+    [ "title" => "PROPERTY AND HOSPITALITY", "color" => "red-falga" ]
+]])
+@endcomponent
 <div class="flex flex-col my-4 md:relative">
     <div class="flex relative h-[360px] w-full md:h-screen">
         <div class="absolute bg-rose-900 h-[75%] w-[20%] bottom-[50%] translate-y-1/2 right-[10%] md:right-[5%] md:bottom-[55%]">

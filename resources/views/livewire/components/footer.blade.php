@@ -47,7 +47,7 @@
                                     <a href="{{ url('esg?q=governance#breadrumbs') }}" class="block text-sm" href="">Good Corporate Governance</a>
                                 </li>
                             </ul>
-                            <span class="block text-sm font-semibold mb-2 mt-4">Career</span>
+                            <a href="{{ url('career') }}" class="block text-sm font-semibold mb-2 mt-4">Career</a>
                         </div>
                         <div class="w-full lg:w-6/12 px-4">
                             <span class="block text-blueGray-500 text-sm font-semibold mb-2">Our Business</span>
