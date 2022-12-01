@@ -7,6 +7,7 @@ use App\Http\Livewire\OilAndGasPage;
 use App\Http\Livewire\EpciPage;
 use App\Http\Livewire\PropertyPage;
 use App\Http\Livewire\FutureBusinessPage;
+use App\Http\Livewire\IndustrialRentalPage;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,6 +28,7 @@ Route::get('/oil-and-gas-business', OilAndGasPage::class);
 Route::get('/epci-business', EpciPage::class);
 Route::get('/prop-business', PropertyPage::class);
 Route::get('/future-business', FutureBusinessPage::class);
+Route::get('/industrial-rental', IndustrialRentalPage::class);
 
 Route::get('/default', function () {
     return view('welcome');
