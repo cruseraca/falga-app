@@ -38,10 +38,13 @@
                             <span class="block text-sm font-semibold mb-2 mt-4">ESG</span>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a class="block text-sm" href="">Sustainability Report</a>
+                                    <a href="{{ url('esg?q=sustainability#breadrumbs') }}" class="block text-sm" href="">Sustainability Report</a>
                                 </li>
                                 <li>
-                                    <a class="block text-sm" href="">Good Corporate Governance</a>
+                                    <a href="{{ url('esg?q=presentation#breadrumbs') }}" class="block text-sm" href="">Corporate Presentation</a>
+                                </li>
+                                <li>
+                                    <a href="{{ url('esg?q=governance#breadrumbs') }}" class="block text-sm" href="">Good Corporate Governance</a>
                                 </li>
                             </ul>
                             <span class="block text-sm font-semibold mb-2 mt-4">Career</span>

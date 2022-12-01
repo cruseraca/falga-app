@@ -9,6 +9,12 @@
         </h1>
     </div>
 </div>
+@component('components.bread-crumbs', ["items" => [
+    [ "title" => "HOME", "href" => url("") ],
+    [ "title" => "OUR BUSINESS", "href" => url("our-business") ],
+    [ "title" => "EPCI BUSINESS", "color" => "red-falga" ]
+]])
+@endcomponent
 <div class="falga-container my-16 text-sm md:text-base font-poppins">
     FALGA EPCI Business has robust track record in Engineering, Procurement, Construction and Installation (EPCI) projects since 1986 with more than 110 EPCI Infrastructure Projects delivered with high quality services and solutions for Indonesian SOEs and Public/Private Companies. CSU is committed to provide comprehensive EPCI services for clients across infrastructure industry that deliver quality, certainty, safety and capital efficiency. Our team of highly skilled and experienced professionals combine multiple aspects of technical & non-technical resources to ensure delivery of project timeline and cost target while ensuring regulatory compliance in our deliverables.
 </div>

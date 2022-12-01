@@ -12,6 +12,11 @@
         </div>
     </div>
 </div>
+@component('components.bread-crumbs', ["items" => [
+    [ "title" => "HOME", "href" => url("") ],
+    [ "title" => "OUR BUSINESS", "color" => "red-falga" ],
+]])
+@endcomponent
 <div class="flex flex-col md:flex-row md:my-10">
     <div class="flex relative h-[300px] md:h-[576px] md:basis-1/2">
         <div class="w-[80%] m-auto md:ml-24">
@@ -22,8 +27,8 @@
     <div class="font-poppins p-8 md:basis-1/2 md:p-16">
         <div class="text-xl text-rose-800 font-black mb-4 md:text-3xl">ENGINEERING, PROCUREMENT, CONSTRUCTION AND INSTALLMENT (EPCI)</div>
         <div class="text-justify md:text-lg">FALGA has robust track record in EPCI projects of more than 110 EPC Infrastructure Projects in Indonesia partnering with Indonesian SOEs and Public/Private Companies since 1986. We have accumulated extensive project experience in infrastructure: LPG Tank Farm, Oil/Fuel Farm, Electric Motor, Jetty & Piers, Pipelines & Piping System, Fuel Gas & LPG Filling Station, etc</div>
-        <div class="text-center my-4 md:mt-10">
-            <button class="falga-button uppercase text-xs md:ml-0">See All</button>
+        <div class="text-center my-4 md:mt-10 flex justify-start">
+            <a href="{{ url('epci-business') }}" class="falga-button uppercase text-xs md:ml-0">See All</a>
         </div>
     </div>
 </div>
@@ -37,8 +42,8 @@
     <div class="font-poppins p-8 md:basis-1/2 md:p-16">
         <div class="text-xl text-rose-800 font-black mb-4 md:text-3xl text-center">OIL & GAS RETAIL</div>
         <div class="text-justify md:text-lg">FALGA owns and manages Fuel Gas Station (SPBU) and LPG Cylinder Retester Station (BPT LPG) across Indonesia compliant to the operational standards set by PERTAMINA as the Oil & Gas Indonesian SOE. Our Group continuously focuses on business process improvement in our existing stations and assesses potential new Oil & Gas Retail businesses.</div>
-        <div class="text-center my-4 md:mt-10">
-            <button class="falga-button uppercase text-xs md:mx-auto">See All</button>
+        <div class="text-center my-4 md:mt-10 flex justify-center">
+            <a href="{{ url('oil-and-gas-business') }}" class="falga-button uppercase text-xs md:mx-auto">See All</a>
         </div>
     </div>
 </div>
@@ -52,8 +57,8 @@
     <div class="font-poppins p-8 md:basis-1/2 md:p-16">
         <div class="text-xl text-rose-800 font-black mb-4 md:text-3xl md:text-right">INDUSTRIAL EQUIPMENT RENTAL</div>
         <div class="text-justify md:text-lg">FALGA provides industrial machinery and construction equipment rental services with functionality and quality. Our group offers wide assortment of industrial tools from ordinary machines like Generator Set to Specialized tools like Jacking System. We also offer full-service delivery by providing routine maintenance by our technicians on the construction equipment and tool rentals.</div>
-        <div class="my-4 md:mt-10 md:float-right">
-            <button class="falga-button uppercase text-xs md:ml-0">See All</button>
+        <div class="my-4 md:mt-10 md:float-right flex md:justify-end justify-center">
+            <a href="{{ url('') }}" class="falga-button uppercase text-xs md:ml-0">See All</a>
         </div>
     </div>
 </div>
@@ -67,8 +72,8 @@
     <div class="font-poppins p-8 md:basis-1/2 md:p-16">
         <div class="text-xl text-rose-800 font-black mb-4 md:text-3xl">PROPERTY AND HOSPITALITY</div>
         <div class="text-justify md:text-lg">FALGA owns and manages boarding houses and budget lodges that offer convenient, comfortable and affordable stay for our guests. As the demand for board housing increases in Indonesia, we strive to offer well-maintained facility and to continuously upgrade the housing quality by integrating smart technology.</div>
-        <div class="text-center my-4 md:mt-10">
-            <button class="falga-button uppercase text-xs md:ml-0">See All</button>
+        <div class="text-center my-4 md:mt-10 flex md:justify-start justify-center">
+            <a href="{{ url('prop-business') }}" class="falga-button uppercase text-xs md:ml-0">See All</a>
         </div>
     </div>
 </div>
@@ -82,8 +87,8 @@
     <div class="font-poppins p-8 md:basis-1/2 md:py-16 md:px-24">
         <div class="text-xl text-rose-800 font-black mb-4 md:text-3xl text-center">FUTURE BUSINESS</div>
         <div class="text-justify md:text-lg">FALGA proactively explore and appraise new businesses that can drive sustainable values. Our group positions our management strategy to be agile to market movement and to be open to new business prospects.</div>
-        <div class="text-center my-4 md:mt-10">
-            <button class="falga-button uppercase text-xs md:mx-auto">See All</button>
+        <div class="text-center my-4 md:mt-10 flex justify-center">
+            <a href="{{ url('future-business') }}" class="falga-button uppercase text-xs md:mx-auto">See All</a>
         </div>
     </div>
 </div>
