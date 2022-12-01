@@ -68,16 +68,16 @@
                                     <a href="{{ url('future-business') }}" class="block text-sm" href="">Future Business</a>
                                 </li>
                             </ul>
-                            <span class="block text-sm font-semibold mb-2 mt-4">Media</span>
+                            <a href="{{ url('media-and-information') }}" class="block text-sm font-semibold mb-2 mt-4">Media</a>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a class="block text-sm" href="">Portofolio</a>
+                                    <a href="{{ url('media-and-information?q=portfolio#breadrumbs') }}" class="block text-sm" href="">Portofolio</a>
                                 </li>
                                 <li>
-                                    <a class="block text-sm" href="">Blog</a>
+                                    <a href="{{ url('media-and-information?q=blog#breadrumbs') }}" class="block text-sm" href="">Blog</a>
                                 </li>
                                 <li>
-                                    <a class="block text-sm" href="">Videos</a>
+                                    <a href="{{ url('media-and-information?q=video#breadrumbs') }}" class="block text-sm" href="">Videos</a>
                                 </li>
                             </ul>
                         </div>

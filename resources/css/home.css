@@ -132,6 +132,11 @@
   max-width: 100%;
   object-fit: contain;
 }
+.home-glance-epci-business-img {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .home-glance-future-business {
   margin-top: 16px;
 }

@@ -9,7 +9,7 @@
             <div class="falga-epci-content">
                 <div class="falga-section-title falga-epci-title">{{ $title }}</div>
                 <div class="text-sm md:text-base mt-2 mb-8">{{ $description }}</div>
-                <div class="falga-epci-line"></div>
+                <div class="falga-epci-line" style="background-color: {{ $color }};"></div>
             </div>
         </div>
     </div>
