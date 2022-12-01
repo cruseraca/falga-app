@@ -22,7 +22,7 @@
 <div class="home-glance">
     <img alt="at glance" src="{{ asset('img/homepage/at-glance-1.png') }}" class="home-glance-image" />
     <a href="{{ url("epci-business") }}" class="home-glance-item home-glance-epci-business">
-        <img alt="EPCI Business" src="{{ asset('img/homepage/epci-business-n.png') }}" />
+        <img alt="EPCI Business" src="{{ asset('img/homepage/epci-business-n.png') }}" class="home-glance-epci-business-img" />
     </a>
     <a href="{{ url("industrial-business") }}" class="home-glance-item home-glance-industrial-rental">
         <img alt="industrial rental" src="{{ asset('img/homepage/industrial-rental-n.png') }}" />
@@ -38,16 +38,16 @@
     </a>
 </div>
 <div class="max-w-screen flex flex-col mx-auto my-6 md:my-20 font-poppins">
-    <div class="flex flex-col divide-y px-6 md:flex-row md:divide-x md:divide-y-0 divide-black font-sans text-sm md:text-base">
+    <div class="flex flex-col divide-y px-6 md:flex-row md:divide-x md:divide-y-0 divide-red-falga font-sans text-sm md:text-base">
         <div class="py-6 md:basis-1/2 md:py-6 md:pr-10 md:pl-40 text-justify">
-            <strong>FALGA GROUP</strong> is an Indonesian-incorporated
+            <strong class="text-red-falga">FALGA GROUP</strong> is an Indonesian-incorporated
             investment holding company founded in 1986 with ownership interests
             in EPCI Contractor, Oil & Gas Retail, Properties and Industrial
             Equipment Rental companies. Our Group integrates agile operating
             models and proactively appraise future business opportunities.
         </div>
         <div class="py-6 md:basis-1/2 md:py-6 md:pl-10 md:pr-40 text-justify">
-            <strong>FALGA GROUP</strong> core priorities are building viable
+            <strong class="text-red-falga">FALGA GROUP</strong> core priorities are building viable
             large-scale businesses that can stand against industry disruptions
             and economic shocks through organizational agility and resilience.
             Our Group strives to expand our diversified business portfolio by

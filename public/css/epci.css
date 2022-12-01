@@ -1,5 +1,5 @@
 .falga-banner {
-  background-image: url("/img/epci-business/banner.jpg");
+  background-image: url("/img/epci-business/banner.png");
 }
 .falga-epci-o {
   background-color: rgba(0, 0, 0, 0.05);
@@ -20,6 +20,7 @@
   display: flex;
   flex-direction: column;
   min-height: 500px;
+  max-width: 992px;
   position: relative;
 }
 .falga-epci-i {
@@ -98,13 +99,6 @@
   }
 }
 .falga-epci-line {
-  background: linear-gradient(
-    0deg,
-    #2b4290 0%,
-    #352479 26.13%,
-    #692b69 65.76%,
-    #972540 100%
-  );
   border-radius: 12px;
   width: 16px;
   height: 100%;
@@ -144,6 +138,11 @@
   height: 220px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.falga-wd-divider {
+  width: 100%;
+  height: 16px;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 .falga-wd-civil,
 .falga-wd-electrical,
@@ -243,5 +242,8 @@
        object-fit: cover;
     height: 109px;
   }
+}
+.falga-wd-popover {
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
