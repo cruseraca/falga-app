@@ -59,7 +59,7 @@
                                     <a href="{{ url('oil-and-gas-business') }}" class="block text-sm" href="">Oil & Gas Retail</a>
                                 </li>
                                 <li>
-                                    <a class="block text-sm" href="">Industrial Equipment Rental</a>
+                                    <a href="{{ url('industrial-rental') }}" class="block text-sm" href="">Industrial Equipment Rental</a>
                                 </li>
                                 <li>
                                     <a href="{{ url('prop-business') }}" class="block text-sm" href="">Property & Hospitality</a>

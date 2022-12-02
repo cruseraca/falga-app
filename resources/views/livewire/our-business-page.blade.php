@@ -59,7 +59,7 @@
         <div class="text-xl text-rose-800 font-black mb-4 md:text-3xl md:text-right">INDUSTRIAL EQUIPMENT RENTAL</div>
         <div class="text-justify md:text-lg">FALGA provides industrial machinery and construction equipment rental services with functionality and quality. Our group offers wide assortment of industrial tools from ordinary machines like Generator Set to Specialized tools like Jacking System. We also offer full-service delivery by providing routine maintenance by our technicians on the construction equipment and tool rentals.</div>
         <div class="my-4 md:mt-10 md:float-right flex md:justify-end justify-center">
-            <a href="{{ url('') }}" class="falga-button uppercase text-xs md:ml-0">See All</a>
+            <a href="{{ url('industrial-rental') }}" class="falga-button uppercase text-xs md:ml-0">See All</a>
         </div>
     </div>
 </div>
