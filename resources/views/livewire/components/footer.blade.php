@@ -88,7 +88,7 @@
         <div class="flex flex-wrap items-center md:justify-between justify-center bg-white">
             <div class="w-full md:w-4/12 px-4 mx-auto text-center">
                 <div class="text-xs py-4">
-                    Copyright © <span id="get-current-year">2022</span><a href="https://www.falga.co.id" class="font-black hover:text-gray-800" target="_blank"> FALGA GROUP
+                    Copyright © {{ date('Y') }} | <a href="https://www.falga.co.id" class="font-black hover:text-gray-800" target="_blank">FALGA GROUP</a>
                 </div>
             </div>
         </div>

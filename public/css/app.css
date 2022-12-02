@@ -12163,6 +12163,10 @@ input:checked + .toggle-bg {
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
 }
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
 .border {
   border-width: 1px;
 }
@@ -12504,6 +12508,10 @@ input:checked + .toggle-bg {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
 .pl-10 {
   padding-left: 2.5rem;
 }
@@ -12534,6 +12542,9 @@ input:checked + .toggle-bg {
 .pt-8 {
   padding-top: 2rem;
 }
+.pr-3 {
+  padding-right: 0.75rem;
+}
 .pl-4 {
   padding-left: 1rem;
 }
@@ -12560,12 +12571,6 @@ input:checked + .toggle-bg {
 }
 .pb-4 {
   padding-bottom: 1rem;
-}
-.pr-3 {
-  padding-right: 0.75rem;
-}
-.pt-0 {
-  padding-top: 0px;
 }
 .text-left {
   text-align: left;
@@ -13380,6 +13385,10 @@ input:checked + .toggle-bg {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(151 37 64 / var(--tw-ring-opacity));
 }
+.dark .dark\:focus\:ring-blue-800:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(30 66 159 / var(--tw-ring-opacity));
+}
 @media (min-width: 640px) {
 
   .sm\:container {
@@ -13480,6 +13489,10 @@ input:checked + .toggle-bg {
     margin-bottom: 3.5rem;
   }
 
+  .sm\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .sm\:ml-48 {
     margin-left: 12rem;
   }
@@ -13510,10 +13523,6 @@ input:checked + .toggle-bg {
 
   .sm\:ml-4 {
     margin-left: 1rem;
-  }
-
-  .sm\:mt-16 {
-    margin-top: 4rem;
   }
 
   .sm\:block {
@@ -13690,11 +13699,6 @@ input:checked + .toggle-bg {
     padding-right: 1.5rem;
   }
 
-  .sm\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
   .sm\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -13703,6 +13707,10 @@ input:checked + .toggle-bg {
   .sm\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .sm\:pb-16 {
+    padding-bottom: 4rem;
   }
 
   .sm\:pt-0 {
@@ -13715,14 +13723,6 @@ input:checked + .toggle-bg {
 
   .sm\:pb-4 {
     padding-bottom: 1rem;
-  }
-
-  .sm\:pb-16 {
-    padding-bottom: 4rem;
-  }
-
-  .sm\:pt-16 {
-    padding-top: 4rem;
   }
 
   .sm\:text-left {
@@ -13848,6 +13848,11 @@ input:checked + .toggle-bg {
     margin-bottom: 312px;
   }
 
+  .md\:mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
   .md\:mx-10 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -13856,11 +13861,6 @@ input:checked + .toggle-bg {
   .md\:mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
-  }
-
-  .md\:mx-2 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
   }
 
   .md\:mt-\[77px\] {
@@ -13937,6 +13937,10 @@ input:checked + .toggle-bg {
 
   .md\:ml-12 {
     margin-left: 3rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:flex {
@@ -14142,14 +14146,6 @@ input:checked + .toggle-bg {
 
   .md\:p-4 {
     padding: 1rem;
-  }
-
-  .md\:p-2\.5 {
-    padding: 0.625rem;
-  }
-
-  .md\:p-2 {
-    padding: 0.5rem;
   }
 
   .md\:py-10 {
