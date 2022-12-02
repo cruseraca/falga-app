@@ -24,7 +24,7 @@
     <a href="{{ url("epci-business") }}" class="home-glance-item home-glance-epci-business">
         <img alt="EPCI Business" src="{{ asset('img/homepage/epci-business-n.png') }}" class="home-glance-epci-business-img" />
     </a>
-    <a href="{{ url("industrial-business") }}" class="home-glance-item home-glance-industrial-rental">
+    <a href="{{ url("industrial-rental") }}" class="home-glance-item home-glance-industrial-rental">
         <img alt="industrial rental" src="{{ asset('img/homepage/industrial-rental-n.png') }}" />
     </a>
     <a href="{{ url("prop-business") }}" class="home-glance-item home-glance-property-hospitality">
@@ -194,7 +194,7 @@
                 </div>
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
-                <a href="{{ url("industrial-business") }}" class="h-full w-full">
+                <a href="{{ url("industrial-rental") }}" class="h-full w-full">
                     <img src="{{ asset('img/slider/image-6.jpg') }}" class="h-full object-cover object-center-bottom" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
