@@ -179,7 +179,7 @@
         <div class="carousel sm:w-[85%] mx-auto w-screen">
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("epci-business") }}" class="h-full w-full">
-                    <img src="{{ asset('img/slider/image-7-2.jpeg') }}" class="h-full object-cover object-center">
+                    <img src="{{ asset('img/slider/image-7-3.jpg') }}" class="h-full w-full object-cover object-center">
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Engineering, Procurement, Construction, and Installation (EPCI)</p>
@@ -256,7 +256,7 @@
     <div class="container mx-auto sm:py-16">
         <div class="flex flex-col sm:flex-row w-full">
             <div class="w-full order-last sm:order-first mb-10">
-                <p class="text-2xl sm:text-3xl text-red-falga font-black font-poppins text-center my-10">
+                <p class="falga-section-title text-center my-10">
                     Site Map
                 </p>
                 <div class="w-4/5 h-[300px] sm:w-[500px] sm:h-[400px] mx-auto">
@@ -264,7 +264,7 @@
                 </div>
             </div>
             <div class="w-full p-10">
-                <p class="text-2xl sm:text-3xl text-red-falga font-black font-poppins text-center mb-10">
+                <p class="falga-section-title text-center mb-10">
                     Contact Us
                 </p>
                 <form>
