@@ -195,7 +195,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("industrial-rental") }}" class="h-full w-full">
-                    <img src="{{ asset('img/slider/image-6.jpg') }}" class="h-full object-cover object-center-bottom" />
+                    <img src="{{ asset('img/slider/industrial.png') }}" class="h-full w-full object-cover object-center-bottom" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Industrial Equipment Rental</p>
@@ -203,7 +203,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("future-business") }}" class="h-full w-full">
-                    <img src="{{ asset('img/slider/image-4.jpeg') }}" class="h-full w-full object-fill" />
+                    <img src="{{ asset('img/slider/future.png') }}" class="h-full w-full object-fill" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Future Bussiness</p>
@@ -211,7 +211,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("prop-business") }}" class="h-full w-full">
-                    <img src="{{ asset('img/slider/image-5.jpeg') }}" class="h-full w-full object-fill" />
+                    <img src="{{ asset('img/slider/property.png') }}" class="h-full w-full object-fill" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Property & Hospitality</p>
