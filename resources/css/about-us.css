@@ -13,6 +13,8 @@
     #5b2767 72.36%,
     #8b264d 100%
   );
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 .falga-vm-left .ellipse-1 {
   position: absolute;

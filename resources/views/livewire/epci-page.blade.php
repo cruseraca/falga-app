@@ -52,7 +52,7 @@
 ></x-epci-item>
 <div class="falga-wd-divider"></div>
 <div class="falga-container">
-    <div class="falga-section-title text-center mb-8 mt-8 md:mt-24">
+    <div class="falga-section-title red-falga text-center mb-8 mt-8 md:mt-24">
         WORK DIVISION
     </div>
     <div class="falga-wd mb-14">

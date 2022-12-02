@@ -10,6 +10,7 @@ export default defineConfig({
             "resources/css/epci.css",
             "resources/css/esg.css",
             "resources/js/app.js",
+            "resources/js/homepage.js",
             "resources/js/esg.js",
         ]),
     ],
