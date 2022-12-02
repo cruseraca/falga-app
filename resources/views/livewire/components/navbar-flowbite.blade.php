@@ -58,7 +58,7 @@
                 </li>
             </ul>
             <div class="sm:ml-48">
-                <a href="#" class="falga-button">Contact Us</a>
+                <a href="{{ url('/#contact-us') }}" class="falga-button">Contact Us</a>
             </div>
         </div>
     </div>

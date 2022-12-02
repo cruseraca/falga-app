@@ -12564,6 +12564,9 @@ input:checked + .toggle-bg {
 .pr-3 {
   padding-right: 0.75rem;
 }
+.pt-0 {
+  padding-top: 0px;
+}
 .text-left {
   text-align: left;
 }
@@ -13509,6 +13512,10 @@ input:checked + .toggle-bg {
     margin-left: 1rem;
   }
 
+  .sm\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -13708,6 +13715,14 @@ input:checked + .toggle-bg {
 
   .sm\:pb-4 {
     padding-bottom: 1rem;
+  }
+
+  .sm\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .sm\:pt-16 {
+    padding-top: 4rem;
   }
 
   .sm\:text-left {

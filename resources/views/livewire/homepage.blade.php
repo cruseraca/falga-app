@@ -253,9 +253,9 @@
 </div>
 {{-- Contact Us --}}
 <div class="w-full bg-[url('/img/homepage/background-contact.jpeg')] bg-cover bg-no-repeat">
-    <div class="container mx-auto sm:py-16">
+    <div class="container mx-auto sm:pb-16">
         <div class="flex flex-col sm:flex-row w-full">
-            <div class="w-full order-last sm:order-first mb-10">
+            <div class="w-full order-last sm:order-first mb-10 sm:mt-16">
                 <p class="falga-section-title text-center my-10">
                     Site Map
                 </p>
@@ -263,8 +263,8 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2672018290027!2d106.82190816512019!3d-6.228460295491357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e4a175a33f%3A0xc96c83f443f46e81!2sDea%20Tower%2C%20Jl.%20Mega%20Kuningan%20Barat%20No.1%2C%20RT.5%2FRW.2%2C%20Kuningan%2C%20East%20Kuningan%2C%20Setiabudi%2C%20South%20Jakarta%20City%2C%20Jakarta%2012950!5e0!3m2!1sid!2sid!4v1668005572898!5m2!1sid!2sid" width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-            <div class="w-full p-10">
-                <p class="falga-section-title text-center mb-10">
+            <div id="contact-us" class="w-full p-10">
+                <p class="falga-section-title text-center mb-10 sm:mt-16">
                     Contact Us
                 </p>
                 <form>
