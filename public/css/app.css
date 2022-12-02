@@ -12561,6 +12561,9 @@ input:checked + .toggle-bg {
 .pb-4 {
   padding-bottom: 1rem;
 }
+.pr-3 {
+  padding-right: 0.75rem;
+}
 .text-left {
   text-align: left;
 }
@@ -13840,6 +13843,11 @@ input:checked + .toggle-bg {
     margin-right: 1rem;
   }
 
+  .md\:mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
   .md\:mt-\[77px\] {
     margin-top: 77px;
   }
@@ -14121,6 +14129,14 @@ input:checked + .toggle-bg {
     padding: 1rem;
   }
 
+  .md\:p-2\.5 {
+    padding: 0.625rem;
+  }
+
+  .md\:p-2 {
+    padding: 0.5rem;
+  }
+
   .md\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -14144,6 +14160,11 @@ input:checked + .toggle-bg {
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .md\:pt-10 {
@@ -14209,6 +14230,11 @@ input:checked + .toggle-bg {
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .md\:font-medium {
