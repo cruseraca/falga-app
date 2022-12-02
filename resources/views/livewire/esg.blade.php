@@ -18,10 +18,10 @@
 @endcomponent
 <div class="falga-container flex mb-16 flex-col md:flex-row">
     <div>
-        <div class="falga-section-title">
+        <div class="falga-section-title red-falga">
             <div class="p-2 md:p-6 border-b-2 mt-12 md:mt-24">Reports</div>
         </div>
-        <div class="mb-4 falga-section-title overflow-auto">
+        <div class="mb-4 falga-section-title red-falga overflow-auto">
             <ul class="flex md:flex-col items-stretch" id="esg-tab" role="tablist">
                 <li class="mr-2 md:mr-0" role="presentation">
                     <a href="{{ url("esg?q=sustainability#breadrumbs") }}" class="{{ $q == "sustainability" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap" id="sustainability-tab" type="button" role="tab" aria-controls="sustainability" aria-selected="false">Sustainability Reports</a>
@@ -36,7 +36,7 @@
         </div>
     </div>
     <div id="esg-tab-content" class="flex-1 md:border-l">
-        <div class="falga-section-title mt-8 py-3 border-b-2 border-gray-600 md:ml-8 md:px-8">{{ $title }}</div>
+        <div class="falga-section-title red-falga mt-8 py-3 border-b-2 border-gray-600 md:ml-8 md:px-8">{{ $title }}</div>
         @foreach($items as $item)
         <div class="flex flex-col md:flex-row md:items-center w-full md:px-8 py-4 border-b md:ml-8">
             <div class="flex-1">

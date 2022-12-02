@@ -148,6 +148,7 @@
   font-weight: 400;
   text-align: center;
   margin-top: 9px;
+  margin-bottom: 12px;
   padding-left: 12px;
   padding-right: 12px;
   flex: 1;
@@ -182,7 +183,7 @@
   display: flex;
   align-items: stretch;
   flex-direction: column;
-  max-width: 244px;
+  max-width: 264px;
   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.4);
   border: 1px solid rgba(0, 0, 0, 0.12);
   flex-wrap: wrap;
@@ -192,6 +193,9 @@
   height: 325px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  margin: 10px;
 }
 .falga-mp-item-bg {
   position: absolute;
@@ -210,7 +214,7 @@
   z-index: 1;
 }
 .falga-mp-item-title {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
   text-align: center;
   padding-left: 12px;
@@ -272,7 +276,7 @@
   z-index: 1;
 }
 .falga-founder-name {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
   margin-bottom: 28px;
 }

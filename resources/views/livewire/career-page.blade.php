@@ -13,7 +13,7 @@
 ]])
 @endcomponent
 <div class="falga-container">
-    <div class="w-full text-center falga-section-title uppercae my-16">{{ "We're Hiring!" }}</div>
+    <div class="w-full text-center falga-section-title red-falga uppercae my-16">{{ "We're Hiring!" }}</div>
     <div class="overflow-x-auto relative mb-8">
         <table class="w-full text-xl text-left text-gray-500 dark:text-gray-400">
             <thead class="text-xl text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">

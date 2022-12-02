@@ -7,6 +7,6 @@
     <div class="falga-cv-bg">
         <div class="title font-poppins">{{ $title }}</div>
         <div class="description">{{ $description }}</div>
-        <div class="underline"></div>
+        {{-- <div class="underline"></div> --}}
     </div>
 </div>

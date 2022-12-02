@@ -15,10 +15,10 @@
 @endcomponent
 <div class="falga-container flex mb-16 flex-col md:flex-row">
     <div>
-        <div class="falga-section-title">
+        <div class="falga-section-title red-falga">
             <div class="p-2 md:p-6 border-b-2 mt-12 md:mt-24">MEDIA & INFORMATION</div>
         </div>
-        <div class="mb-4 falga-section-title overflow-auto">
+        <div class="mb-4 falga-section-title red-falga overflow-auto">
             <ul class="flex md:flex-col items-stretch" id="esg-tab" role="tablist">
                 <li class="mr-2 md:mr-0" role="presentation">
                     <a href="{{ url("media-and-information?q=portfolio#breadrumbs") }}" class="{{ $q == "portfolio" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap uppercase" id="portfolio-tab" type="button" role="tab" aria-controls="portfolio" aria-selected="false">Portofolio</a>
@@ -33,7 +33,7 @@
         </div>
     </div>
     <div id="esg-tab-content" class="flex-1 md:border-l">
-        <div class="falga-section-title mt-8 py-3 border-b-2 border-gray-600 md:ml-8 md:px-8">{{ $title }}</div>
+        <div class="falga-section-title red-falga mt-8 py-3 border-b-2 border-gray-600 md:ml-8 md:px-8">{{ $title }}</div>
         <div class="flex flex-wrap items-stretch justify-center">
             @if($q == 'portfolio')
             @foreach($items as $item)
