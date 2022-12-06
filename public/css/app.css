@@ -12269,16 +12269,20 @@ input:checked + .toggle-bg {
   --tw-bg-opacity: 1;
   background-color: rgb(165 80 103 / var(--tw-bg-opacity));
 }
+.bg-\[\#8B547D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(139 84 125 / var(--tw-bg-opacity));
+}
+.bg-\[\#71528A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(113 82 138 / var(--tw-bg-opacity));
+}
 .bg-black\/20 {
   background-color: rgb(0 0 0 / 0.2);
 }
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-.bg-\[\#8B547D\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(139 84 125 / var(--tw-bg-opacity));
 }
 .bg-rose-900 {
   --tw-bg-opacity: 1;
@@ -12346,10 +12350,6 @@ input:checked + .toggle-bg {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
-.bg-\[\#71528A\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(113 82 138 / var(--tw-bg-opacity));
-}
 .bg-opacity-25 {
   --tw-bg-opacity: 0.25;
 }
@@ -12361,9 +12361,6 @@ input:checked + .toggle-bg {
 }
 .bg-our-business-banner {
   background-image: url('/img/our-business/OB_banner.jpeg');
-}
-.bg-gradient-to-b {
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 .bg-hero-image {
   background-image: url('/img/hero-image-2.jpg');
@@ -12377,11 +12374,14 @@ input:checked + .toggle-bg {
 .bg-\[url\(\'\/img\/our-business\/oil-and-gas\/oil_and_gas_banner\.jpg\'\)\] {
   background-image: url('/img/our-business/oil-and-gas/oil_and_gas_banner.jpg');
 }
-.bg-gradient-to-t {
-  background-image: linear-gradient(to top, var(--tw-gradient-stops));
-}
 .bg-\[url\(\'\/img\/property\/banner\.png\'\)\] {
   background-image: url('/img/property/banner.png');
+}
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+.bg-gradient-to-t {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 .from-indigo-900 {
   --tw-gradient-from: #362F78;
@@ -12991,10 +12991,10 @@ input:checked + .toggle-bg {
   font-style: normal;
   font-weight: 900;
   font-size: 22px;
-  /* color: #972540; */
-  background: linear-gradient(180deg, #2C408F 14.14%, #34287C 37.74%, #6B2B68 50.49%, #972540 68.35%);
+  color: #972540;
+  /* background: linear-gradient(180deg, #2C408F 14.14%, #34287C 37.74%, #6B2B68 50.49%, #972540 68.35%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 @media (min-width: 640px) {
   .falga-section-title {
