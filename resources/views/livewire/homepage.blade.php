@@ -20,7 +20,9 @@
     </p>
 </div>
 <div class="home-glance">
-    <img alt="at glance" src="{{ asset('img/homepage/at-glance-1.png') }}" class="home-glance-image" />
+    <a href="{{ url("about-us") }}" class="home-glance-image">
+        <img alt="at glance" src="{{ asset('img/homepage/at-glance-1.png') }}" />
+    </a>
     <a href="{{ url("epci-business") }}" class="home-glance-item home-glance-epci-business">
         <img alt="EPCI Business" src="{{ asset('img/homepage/epci-business-n.png') }}" class="home-glance-epci-business-img" />
     </a>

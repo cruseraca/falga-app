@@ -19,13 +19,16 @@
                         <div class="py-2">
                             <ul class="py-1 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                                 <li>
-                                    <a href="{{ url('about-us#vision-missions') }}" class="block py-2 px-7 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Vision & Missions</a>
+                                    <a href="{{ url('about-us') }}" class="block py-2 px-8 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga border-b font-bold">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('about-us#core-values') }}" class="block py-2 px-7 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Core Values</a>
+                                    <a href="{{ url('about-us#vision-missions') }}" class="block py-2 px-8 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Vision & Missions</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('about-us#key-person') }}" class="block py-2 px-7 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Key Person</a>
+                                    <a href="{{ url('about-us#core-values') }}" class="block py-2 px-8 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Core Values</a>
+                                </li>
+                                <li>
+                                    <a href="{{ url('about-us#key-person') }}" class="block py-2 px-8 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Key Person</a>
                                 </li>
                             </ul>
                         </div>
@@ -41,6 +44,9 @@
                     <div data-popover id="our-business-pop" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
                         <div class="py-2">
                             <ul class="py-1 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="{{ url('our-business') }}" class="block py-2 px-8 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga border-b font-bold">Our Business</a>
+                                </li>
                                 <li>
                                     <a href="{{ url('epci-business') }}" class="block py-2 px-8 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">EPCI Business</a>
                                 </li>
