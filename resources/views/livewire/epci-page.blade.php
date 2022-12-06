@@ -88,7 +88,7 @@
             data-popover-placement="bottom" />
         <div data-popover id="popover-instrumentation" role="tooltip" class="falga-wd-popover absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
             <div class="px-3 py-2 text-sm md:text-base font-normal">
-                <p>Automatic Tank Gauging (ATG),C ustody Transfer, Radar Transmitter & Gauge, Metering System, Level, Flow, Motor Operated Valve (MOV), Surge Relief Valve, etc.</p>
+                <p>Automatic Tank Gauging (ATG), Custody Transfer, Radar Transmitter & Gauge, Metering System, Level, Flow, Motor Operated Valve (MOV), Surge Relief Valve, etc.</p>
             </div>
             <div data-popper-arrow></div>
         </div>

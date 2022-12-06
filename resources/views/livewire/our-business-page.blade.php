@@ -51,7 +51,7 @@
         <div class="m-auto w-[80%] md:ml-4 md:h-[400px] md:w-[500px]">
             <img class="object-cover h-full" src="{{ asset('img/our-business/industrial.jpeg') }}" alt="">
         </div>
-        <div class="absolute -z-50 top-5 right-4 md:top-14 md:right-24 bg-gradient-to-b from-indigo-900 to to-pink-700 h-[85%] md:h-[80%] w-2/5"></div>
+        <div class="absolute -z-50 top-5 right-4 md:top-14 md:right-24 bg-[#8B547D] h-[85%] md:h-[80%] w-2/5"></div>
     </div>
     <div class="font-poppins py-8 md:basis-1/2 md:p-16">
         <div class="text-xl text-rose-800 font-black mb-4 md:text-3xl md:text-right">INDUSTRIAL EQUIPMENT RENTAL</div>
@@ -67,7 +67,7 @@
             <div class="w-[80%] m-auto md:ml-24 z-10 md:w-[500px] md:h-[400px]">
                 <img class="object-cover h-full" src="{{ asset('img/our-business/hospitality.jpg') }}" alt="">
             </div>
-            <div class="absolute top-8 right-4 md:top-14 md:right-0 bg-gradient-to-b from-indigo-900 to to-pink-700 h-[80%] w-2/5"></div>
+            <div class="absolute top-8 right-4 md:top-14 md:right-0 bg-[#71528A] h-[80%] w-2/5"></div>
         </div>
         <div class="font-poppins py-8 md:basis-1/2 md:p-16">
             <div class="text-xl text-rose-800 font-black mb-4 md:text-3xl">PROPERTY AND HOSPITALITY</div>
@@ -83,7 +83,7 @@
         <div class="w-[80%] h-full md:h-[400px] md:w-[500px] m-auto z-10">
             <img class="h-full w-full object-cover md:h-full md:w-full" src="{{ asset('img/our-business/future.jpg') }}" alt="">
         </div>
-        <div class="absolute -top-4 left-6 md:-top-8 md:left-[25%] bg-gradient-to-b from-indigo-900 to to-pink-700 h-[80%] w-[80%] md:w-[35%] md:h-[90%]"></div>
+        <div class="absolute -top-4 left-6 md:-top-8 md:left-[25%] bg-[#595897] h-[80%] w-[80%] md:w-[35%] md:h-[90%]"></div>
     </div>
     <div class="font-poppins py-8 md:basis-1/2 md:py-16 md:px-24">
         <div class="text-xl text-rose-800 font-black mb-4 md:text-3xl text-center">FUTURE BUSINESS</div>

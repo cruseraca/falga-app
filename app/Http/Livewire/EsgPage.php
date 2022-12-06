@@ -54,7 +54,7 @@ class EsgPage extends Component
                     ["title" => "Corporate Governance 6", "date" => "21 September 2022", "file" => asset("pdf/contoh.pdf")],
                 ]
             ];
-        $this->q = empty(app('request')->input('q')) ? "financial" : app('request')->input('q');
+        $this->q = empty(app('request')->input('q')) ? "sustainability" : app('request')->input('q');
         $this->title = $this->titles[$this->q];
         $this->items = $this->all_items[$this->q];
     }
