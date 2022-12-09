@@ -7,10 +7,10 @@
         <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed">
             Core Emphasis on Business Building through Sustainable Investing
         </h1>
-        <button class="falga-button mt-8 uppercase" style="padding-left: 28px">Learn More <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+        <a href="{{ url("about-us") }}" class="falga-button mt-8 uppercase" style="padding-left: 28px">Learn More <svg style="width:24px;height:24px" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M10,17L15,12L10,7V17Z" />
             </svg>
-        </button>
+        </a>
     </div>
 </div>
 {{-- Falga at glance --}}
