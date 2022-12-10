@@ -65,7 +65,7 @@
 {{-- Managing Partners --}}
 <div id="key-person" class="falga-container pt-16 md:pt-20">
     <div class="falga-section-title text-center">MANAGING PARTNERS</div>
-    <div class="flex flex-wrap md:divide-x-[72px] divide-transparent justify-center items-stretch">
+    <div class="flex flex-wrap flex-col-reverse md:flex-row md:divide-x-[72px] divide-transparent justify-center items-stretch">
         <x-managing-partner-item name="Tommy Hesarid Simamora" position="Partner" image="{{ url('/img/about-us/tommy.jpeg') }}"></x-managing-partner-item>
         <x-managing-partner-item name="Ronald Edy Simamora, B.SC, M.SC" position="Partner" image="{{ url('/img/about-us/ronald.jpeg') }}"></x-managing-partner-item>
     </div>
