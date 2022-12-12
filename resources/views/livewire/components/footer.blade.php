@@ -20,7 +20,8 @@
                 <div class="sm:w-1/2 lg:w-6/12 sm:pl-10 pr-4">
                     <div class="flex flex-wrap items-top mb-6">
                         <div class="w-auto lg:w-6/12 px-4">
-                            <span class="block text-blueGray-500 text-sm font-semibold mb-2">About Us</span>
+                            <span class="block text-blueGray-500 text-sm font-semibold mb-2">
+                                <a href="{{ url('about-us') }}">About Us</a></span>
                             <ul class="list-unstyled">
                                 <li>
                                     <a href="{{ url('about-us') }}" class="block text-sm" href="">About</a>
@@ -50,7 +51,9 @@
                             <a href="{{ url('career') }}" class="block text-sm font-semibold mb-2 mt-4">Career</a>
                         </div>
                         <div class="w-full lg:w-6/12 px-4">
-                            <span class="block text-blueGray-500 text-sm font-semibold mb-2">Our Business</span>
+                            <span class="block text-blueGray-500 text-sm font-semibold mb-2">
+                                <a href="{{ url('our-business') }}">Our Business</a>
+                            </span>
                             <ul class="list-unstyled">
                                 <li>
                                     <a href="{{ url('epci-business') }}" class="block text-sm" href="">EPCI Business</a>
