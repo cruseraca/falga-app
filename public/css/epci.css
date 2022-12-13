@@ -10,7 +10,7 @@
 .falga-epci-o.reverse {
   background-color: unset;
 }
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 761px) {
   .falga-epci-o {
     padding-bottom: 80px;
     padding-top: 80px;
@@ -20,7 +20,6 @@
   display: flex;
   flex-direction: column;
   min-height: 400px;
-  max-width: 892px;
   position: relative;
 }
 .falga-epci-i {
@@ -30,7 +29,7 @@
   flex-direction: column;
   align-items: center;
 }
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 761px) {
   .falga-epci-i {
     min-height: 476px;
     flex-direction: row;
@@ -38,46 +37,46 @@
 }
 .falga-epci-images {
   position: relative;
-  height: 240px;
-  width: 288px;
+  height: 262px;
+  width: 340px;
   z-index: 1;
 }
 .falga-epci-background {
   position: absolute;
-  top: 34px;
-  bottom: 34px;
-  left: 0;
-  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 16px;
+  right: 16px;
 }
 .falga-epci-image {
   position: absolute;
-  left: 24px;
-  right: 24px;
-  top: 0;
-  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 16px;
+  bottom: 16px;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 240px;
-  height: 240px;
+  width: 340px;
+  height: 230px;
 }
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 761px) {
   .falga-epci-images {
     position: absolute;
-    width: 380px;
-    height: 476px;
+    width: 710px;
+    height: 544px;
     margin-top: unset;
   }
   .falga-epci-image {
-    top: 48px;
-    bottom: 48px;
-    width: 380px;
-    height: 380px;
+    top: 32px;
+    bottom: 32px;
+    width: 710px;
+    height: 480px;
     left: 0;
     right: 0;
   }
   .falga-epci-background {
-    left: 68px;
-    right: 68px;
+    left: 164px;
+    right: 164px;
     top: 0;
     bottom: 0;
   }
@@ -92,14 +91,16 @@
   border-radius: 12px;
   padding: 18px 32px;
 }
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 761px) {
   .falga-epci-content {
-    margin-left: 302px;
+    margin-left: auto;
+    max-width: 640px;
     margin-top: 0;
   }
 }
 .falga-epci-line {
-  border-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
   width: 16px;
   height: 100%;
   position: absolute;
@@ -116,10 +117,14 @@
 .falga-epci-o.reverse .falga-epci-line {
   right: unset;
   left: -1px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 761px) {
   .falga-epci-o.reverse .falga-epci-content {
-    margin-right: 302px;
+    margin-right: auto;
     margin-left: 0;
   }
 }

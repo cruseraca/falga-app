@@ -27,13 +27,13 @@
         <p class="text-justify">
             FALGA EPCI Business has robust track record in Engineering, Procurement, Construction and Installation (EPCI) projects since 1986 with more than 110 EPCI Infrastructure Projects delivered with high quality services and solutions for Indonesian SOEs and Public/Private Companies. CSU is committed to provide comprehensive EPCI services for clients across infrastructure industry that deliver quality, certainty, safety and capital efficiency. Our team of highly skilled and experienced professionals combine multiple aspects of technical & non-technical resources to ensure delivery of project timeline and cost target while ensuring regulatory compliance in our deliverables.
         </p>
-        <p class="falga-section-title uppercase mt-4 md:mt-8">
-            Our Subholding
-        </p>
+        <div class="flex">
+            <a href="https://csu.co.id" target="_blank" class="falga-button mt-8 uppercase">our subholding</a>
+        </div>
     </div>
 </div>
 <x-epci-item title="ENGINEERING" description="Our EPCI Business deploy schedule-driven engineering team that focuses on project quality, safety and punctuality in order to provide innovative and cost-effective engineering solutions. Our highly skilled and experienced engineers commits to provide high quality support and project implementation services to our clients." color="#5063A1" image="{{ url('img/epci-business/engineering.jpg') }}"></x-epci-item>
-<x-epci-item title="PROCUREMENT" description="Our EPCI Business capitalizes its experience in global procurement expertise, market knowledge and supply chain networks to provide the best value for clients' capital projects. Our procurement services strategically covers equipment, materials and services through strategic sourcing, contract management, logistics functions and material  management." color="#972540" image="{{ url('img/epci-business/procurement.jpg') }}" reverse="true"></x-epci-item>
+<x-epci-item title="PROCUREMENT" description="Our EPCI Business capitalizes its experience in global procurement expertise, market knowledge and supply chain networks to provide the best value for clients' capital projects. Our procurement services strategically covers equipment, materials and services through strategic sourcing, contract management, logistics functions and material  management." color="#972540" image="{{ url('img/epci-business/procurement.png') }}" reverse="true"></x-epci-item>
 <x-epci-item title="CONSTRUCTION" description="Our EPCI Business mobilizes its network of construction resources to facilitate the effective mobilization of skilled construction teams and advanced methodologies. CSU has extensive experience in managing multicultural workforces and local considerations." color="#7D5082" image="{{ url('img/epci-business/construction.jpg') }}"></x-epci-item>
 <x-epci-item title="INSTALLATION" description="Our EPCI Business has proven quality processes for installing system that consistently deliver effective resources, tools and technical expertise. Our team provides installation services that focus on execution punctuality and quality that complement with our safety solutions." color="#584B8F" image="{{ url('img/epci-business/installation.jpg') }}" reverse="true"></x-epci-item>
 <div class="falga-wd-divider"></div>
