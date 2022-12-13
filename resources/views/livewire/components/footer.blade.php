@@ -74,7 +74,7 @@
                             <a href="{{ url('media-and-information') }}" class="block text-sm font-semibold mb-2 mt-4">Media</a>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="{{ url('media-and-information?q=portfolio#breadrumbs') }}" class="block text-sm" href="">Portfolio</a>
+                                    <a href="{{ url('media-and-information?q=portfolio#breadrumbs') }}" class="block text-sm" href="">Project Portfolio</a>
                                 </li>
                                 <li>
                                     <a href="{{ url('media-and-information?q=blog#breadrumbs') }}" class="block text-sm" href="">Blog</a>

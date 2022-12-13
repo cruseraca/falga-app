@@ -24,7 +24,7 @@
         <div class="mb-4 falga-section-title red-falga overflow-auto">
             <ul class="flex md:flex-col items-stretch" id="esg-tab" role="tablist">
                 <li class="mr-2 md:mr-0" role="presentation">
-                    <a href="{{ url("media-and-information?q=portfolio#breadrumbs") }}" class="{{ $q == "portfolio" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap uppercase" id="portfolio-tab" type="button" role="tab" aria-controls="portfolio" aria-selected="false">Portfolio</a>
+                    <a href="{{ url("media-and-information?q=portfolio#breadrumbs") }}" class="{{ $q == "portfolio" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap uppercase" id="portfolio-tab" type="button" role="tab" aria-controls="portfolio" aria-selected="false">Project Portfolio</a>
                 </li>
                 <li class="mr-2 md:mr-0" role="presentation">
                     <a href="{{ url("media-and-information?q=blog#breadrumbs") }}" class="{{ $q == "blog" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap uppercase" id="blog-tab" type="button" role="tab" aria-controls="blog" aria-selected="false">Blog</a>
