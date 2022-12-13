@@ -27,6 +27,14 @@ mix.js("resources/js/app.js", "public/js")
         require("tailwindcss"),
         require("autoprefixer"),
     ])
+    .postCss("resources/css/our-business.css", "public/css", [
+        require("tailwindcss"),
+        require("autoprefixer"),
+    ])
+    .postCss("resources/css/property.css", "public/css", [
+        require("tailwindcss"),
+        require("autoprefixer"),
+    ])
     .postCss("resources/css/epci.css", "public/css", [
         require("tailwindcss"),
         require("autoprefixer"),

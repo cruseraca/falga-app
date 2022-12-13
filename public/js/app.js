@@ -22312,6 +22312,32 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
+/***/ "./resources/css/property.css":
+/*!************************************!*\
+  !*** ./resources/css/property.css ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/css/epci.css":
+/*!********************************!*\
+  !*** ./resources/css/epci.css ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/css/esg.css":
 /*!*******************************!*\
   !*** ./resources/css/esg.css ***!
@@ -22403,10 +22429,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/css/epci.css":
-/*!********************************!*\
-  !*** ./resources/css/epci.css ***!
-  \********************************/
+/***/ "./resources/css/our-business.css":
+/*!****************************************!*\
+  !*** ./resources/css/our-business.css ***!
+  \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -22757,12 +22783,14 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
 /******/ 			"css/app": 0,
-/******/ 			"css/epci": 0,
+/******/ 			"css/our-business": 0,
 /******/ 			"css/about-us": 0,
 /******/ 			"css/home": 0,
 /******/ 			"css/media-and-information": 0,
 /******/ 			"css/career": 0,
-/******/ 			"css/esg": 0
+/******/ 			"css/esg": 0,
+/******/ 			"css/epci": 0,
+/******/ 			"css/property": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -22812,15 +22840,17 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/epci","css/about-us","css/home","css/media-and-information","css/career","css/esg"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/epci","css/about-us","css/home","css/media-and-information","css/career","css/esg"], () => (__webpack_require__("./resources/sass/app.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/epci","css/about-us","css/home","css/media-and-information","css/career","css/esg"], () => (__webpack_require__("./resources/css/app.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/epci","css/about-us","css/home","css/media-and-information","css/career","css/esg"], () => (__webpack_require__("./resources/css/home.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/epci","css/about-us","css/home","css/media-and-information","css/career","css/esg"], () => (__webpack_require__("./resources/css/about-us.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/epci","css/about-us","css/home","css/media-and-information","css/career","css/esg"], () => (__webpack_require__("./resources/css/epci.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/epci","css/about-us","css/home","css/media-and-information","css/career","css/esg"], () => (__webpack_require__("./resources/css/esg.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/epci","css/about-us","css/home","css/media-and-information","css/career","css/esg"], () => (__webpack_require__("./resources/css/career.css")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","css/epci","css/about-us","css/home","css/media-and-information","css/career","css/esg"], () => (__webpack_require__("./resources/css/media-and-information.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/app.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/home.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/about-us.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/our-business.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/property.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/epci.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/esg.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/career.css")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/media-and-information.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

@@ -66,7 +66,7 @@
 <div id="key-person" class="falga-container pt-16 md:pt-20">
     <div class="falga-section-title text-center">MANAGING PARTNERS</div>
     <div class="flex flex-wrap flex-col-reverse md:flex-row md:divide-x-[72px] divide-transparent justify-center items-stretch">
-        <x-managing-partner-item name="Tommy Hesarid Simamora" position="Partner" image="{{ url('/img/about-us/tommy.jpeg') }}"></x-managing-partner-item>
+        <x-managing-partner-item name="Tommy Hesarid Simamora, B.SC, MBA" position="Partner" image="{{ url('/img/about-us/tommy.jpeg') }}"></x-managing-partner-item>
         <x-managing-partner-item name="Ronald Edy Simamora, B.SC, M.SC" position="Partner" image="{{ url('/img/about-us/ronald.jpeg') }}"></x-managing-partner-item>
     </div>
 </div>
@@ -78,7 +78,7 @@
             <img src="{{ url('/img/about-us/sarimin.jpeg') }}" class="falga-founder-i"></img>
             <div class="md:mt-0 mt-8 flex-1">
                 <div class="falga-founder-name">Ir. Sarimin Simamora</div>
-                <div>
+                <div class="text-justify">
                     FALGA GROUP was founded in 1986 by Ir. Sarimin Simamora starting as an Engineering, Procurement, Construction and Installation (EPCI) Company in Indonesia. With his strong background in engineering, Mr. Simamora led FALGA to build several PPP infrastructure projects especially in Oil & Gas Infra. FALGA has since then extensively expanded its group’s subsidiaries and affiliates onto 4 business pillars: EPCI, Oil & Gas Retail, Industrial and Equipment Rental and Properties and Property & Hospitality.
                 </div>
             </div>

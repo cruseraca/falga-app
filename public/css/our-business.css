@@ -1,0 +1,152 @@
+.epci-image {
+  max-width: 640px;
+  width: 100%;
+}
+.epci-image-ar {
+  position: relative;
+  width: 100%;
+  padding-top: 65%;
+}
+.epci-image-b {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 60.625%;
+  background-color: #595897;
+}
+.epci-image-i {
+  position: absolute;
+  z-index: 2;
+  top: 7.6923077%;
+  bottom: 7.6923077%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 0;
+  width: 97.34375%;
+  height: 84.6153846%;
+}
+
+.ogr-image {
+  max-width: 555px;
+  width: 100%;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ogr-image-ar {
+  position: relative;
+  width: 100%;
+  padding-top: 66.3063063%;
+}
+.ogr-image-b {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  background-color: #a55067;
+  width: 86.4864865%;
+  height: 95.6521739%;
+}
+.ogr-image-i {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 0;
+  width: 97.2972973%;
+  height: 95.6521739%;
+}
+
+.ier-image {
+  max-width: 513px;
+  width: 100%;
+}
+.ier-image-ar {
+  position: relative;
+  width: 100%;
+  padding-top: 81.0916179%;
+}
+.ier-image-b {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 75.6335283%;
+  background-color: #8b547d;
+}
+.ier-image-i {
+  position: absolute;
+  z-index: 2;
+  top: 7.6923077%;
+  bottom: 7.6923077%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 0;
+  width: 93.5672515%;
+  height: 84.6153846%;
+}
+
+.pah-image {
+  max-width: 657px;
+  width: 100%;
+}
+.pah-image-ar {
+  position: relative;
+  width: 100%;
+  padding-top: 59.0563166%;
+}
+.pah-image-b {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 75.6335283%;
+  background-color: #71528a;
+}
+.pah-image-i {
+  position: absolute;
+  z-index: 2;
+  top: 7.6923077%;
+  bottom: 7.6923077%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 0;
+  width: 95.129376%;
+  height: 84.6153846%;
+}
+
+.fb-image {
+  max-width: 513px;
+  width: 100%;
+  align-self: center;
+}
+.fb-image-ar {
+  position: relative;
+  width: 100%;
+  padding-top: 75.6335283%;
+}
+.fb-image-b {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  width: 93.5672515%;
+  height: 90.7216495%;
+  background-color: #595897;
+}
+.fb-image-i {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 0;
+  width: 93.5672515%;
+  height: 90.7216495%;
+}
+
