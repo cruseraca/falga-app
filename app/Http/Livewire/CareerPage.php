@@ -7,14 +7,12 @@ use Livewire\Component;
 class CareerPage extends Component
 {
     public $items = [
-        ["title" => "UX Designer", "location" => "Jakarta Barat, Indonesia", "department" => "HRD", "type" => "Full Time"],
-        ["title" => "UX Designer", "location" => "Jakarta Barat, Indonesia", "department" => "Production", "type" => "Full Time"],
-        ["title" => "UX Designer", "location" => "Jakarta Barat, Indonesia", "department" => "Sales", "type" => "Full Time"],
-        ["title" => "UX Designer", "location" => "Jakarta Barat, Indonesia", "department" => "Sales", "type" => "Full Time"],
-        ["title" => "UX Designer", "location" => "Jakarta Barat, Indonesia", "department" => "Sales", "type" => "Full Time"],
-        ["title" => "UX Designer", "location" => "Jakarta Barat, Indonesia", "department" => "Sales", "type" => "Full Time"],
-        ["title" => "UX Designer", "location" => "Jakarta Barat, Indonesia", "department" => "Sales", "type" => "Full Time"],
-        ["title" => "UX Designer", "location" => "Jakarta Barat, Indonesia", "department" => "Sales", "type" => "Full Time"]
+        ["title" => "Tax Officer", "location" => "Jakarta Selatan, Indonesia", "department" => "TAX", "type" => "Full Time"],
+        ["title" => "Accounting Staff", "location" => "Jakarta Selatan, Indonesia", "department" => "Finance & Accounting", "type" => "Full Time"],
+        ["title" => "Mechanical Engineer", "location" => "Jakarta Pusat, Indonesia", "department" => "Engineering", "type" => "Full Time"],
+        ["title" => "Drafter", "location" => "Jakarta Pusat, Indonesia", "department" => "Engineering", "type" => "Part Time (Contract)"],
+        ["title" => "Cost Control", "location" => "Jakarta Pusat, Indonesia", "department" => "Engineering", "type" => "Full Time"],
+        ["title" => "Finance Intern", "location" => "Jakarta Selatan, Indonesia", "department" => "Finance & Accounting", "type" => "Intern"]
     ];
 
     public function render()
