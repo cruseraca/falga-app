@@ -86,19 +86,9 @@
       <div class="falga-mni-item mt-8 md:mt-12 md:ml-12">
         <img class="object-cover h-[242px]" src="{{ $item["image"] }}" />
         <div class="font-bold text-red-falga mt-6 mx-6 capitalize">{{ $item["title"] }}</div>
-        <div class="flex mx-6 text-xs mt-1">
+        <div class="flex mx-6 text-xs mt-1 mb-6">
           <div class="pr-4 border-r border-black">{{ $item["location"] }}</div>
           <div class="pl-4">{{ $item["category"] }}</div>
-        </div>
-        <div class="flex mt-6 mx-6 text-xs">
-          <div class="flex-1">Project Started</div>
-          <div>:</div>
-          <div class="flex-1 max-w-[100px] text-right">{{ $item["start_date"] }}</div>
-        </div>
-        <div class="flex mx-6 mb-6 mt-2 text-xs">
-          <div class="flex-1">Project Completed</div>
-          <div>:</div>
-          <div class="flex-1 max-w-[100px] text-right">{{ $item["start_date"] }}</div>
         </div>
       </div>
       @endforeach
