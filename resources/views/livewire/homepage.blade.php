@@ -181,7 +181,7 @@
         <div class="carousel sm:w-[85%] mx-auto w-screen">
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("epci-business") }}" class="h-full w-full">
-                    <img src="{{ asset('img/slider/image-7-3.jpg') }}" class="h-full w-full object-cover object-center">
+                    <img src="{{ asset('img/slider/image-7.jpg') }}" class="h-full w-full object-cover object-center">
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Engineering, Procurement, Construction, and Installation (EPCI)</p>
