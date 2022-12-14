@@ -31,7 +31,7 @@
       <div class="mt-4 text-sm md:text-base md:pb-8">
         To be a world-class Business Builder that originates and empowers viable, large-scale enterprises that deliver sustainable performance.
       </div>
-      <div class="falga-section-title mt-12">MISSIONS</div>
+      <div class="falga-section-title mt-4">MISSIONS</div>
       <div class="mt-4 text-sm md:text-base">
         To drive strategic agility and operational excellence to withstand market dynamics and business turbulence
       </div>
