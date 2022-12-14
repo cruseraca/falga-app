@@ -53,7 +53,7 @@
 <div id="core-values" class="falga-container pt-16 md:pt-20">
   <div class="falga-section-title text-center">CORE VALUES</div>
   <div class="mt-12 text-sm md:text-base">
-    FALGA have adopted core values that have carried our group to thrive for the past 36 years. Our core values aim to shape agility, resilience and sustainability in our portfolio of businesses to continue to thrive in this disruptive era.
+    FALGA GROUP's core values are to be USEFUL. These values have carried our group to thrive for almost 4 decades. Our core values aim to shape agility, resilience and sustainability in our portfolio of businesses to continue to thrive in this disruptive era.
   </div>
   <div class="flex flex-wrap md:divide-x-[16px] divide-transparent items-stretch">
     <x-core-value-item title="Uplifting" description="Positive work environment that encourage meaningful relationship, ignite energy & elevate organization-wide performance"></x-core-value-item>
