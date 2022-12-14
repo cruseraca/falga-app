@@ -9,16 +9,18 @@ class ManagingPartnerItem extends Component
     public $name;
     public $position;
     public $image;
+    public $description;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($name, $position, $image)
+    public function __construct($name, $position, $image, $description)
     {
         $this->name = $name;
         $this->position = $position;
         $this->image = $image;
+        $this->description = $description;
     }
 
     /**
