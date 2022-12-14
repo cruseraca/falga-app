@@ -1,5 +1,20 @@
 .falga-banner {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
   background-image: url("/img/about-us/banner-2.jpg");
+}
+@media (min-width: 1366px) {
+  .falga-banner {
+    padding-top: 769px;
+  }
+}
+.falga-banner-inner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 .falga-vm-left {
   width: 236px;
