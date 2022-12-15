@@ -19,20 +19,60 @@ const init_carousel = () => {
 };
 
 const init_contact_us = () => {
-    const contact_us = $("#contact-us");
-    const submit = contact_us.find("#submit");
-    submit.on("click", async () => {
-        try {
-            const result = await axios.post('/api/contact-us', { name: 'andi' })
-            console.log(result.data)
-        } catch (e) {
-            /**
-             * @type {import("axios").AxiosError}
-             */
-            const a = e
-            console.log(a.response.data)
-        }
+    const contact_us = $("#contact-us-form");
+    contact_us.on("submit", () => {
+        contact_us.attr("disabled", true);
+        $.ajax({
+            method: "POST",
+            url: "/api/contact-us",
+            data: contact_us.serialize(),
+            success: (r) => {
+                modal.show();
+                description.text("Your message has been recorded.");
+                contact_us.removeAttr("disabled");
+            },
+            error: (e) => {
+                modal.show();
+                description.text(
+                    e.responseJSON ? e.responseJSON.message : "Unkown Error!"
+                );
+                contact_us.removeAttr("disabled");
+            },
+        });
     });
+
+    // set the modal menu element
+    const targetEl = document.getElementById("contact-us-modal");
+
+    // options with default values
+    const options = {
+        placement: "bottom-right",
+        backdrop: "dynamic",
+        backdropClasses:
+            "bg-gray-900 bg-opacity-50 dark:bg-opacity-80 fixed inset-0 z-40",
+        onHide: () => {
+            //
+        },
+        onShow: () => {
+            //
+        },
+        onToggle: () => {
+            //
+        },
+    };
+    /**
+     * @typedef {object} Modal
+     * @prop {() => void} show
+     * @prop {() => void} hide
+     * @prop {() => void} toggle
+     */
+    /**
+     * @type {Modal}
+     */
+    const modal = new Modal(targetEl, options);
+    const mEl = $(targetEl);
+    mEl.find("#dismiss").on("click", () => modal.hide());
+    const description = mEl.find("#description");
 };
 
 $(() => {

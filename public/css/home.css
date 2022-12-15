@@ -188,4 +188,11 @@
     width: 820px;
   }
 }
+.contact-spinner {
+  display: none;
+}
+#contact-us-form[disabled] .contact-spinner {
+  margin-left: 4px;
+  display: inline;
+}
 

@@ -1,6 +1,6 @@
 {{-- Banner --}}
 <div
-    class="md:w-full bg-[url('/img/industrial-rental/banner.jpeg')] bg-no-repeat bg-cover bg-center flex mt-[61px] md:mt-[77px]">
+    class="md:w-full bg-[url('/img/industrial-rental/banner.jpg')] bg-no-repeat bg-cover bg-center flex mt-[61px] md:mt-[77px]">
     <div class="container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center mx-auto"
         style="margin-bottom: 80px">
         <h1 class="font-poppins font-extrabold text-xl md:text-2xl lg:text-4xl lg:leading-relaxed uppercase"

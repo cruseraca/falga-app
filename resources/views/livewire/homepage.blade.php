@@ -269,14 +269,21 @@
                 <p class="falga-section-title text-center mb-10 sm:mt-16">
                     Contact Us
                 </p>
-                <form>
+                <form id="contact-us-form" action="javascript:void(0)">
+                    @csrf
                     <div class="mb-6">
                         <label class="block text-md font-medium text-red-falga">Full Name</label>
                         <input id="name" name="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your full name" required />
+                        @error('name')
+                        <p class="mt-2 text-sm text-red-600 dark:text-red-500"><span class="font-medium">{{ $message }}</p>
+                        @enderror
                     </div>
                     <div class="mb-6">
                         <label for="email" class="block text-md font-medium text-red-falga">Email</label>
                         <input id="email" name="email" type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your email" required />
+                        @error('email')
+                        <p class="mt-2 text-sm text-red-600 dark:text-red-500"><span class="font-medium">{{ $message }}</p>
+                        @enderror
                     </div>
                     <div class="mb-6">
                         <label class="block text-md font-medium text-red-falga">Subject</label>
@@ -287,9 +294,34 @@
                         <textarea id="message" name="message" rows="3" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your message"></textarea>
                     </div>
                     <div class="text-center">
-                        <button id="submit" class="falga-button mt-8 uppercase mx-auto" style="padding-left: 28px">Submit</button>
+                        <button id="submit" type="submit" class="falga-button mt-8 uppercase mx-auto" style="padding-left: 28px">
+                            Submit <i class="fa-solid fa-spinner fa-spin-pulse contact-spinner"></i>
+                        </button>
                     </div>
                 </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact-us-modal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full">
+    <div class="relative w-full h-full max-w-2xl md:h-auto m-auto">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+            <!-- Modal header -->
+            <div class="flex items-start justify-between p-5 border-b rounded-t dark:border-gray-600">
+                <h3 id="title" class="text-xl font-semibold text-gray-900 lg:text-2xl dark:text-white">
+                    Contact Us
+                </h3>
+            </div>
+            <!-- Modal body -->
+            <div class="p-6 space-y-6">
+                <p id="description" class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                    Your message has been recorded.
+                </p>
+            </div>
+            <!-- Modal footer -->
+            <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
+                <button id="dismiss" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Dismiss</button>
             </div>
         </div>
     </div>
