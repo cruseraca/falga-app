@@ -79,7 +79,7 @@
     <div class="falga-founder-c md:divide-x-[68px] divide-transparent">
       <img src="{{ url('/img/about-us/sarimin.jpeg') }}" class="falga-founder-i"></img>
       <div class="md:mt-0 mt-8 flex-1">
-        <div class="falga-founder-name">Ir. Sarimin Simamora</div>
+        <div class="falga-founder-name uppercase text-red-falga">Ir. Sarimin Simamora</div>
         <div class="text-justify">
           FALGA GROUP was founded in 1986 by Ir. Sarimin Simamora starting as an Engineering, Procurement, Construction and Installation (EPCI) Company in Indonesia. With his strong background in engineering, Mr. Simamora led FALGA to build several PPP infrastructure projects especially in Oil & Gas Infra. FALGA has since then extensively expanded its group’s subsidiaries and affiliates onto 4 business pillars: EPCI, Oil & Gas Retail, Industrial and Equipment Rental and Properties and Property & Hospitality.
         </div>
