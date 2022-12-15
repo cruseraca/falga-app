@@ -40,8 +40,7 @@
   <div class="item reverse">
     <div class="item-i-bh">
       <div class="item-i-bh-ar">
-        <img class="item-i-bl-i" src="{{ asset('i
-</div>mg/our-business/prop-and-hospitality/house1.jpg') }}" alt="">
+        <img class="item-i-bl-i" src="{{ asset('img/our-business/prop-and-hospitality/house1.jpg') }}" alt="">
       </div>
     </div>
     <div class="item-line bg-[#584B8F]"></div>
