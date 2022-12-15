@@ -18,14 +18,6 @@
   height: 448px;
   background-color: aquamarine;
 }
-.carousel1 {
-  background: transparent;
-}
-
-.carousel-cell1 {
-  height: 300px;
-  background-color: aquamarine;
-}
 .falga-header {
   max-width: 1312px;
   margin-left: auto;
@@ -92,18 +84,10 @@
   font-weight: 900;
   font-size: 22px;
   color: #972540;
-  /* background: linear-gradient(180deg, #2C408F 14.14%, #34287C 37.74%, #6B2B68 50.49%, #972540 68.35%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+  text-transform: uppercase;
 }
 @media (min-width: 640px) {
   .falga-section-title {
     font-size: 28px;
   }
-}
-.falga-section-title.red-falga {
-  color: #972540;
-  -webkit-background-clip: unset;
-  -webkit-text-fill-color: unset;
-  background: none;
 }

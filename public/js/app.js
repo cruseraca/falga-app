@@ -22338,6 +22338,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/css/oil-gas.css":
+/*!***********************************!*\
+  !*** ./resources/css/oil-gas.css ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/css/industrial.css":
+/*!**************************************!*\
+  !*** ./resources/css/industrial.css ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/css/esg.css":
 /*!*******************************!*\
   !*** ./resources/css/esg.css ***!
@@ -22789,6 +22815,8 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 			"css/media-and-information": 0,
 /******/ 			"css/career": 0,
 /******/ 			"css/esg": 0,
+/******/ 			"css/industrial": 0,
+/******/ 			"css/oil-gas": 0,
 /******/ 			"css/epci": 0,
 /******/ 			"css/property": 0
 /******/ 		};
@@ -22840,17 +22868,19 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/sass/app.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/app.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/home.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/about-us.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/our-business.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/property.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/epci.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/esg.css")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/career.css")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/epci","css/property"], () => (__webpack_require__("./resources/css/media-and-information.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/industrial","css/oil-gas","css/epci","css/property"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/industrial","css/oil-gas","css/epci","css/property"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/industrial","css/oil-gas","css/epci","css/property"], () => (__webpack_require__("./resources/css/app.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/industrial","css/oil-gas","css/epci","css/property"], () => (__webpack_require__("./resources/css/home.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/industrial","css/oil-gas","css/epci","css/property"], () => (__webpack_require__("./resources/css/about-us.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/industrial","css/oil-gas","css/epci","css/property"], () => (__webpack_require__("./resources/css/our-business.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/industrial","css/oil-gas","css/epci","css/property"], () => (__webpack_require__("./resources/css/property.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/industrial","css/oil-gas","css/epci","css/property"], () => (__webpack_require__("./resources/css/epci.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/industrial","css/oil-gas","css/epci","css/property"], () => (__webpack_require__("./resources/css/oil-gas.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/industrial","css/oil-gas","css/epci","css/property"], () => (__webpack_require__("./resources/css/industrial.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/industrial","css/oil-gas","css/epci","css/property"], () => (__webpack_require__("./resources/css/esg.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/industrial","css/oil-gas","css/epci","css/property"], () => (__webpack_require__("./resources/css/career.css")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","css/our-business","css/about-us","css/home","css/media-and-information","css/career","css/esg","css/industrial","css/oil-gas","css/epci","css/property"], () => (__webpack_require__("./resources/css/media-and-information.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

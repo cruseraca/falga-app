@@ -1,6 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
     "/js/homepage.js": "/js/homepage.js",
+    "/js/industrial.js": "/js/industrial.js",
     "/js/esg.js": "/js/esg.js",
     "/css/app.css": "/css/app.css",
     "/css/our-business.css": "/css/our-business.css",
@@ -9,6 +10,8 @@
     "/css/media-and-information.css": "/css/media-and-information.css",
     "/css/career.css": "/css/career.css",
     "/css/esg.css": "/css/esg.css",
+    "/css/industrial.css": "/css/industrial.css",
+    "/css/oil-gas.css": "/css/oil-gas.css",
     "/css/epci.css": "/css/epci.css",
     "/css/property.css": "/css/property.css",
     "/webfonts/fa-brands-400.ttf": "/webfonts/fa-brands-400.ttf",
