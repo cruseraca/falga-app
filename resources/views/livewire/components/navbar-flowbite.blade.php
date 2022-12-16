@@ -1,7 +1,7 @@
 <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-screen z-[1000] top-0 left-0 border-b border-gray-200 dark:border-gray-600">
     <div class="container flex flex-wrap justify-between items-center mx-auto h-auto">
         <a href="{{ url('') }}">
-            <img class="h-9 sm:h-14 object-cover" src="{{ asset('img/logo-falga.svg') }}" alt="">
+            <img class="lozad h-9 sm:h-14 object-cover" data-src="{{ asset('img/logo-falga.svg') }}" alt="">
         </a>
         <div class="flex shrink">
             <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">

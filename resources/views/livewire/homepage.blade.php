@@ -2,7 +2,7 @@
 <link href="{{ asset('css/home.css') }}" rel="stylesheet">
 @endpush
 {{-- Hero --}}
-<div class="sm:w-full bg-hero-image bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]">
+<div class="sm:w-full bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px] lozad" data-background-image="{{ asset('img/hero-image-2.jpg') }}">
     <div class="falga-container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center uppercase" style="margin-bottom: 80px">
         <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed">
             Core Emphasis on Business Building through Sustainable Investing
@@ -21,22 +21,22 @@
 </div>
 <div class="home-glance">
     <a href="{{ url("about-us") }}" class="home-glance-image">
-        <img alt="at glance" src="{{ asset('img/homepage/at-glance-1.png') }}" />
+        <img class="lozad" alt="at glance" data-src="{{ asset('img/homepage/at-glance-1.png') }}" />
     </a>
     <a href="{{ url("epci-business") }}" class="home-glance-item home-glance-epci-business">
-        <img alt="EPCI Business" src="{{ asset('img/homepage/epci-business-n.png') }}" class="home-glance-epci-business-img" />
+        <img class="lozad" alt="EPCI Business" data-src="{{ asset('img/homepage/epci-business-n.png') }}" class="home-glance-epci-business-img" />
     </a>
     <a href="{{ url("industrial-rental") }}" class="home-glance-item home-glance-industrial-rental">
-        <img alt="industrial rental" src="{{ asset('img/homepage/industrial-rental-n.png') }}" />
+        <img class="lozad" alt="industrial rental" data-src="{{ asset('img/homepage/industrial-rental-n.png') }}" />
     </a>
     <a href="{{ url("prop-business") }}" class="home-glance-item home-glance-property-hospitality">
-        <img alt="property & hospitality" src="{{ asset('img/homepage/property-hospitality-n.png') }}" />
+        <img class="lozad" alt="property & hospitality" data-src="{{ asset('img/homepage/property-hospitality-n.png') }}" />
     </a>
     <a href="{{ url("oil-and-gas-business") }}" class="home-glance-item home-glance-oil-gas-rental">
-        <img alt="oil & gas retail" src="{{ asset('img/homepage/oil-gas-rental-n.png') }}" />
+        <img class="lozad" alt="oil & gas retail" data-src="{{ asset('img/homepage/oil-gas-rental-n.png') }}" />
     </a>
     <a href="{{ url("future-business") }}" class="home-glance-item home-glance-future-business">
-        <img alt="future bussiness" src="{{ asset('img/homepage/future-bussiness-n.png') }}" />
+        <img class="lozad" alt="future bussiness" data-src="{{ asset('img/homepage/future-bussiness-n.png') }}" />
     </a>
 </div>
 <div class="max-w-screen flex flex-col mx-auto my-6 md:my-20 font-poppins">
@@ -181,7 +181,7 @@
         <div class="carousel sm:w-[85%] mx-auto w-screen">
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("epci-business") }}" class="h-full w-full">
-                    <img src="{{ asset('img/slider/image-7.jpg') }}" class="h-full w-full object-cover object-center">
+                    <img data-src="{{ asset('img/slider/image-7.jpg') }}" class="lozad h-full w-full object-cover object-center">
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Engineering, Procurement, Construction, and Installation (EPCI)</p>
@@ -189,7 +189,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("oil-and-gas-business") }}" class="h-full w-full">
-                    <img src="{{ asset('img/slider/pom-bensin.jpg') }}" class="h-full w-full object-cover object-center-bottom" />
+                    <img data-src="{{ asset('img/slider/pom-bensin.jpg') }}" class="lozad h-full w-full object-cover object-center-bottom" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Oil & Gas Retail</p>
@@ -197,7 +197,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("industrial-rental") }}" class="h-full w-full">
-                    <img src="{{ asset('img/slider/industrial.png') }}" class="h-full w-full object-cover object-center-bottom" />
+                    <img data-src="{{ asset('img/slider/industrial.png') }}" class="lozad h-full w-full object-cover object-center-bottom" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Industrial Equipment Rental</p>
@@ -205,7 +205,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("future-business") }}" class="h-full w-full">
-                    <img src="{{ asset('img/slider/future.png') }}" class="h-full w-full object-fill" />
+                    <img data-src="{{ asset('img/slider/future.png') }}" class="lozad h-full w-full object-fill" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Future Bussiness</p>
@@ -213,7 +213,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("prop-business") }}" class="h-full w-full">
-                    <img src="{{ asset('img/slider/property.png') }}" class="h-full w-full object-fill" />
+                    <img data-src="{{ asset('img/slider/property.png') }}" class="lozad h-full w-full object-fill" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Property & Hospitality</p>
@@ -234,22 +234,22 @@
 <div class="falga-container home-partners-container my-8 md:mt-12">
     <div class="home-partners">
         <div class="home-partners-row">
-            <img src="{{ asset('img/logo/logo-pertamina.png') }}" alt="pertamina" class="home-partners-items home-partners-items-pertamina" />
-            <img src="{{ asset('img/logo/logo-schneider.png') }}" alt="schneider" class="home-partners-items home-partners-items-schneider" />
+            <img data-src="{{ asset('img/logo/logo-pertamina.png') }}" alt="pertamina" class="lozad home-partners-items home-partners-items-pertamina" />
+            <img data-src="{{ asset('img/logo/logo-schneider.png') }}" alt="schneider" class="lozad home-partners-items home-partners-items-schneider" />
         </div>
         <div class="home-partners-row">
-            <img src="{{ asset('img/logo/logo-pgn.png') }}" alt="pgn" class="home-partners-items home-partners-items-pgn" />
-            <img src="{{ asset('img/logo/logo-wika.png') }}" alt="wika" class="home-partners-items home-partners-items-wika" />
-            <img src="{{ asset('img/logo/logo-waskita.png') }}" alt="waskita" class="home-partners-items home-partners-items-waskita" />
-            <img src="{{ asset('img/logo/logo-siemens.png') }}" alt="siemens" class="home-partners-items home-partners-items-siemens" />
-            <img src="{{ asset('img/logo/logo-yokogawa.png') }}" alt="yokogawa" class="home-partners-items home-partners-items-yokogawa" />
-            <img src="{{ asset('img/logo/logo-patterson.png') }}" alt="patterson" class="home-partners-items home-partners-items-patterson" />
-            <img src="{{ asset('img/logo/logo-emco-2.png') }}" alt="emco" class="home-partners-items home-partners-items-emco" />
-            <img src="{{ asset('img/logo/logo-sulzer.png') }}" alt="sulzer" class="home-partners-items home-partners-items-sulzer" />
-            <img src="{{ asset('img/logo/logo-ingersoll-1.png') }}" alt="ingersoll" class="home-partners-items home-partners-items-ingersoll" />
-            <img src="{{ asset('img/logo/logo-deutz.svg') }}" alt="deutz" class="home-partners-items home-partners-items-deutz" />
-            <img src="{{ asset('img/logo/logo-kansai.png') }}" alt="kansai" class="home-partners-items home-partners-items-kansai" />
-            <img src="{{ asset('img/logo/logo-inter.png') }}" alt="inter" class="home-partners-items home-partners-items-inter" />
+            <img data-src="{{ asset('img/logo/logo-pgn.png') }}" alt="pgn" class="lozad home-partners-items home-partners-items-pgn" />
+            <img data-src="{{ asset('img/logo/logo-wika.png') }}" alt="wika" class="lozad home-partners-items home-partners-items-wika" />
+            <img data-src="{{ asset('img/logo/logo-waskita.png') }}" alt="waskita" class="lozad home-partners-items home-partners-items-waskita" />
+            <img data-src="{{ asset('img/logo/logo-siemens.png') }}" alt="siemens" class="lozad home-partners-items home-partners-items-siemens" />
+            <img data-src="{{ asset('img/logo/logo-yokogawa.png') }}" alt="yokogawa" class="lozad home-partners-items home-partners-items-yokogawa" />
+            <img data-src="{{ asset('img/logo/logo-patterson.png') }}" alt="patterson" class="lozad home-partners-items home-partners-items-patterson" />
+            <img data-src="{{ asset('img/logo/logo-emco-2.png') }}" alt="emco" class="lozad home-partners-items home-partners-items-emco" />
+            <img data-src="{{ asset('img/logo/logo-sulzer.png') }}" alt="sulzer" class="lozad home-partners-items home-partners-items-sulzer" />
+            <img data-src="{{ asset('img/logo/logo-ingersoll-1.png') }}" alt="ingersoll" class="lozad home-partners-items home-partners-items-ingersoll" />
+            <img data-src="{{ asset('img/logo/logo-deutz.svg') }}" alt="deutz" class="lozad home-partners-items home-partners-items-deutz" />
+            <img data-src="{{ asset('img/logo/logo-kansai.png') }}" alt="kansai" class="lozad home-partners-items home-partners-items-kansai" />
+            <img data-src="{{ asset('img/logo/logo-inter.png') }}" alt="inter" class="lozad home-partners-items home-partners-items-inter" />
         </div>
     </div>
 </div>
@@ -262,7 +262,7 @@
                     Site Map
                 </p>
                 <div class="w-4/5 h-[300px] sm:w-[500px] sm:h-[400px] mx-auto">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2672018290027!2d106.82190816512019!3d-6.228460295491357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e4a175a33f%3A0xc96c83f443f46e81!2sDea%20Tower%2C%20Jl.%20Mega%20Kuningan%20Barat%20No.1%2C%20RT.5%2FRW.2%2C%20Kuningan%2C%20East%20Kuningan%2C%20Setiabudi%2C%20South%20Jakarta%20City%2C%20Jakarta%2012950!5e0!3m2!1sid!2sid!4v1668005572898!5m2!1sid!2sid" width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="lozad" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2672018290027!2d106.82190816512019!3d-6.228460295491357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e4a175a33f%3A0xc96c83f443f46e81!2sDea%20Tower%2C%20Jl.%20Mega%20Kuningan%20Barat%20No.1%2C%20RT.5%2FRW.2%2C%20Kuningan%2C%20East%20Kuningan%2C%20Setiabudi%2C%20South%20Jakarta%20City%2C%20Jakarta%2012950!5e0!3m2!1sid!2sid!4v1668005572898!5m2!1sid!2sid" width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <div id="contact-us" class="w-full p-10">

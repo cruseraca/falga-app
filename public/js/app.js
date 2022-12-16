@@ -5061,6 +5061,10 @@ alpinejs__WEBPACK_IMPORTED_MODULE_1__["default"].start();
 //             }
 //         );
 // });
+$(function () {
+  var observer = lozad(); // lazy loads elements with default selector as '.lozad'
+  observer.observe();
+});
 
 /***/ }),
 

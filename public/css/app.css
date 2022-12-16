@@ -11546,10 +11546,6 @@ input:checked + .toggle-bg {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
 .my-\[212px\] {
   margin-top: 212px;
   margin-bottom: 212px;
@@ -11711,8 +11707,8 @@ input:checked + .toggle-bg {
 .h-modal {
   height: calc(100% - 2rem);
 }
-.h-\[8px\] {
-  height: 8px;
+.h-\[4px\] {
+  height: 4px;
 }
 .h-auto {
   height: auto;
@@ -11750,9 +11746,6 @@ input:checked + .toggle-bg {
 .h-3 {
   height: 0.75rem;
 }
-.h-\[4px\] {
-  height: 4px;
-}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -11776,12 +11769,6 @@ input:checked + .toggle-bg {
 }
 .w-4\/5 {
   width: 80%;
-}
-.w-\[90\%\] {
-  width: 90%;
-}
-.w-\[85\%\] {
-  width: 85%;
 }
 .w-6 {
   width: 1.5rem;
@@ -12042,9 +12029,6 @@ input:checked + .toggle-bg {
 .divide-gray-100 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgb(243 244 246 / var(--tw-divide-opacity));
-}
-.self-stretch {
-  align-self: stretch;
 }
 .overflow-auto {
   overflow: auto;
@@ -12448,18 +12432,8 @@ input:checked + .toggle-bg {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
 .pl-4 {
   padding-left: 1rem;
-}
-.pl-10 {
-  padding-left: 2.5rem;
-}
-.pr-6 {
-  padding-right: 1.5rem;
 }
 .pt-16 {
   padding-top: 4rem;
@@ -12478,6 +12452,9 @@ input:checked + .toggle-bg {
 }
 .pt-8 {
   padding-top: 2rem;
+}
+.pl-10 {
+  padding-left: 2.5rem;
 }
 .pr-3 {
   padding-right: 0.75rem;
@@ -13660,10 +13637,6 @@ input:checked + .toggle-bg {
 }
 @media (min-width: 768px) {
 
-  .md\:visible {
-    visibility: visible;
-  }
-
   .md\:relative {
     position: relative;
   }
@@ -13706,6 +13679,11 @@ input:checked + .toggle-bg {
     margin-bottom: 2.5rem;
   }
 
+  .md\:my-6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
   .md\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -13716,11 +13694,6 @@ input:checked + .toggle-bg {
     margin-right: 1rem;
   }
 
-  .md\:mx-10 {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-  }
-
   .md\:my-\[312px\] {
     margin-top: 312px;
     margin-bottom: 312px;
@@ -13729,11 +13702,6 @@ input:checked + .toggle-bg {
   .md\:mx-2 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-  }
-
-  .md\:my-6 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
   }
 
   .md\:mt-\[77px\] {
@@ -13824,10 +13792,6 @@ input:checked + .toggle-bg {
     height: auto;
   }
 
-  .md\:h-\[300px\] {
-    height: 300px;
-  }
-
   .md\:min-h-\[288px\] {
     min-height: 288px;
   }
@@ -13842,14 +13806,6 @@ input:checked + .toggle-bg {
 
   .md\:w-\[8px\] {
     width: 8px;
-  }
-
-  .md\:w-\[45\%\] {
-    width: 45%;
-  }
-
-  .md\:w-\[480px\] {
-    width: 480px;
   }
 
   .md\:w-auto {
@@ -13898,10 +13854,6 @@ input:checked + .toggle-bg {
 
   .md\:items-center {
     align-items: center;
-  }
-
-  .md\:items-stretch {
-    align-items: stretch;
   }
 
   .md\:justify-start {
@@ -13975,10 +13927,6 @@ input:checked + .toggle-bg {
     padding: 2rem;
   }
 
-  .md\:p-4 {
-    padding: 1rem;
-  }
-
   .md\:p-6 {
     padding: 1.5rem;
   }
@@ -14002,9 +13950,9 @@ input:checked + .toggle-bg {
     padding-bottom: 1.5rem;
   }
 
-  .md\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .md\:py-12 {
@@ -14020,11 +13968,6 @@ input:checked + .toggle-bg {
   .md\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .md\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
   }
 
   .md\:pr-10 {
