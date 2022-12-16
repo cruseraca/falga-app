@@ -2,7 +2,7 @@
 <link href="{{ asset('css/home.css') }}" rel="stylesheet">
 @endpush
 {{-- Hero --}}
-<div class="sm:w-full bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px] lozad" data-background-image="{{ asset('img/hero-image-2.jpg') }}">
+<div class="lozad sm:w-full bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px] lozad" data-background-image="{{ asset('img/hero-image-2.jpg') }}">
     <div class="falga-container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center uppercase" style="margin-bottom: 80px">
         <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed">
             Core Emphasis on Business Building through Sustainable Investing

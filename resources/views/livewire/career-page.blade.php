@@ -27,7 +27,7 @@
                         </div>
                     </th>
                     <th scope="col" class="py-3 px-6">
-                        <button id="location-bt" data-dropdown-toggle="location" class="bg-gray-50 border border-gray-300 text-gray-900 text-xl rounded-lg focus:ring-red-falga focus:border-red-falga block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-falga dark:focus:border-red-falga flex items-baseline w-full text-left" type="button"><div class="flex-1">Location</div> <i class="fa-solid fa-chevron-down"></i></button>
+                        <button id="location-bt" data-dropdown-toggle="location" class="bg-gray-50 border border-gray-300 text-gray-900 text-xl rounded-lg focus:ring-red-falga focus:border-red-falga p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-falga dark:focus:border-red-falga flex items-baseline w-full text-left" type="button"><div class="flex-1">Location</div> <i class="fa-solid fa-chevron-down"></i></button>
                         <!-- Dropdown menu -->
                         <div id="location" class="hidden z-10 w-255 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 border">
                             <ul class="py-1 text-xl text-gray-700 dark:text-gray-200" aria-labelledby="location-bt">
@@ -47,7 +47,7 @@
                         </div>
                     </th>
                     <th scope="col" class="py-3 px-6">
-                        <button id="department-bt" data-dropdown-toggle="department" class="bg-gray-50 border border-gray-300 text-gray-900 text-xl rounded-lg focus:ring-red-falga focus:border-red-falga block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-falga dark:focus:border-red-falga flex items-baseline w-full text-left" type="button"><div class="flex-1">Department</div> <i class="fa-solid fa-chevron-down"></i></button>
+                        <button id="department-bt" data-dropdown-toggle="department" class="bg-gray-50 border border-gray-300 text-gray-900 text-xl rounded-lg focus:ring-red-falga focus:border-red-falga p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-falga dark:focus:border-red-falga flex items-baseline w-full text-left" type="button"><div class="flex-1">Department</div> <i class="fa-solid fa-chevron-down"></i></button>
                         <!-- Dropdown menu -->
                         <div id="department" class="hidden z-10 w-255 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 border">
                             <ul class="py-1 text-xl text-gray-700 dark:text-gray-200" aria-labelledby="department-bt">
@@ -64,7 +64,7 @@
                         </div>
                     </th>
                     <th scope="col" class="py-3 px-6">
-                        <button id="type-bt" data-dropdown-toggle="type" class="bg-gray-50 border border-gray-300 text-gray-900 text-xl rounded-lg focus:ring-red-falga focus:border-red-falga block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-falga dark:focus:border-red-falga flex items-baseline w-full text-left" type="button"><div class="flex-1">Work Type</div> <i class="fa-solid fa-chevron-down"></i></button>
+                        <button id="type-bt" data-dropdown-toggle="type" class="bg-gray-50 border border-gray-300 text-gray-900 text-xl rounded-lg focus:ring-red-falga focus:border-red-falga p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-falga dark:focus:border-red-falga flex items-baseline w-full text-left" type="button"><div class="flex-1">Work Type</div> <i class="fa-solid fa-chevron-down"></i></button>
                         <!-- Dropdown menu -->
                         <div id="type" class="hidden z-10 w-255 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 border">
                             <ul class="py-1 text-xl text-gray-700 dark:text-gray-200" aria-labelledby="type-bt">

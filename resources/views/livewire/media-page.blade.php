@@ -37,7 +37,7 @@
   </div>
   <div id="esg-tab-content" class="flex-1 md:border-l">
     <div class="flex flex-wrap md:ml-8 md:px-4 mt-6 py-3">
-      <button id="location-bt" data-dropdown-toggle="location" class="mt-2 mx-1 md:mx-2 bg-gray-50 border border-gray-300 text-gray-900 text-base md:text-xl rounded-lg focus:ring-red-falga focus:border-red-falga block p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-falga dark:focus:border-red-falga flex items-baseline" type="button">
+      <button id="location-bt" data-dropdown-toggle="location" class="mt-2 mx-1 md:mx-2 bg-gray-50 border border-gray-300 text-gray-900 text-base md:text-xl rounded-lg focus:ring-red-falga focus:border-red-falga p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-falga dark:focus:border-red-falga flex items-baseline" type="button">
         <div class="flex-1 mx-6">Location</div> <i class="fa-solid fa-chevron-down"></i>
       </button>
       <!-- Dropdown menu -->
@@ -57,7 +57,7 @@
           </li>
         </ul>
       </div>
-      <button id="category-bt" data-dropdown-toggle="category" class="mt-2 mx-1 md:mx-2 bg-gray-50 border border-gray-300 text-gray-900 text-base md:text-xl rounded-lg focus:ring-red-falga focus:border-red-falga block p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-falga dark:focus:border-red-falga flex items-center" type="button">
+      <button id="category-bt" data-dropdown-toggle="category" class="mt-2 mx-1 md:mx-2 bg-gray-50 border border-gray-300 text-gray-900 text-base md:text-xl rounded-lg focus:ring-red-falga focus:border-red-falga p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-falga dark:focus:border-red-falga flex items-center" type="button">
         <div class="flex-1 mx-6">Category</div> <i class="fa-solid fa-chevron-down"></i>
       </button>
       <!-- Dropdown menu -->
