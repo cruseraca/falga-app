@@ -5,7 +5,7 @@
 <script src="https://unpkg.com/flowbite@1.5.4/dist/datepicker.js"></script>
 @endpush
 {{-- Banner --}}
-<div class="sm:w-full falga-banner bg-no-repeat bg-center bg-cover flex mt-[61px] md:mt-[77px] items-center justify-center">
+<div class="lozad sm:w-full falga-banner bg-no-repeat bg-center bg-cover flex mt-[61px] md:mt-[77px] items-center justify-center" data-background-image="{{ asset('img/media-and-information/banner-progressive.jpeg') }}">
   <h1 class="font-poppins text-white my-[212px] md:my-[312px] text-center font-extrabold lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px #000000;">
     MEDIA AND INFORMATION
   </h1>
@@ -84,7 +84,7 @@
       @if($q == 'portfolio')
       @foreach($items as $item)
       <div class="falga-mni-item mt-8 md:mt-12 md:ml-12">
-        <img class="object-cover h-[242px]" src="{{ $item["image"] }}" />
+        <img class="lozad object-cover h-[242px] w-full" data-src="{{ $item["image"] }}" />
         <div class="font-bold text-red-falga mt-6 mx-6 capitalize">{{ $item["title"] }}</div>
         <div class="flex mx-6 text-xs mt-1 mb-6">
           <div class="pr-4 border-r border-black">{{ $item["location"] }}</div>
@@ -95,7 +95,7 @@
       @else
       @foreach($items as $item)
       <div class="falga-mni-item mt-8 md:mt-12 md:ml-12">
-        <img class="object-cover h-[242px]" src="{{ $item["image"] }}" />
+        <img class="lozad object-cover h-[242px] w-full" data-src="{{ $item["image"] }}" />
         <div class="font-bold text-red-falga mt-6 mx-6 capitalize">{{ $item["title"] }}</div>
         <div class="flex mx-6 text-xs mt-1 mb-6">{{ $item["description"] }}</div>
       </div>

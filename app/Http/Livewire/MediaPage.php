@@ -37,7 +37,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Makassar, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/1_LPG_Tank-progressive.jpeg")
                 ],
                 [
                     "id" => "2",
@@ -49,7 +49,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Jayapura, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/2_Tangki_TBBM-progressive.jpeg")
                 ],
                 [
                     "id" => "3",
@@ -61,7 +61,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Toll Road Ngawi",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/3_Electric_Motor-progressive.jpeg")
                 ],
                 [
                     "id" => "4",
@@ -73,7 +73,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Maumere, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/4_Aviation_Fuel-progressive.jpeg")
                 ],
                 [
                     "id" => "5",
@@ -85,7 +85,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Arun, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/5_Tanker_Jetty-progressive.jpeg")
                 ],
                 [
                     "id" => "6",
@@ -97,7 +97,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Plumpang, Jakarta",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/6_Arun_Project-progressive.jpeg")
                 ],
                 [
                     "id" => "7",
@@ -109,7 +109,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/7_MFO_Tank_2x7500-progressive.jpeg")
                 ],
                 [
                     "id" => "8",
@@ -121,7 +121,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Bandung, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/8_Pipe_Rack-progressive.jpeg")
                 ],
                 [
                     "id" => "9",
@@ -133,7 +133,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/9_SPBU_Trans_Jawa-progressive.jpeg")
                 ],
                 [
                     "id" => "10",
@@ -145,7 +145,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Cikampek, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/10_Tangki_Makassar-progressive.jpeg")
                 ],
                 [
                     "id" => "11",
@@ -157,7 +157,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Tasikmalaya, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/11_Pipeline_Relocation-progressive.jpeg")
                 ],
                 [
                     "id" => "12",
@@ -169,7 +169,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Lampung, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/12_Elmot_Booster_Pump-progressive.jpeg")
                 ],
                 [
                     "id" => "13",
@@ -181,7 +181,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Wijaya Karya",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/13_Fuel_Tank-progressive.jpeg")
                 ],
                 [
                     "id" => "14",
@@ -193,7 +193,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Palembang, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/14_Landfill-progressive.jpeg")
                 ],
                 [
                     "id" => "15",
@@ -205,7 +205,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Cikampek, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/15_Polyethylene_Pipelines-progressive.jpeg")
                 ],
                 [
                     "id" => "16",
@@ -217,7 +217,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Palembang, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/16_Kerosene_Pipes-progressive.jpeg")
                 ],
                 [
                     "id" => "17",
@@ -229,7 +229,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/17_Aviation_Tank_-progressive.jpeg")
                 ],
                 [
                     "id" => "18",
@@ -241,7 +241,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/18_SPBU_Cirebon-progressive.jpeg")
                 ],
                 [
                     "id" => "19",
@@ -253,7 +253,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Patra Teknik",
                     "location" => "Cirebon, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/19_HDPE_Pipelines-progressive.jpeg")
                 ],
                 [
                     "id" => "20",
@@ -265,7 +265,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Patra Teknik",
                     "location" => "Makassar, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/20_LPG_Filling_Plant-progressive.jpeg")
                 ],
                 [
                     "id" => "21",
@@ -277,7 +277,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Balongan, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/21_Spherical_Tank_2x5000-progressive.jpeg")
                 ],
                 [
                     "id" => "22",
@@ -289,7 +289,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Padalarang, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/22_Pipe_Repair-progressive.jpeg")
                 ],
                 [
                     "id" => "23",
@@ -301,7 +301,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. CPM",
                     "location" => "Semarang, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/23_Diesel_Pipe-progressive.jpeg")
                 ],
                 [
                     "id" => "24",
@@ -313,7 +313,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Waskita Karya",
                     "location" => "Marunda, Jakarta",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "25",
@@ -325,7 +325,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Cirebon, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "26",
@@ -337,7 +337,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Citra Panji Manunggal",
                     "location" => "Semarang, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "27",
@@ -349,7 +349,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Banten, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "28",
@@ -361,7 +361,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "29",
@@ -373,7 +373,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Banten, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "30",
@@ -385,7 +385,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "31",
@@ -397,7 +397,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Cilacap, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "32",
@@ -409,7 +409,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Plumpang, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "33",
@@ -421,7 +421,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "34",
@@ -433,7 +433,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Tasikmalaya, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "35",
@@ -445,7 +445,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "36",
@@ -457,7 +457,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Tangerang, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "37",
@@ -469,7 +469,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Nabire, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "38",
@@ -481,7 +481,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Tasikmalaya, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "39",
@@ -493,7 +493,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Tasikmalaya, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "40",
@@ -505,7 +505,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "41",
@@ -517,7 +517,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Balongan, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "42",
@@ -529,7 +529,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "43",
@@ -541,7 +541,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Bandara Soetta, Jakarta",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "44",
@@ -553,7 +553,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Tj. Gerem, Serang",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "45",
@@ -565,7 +565,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Banten, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "46",
@@ -577,7 +577,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "47",
@@ -589,7 +589,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "Pemjadig Jakarta",
                     "location" => "Banten, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "48",
@@ -601,7 +601,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Medan, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "49",
@@ -613,7 +613,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "Pemjadig Jakarta",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "50",
@@ -625,7 +625,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "51",
@@ -637,7 +637,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "52",
@@ -649,7 +649,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Bekasi, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "53",
@@ -661,7 +661,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "54",
@@ -673,7 +673,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "55",
@@ -685,7 +685,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Pertamina",
                     "location" => "Ujung Pandang, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "56",
@@ -697,7 +697,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Patraindo",
                     "location" => "Makassar, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "57",
@@ -709,7 +709,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Parang Tritis, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "58",
@@ -721,7 +721,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Elnusa",
                     "location" => "Makassar, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
                 [
                     "id" => "59",
@@ -733,7 +733,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Elnusa",
                     "location" => "Ujung Pandang, Indonesia",
-                    "image" => asset("img/hero-image.jpg")
+                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
                 ],
             ],
             "blog" => [

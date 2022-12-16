@@ -4,7 +4,7 @@
         <div class="falga-epci-i">
             <div class="falga-epci-images">
                 <div class="falga-epci-background" style="background-color: {{ $color }};"></div>
-                <img class="falga-epci-image" src="{{ $image }}"/>
+                <img class="lozad falga-epci-image" data-src="{{ $image }}"/>
             </div>
             <div class="falga-epci-content">
                 <div class="falga-section-title red-falga falga-epci-title">{{ $title }}</div>

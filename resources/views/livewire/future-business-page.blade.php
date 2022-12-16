@@ -1,5 +1,5 @@
 {{-- Banner --}}
-<div class="md:w-full bg-[url('/img/our-business/future-business.jpg')] bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]">
+<div class="lozad md:w-full bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]" data-background-image="{{ asset('img/our-business/future-business.jpg') }}">
   <div class="container text-center h-[400px] text-white flex flex-col justify-end items-center mx-auto" style="margin-bottom: 80px">
     <h1 class="font-poppins font-extrabold text-xl md:text-2xl lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px #000000;">
       Future Business

@@ -6,7 +6,7 @@
 <script src="{{ asset('js/industrial.js') }}"></script>
 @endpush
 {{-- Banner --}}
-<div class="md:w-full bg-[url('/img/industrial-rental/banner.jpg')] bg-no-repeat bg-cover bg-center flex mt-[61px] md:mt-[77px]">
+<div class="lozad md:w-full bg-no-repeat bg-cover bg-center flex mt-[61px] md:mt-[77px]" data-background-image="{{ asset('img/industrial-rental/banner.jpg') }}">
   <div class="container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center mx-auto" style="margin-bottom: 80px">
     <h1 class="font-poppins font-extrabold text-xl md:text-2xl lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px #000000;">
       INDUSTRIAL EQUIPMENT RENTAL
@@ -29,10 +29,10 @@
       <div class="industrial-carousel-ar">
         <div class="industrial-carousel-yes carousel1">
           <div class="carousel-cell1 w-full h-full">
-            <img class="h-full w-full object-cover" src="{{ asset('img/industrial-rental/tank.jpg') }}" alt="">
+            <img class="lozad h-full w-full object-cover" data-src="{{ asset('img/industrial-rental/tank.jpg') }}" alt="">
           </div>
           <div class="carousel-cell1 w-full h-full">
-            <img class="h-full w-full object-cover" src="{{ asset('img/industrial-rental/tank.jpg') }}" alt="">
+            <img class="lozad h-full w-full object-cover" data-src="{{ asset('img/industrial-rental/tank.jpg') }}" alt="">
           </div>
         </div>
       </div>
@@ -63,10 +63,10 @@
     <div class="industrial-carousel-ar">
       <div class="industrial-carousel-yes carousel1">
         <div class="carousel-cell1 w-full h-full">
-          <img class="h-full w-full object-cover" src="{{ asset('img/industrial-rental/material.jpg') }}" alt="">
+          <img class="lozad h-full w-full object-cover" data-src="{{ asset('img/industrial-rental/material.jpg') }}" alt="">
         </div>
         <div class="carousel-cell1 w-full h-full">
-          <img class="h-full w-full object-cover" src="{{ asset('img/industrial-rental/material.jpg') }}" alt="">
+          <img class="lozad h-full w-full object-cover" data-src="{{ asset('img/industrial-rental/material.jpg') }}" alt="">
         </div>
       </div>
     </div>
@@ -97,10 +97,10 @@
       <div class="industrial-carousel-ar">
         <div class="industrial-carousel-yes carousel2">
           <div class="carousel-cell2 w-full h-full">
-            <img class="h-full w-full object-cover" src="{{ asset('img/industrial-rental/survey.jpg') }}" alt="">
+            <img class="lozad h-full w-full object-cover" data-src="{{ asset('img/industrial-rental/survey.jpg') }}" alt="">
           </div>
           <div class="carousel-cell2 w-full h-full">
-            <img class="h-full w-full object-cover" src="{{ asset('img/industrial-rental/survey.jpg') }}" alt="">
+            <img class="lozad h-full w-full object-cover" data-src="{{ asset('img/industrial-rental/survey.jpg') }}" alt="">
           </div>
         </div>
       </div>
@@ -130,10 +130,10 @@
     <div class="industrial-carousel-ar">
       <div class="industrial-carousel-yes carousel3">
         <div class="carousel-cell3 w-full h-full">
-          <img class="h-full w-full object-cover" src="{{ asset('img/industrial-rental/power.jpg') }}" alt="">
+          <img class="lozad h-full w-full object-cover" data-src="{{ asset('img/industrial-rental/power.jpg') }}" alt="">
         </div>
         <div class="carousel-cell3 w-full h-full">
-          <img class="h-full w-full object-cover" src="{{ asset('img/industrial-rental/power.jpg') }}" alt="">
+          <img class="lozad h-full w-full object-cover" data-src="{{ asset('img/industrial-rental/power.jpg') }}" alt="">
         </div>
       </div>
     </div>
@@ -162,10 +162,10 @@
       <div class="industrial-carousel-ar">
         <div class="industrial-carousel-yes carousel4">
           <div class="carousel-cell4 w-full h-full">
-            <img class="h-full w-full object-cover" src="{{ asset('img/industrial-rental/aerial.jpg') }}" alt="">
+            <img class="lozad h-full w-full object-cover" data-src="{{ asset('img/industrial-rental/aerial.jpg') }}" alt="">
           </div>
           <div class="carousel-cell4 w-full h-full">
-            <img class="h-full w-full object-cover" src="{{ asset('img/industrial-rental/aerial.jpg') }}" alt="">
+            <img class="lozad h-full w-full object-cover" data-src="{{ asset('img/industrial-rental/aerial.jpg') }}" alt="">
           </div>
         </div>
       </div>
@@ -192,10 +192,10 @@
     <div class="industrial-carousel-ar">
       <div class="industrial-carousel-yes carousel5">
         <div class="carousel-cell5 w-full h-full">
-          <img class="h-full w-full object-cover" src="{{ asset('img/industrial-rental/miscellaneous.jpg') }}" alt="">
+          <img class="lozad h-full w-full object-cover" data-src="{{ asset('img/industrial-rental/miscellaneous.jpg') }}" alt="">
         </div>
         <div class="carousel-cell5 w-full h-full">
-          <img class="h-full w-full object-cover" src="{{ asset('img/industrial-rental/miscellaneous.jpg') }}" alt="">
+          <img class="lozad h-full w-full object-cover" data-src="{{ asset('img/industrial-rental/miscellaneous.jpg') }}" alt="">
         </div>
       </div>
     </div>
