@@ -181,7 +181,7 @@
         <div class="carousel sm:w-[85%] mx-auto w-screen">
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("epci-business") }}" class="h-full w-full">
-                    <img data-src="{{ asset('img/slider/image-7.jpg') }}" class="lozad h-full w-full object-cover object-center">
+                    <img data-src="{{ asset('img/slider/image-7-progressive.jpeg') }}" class="lozad h-full w-full object-cover object-center">
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Engineering, Procurement, Construction, and Installation (EPCI)</p>
@@ -189,7 +189,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("oil-and-gas-business") }}" class="h-full w-full">
-                    <img data-src="{{ asset('img/slider/pom-bensin.jpg') }}" class="lozad h-full w-full object-cover object-center-bottom" />
+                    <img data-src="{{ asset('img/slider/pom-bensin-progressive.jpeg') }}" class="lozad h-full w-full object-cover object-center-bottom" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Oil & Gas Retail</p>
@@ -197,7 +197,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("industrial-rental") }}" class="h-full w-full">
-                    <img data-src="{{ asset('img/slider/industrial.png') }}" class="lozad h-full w-full object-cover object-center-bottom" />
+                    <img data-src="{{ asset('img/slider/industrial-progressive.jpeg') }}" class="lozad h-full w-full object-cover object-center-bottom" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Industrial Equipment Rental</p>
@@ -205,7 +205,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("future-business") }}" class="h-full w-full">
-                    <img data-src="{{ asset('img/slider/future.png') }}" class="lozad h-full w-full object-fill" />
+                    <img data-src="{{ asset('img/slider/future-progressive.jpeg') }}" class="lozad h-full w-full object-fill" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Future Bussiness</p>
@@ -213,7 +213,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("prop-business") }}" class="h-full w-full">
-                    <img data-src="{{ asset('img/slider/property.png') }}" class="lozad h-full w-full object-fill" />
+                    <img data-src="{{ asset('img/slider/property-progressive.jpeg') }}" class="lozad h-full w-full object-fill" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Property & Hospitality</p>

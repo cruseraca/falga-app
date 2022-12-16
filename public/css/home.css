@@ -34,12 +34,14 @@
 
 .home-partners-items-pertamina {
   width: 349px;
+  height: 81.1667px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 
 .home-partners-items-pgn {
   width: 100px;
+  height: 156.433px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -64,6 +66,7 @@
 
 .home-partners-items-schneider {
   width: 268px;
+  height: 79.8667px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -82,6 +85,7 @@
 
 .home-partners-items-emco {
   width: 203px;
+  height: 70.8833px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -100,6 +104,7 @@
 
 .home-partners-items-deutz {
   width: 92px;
+  height: 92px;
   -o-object-fit: contain;
      object-fit: contain;
 }
