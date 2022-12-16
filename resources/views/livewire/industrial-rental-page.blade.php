@@ -14,7 +14,7 @@
   </div>
 </div>
 <div class="falga-container my-5 md:my-10">
-  <div class="falga-section-title mb-4 md:mb-8">Industrial Restal Business</div>
+  <div class="falga-section-title mb-4 md:mb-8">Industrial Rental Business</div>
   <p class="font-sans text-[16px] text-justify">FALGA provides industrial machinery and construction equipment rental services with functionality and quality. Our group offers wide assortment of industrial tools from ordinary machines like Generator Set to Specialized tools like Jacking System. We also offer full-service delivery by providing routine maintenance by our technicians on the construction equipment and tool rentals.</p>
 </div>
 <div class="bg-gray-100">

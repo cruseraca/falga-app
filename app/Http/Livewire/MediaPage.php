@@ -325,7 +325,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Cirebon, Indonesia",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/25_Fire_Extinguisher-progressive.jpeg")
                 ],
                 [
                     "id" => "26",
@@ -337,7 +337,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. Citra Panji Manunggal",
                     "location" => "Semarang, Indonesia",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/26_Polyethylene_Pipelines-progressive.jpeg")
                 ],
                 [
                     "id" => "27",
@@ -349,7 +349,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Banten, Indonesia",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/27_Replacement_Work-progressive.jpeg")
                 ],
                 [
                     "id" => "28",
@@ -361,7 +361,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/28_Pipa_Balongan_Lg-progressive.jpeg")
                 ],
                 [
                     "id" => "29",
@@ -373,7 +373,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Banten, Indonesia",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/29_Diesel_Pipe-progressive.jpeg")
                 ],
                 [
                     "id" => "30",
@@ -385,7 +385,7 @@ class MediaPage extends Component
                     "y" => "Main Contractor",
                     "z" => "PT. PGN",
                     "location" => "Jakarta, Indonesia",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/30_LPG_Retester_Muara_Enim-progressive.jpeg")
                 ],
                 [
                     "id" => "31",
