@@ -2,7 +2,6 @@
   width: 100%;
   padding-top: 56.25%;
   position: relative;
-  background-image: url("/img/about-us/banner-2.jpg");
 }
 @media (min-width: 1366px) {
   .falga-banner {

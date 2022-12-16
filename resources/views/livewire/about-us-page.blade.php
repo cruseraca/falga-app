@@ -2,7 +2,7 @@
 <link href="{{ asset('css/about-us.css') }}" rel="stylesheet">
 @endpush
 {{-- Banner --}}
-<div class="sm:w-full falga-banner bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]">
+<div class="lozad sm:w-full falga-banner bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]" data-background-image="{{ asset("img/about-us/banner-2.jpg") }}">
   <div class="falga-banner-inner">
     <div class="falga-container text-center text-white flex flex-col justify-end items-center md:pb-[80px] h-full">
       <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed uppercase">
@@ -77,7 +77,7 @@
   <div class="falga-section-title text-center mb-12 md:mb-14">FOUNDER</div>
   <div class="max-w-3xl falga-founder">
     <div class="falga-founder-c md:divide-x-[68px] divide-transparent">
-      <img src="{{ url('/img/about-us/sarimin.jpeg') }}" class="falga-founder-i"></img>
+      <img data-src="{{ url('/img/about-us/sarimin.jpeg') }}" class="lozad falga-founder-i"></img>
       <div class="md:mt-0 mt-8 flex-1">
         <div class="falga-founder-name uppercase text-red-falga">Ir. Sarimin Simamora</div>
         <div class="text-justify">
