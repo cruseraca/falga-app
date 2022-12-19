@@ -137,7 +137,8 @@ class MediaPage extends Component
                     "title" => "Kerosene & LAWS pipelines in PBM TBBM Jakarta Group",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/16_Kerosene_Pipes-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/13_Fuel_Tank-progressive.jpeg")
+                    // "image" => asset("img/projects-portfolio/16_Kerosene_Pipes-progressive.jpeg")
                 ],
                 [
                     "id" => "17",
