@@ -102,7 +102,7 @@ class MediaPage extends Component
                     "title" => "Installation of Back-Loaded Pipelines at the Balongan Depot",
                     "location" => "Bandung, Indonesia ",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/11_Pipeline_Relocation-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/11_Pipeline_Balongan-progressive.jpeg")
                 ],
                 [
                     "id" => "12",
@@ -130,7 +130,7 @@ class MediaPage extends Component
                     "title" => "Cilacap-Bandung Pipeline Relocation",
                     "location" => "Balongan, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/15_Polyethylene_Pipelines-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/15_Pipeline_Relocation-progressive.jpeg")
                 ],
                 [
                     "id" => "16",
@@ -186,7 +186,7 @@ class MediaPage extends Component
                     "title" => "Pipeline Relocation Project",
                     "location" => "Marunda, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/23_Diesel_Pipe-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/23_Pipe_Relocation-progressive.jpeg")
                 ],
                 [
                     "id" => "24",
