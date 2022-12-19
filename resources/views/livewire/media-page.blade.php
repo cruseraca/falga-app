@@ -111,7 +111,7 @@
         <ul class="inline-flex -space-x-px mt-5 md:mt-10 mx-auto">
           @if($page - 1 > 0)
           <li>
-            <a href="{{ url("media-and-information?q=".$q."&page=1#breadrumbs") }}" class="px-3 py-2 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Fisrt</a>
+            <a href="{{ url("media-and-information?q=".$q."&page=1#breadrumbs") }}" class="px-3 py-2 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">First</a>
           </li>
           @endif
           @for($i = $first_visible_page; $i <= $last_visible_page; $i++)
