@@ -242,133 +242,133 @@ class MediaPage extends Component
                     "title" => "1 x 250 MT LPG Storage Tank at Cilacap LPG Filling Plant",
                     "location" => "Cilacap, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/31_Tangki_Bola_1x250-progressive.jpeg")
                 ],
                 [
                     "id" => "32",
                     "title" => "Main Pipe, Service Pipe and MR/S Cluster Pulogadung Stage II",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/32_Pipe_Pulo-progressive.jpeg")
                 ],
                 [
                     "id" => "33",
                     "title" => "Premium Oil Tank Discharge Pipeline Replacement",
                     "location" => "Padalarang, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/33_Pipe_Replacement-progressive.jpeg")
                 ],
                 [
                     "id" => "34",
                     "title" => "Pipe-Clamp Materials for leaking pipes resolution",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/34_Pipe_Clamp-progressive.jpeg")
                 ],
                 [
                     "id" => "35",
                     "title" => "2 x 5,000 Erection and Welding Spherical Tank Work M3 in LPG Terminal",
                     "location" => "Semarang, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/35_Spherical_Tank-progressive.jpeg")
                 ],
                 [
                     "id" => "36",
                     "title" => "Pipe Installation Work East Banten (5C Package)",
                     "location" => "Banten, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/36_Pipe_Banten-progressive.jpeg")
                 ],
                 [
                     "id" => "37",
                     "title" => "Pipeline Installation Work forMR/S Industries in the West Banten Region (Package 4B)",
                     "location" => "Banten, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/37_Pipe_Industrial-progressive.jpeg")
                 ],
                 [
                     "id" => "38",
                     "title" => "500 MT LPG Fuel Oil Tank - Ujung Pandang",
                     "location" => "Makassar, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/38_500MT_Spherical_Tank-progressive.jpeg")
                 ],
                 [
                     "id" => "39",
                     "title" => "Pipe Normalization CB II Tasikmalaya",
                     "location" => "Tasikmalaya, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/39_Pipe_Normalization-progressive.jpeg")
                 ],
                 [
                     "id" => "40",
                     "title" => "2 x 10,000 KL Diesel and Kerosene Tanks - Plumpang Depot, Jakarta",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/40_Kerosen_Tank-progressive.jpeg")
                 ],
                 [
                     "id" => "41",
                     "title" => "Installation of Steel Pipes and Cathodic Protection of Muara Karang - Pluit",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/41_Steel_Pipes_Cath-progressive.jpeg")
                 ],
                 [
                     "id" => "42",
                     "title" => "LPG Retester Plant in Bala Raja",
                     "location" => "Tangerang, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/42_SPBU_Cakung-progressive.jpeg")
                 ],
                 [
                     "id" => "43",
                     "title" => "Gas station 31-0313 Jl. Raya Cakung East Jakarta - Pertamina UPMS III",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/43_Retester_Bala_Raja-progressive.jpeg")
                 ],
                 [
                     "id" => "44",
                     "title" => "Natural Gas Distribution Pipeline System - Daan Mogot Rawa Buaya SPBG Busway",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/44_Natural_Gas_Pipe_Distribution-progressive.jpeg")
                 ],
                 [
                     "id" => "45",
                     "title" => "Rebottoming, Replating & Elevating Stockpile Tank Foundation (UPMS III)",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/45_Tangki-progressive.jpeg")
                 ],
                 [
                     "id" => "46",
                     "title" => "Piping Expansion Loops Installation - Jl. MH Thamrin",
                     "location" => "Tangerang, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/46_Pipe_Loop-progressive.jpeg")
                 ],
                 [
                     "id" => "47",
                     "title" => "Nabire Depot Facilities (Ports, Tanks and Pipelines)",
                     "location" => "Nabire, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/47_Nabire_Depot-progressive.jpeg")
                 ],
                 [
                     "id" => "48",
                     "title" => "24-km Pipeline Installation UPMS III Depot Tasikmalaya",
                     "location" => "Tasikmalaya, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/48_Pipelines_Installation-progressive.jpeg")
                 ],
                 [
                     "id" => "49",
                     "title" => "32-km DKI Polyethylene Main Pipeline installation",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/49_Polythene_Pipelines-progressive.jpeg")
                 ],
                 [
                     "id" => "50",
