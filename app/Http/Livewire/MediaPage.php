@@ -128,9 +128,9 @@ class MediaPage extends Component
                 [
                     "id" => "15",
                     "title" => "Cilacap-Bandung Pipeline Relocation",
-                    "location" => "Balongan, Indonesia",
+                    "location" => "Cilacap, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/15_Pipeline_Relocation-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/15_Pipa-progressive.jpeg")
                 ],
                 [
                     "id" => "16",
@@ -197,17 +197,17 @@ class MediaPage extends Component
                 ],
                 [
                     "id" => "25",
-                    "title" => "Fire Extinguishing Structural Facility",
+                    "title" => "Fire Extinguisher Structure and Facility",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/25_Fire_Extinguisher-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/25_Fire_Extinguisher_Structure-progressive.jpeg")
                 ],
                 [
                     "id" => "26",
                     "title" => "Polyethylene Pipelines Distribution System 11.6 km",
                     "location" => "Cirebon, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/26_Polyethylene_Pipelines-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/26_Cirebon-progressive.jpeg")
                 ],
                 [
                     "id" => "27",
@@ -221,14 +221,14 @@ class MediaPage extends Component
                     "title" => "Pump Header Pipe and Variable Speed Diesel (VSD) Installation",
                     "location" => "Tasikmalaya, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/28_Pipa_Balongan_Lg-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/28_Variable_Speed_Drive-progressive.jpeg")
                 ],
                 [
                     "id" => "29",
                     "title" => "Pipelines & Piping Systems at Depot",
                     "location" => "Balongan, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/29_Diesel_Pipe-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/29_Piping-progressive.jpeg")
                 ],
                 [
                     "id" => "30",
@@ -249,7 +249,7 @@ class MediaPage extends Component
                     "title" => "Main Pipe, Service Pipe and MR/S Cluster Pulogadung Stage II",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/32_Pipe_Pulo-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/32_Pipa_Pulo-progressive.jpeg")
                 ],
                 [
                     "id" => "33",
@@ -312,21 +312,21 @@ class MediaPage extends Component
                     "title" => "Installation of Steel Pipes and Cathodic Protection of Muara Karang - Pluit",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/41_Steel_Pipes_Cath-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/41_Cathodic_Protection_Pipes-progressive.jpeg")
                 ],
                 [
                     "id" => "42",
+                    "title" => "Gas station Jl. Raya Cakung East Jakarta - Pertamina UPMS III",
+                    "location" => "Jakarta, Indonesia",
+                    "category" => "Category",
+                    "image" => asset("img/projects-portfolio/43_Retester_Bala_Raja-progressive.jpeg")
+                ],
+                [
+                    "id" => "43",
                     "title" => "LPG Retester Plant in Bala Raja",
                     "location" => "Tangerang, Indonesia",
                     "category" => "Category",
                     "image" => asset("img/projects-portfolio/42_SPBU_Cakung-progressive.jpeg")
-                ],
-                [
-                    "id" => "43",
-                    "title" => "Gas station 31-0313 Jl. Raya Cakung East Jakarta - Pertamina UPMS III",
-                    "location" => "Jakarta, Indonesia",
-                    "category" => "Category",
-                    "image" => asset("img/projects-portfolio/43_Retester_Bala_Raja-progressive.jpeg")
                 ],
                 [
                     "id" => "44",
@@ -361,7 +361,7 @@ class MediaPage extends Component
                     "title" => "24-km Pipeline Installation UPMS III Depot Tasikmalaya",
                     "location" => "Tasikmalaya, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/48_Pipelines_Installation-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/48_24_km_Pipe-progressive.jpeg")
                 ],
                 [
                     "id" => "49",
@@ -375,77 +375,77 @@ class MediaPage extends Component
                     "title" => "MFO & Premium Oil Filling Point - Tanjung Gerem Terminal",
                     "location" => "Banten, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/50_FILLING_POINTS_BAYS-progressive.jpeg")
                 ],
                 [
                     "id" => "51",
                     "title" => "Pipeline Replacement of Tasikmalaya Depot - Indonesian Railways Company",
                     "location" => "Tasikmalaya, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/51_Pipeline_Replacement_Depot-progressive.jpeg")
                 ],
                 [
                     "id" => "52",
                     "title" => "3.5-km Steel Pipework and cathodic protection",
                     "location" => "Bekasi, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/52_Steel_Pipes-progressive.jpeg")
                 ],
                 [
                     "id" => "53",
-                    "title" => "Gas station 31-0209 Jl. Kyai - Tapa, West Jakarta",
+                    "title" => "Gas station West Jakarta",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/53_SPBU_Grogol-progressive.jpeg")
                 ],
                 [
                     "id" => "54",
                     "title" => "6.3-km Installation of PE Pipe Sector II & III (Perumnas - Karawaci)",
                     "location" => "Banten, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/54_Polyethylene_Pipelines-progressive.jpeg")
                 ],
                 [
                     "id" => "55",
                     "title" => "2 x 10,000 KL Oil Fuel and Diesel Tank Construction - Deli Medan",
                     "location" => "Medan, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/55_2_Tangki_BBM_2x10000-progressive.jpeg")
                 ],
                 [
                     "id" => "56",
                     "title" => "10-km PE Piping System Installation DTR II Area",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/56_Pipe_DTR_II-progressive.jpeg")
                 ],
                 [
                     "id" => "57",
                     "title" => "10.08-km PE Piping System Installation DTR I Area",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/57_DTR_I_Pipa-progressive.jpeg")
                 ],
                 [
                     "id" => "58",
-                    "title" => "500 MT LPG Fuel Oil Tank",
-                    "location" => "Makassar, Indonesia",
+                    "title" => "LPG Retester Plant in Ponorogo",
+                    "location" => "Ponorogo, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/58_LPG_Retester_Ponorogo-progressive.jpeg")
                 ],
                 [
                     "id" => "59",
                     "title" => "4.4-km Steel Pipes and Cathodic Protection Installation (Sunter - Kelapa Gading)",
                     "location" => "Jakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/59_Steel_Pipe_KG-progressive.jpeg")
                 ],
                 [
                     "id" => "60",
                     "title" => "Installation of Gas Piping System Jl. Parang Tritis - Asahi Mas",
                     "location" => "Yogyakarta, Indonesia",
                     "category" => "Category",
-                    "image" => asset("img/projects-portfolio/24_Pipe_Modification-progressive.jpeg")
+                    "image" => asset("img/projects-portfolio/60_Pipa_Yogyakarta-progressive.jpeg")
                 ],
             ],
             "blog" => [
