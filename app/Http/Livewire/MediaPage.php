@@ -316,15 +316,15 @@ class MediaPage extends Component
                 ],
                 [
                     "id" => "42",
-                    "title" => "Gas station Jl. Raya Cakung East Jakarta - Pertamina UPMS III",
-                    "location" => "Jakarta, Indonesia",
+                    "title" => "LPG Retester Plant in Bala Raja",
+                    "location" => "Tangerang, Indonesia",
                     "category" => "Category",
                     "image" => asset("img/projects-portfolio/43_Retester_Bala_Raja-progressive.jpeg")
                 ],
                 [
                     "id" => "43",
-                    "title" => "LPG Retester Plant in Bala Raja",
-                    "location" => "Tangerang, Indonesia",
+                    "title" => "Gas station Jl. Raya Cakung East Jakarta - Pertamina UPMS III",
+                    "location" => "Jakarta, Indonesia",
                     "category" => "Category",
                     "image" => asset("img/projects-portfolio/42_SPBU_Cakung-progressive.jpeg")
                 ],
