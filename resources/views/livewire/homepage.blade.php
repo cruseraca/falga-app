@@ -241,7 +241,7 @@
             <img data-src="{{ asset('img/logo/logo-pgn.png') }}" alt="pgn" class="lozad home-partners-items home-partners-items-pgn" />
             <img data-src="{{ asset('img/logo/logo-wika.png') }}" alt="wika" class="lozad home-partners-items home-partners-items-wika" />
             <img data-src="{{ asset('img/logo/logo-waskita.png') }}" alt="waskita" class="lozad home-partners-items home-partners-items-waskita" />
-            <img data-src="{{ asset('img/logo/logo-siemens.png') }}" alt="siemens" class="lozad home-partners-items home-partners-items-siemens" />
+            {{-- <img data-src="{{ asset('img/logo/logo-siemens.png') }}" alt="siemens" class="lozad home-partners-items home-partners-items-siemens" /> --}}
             <img data-src="{{ asset('img/logo/logo-yokogawa.png') }}" alt="yokogawa" class="lozad home-partners-items home-partners-items-yokogawa" />
             <img data-src="{{ asset('img/logo/logo-patterson.png') }}" alt="patterson" class="lozad home-partners-items home-partners-items-patterson" />
             <img data-src="{{ asset('img/logo/logo-emco-2.png') }}" alt="emco" class="lozad home-partners-items home-partners-items-emco" />
