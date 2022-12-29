@@ -7,12 +7,18 @@
 {{-- Hero --}}
 <div class="sm:w-full bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px] relative">
   <picture class="top-0 left-0 z-0 absolute w-full h-full">
-    <source media="(min-width:1280px)" srcset="{{ asset('img/hero-image-2.1536.jpg') }}" class="w-full h-full" />
-    <source media="(min-width:1024px)" srcset="{{ asset('img/hero-image-2.1280.jpg') }}" class="w-full h-full" />
-    <source media="(min-width:768px)" srcset="{{ asset('img/hero-image-2.1024.jpg') }}" class="w-full h-full" />
-    <source media="(min-width:640px)" srcset="{{ asset('img/hero-image-2.768.jpg') }}" class="w-full h-full" />
-    <source media="(min-width:412px)" srcset="{{ asset('img/hero-image-2.640.jpg') }}" class="w-full h-full" />
-    <source media="(min-width:0)" srcset="{{ asset('img/hero-image-2.412.jpg') }}" class="w-full h-full" />
+    <source media="(min-width:1280px)" srcset="{{ asset('img/hero-image-2.1536.webp') }}" type="image/webp" class="w-full h-full" />
+    <source media="(min-width:1024px)" srcset="{{ asset('img/hero-image-2.1280.webp') }}" type="image/webp" class="w-full h-full" />
+    <source media="(min-width:768px)" srcset="{{ asset('img/hero-image-2.1024.webp') }}" type="image/webp" class="w-full h-full" />
+    <source media="(min-width:640px)" srcset="{{ asset('img/hero-image-2.768.webp') }}" type="image/webp" class="w-full h-full" />
+    <source media="(min-width:412px)" srcset="{{ asset('img/hero-image-2.640.webp') }}" type="image/webp" class="w-full h-full" />
+    <source media="(min-width:0)" srcset="{{ asset('img/hero-image-2.412.webp') }}" type="image/webp" class="w-full h-full" />
+    <source media="(min-width:1280px)" srcset="{{ asset('img/hero-image-2.1536.jpg') }}" type="image/jpeg" class="w-full h-full" />
+    <source media="(min-width:1024px)" srcset="{{ asset('img/hero-image-2.1280.jpg') }}" type="image/jpeg" class="w-full h-full" />
+    <source media="(min-width:768px)" srcset="{{ asset('img/hero-image-2.1024.jpg') }}" type="image/jpeg" class="w-full h-full" />
+    <source media="(min-width:640px)" srcset="{{ asset('img/hero-image-2.768.jpg') }}" type="image/jpeg" class="w-full h-full" />
+    <source media="(min-width:412px)" srcset="{{ asset('img/hero-image-2.640.jpg') }}" type="image/jpeg" class="w-full h-full" />
+    <source media="(min-width:0)" srcset="{{ asset('img/hero-image-2.412.jpg') }}" type="image/jpeg" class="w-full h-full" />
     <img alt="" src="{{ asset('img/hero-image-2.jpg') }}" class="object-cover object-top w-full h-full" />
   </picture>
   <div class="falga-container relative z-10 text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center uppercase" style="margin-bottom: 80px">
