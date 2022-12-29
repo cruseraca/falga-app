@@ -1,6 +1,9 @@
 @push('styles')
 <link href="{{ asset('css/home.css') }}" rel="stylesheet">
 @endpush
+@section('meta_description')
+<meta name="description" content="Core Emphasis on Business Building through Sustainable Investing">
+@overwrite
 {{-- Hero --}}
 <div class="sm:w-full bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px] bg-[url('/img/hero-image-2.jpg')]">
     <div class="falga-container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center uppercase" style="margin-bottom: 80px">
@@ -181,7 +184,7 @@
         <div class="carousel sm:w-[85%] mx-auto w-screen">
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("epci-business") }}" class="h-full w-full">
-                    <img data-src="{{ asset('img/slider/image-7-progressive.jpeg') }}" class="lozad h-full w-full object-cover object-center">
+                    <img data-src="{{ asset('img/slider/image-7-progressive.jpeg') }}" alt="EPCI Business" class="lozad h-full w-full object-cover object-center">
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Engineering, Procurement, Construction, and Installation (EPCI)</p>
@@ -189,7 +192,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("oil-and-gas-business") }}" class="h-full w-full">
-                    <img data-src="{{ asset('img/slider/pom-bensin-progressive.jpeg') }}" class="lozad h-full w-full object-cover object-center-bottom" />
+                    <img data-src="{{ asset('img/slider/pom-bensin-progressive.jpeg') }}" alt="Oil & Gas Retail" class="lozad h-full w-full object-cover object-center-bottom" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Oil & Gas Retail</p>
@@ -197,7 +200,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("industrial-rental") }}" class="h-full w-full">
-                    <img data-src="{{ asset('img/slider/industrial-progressive.jpeg') }}" class="lozad h-full w-full object-cover object-center-bottom" />
+                    <img data-src="{{ asset('img/slider/industrial-progressive.jpeg') }}" alt="Industrial Equipment Rental" class="lozad h-full w-full object-cover object-center-bottom" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Industrial Equipment Rental</p>
@@ -205,7 +208,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("future-business") }}" class="h-full w-full">
-                    <img data-src="{{ asset('img/slider/future-progressive.jpeg') }}" class="lozad h-full w-full object-fill" />
+                    <img data-src="{{ asset('img/slider/future-progressive.jpeg') }}" alt="Future Bussiness" class="lozad h-full w-full object-fill" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Future Bussiness</p>
@@ -213,7 +216,7 @@
             </div>
             <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
                 <a href="{{ url("prop-business") }}" class="h-full w-full">
-                    <img data-src="{{ asset('img/slider/property-progressive.jpeg') }}" class="lozad h-full w-full object-fill" />
+                    <img data-src="{{ asset('img/slider/property-progressive.jpeg') }}" alt="Property & Hospitality" class="lozad h-full w-full object-fill" />
                 </a>
                 <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
                     <p>Property & Hospitality</p>
@@ -262,7 +265,7 @@
                     Site Map
                 </p>
                 <div class="w-4/5 h-[300px] sm:w-[500px] sm:h-[400px] mx-auto">
-                    <iframe class="lozad" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2672018290027!2d106.82190816512019!3d-6.228460295491357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e4a175a33f%3A0xc96c83f443f46e81!2sDea%20Tower%2C%20Jl.%20Mega%20Kuningan%20Barat%20No.1%2C%20RT.5%2FRW.2%2C%20Kuningan%2C%20East%20Kuningan%2C%20Setiabudi%2C%20South%20Jakarta%20City%2C%20Jakarta%2012950!5e0!3m2!1sid!2sid!4v1668005572898!5m2!1sid!2sid" width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="lozad" title="FALGA" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2672018290027!2d106.82190816512019!3d-6.228460295491357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e4a175a33f%3A0xc96c83f443f46e81!2sDea%20Tower%2C%20Jl.%20Mega%20Kuningan%20Barat%20No.1%2C%20RT.5%2FRW.2%2C%20Kuningan%2C%20East%20Kuningan%2C%20Setiabudi%2C%20South%20Jakarta%20City%2C%20Jakarta%2012950!5e0!3m2!1sid!2sid!4v1668005572898!5m2!1sid!2sid" width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <div id="contact-us" class="w-full p-10">

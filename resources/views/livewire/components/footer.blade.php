@@ -4,7 +4,7 @@
         <div class="container mx-auto px-4 text-white">
             <div class="flex flex-wrap flex-col sm:flex-row text-left lg:text-left">
                 <div class="order-last sm:order-first sm:w-1/2 lg:w-6/12 px-4 mb-10">
-                    <img data-src="{{ asset('img/logo-falga-white.png') }}" alt="" class="lozad h-[60px] object-cover">
+                    <img data-src="{{ asset('img/logo-falga-white.png') }}" alt="" class="lozad h-[60px] w-[171.1px] object-cover">
                     <div class="grid grid-cols-5 mt-10 text-sm">
                         <div class="font-semibold">Phone</div>
                         <div class="col-span-4">: <a href="tel:+6221576080">(021) 576-0880</a></div>

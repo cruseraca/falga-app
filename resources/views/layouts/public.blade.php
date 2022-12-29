@@ -6,6 +6,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
     <title>{{ config("app.name", "Falga") }}</title>
+    @section('meta_description')
+    <meta name="description" content="Core Emphasis on Business Building through Sustainable Investing">
+    @show
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" />
