@@ -32,9 +32,11 @@
   </p>
 </div>
 <div class="home-glance">
-  <a href="{{ url("about-us") }}" class="home-glance-image">
-    <img class="lozad" alt="at glance" data-src="{{ asset('img/homepage/at-glance-1.png') }}" />
-  </a>
+  <div class="home-glance-aspect">
+    <a href="{{ url("about-us") }}" class="home-glance-image">
+      <img class="lozad" alt="at glance" data-src="{{ asset('img/homepage/at-glance-1.png') }}" />
+    </a>
+  </div>
   <a href="{{ url("epci-business") }}" class="home-glance-item home-glance-epci-business">
     <img class="lozad" alt="EPCI Business" data-src="{{ asset('img/homepage/epci-business-n.png') }}" class="home-glance-epci-business-img" />
   </a>
