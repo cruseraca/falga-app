@@ -2,8 +2,11 @@ const mix = require("laravel-mix");
 const fs = require("fs");
 const path = require("path");
 
-const image_dir = path.resolve(__dirname, "./resources/img");
-
+/**
+ * @param {{ a: string[], d: string }} all
+ * @param {string} c
+ * @returns {{ a: string[], d: string }}
+ */
 const img_reducer = ({ a, d }, c) => {
     const f = path.resolve(d, c);
     if (fs.lstatSync(f).isDirectory()) {
@@ -14,15 +17,18 @@ const img_reducer = ({ a, d }, c) => {
     return {
         a: [
             ...a,
-            path.resolve(d, c).replace(/^.*\/resources\/img/, "public/img"),
+            path
+                .resolve(d, c)
+                .replace(path.resolve(__dirname, "resources"), "public"),
         ],
         d,
     };
 };
 
-const images = fs
-    .readdirSync(image_dir)
-    .reduce(img_reducer, { a: [], d: image_dir });
+const img = ["resources/img"].reduce(img_reducer, { a: [], d: __dirname });
+const lib = ["resources/lib"].reduce(img_reducer, { a: [], d: __dirname });
+const js = ["resources/js"].reduce(img_reducer, { a: [], d: __dirname });
+const css = ["resources/css"].reduce(img_reducer, { a: [], d: __dirname });
 
 /*
  |--------------------------------------------------------------------------
@@ -35,60 +41,36 @@ const images = fs
  |
  */
 
-mix.js("resources/js/app.js", "public/js")
-    .js("resources/js/homepage.js", "public/js")
-    .js("resources/js/industrial.js", "public/js")
-    .js("resources/js/esg.js", "public/js")
-    .postCss("resources/css/app.css", "public/css", [
-        require("tailwindcss"),
-        require("autoprefixer"),
-    ])
-    .sass("resources/sass/app.scss", "public/css")
-    .postCss("resources/css/home.css", "public/css", [
-        require("tailwindcss"),
-        require("autoprefixer"),
-    ])
-    .postCss("resources/css/about-us.css", "public/css", [
-        require("tailwindcss"),
-        require("autoprefixer"),
-    ])
-    .postCss("resources/css/our-business.css", "public/css", [
-        require("tailwindcss"),
-        require("autoprefixer"),
-    ])
-    .postCss("resources/css/property.css", "public/css", [
-        require("tailwindcss"),
-        require("autoprefixer"),
-    ])
-    .postCss("resources/css/epci.css", "public/css", [
-        require("tailwindcss"),
-        require("autoprefixer"),
-    ])
-    .postCss("resources/css/oil-gas.css", "public/css", [
-        require("tailwindcss"),
-        require("autoprefixer"),
-    ])
-    .postCss("resources/css/industrial.css", "public/css", [
-        require("tailwindcss"),
-        require("autoprefixer"),
-    ])
-    .postCss("resources/css/esg.css", "public/css", [
-        require("tailwindcss"),
-        require("autoprefixer"),
-    ])
-    .postCss("resources/css/career.css", "public/css", [
-        require("tailwindcss"),
-        require("autoprefixer"),
-    ])
-    .postCss("resources/css/media-and-information.css", "public/css", [
-        require("tailwindcss"),
-        require("autoprefixer"),
-    ])
+mix.sass("resources/sass/app.scss", "public/css")
     .copy(
         "node_modules/@fortawesome/fontawesome-free/webfonts",
         "public/webfonts"
     )
-    .version(images.a);
+    .copy("resources/favicon.ico", "public")
+    .copy("resources/favicon-16x16.png", "public")
+    .copy("resources/favicon-32x32.png", "public")
+    .copy("resources/apple-touch-icon.png", "public")
+    .copy("resources/android-chrome-512x512.png", "public")
+    .copy("resources/android-chrome-192x192.png", "public")
+    .copy("resources/site.webmanifest", "public");
+
+const css_plugins = [require("tailwindcss"), require("autoprefixer")];
+
+js.a.forEach((file) => {
+    mix.js(file.replace(/^public/, "resources"), file);
+});
+css.a.forEach((file) => {
+    mix.css(file.replace(/^public/, "resources"), file, css_plugins);
+});
+img.a.forEach((file) => {
+    mix.copy(file.replace(/^public/, "resources"), file);
+});
+lib.a.forEach((file) => {
+    mix.copy(file.replace(/^public/, "resources"), file);
+    mix.minify(file);
+});
+
+mix.version();
 
 mix.browserSync({
     proxy: "http://127.0.0.1:8000",

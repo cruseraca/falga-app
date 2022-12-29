@@ -15,7 +15,7 @@ export default defineConfig({
             "resources/css/esg.css",
             "resources/js/app.js",
             "resources/js/homepage.js",
-            "resources/css/industrial.js",
+            "resources/js/industrial.js",
             "resources/js/esg.js",
         ]),
     ],

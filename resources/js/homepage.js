@@ -1,5 +1,3 @@
-const { default: axios } = require("axios");
-
 const init_carousel = () => {
     var $carousel = $(".carousel").flickity({
         wrapAround: true,

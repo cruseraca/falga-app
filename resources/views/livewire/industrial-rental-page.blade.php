@@ -1,8 +1,9 @@
 @push('styles')
+<link href="{{ mix('lib/css/flickity.min.css') }}" rel="stylesheet" />
 <link href="{{ mix('css/industrial.css') }}" rel="stylesheet">
 @endpush
 @push('scripts')
-<script src="{{ asset('flickity/flickity.pkgd.min.js') }}"></script>
+<script src="{{ mix('lib/js/flickity.pkgd.min.min.js') }}"></script>
 <script src="{{ mix('js/industrial.js') }}"></script>
 @endpush
 {{-- Banner --}}

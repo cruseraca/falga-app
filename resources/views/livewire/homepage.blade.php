@@ -1,5 +1,10 @@
 @push('styles')
+<link href="{{ mix('lib/css/flickity.min.css') }}" rel="stylesheet" />
 <link href="{{ mix('css/home.css') }}" rel="stylesheet">
+@endpush
+@push('scripts')
+<script src="{{ mix('lib/js/flickity.pkgd.min.min.js') }}"></script>
+<script src="{{ mix('js/homepage.js') }}"></script>
 @endpush
 @section('meta_description')
 <meta name="description" content="Core Emphasis on Business Building through Sustainable Investing">
@@ -346,8 +351,3 @@
     </div>
   </div>
 </div>
-
-@push('scripts')
-<script src="{{ asset('flickity/flickity.pkgd.min.js') }}"></script>
-<script src="{{ mix('js/homepage.js') }}"></script>
-@endpush
