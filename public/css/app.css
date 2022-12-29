@@ -12295,6 +12295,9 @@ input:checked + .toggle-bg {
 .bg-\[url\(\'\/img\/our-business\/oil-and-gas\/oil_and_gas_banner\.jpg\'\)\] {
   background-image: url('/img/our-business/oil-and-gas/oil_and_gas_banner.jpg');
 }
+.bg-\[url\(\'\/img\/hero-image-2\.jpg\'\)\] {
+  background-image: url('/img/hero-image-2.jpg');
+}
 .bg-cover {
   background-size: cover;
 }
@@ -12799,7 +12802,7 @@ input:checked + .toggle-bg {
 
 .carousel-cell {
   height: 448px;
-  background-color: aquamarine;
+  background-color: gray;
 }
 .falga-header {
   max-width: 1312px;
@@ -13885,12 +13888,6 @@ input:checked + .toggle-bg {
     --tw-divide-x-reverse: 0;
     border-right-width: calc(16px * var(--tw-divide-x-reverse));
     border-left-width: calc(16px * calc(1 - var(--tw-divide-x-reverse)));
-  }
-
-  .md\:divide-x-\[68px\] > :not([hidden]) ~ :not([hidden]) {
-    --tw-divide-x-reverse: 0;
-    border-right-width: calc(68px * var(--tw-divide-x-reverse));
-    border-left-width: calc(68px * calc(1 - var(--tw-divide-x-reverse)));
   }
 
   .md\:self-stretch {
