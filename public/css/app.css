@@ -11554,6 +11554,10 @@ input:checked + .toggle-bg {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -11770,11 +11774,17 @@ input:checked + .toggle-bg {
 .w-4\/5 {
   width: 80%;
 }
+.w-\[152\.733px\] {
+  width: 152.733px;
+}
 .w-6 {
   width: 1.5rem;
 }
 .w-8 {
   width: 2rem;
+}
+.w-\[171\.1px\] {
+  width: 171.1px;
 }
 .w-4 {
   width: 1rem;
@@ -11808,12 +11818,6 @@ input:checked + .toggle-bg {
 }
 .w-0 {
   width: 0px;
-}
-.w-\[152\.733px\] {
-  width: 152.733px;
-}
-.w-\[171\.1px\] {
-  width: 171.1px;
 }
 .min-w-\[300px\] {
   min-width: 300px;
@@ -12292,6 +12296,9 @@ input:checked + .toggle-bg {
 .bg-\[url\(\'\/img\/our-business\/future-business\.jpg\'\)\] {
   background-image: url('/img/our-business/future-business.jpg');
 }
+.bg-\[url\(\'\/img\/hero-image-2\.jpg\'\)\] {
+  background-image: url('/img/hero-image-2.jpg');
+}
 .bg-\[url\(\'\/img\/homepage\/background-contact\.jpeg\'\)\] {
   background-image: url('/img/homepage/background-contact.jpeg');
 }
@@ -12300,9 +12307,6 @@ input:checked + .toggle-bg {
 }
 .bg-\[url\(\'\/img\/our-business\/oil-and-gas\/oil_and_gas_banner\.jpg\'\)\] {
   background-image: url('/img/our-business/oil-and-gas/oil_and_gas_banner.jpg');
-}
-.bg-\[url\(\'\/img\/hero-image-2\.jpg\'\)\] {
-  background-image: url('/img/hero-image-2.jpg');
 }
 .bg-cover {
   background-size: cover;
@@ -12330,6 +12334,10 @@ input:checked + .toggle-bg {
 .object-center {
   -o-object-position: center;
      object-position: center;
+}
+.object-top {
+  -o-object-position: top;
+     object-position: top;
 }
 .p-2 {
   padding: 0.5rem;
