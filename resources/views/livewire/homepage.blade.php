@@ -13,7 +13,7 @@
     <source media="(min-width:640px)" srcset="{{ asset('img/hero-image-2.768.jpg') }}" class="w-full h-full" />
     <source media="(min-width:412px)" srcset="{{ asset('img/hero-image-2.640.jpg') }}" class="w-full h-full" />
     <source media="(min-width:0)" srcset="{{ asset('img/hero-image-2.412.jpg') }}" class="w-full h-full" />
-    <img source src="{{ asset('img/hero-image-2.jpg') }}" class="object-cover object-top w-full h-full" />
+    <img alt="" src="{{ asset('img/hero-image-2.jpg') }}" class="object-cover object-top w-full h-full" />
   </picture>
   <div class="falga-container relative z-10 text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center uppercase" style="margin-bottom: 80px">
     <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed">
