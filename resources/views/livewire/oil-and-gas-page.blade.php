@@ -1,8 +1,8 @@
 @push('styles')
-<link href="{{ asset('css/oil-gas.css') }}" rel="stylesheet">
+<link href="{{ mix('css/oil-gas.css') }}" rel="stylesheet">
 @endpush
 {{-- Banner --}}
-<div class="lozad md:w-full bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]" data-background-image="{{ asset('img/our-business/oil-and-gas/oil_and_gas_banner.jpg') }}">
+<div class="lozad md:w-full bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]" data-background-image="{{ mix('img/our-business/oil-and-gas/oil_and_gas_banner.jpg') }}">
   <div class="container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center mx-auto" style="margin-bottom: 80px">
     <h1 class="font-poppins font-extrabold text-xl md:text-2xl lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px #000000;">
       OIL AND GAS RETAIL
@@ -24,7 +24,7 @@
     <div class="item">
       <div class="item-i-bl">
         <div class="item-i-bl-ar">
-          <img class="lozad item-i-bl-i" data-src="{{ asset('img/our-business/oil-and-gas/pom.png') }}" alt="">
+          <img class="lozad item-i-bl-i" data-src="{{ mix('img/our-business/oil-and-gas/pom.png') }}" alt="">
         </div>
       </div>
       <div class="item-line bg-[#595897]"></div>
@@ -42,7 +42,7 @@
   <div class="item reverse">
     <div class="item-i-bh">
       <div class="item-i-bh-ar">
-        <img class="lozad item-i-bl-i" data-src="{{ asset('img/our-business/oil-and-gas/gas.jpg') }}" alt="">
+        <img class="lozad item-i-bl-i" data-src="{{ mix('img/our-business/oil-and-gas/gas.jpg') }}" alt="">
       </div>
     </div>
     <div class="item-line bg-[#8B547D]"></div>

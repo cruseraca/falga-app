@@ -1,6 +1,6 @@
 <nav class="fixed top-0 flex items-center justify-between flex-wrap bg-white-500 py-5 px-12 bg-white w-full shadow-box-nav">
     <div class="flex items-center h-12 mr-6">
-        <img class="object-cover relative h-full" src="{{ asset('img/logo-falga.svg') }}" alt="">
+        <img class="object-cover relative h-full" src="{{ mix('img/logo-falga.svg') }}" alt="">
     </div>
     <div class="block lg:hidden">
         <button class="flex items-center px-3 py-2 border rounded text-purple-falga border-teal-400 hover:text-white hover:border-white">

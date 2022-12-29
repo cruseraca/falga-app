@@ -1,11 +1,11 @@
 @push('styles')
-<link href="{{ asset('css/esg.css') }}" rel="stylesheet">
+<link href="{{ mix('css/esg.css') }}" rel="stylesheet">
 @endpush
 @push('scripts')
-<script src="{{ asset('js/esg.js') }}" rel="stylesheet"></script>
+<script src="{{ mix('js/esg.js') }}" rel="stylesheet"></script>
 @endpush
 {{-- Banner --}}
-<div class="lozad sm:w-full bg-no-repeat bg-center bg-cover flex mt-[61px] md:mt-[77px] items-center justify-center" data-background-image="{{ asset("img/esg/banner.png") }}">
+<div class="lozad sm:w-full bg-no-repeat bg-center bg-cover flex mt-[61px] md:mt-[77px] items-center justify-center" data-background-image="{{ mix("img/esg/banner.png") }}">
     <h1 class="font-poppins text-white my-[212px] md:my-[312px] text-center font-extrabold lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px #000000;">
         Environmental, Social, and Governance
     </h1>

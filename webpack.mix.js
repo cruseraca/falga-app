@@ -1,4 +1,28 @@
 const mix = require("laravel-mix");
+const fs = require("fs");
+const path = require("path");
+
+const image_dir = path.resolve(__dirname, "./resources/img");
+
+const img_reducer = ({ a, d }, c) => {
+    const f = path.resolve(d, c);
+    if (fs.lstatSync(f).isDirectory()) {
+        const fi = fs.readdirSync(f);
+        const z = fi.reduce(img_reducer, { a, d: f });
+        return { a: z.a, d };
+    }
+    return {
+        a: [
+            ...a,
+            path.resolve(d, c).replace(/^.*\/resources\/img/, "public/img"),
+        ],
+        d,
+    };
+};
+
+const images = fs
+    .readdirSync(image_dir)
+    .reduce(img_reducer, { a: [], d: image_dir });
 
 /*
  |--------------------------------------------------------------------------
@@ -63,7 +87,8 @@ mix.js("resources/js/app.js", "public/js")
     .copy(
         "node_modules/@fortawesome/fontawesome-free/webfonts",
         "public/webfonts"
-    );
+    )
+    .version(images.a);
 
 mix.browserSync({
     proxy: "http://127.0.0.1:8000",

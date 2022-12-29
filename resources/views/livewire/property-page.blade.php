@@ -1,8 +1,8 @@
 @push('styles')
-<link href="{{ asset('css/property.css') }}" rel="stylesheet">
+<link href="{{ mix('css/property.css') }}" rel="stylesheet">
 @endpush
 {{-- Banner --}}
-<div class="lozad md:w-full bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]" data-background-image="{{ asset('img/property/banner.png') }}">
+<div class="lozad md:w-full bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]" data-background-image="{{ mix('img/property/banner.png') }}">
   <div class="container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center mx-auto" style="margin-bottom: 80px">
     <h1 class="font-poppins font-extrabold text-xl md:text-2xl lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px #000000;">
       PROPERTY AND HOSPITALITY
@@ -24,7 +24,7 @@
     <div class="item">
       <div class="item-i-bl">
         <div class="item-i-bl-ar">
-          <img class="lozad item-i-bl-i" data-src="{{ asset('img/our-business/hospitality.jpg') }}" alt="">
+          <img class="lozad item-i-bl-i" data-src="{{ mix('img/our-business/hospitality.jpg') }}" alt="">
         </div>
       </div>
       <div class="item-line bg-[#7D5082]"></div>
@@ -40,7 +40,7 @@
   <div class="item reverse">
     <div class="item-i-bh">
       <div class="item-i-bh-ar">
-        <img class="lozad item-i-bl-i" data-src="{{ asset('img/our-business/prop-and-hospitality/house1.jpg') }}" alt="">
+        <img class="lozad item-i-bl-i" data-src="{{ mix('img/our-business/prop-and-hospitality/house1.jpg') }}" alt="">
       </div>
     </div>
     <div class="item-line bg-[#584B8F]"></div>

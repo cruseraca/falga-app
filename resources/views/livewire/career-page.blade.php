@@ -1,8 +1,8 @@
 @push('styles')
-<link href="{{ asset('css/career.css') }}" rel="stylesheet">
+<link href="{{ mix('css/career.css') }}" rel="stylesheet">
 @endpush
 {{-- Banner --}}
-<div class="lozad sm:w-full falga-banner bg-no-repeat bg-center bg-cover flex mt-[61px] md:mt-[77px] items-center justify-center" data-background-image="{{ asset("img/career/banner.png") }}">
+<div class="lozad sm:w-full falga-banner bg-no-repeat bg-center bg-cover flex mt-[61px] md:mt-[77px] items-center justify-center" data-background-image="{{ mix("img/career/banner.png") }}">
     <h1 class="font-poppins text-white my-[212px] md:my-[312px] text-center font-extrabold lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px #000000;">
         Career
     </h1>

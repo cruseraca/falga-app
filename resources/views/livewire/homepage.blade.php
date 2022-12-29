@@ -1,5 +1,5 @@
 @push('styles')
-<link href="{{ asset('css/home.css') }}" rel="stylesheet">
+<link href="{{ mix('css/home.css') }}" rel="stylesheet">
 @endpush
 @section('meta_description')
 <meta name="description" content="Core Emphasis on Business Building through Sustainable Investing">
@@ -7,19 +7,19 @@
 {{-- Hero --}}
 <div class="sm:w-full bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px] relative">
   <picture class="top-0 left-0 z-0 absolute w-full h-full">
-    <source media="(min-width:1280px)" srcset="{{ asset('img/hero-image-2.1536.webp') }}" type="image/webp" class="w-full h-full" />
-    <source media="(min-width:1024px)" srcset="{{ asset('img/hero-image-2.1280.webp') }}" type="image/webp" class="w-full h-full" />
-    <source media="(min-width:768px)" srcset="{{ asset('img/hero-image-2.1024.webp') }}" type="image/webp" class="w-full h-full" />
-    <source media="(min-width:640px)" srcset="{{ asset('img/hero-image-2.768.webp') }}" type="image/webp" class="w-full h-full" />
-    <source media="(min-width:412px)" srcset="{{ asset('img/hero-image-2.640.webp') }}" type="image/webp" class="w-full h-full" />
-    <source media="(min-width:0)" srcset="{{ asset('img/hero-image-2.412.webp') }}" type="image/webp" class="w-full h-full" />
-    <source media="(min-width:1280px)" srcset="{{ asset('img/hero-image-2.1536.jpg') }}" type="image/jpeg" class="w-full h-full" />
-    <source media="(min-width:1024px)" srcset="{{ asset('img/hero-image-2.1280.jpg') }}" type="image/jpeg" class="w-full h-full" />
-    <source media="(min-width:768px)" srcset="{{ asset('img/hero-image-2.1024.jpg') }}" type="image/jpeg" class="w-full h-full" />
-    <source media="(min-width:640px)" srcset="{{ asset('img/hero-image-2.768.jpg') }}" type="image/jpeg" class="w-full h-full" />
-    <source media="(min-width:412px)" srcset="{{ asset('img/hero-image-2.640.jpg') }}" type="image/jpeg" class="w-full h-full" />
-    <source media="(min-width:0)" srcset="{{ asset('img/hero-image-2.412.jpg') }}" type="image/jpeg" class="w-full h-full" />
-    <img alt="" src="{{ asset('img/hero-image-2.jpg') }}" class="object-cover object-top w-full h-full" />
+    <source media="(min-width:1280px)" srcset="{{ mix('img/hero-image-2.1536.webp') }}" type="image/webp" class="w-full h-full" />
+    <source media="(min-width:1024px)" srcset="{{ mix('img/hero-image-2.1280.webp') }}" type="image/webp" class="w-full h-full" />
+    <source media="(min-width:768px)" srcset="{{ mix('img/hero-image-2.1024.webp') }}" type="image/webp" class="w-full h-full" />
+    <source media="(min-width:640px)" srcset="{{ mix('img/hero-image-2.768.webp') }}" type="image/webp" class="w-full h-full" />
+    <source media="(min-width:412px)" srcset="{{ mix('img/hero-image-2.640.webp') }}" type="image/webp" class="w-full h-full" />
+    <source media="(min-width:0)" srcset="{{ mix('img/hero-image-2.412.webp') }}" type="image/webp" class="w-full h-full" />
+    <source media="(min-width:1280px)" srcset="{{ mix('img/hero-image-2.1536.jpg') }}" type="image/jpeg" class="w-full h-full" />
+    <source media="(min-width:1024px)" srcset="{{ mix('img/hero-image-2.1280.jpg') }}" type="image/jpeg" class="w-full h-full" />
+    <source media="(min-width:768px)" srcset="{{ mix('img/hero-image-2.1024.jpg') }}" type="image/jpeg" class="w-full h-full" />
+    <source media="(min-width:640px)" srcset="{{ mix('img/hero-image-2.768.jpg') }}" type="image/jpeg" class="w-full h-full" />
+    <source media="(min-width:412px)" srcset="{{ mix('img/hero-image-2.640.jpg') }}" type="image/jpeg" class="w-full h-full" />
+    <source media="(min-width:0)" srcset="{{ mix('img/hero-image-2.412.jpg') }}" type="image/jpeg" class="w-full h-full" />
+    <img alt="" src="{{ mix('img/hero-image-2.jpg') }}" class="object-cover object-top w-full h-full" />
   </picture>
   <div class="falga-container relative z-10 text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center uppercase" style="margin-bottom: 80px">
     <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed">
@@ -40,23 +40,23 @@
 <div class="home-glance">
   <div class="home-glance-aspect">
     <a href="{{ url("about-us") }}" class="home-glance-image">
-      <img class="lozad" alt="at glance" data-src="{{ asset('img/homepage/at-glance-1.png') }}" />
+      <img class="lozad" alt="at glance" data-src="{{ mix('img/homepage/at-glance-1.png') }}" />
     </a>
   </div>
   <a href="{{ url("epci-business") }}" class="home-glance-item home-glance-epci-business">
-    <img class="lozad" alt="EPCI Business" data-src="{{ asset('img/homepage/epci-business-n.png') }}" class="home-glance-epci-business-img" />
+    <img class="lozad" alt="EPCI Business" data-src="{{ mix('img/homepage/epci-business-n.png') }}" class="home-glance-epci-business-img" />
   </a>
   <a href="{{ url("industrial-rental") }}" class="home-glance-item home-glance-industrial-rental">
-    <img class="lozad" alt="industrial rental" data-src="{{ asset('img/homepage/industrial-rental-n.png') }}" />
+    <img class="lozad" alt="industrial rental" data-src="{{ mix('img/homepage/industrial-rental-n.png') }}" />
   </a>
   <a href="{{ url("prop-business") }}" class="home-glance-item home-glance-property-hospitality">
-    <img class="lozad" alt="property & hospitality" data-src="{{ asset('img/homepage/property-hospitality-n.png') }}" />
+    <img class="lozad" alt="property & hospitality" data-src="{{ mix('img/homepage/property-hospitality-n.png') }}" />
   </a>
   <a href="{{ url("oil-and-gas-business") }}" class="home-glance-item home-glance-oil-gas-rental">
-    <img class="lozad" alt="oil & gas retail" data-src="{{ asset('img/homepage/oil-gas-rental-n.png') }}" />
+    <img class="lozad" alt="oil & gas retail" data-src="{{ mix('img/homepage/oil-gas-rental-n.png') }}" />
   </a>
   <a href="{{ url("future-business") }}" class="home-glance-item home-glance-future-business">
-    <img class="lozad" alt="future bussiness" data-src="{{ asset('img/homepage/future-bussiness-n.png') }}" />
+    <img class="lozad" alt="future bussiness" data-src="{{ mix('img/homepage/future-bussiness-n.png') }}" />
   </a>
 </div>
 <div class="max-w-screen flex flex-col mx-auto my-6 md:my-20 font-poppins">
@@ -201,7 +201,7 @@
     <div class="carousel sm:w-[85%] mx-auto w-screen">
       <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
         <a href="{{ url("epci-business") }}" class="h-full w-full">
-          <img data-src="{{ asset('img/slider/image-7-progressive.jpeg') }}" alt="EPCI Business" class="lozad h-full w-full object-cover object-center">
+          <img data-src="{{ mix('img/slider/image-7-progressive.jpeg') }}" alt="EPCI Business" class="lozad h-full w-full object-cover object-center">
         </a>
         <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
           <p>Engineering, Procurement, Construction, and Installation (EPCI)</p>
@@ -209,7 +209,7 @@
       </div>
       <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
         <a href="{{ url("oil-and-gas-business") }}" class="h-full w-full">
-          <img data-src="{{ asset('img/slider/pom-bensin-progressive.jpeg') }}" alt="Oil & Gas Retail" class="lozad h-full w-full object-cover object-center-bottom" />
+          <img data-src="{{ mix('img/slider/pom-bensin-progressive.jpeg') }}" alt="Oil & Gas Retail" class="lozad h-full w-full object-cover object-center-bottom" />
         </a>
         <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
           <p>Oil & Gas Retail</p>
@@ -217,7 +217,7 @@
       </div>
       <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
         <a href="{{ url("industrial-rental") }}" class="h-full w-full">
-          <img data-src="{{ asset('img/slider/industrial-progressive.jpeg') }}" alt="Industrial Equipment Rental" class="lozad h-full w-full object-cover object-center-bottom" />
+          <img data-src="{{ mix('img/slider/industrial-progressive.jpeg') }}" alt="Industrial Equipment Rental" class="lozad h-full w-full object-cover object-center-bottom" />
         </a>
         <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
           <p>Industrial Equipment Rental</p>
@@ -225,7 +225,7 @@
       </div>
       <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
         <a href="{{ url("future-business") }}" class="h-full w-full">
-          <img data-src="{{ asset('img/slider/future-progressive.jpeg') }}" alt="Future Bussiness" class="lozad h-full w-full object-fill" />
+          <img data-src="{{ mix('img/slider/future-progressive.jpeg') }}" alt="Future Bussiness" class="lozad h-full w-full object-fill" />
         </a>
         <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
           <p>Future Bussiness</p>
@@ -233,7 +233,7 @@
       </div>
       <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
         <a href="{{ url("prop-business") }}" class="h-full w-full">
-          <img data-src="{{ asset('img/slider/property-progressive.jpeg') }}" alt="Property & Hospitality" class="lozad h-full w-full object-fill" />
+          <img data-src="{{ mix('img/slider/property-progressive.jpeg') }}" alt="Property & Hospitality" class="lozad h-full w-full object-fill" />
         </a>
         <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
           <p>Property & Hospitality</p>
@@ -254,22 +254,22 @@
 <div class="falga-container home-partners-container my-8 md:mt-12">
   <div class="home-partners">
     <div class="home-partners-row">
-      <img data-src="{{ asset('img/logo/logo-pertamina.png') }}" alt="pertamina" class="lozad home-partners-items home-partners-items-pertamina" />
-      <img data-src="{{ asset('img/logo/logo-schneider.png') }}" alt="schneider" class="lozad home-partners-items home-partners-items-schneider" />
+      <img data-src="{{ mix('img/logo/logo-pertamina.png') }}" alt="pertamina" class="lozad home-partners-items home-partners-items-pertamina" />
+      <img data-src="{{ mix('img/logo/logo-schneider.png') }}" alt="schneider" class="lozad home-partners-items home-partners-items-schneider" />
     </div>
     <div class="home-partners-row">
-      <img data-src="{{ asset('img/logo/logo-pgn.png') }}" alt="pgn" class="lozad home-partners-items home-partners-items-pgn" />
-      <img data-src="{{ asset('img/logo/logo-wika.png') }}" alt="wika" class="lozad home-partners-items home-partners-items-wika" />
-      <img data-src="{{ asset('img/logo/logo-waskita.png') }}" alt="waskita" class="lozad home-partners-items home-partners-items-waskita" />
-      <img data-src="{{ asset('img/logo/logo-endress-2.png') }}" alt="endress hauser" class="lozad home-partners-items home-partners-items-siemens" />
-      <img data-src="{{ asset('img/logo/logo-yokogawa.png') }}" alt="yokogawa" class="lozad home-partners-items home-partners-items-yokogawa" />
-      <img data-src="{{ asset('img/logo/logo-patterson.png') }}" alt="patterson" class="lozad home-partners-items home-partners-items-patterson" />
-      <img data-src="{{ asset('img/logo/logo-emco-2.png') }}" alt="emco" class="lozad home-partners-items home-partners-items-emco" />
-      <img data-src="{{ asset('img/logo/logo-sulzer.png') }}" alt="sulzer" class="lozad home-partners-items home-partners-items-sulzer" />
-      <img data-src="{{ asset('img/logo/logo-ingersoll-1.png') }}" alt="ingersoll" class="lozad home-partners-items home-partners-items-ingersoll" />
-      <img data-src="{{ asset('img/logo/logo-deutz.svg') }}" alt="deutz" class="lozad home-partners-items home-partners-items-deutz" />
-      <img data-src="{{ asset('img/logo/logo-kansai.png') }}" alt="kansai" class="lozad home-partners-items home-partners-items-kansai" />
-      <img data-src="{{ asset('img/logo/logo-inter.png') }}" alt="inter" class="lozad home-partners-items home-partners-items-inter" />
+      <img data-src="{{ mix('img/logo/logo-pgn.png') }}" alt="pgn" class="lozad home-partners-items home-partners-items-pgn" />
+      <img data-src="{{ mix('img/logo/logo-wika.png') }}" alt="wika" class="lozad home-partners-items home-partners-items-wika" />
+      <img data-src="{{ mix('img/logo/logo-waskita.png') }}" alt="waskita" class="lozad home-partners-items home-partners-items-waskita" />
+      <img data-src="{{ mix('img/logo/logo-endress-2.png') }}" alt="endress hauser" class="lozad home-partners-items home-partners-items-siemens" />
+      <img data-src="{{ mix('img/logo/logo-yokogawa.png') }}" alt="yokogawa" class="lozad home-partners-items home-partners-items-yokogawa" />
+      <img data-src="{{ mix('img/logo/logo-patterson.png') }}" alt="patterson" class="lozad home-partners-items home-partners-items-patterson" />
+      <img data-src="{{ mix('img/logo/logo-emco-2.png') }}" alt="emco" class="lozad home-partners-items home-partners-items-emco" />
+      <img data-src="{{ mix('img/logo/logo-sulzer.png') }}" alt="sulzer" class="lozad home-partners-items home-partners-items-sulzer" />
+      <img data-src="{{ mix('img/logo/logo-ingersoll-1.png') }}" alt="ingersoll" class="lozad home-partners-items home-partners-items-ingersoll" />
+      <img data-src="{{ mix('img/logo/logo-deutz.svg') }}" alt="deutz" class="lozad home-partners-items home-partners-items-deutz" />
+      <img data-src="{{ mix('img/logo/logo-kansai.png') }}" alt="kansai" class="lozad home-partners-items home-partners-items-kansai" />
+      <img data-src="{{ mix('img/logo/logo-inter.png') }}" alt="inter" class="lozad home-partners-items home-partners-items-inter" />
     </div>
   </div>
 </div>
@@ -349,5 +349,5 @@
 
 @push('scripts')
 <script src="{{ asset('flickity/flickity.pkgd.min.js') }}"></script>
-<script src="{{ asset('js/homepage.js') }}"></script>
+<script src="{{ mix('js/homepage.js') }}"></script>
 @endpush

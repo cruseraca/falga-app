@@ -1,8 +1,8 @@
 @push('styles')
-<link href="{{ asset('css/about-us.css') }}" rel="stylesheet">
+<link href="{{ mix('css/about-us.css') }}" rel="stylesheet">
 @endpush
 {{-- Banner --}}
-<div class="lozad sm:w-full falga-banner bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]" data-background-image="{{ asset("img/about-us/banner-2.jpg") }}">
+<div class="lozad sm:w-full falga-banner bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]" data-background-image="{{ mix("img/about-us/banner-2.jpg") }}">
   <div class="falga-banner-inner">
     <div class="falga-container text-center text-white flex flex-col justify-end items-center md:pb-[80px] h-full">
       <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed uppercase">
