@@ -218,7 +218,7 @@ class MediaPage extends Component
                 ],
                 [
                     "id" => "28",
-                    "title" => "Pump Header Pipe and Variable Speed Diesel (VSD) Installation",
+                    "title" => "Pump Header Pipe and Variable Speed Drive (VSD) Installation",
                     "location" => "Tasikmalaya, Indonesia",
                     "category" => "Category",
                     "image" => mix("img/projects-portfolio/28_Variable_Speed_Drive-progressive.jpeg")
@@ -316,7 +316,7 @@ class MediaPage extends Component
                 ],
                 [
                     "id" => "42",
-                    "title" => "LPG Retester Plant in Bala Raja",
+                    "title" => "LPG Retester Plant in Balaraja",
                     "location" => "Tangerang, Indonesia",
                     "category" => "Category",
                     "image" => mix("img/projects-portfolio/43_Retester_Bala_Raja-progressive.jpeg")
