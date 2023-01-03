@@ -7,12 +7,11 @@
           <img data-src="{{ mix('img/logo-falga-white.png') }}" alt="Falga" class="lozad h-[60px] w-[171.1px] object-cover">
           <div class="grid grid-cols-5 mt-10 text-sm">
             <div class="font-semibold py-4 md:py-2">Phone</div>
-            <div class="col-span-4">: <a href="tel:+6221576080" class="inline-block py-4 md:py-2">(021) 576-0880</a></div>
+            <div class="col-span-4">: <a href="tel:+62215760931" class="inline-block py-4 md:py-2">(021) 576-0931</a></div>
             <div class="font-semibold py-4 md:py-2">Email</div>
             <div class="col-span-4">: <a href="mailto:corporate.secretary@falga.co.id" class="inline-block py-4 md:py-2">corporate.secretary@falga.co.id</a></div>
             <div class="font-semibold py-4 md:py-2">Address</div>
-            <div class="col-span-4 py-4 md:py-2">: Menara Dea Tower II, Mega Kuningan Street, Kuningan, Setiabudi, South
-              Jakarta, Jakarta</div>
+            <div class="col-span-4 py-4 md:py-2">: DEA Tower II 7th Floor, Jl. Mega Kuningan Barat No.1-2, Kuningan, Kecamatan Setiabudi, Daerah Khusus Ibukota Jakarta 12950</div>
             <div class="font-semibold py-4 md:py-2">Website</div>
             <div class="col-span-4">: <a href="{{ url('') }}" class="inline-block py-4 md:py-2">www.falga.co.id</a></div>
           </div>
