@@ -36,17 +36,17 @@
                   <a href="{{ url('about-us#key-person') }}" class="block text-sm py-4 md:py-1">Key Person</a>
                 </li>
               </ul>
-              <span class="block text-sm font-semibold my-2 mt-4">ESG</span>
+              <span class="block text-sm font-semibold my-2 mt-4">Sustainability</span>
               <ul class="list-unstyled">
                 <li>
-                  <a href="{{ url('esg?q=sustainability#breadrumbs') }}" class="block text-sm py-4 md:py-1">Sustainability Report</a>
+                  <a href="{{ url('sustainability?q=report#breadrumbs') }}" class="block text-sm py-4 md:py-1">Report</a>
                 </li>
                 <li>
-                  <a href="{{ url('esg?q=presentation#breadrumbs') }}" class="block text-sm py-4 md:py-1">Corporate Presentation</a>
+                  <a href="{{ url('sustainability?q=system#breadrumbs') }}" class="block text-sm py-4 md:py-1">System</a>
                 </li>
-                <li>
+                {{-- <li>
                   <a href="{{ url('esg?q=governance#breadrumbs') }}" class="block text-sm py-4 md:py-1">Good Corporate Governance</a>
-                </li>
+                </li> --}}
               </ul>
               <a href="{{ url('career') }}" class="block text-sm font-semibold py-4 md:py-2 mt-4">Career</a>
             </div>
@@ -71,10 +71,11 @@
                   <a href="{{ url('future-business') }}" class="block text-sm py-4 md:py-1">Future Business</a>
                 </li>
               </ul>
+              <a href="{{ url('projects') }}" class="block text-sm font-semibold py-4 md:py-2 mt-4">Projects</a>
               <a href="{{ url('media-and-information') }}" class="block text-sm font-semibold py-4 md:py-2 mt-4">Media</a>
               <ul class="list-unstyled">
                 <li>
-                  <a href="{{ url('media-and-information?q=portfolio#breadrumbs') }}" class="block text-sm py-4 md:py-1">Project Portfolio</a>
+                  <a href="{{ url('media-and-information?q=news#breadrumbs') }}" class="block text-sm py-4 md:py-1">News</a>
                 </li>
                 <li>
                   <a href="{{ url('media-and-information?q=blog#breadrumbs') }}" class="block text-sm py-4 md:py-1">Blog</a>

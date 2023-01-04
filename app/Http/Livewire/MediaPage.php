@@ -448,6 +448,28 @@ class MediaPage extends Component
                     "image" => mix("img/projects-portfolio/60_Pipa_Yogyakarta-progressive.jpeg")
                 ],
             ],
+            "news" => [
+                [
+                    "title" => "nunc faucibus a pellentesque",
+                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis in eu mi bibendum neque.",
+                    "image" => mix("img/hero-image.jpg")
+                ],
+                [
+                    "title" => "non sodales neque sodales",
+                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi.",
+                    "image" => mix("img/hero-image.jpg")
+                ],
+                [
+                    "title" => "tellus mauris a diam",
+                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis.",
+                    "image" => mix("img/hero-image.jpg")
+                ],
+                [
+                    "title" => "pretium viverra suspendisse potenti",
+                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Luctus venenatis lectus magna fringilla.",
+                    "image" => mix("img/hero-image.jpg")
+                ],
+            ],
             "blog" => [
                 [
                     "title" => "nunc faucibus a pellentesque",
@@ -493,12 +515,14 @@ class MediaPage extends Component
                 ],
             ],
         ];
-        $this->q = empty(app('request')->input('q')) ? "portfolio" : app('request')->input('q');
+        /** @var \Illuminate\Http\Request $request */
+        $request = app('request');
+        $this->q = empty($request->input('q')) ? "news" : $request->input('q');
         $this->title = $this->titles[$this->q];
         $this->items = $this->all_items[$this->q];
         $this->all_items_count = count($this->items);
-        if (!empty(app('request')->input('page')) && intval(app('request')->input('page'))) {
-            $this->page = intval(app('request')->input('page'));
+        if (!empty($request->input('page')) && intval($request->input('page'))) {
+            $this->page = intval($request->input('page'));
         }
         $count = 4;
         $offset = ($this->page - 1) * $count;

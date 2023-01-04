@@ -30,10 +30,13 @@
       <div class="industrial-carousel-ar">
         <div class="industrial-carousel-yes carousel1">
           <div class="carousel-cell1 w-full h-full">
-            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/tank.jpg') }}" alt="">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/1_1_tank.jpg') }}" alt="">
           </div>
           <div class="carousel-cell1 w-full h-full">
-            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/tank.jpg') }}" alt="">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/1_2_tank.jpg') }}" alt="">
+          </div>
+          <div class="carousel-cell1 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/1_3_tank.jpg') }}" alt="">
           </div>
         </div>
       </div>
@@ -54,7 +57,7 @@
   </div>
 </div>
 <div class="falga-container flex flex-wrap md:flex-row-reverse items-center py-10 md:py-16">
-  <div class="hidden md:flex carousel-button-right1 cursor-pointer">
+  <div class="hidden md:flex carousel-button-right2 cursor-pointer">
     <span class="fa-stack fa-xl my-auto">
       <i class="fa-solid fa-circle fa-stack-2x text-purple-falga"></i>
       <i class="fa-solid fa-angle-right fa-stack-1x text-white"></i>
@@ -62,13 +65,16 @@
   </div>
   <div class="industrial-carousel md:my-6">
     <div class="industrial-carousel-ar">
-      <div class="industrial-carousel-yes carousel1">
-        <div class="carousel-cell1 w-full h-full">
-          <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/material.jpg') }}" alt="">
-        </div>
-        <div class="carousel-cell1 w-full h-full">
-          <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/material.jpg') }}" alt="">
-        </div>
+      <div class="industrial-carousel-yes carousel2">
+          <div class="carousel-cell2 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/2_1_Material_Handling.jpg') }}" alt="">
+          </div>
+          <div class="carousel-cell2 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/2_2_Material_Handling.jpg') }}" alt="">
+          </div>
+          <div class="carousel-cell2 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/2_3_Material_Handling.jpg') }}" alt="">
+          </div>
       </div>
     </div>
   </div>
@@ -88,7 +94,7 @@
 </div>
 <div class="bg-gray-100">
   <div class="falga-container flex flex-wrap md:flex-row-reverse items-center py-10 md:py-16">
-    <div class="hidden md:flex carousel-button-right2 cursor-pointer">
+    <div class="hidden md:flex carousel-button-right3 cursor-pointer">
       <span class="fa-stack fa-xl my-auto">
         <i class="fa-solid fa-circle fa-stack-2x text-purple-falga"></i>
         <i class="fa-solid fa-angle-right fa-stack-1x text-white"></i>
@@ -96,12 +102,15 @@
     </div>
     <div class="industrial-carousel md:my-6">
       <div class="industrial-carousel-ar">
-        <div class="industrial-carousel-yes carousel2">
-          <div class="carousel-cell2 w-full h-full">
-            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/survey.jpg') }}" alt="">
+        <div class="industrial-carousel-yes carousel3">
+          <div class="carousel-cell3 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/3_1_Surveying_Handling.jpg') }}" alt="">
           </div>
-          <div class="carousel-cell2 w-full h-full">
-            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/survey.jpg') }}" alt="">
+          <div class="carousel-cell3 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/3_2_Surveying_Handling.jpg') }}" alt="">
+          </div>
+          <div class="carousel-cell3 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/3_3_Surveying_Handling.jpg') }}" alt="">
           </div>
         </div>
       </div>
@@ -121,7 +130,7 @@
   </div>
 </div>
 <div class="falga-container flex flex-wrap md:flex-row-reverse items-center py-10 md:py-16">
-  <div class="hidden md:flex carousel-button-right3 cursor-pointer">
+  <div class="hidden md:flex carousel-button-right4 cursor-pointer">
     <span class="fa-stack fa-xl my-auto">
       <i class="fa-solid fa-circle fa-stack-2x text-purple-falga"></i>
       <i class="fa-solid fa-angle-right fa-stack-1x text-white"></i>
@@ -129,13 +138,16 @@
   </div>
   <div class="industrial-carousel md:my-6">
     <div class="industrial-carousel-ar">
-      <div class="industrial-carousel-yes carousel3">
-        <div class="carousel-cell3 w-full h-full">
-          <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/power.jpg') }}" alt="">
-        </div>
-        <div class="carousel-cell3 w-full h-full">
-          <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/power.jpg') }}" alt="">
-        </div>
+      <div class="industrial-carousel-yes carousel4">
+          <div class="carousel-cell4 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/4_1_Power.jpg') }}" alt="">
+          </div>
+          <div class="carousel-cell4 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/4_2_Power.jpg') }}" alt="">
+          </div>
+          <div class="carousel-cell4 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/4_3_Power.jpg') }}" alt="">
+          </div>
       </div>
     </div>
   </div>
@@ -153,7 +165,7 @@
 </div>
 <div class="bg-gray-100">
   <div class="falga-container flex flex-wrap md:flex-row-reverse items-center py-10 md:py-16">
-    <div class="hidden md:flex carousel-button-right4 cursor-pointer">
+    <div class="hidden md:flex carousel-button-right5 cursor-pointer">
       <span class="fa-stack fa-xl my-auto">
         <i class="fa-solid fa-circle fa-stack-2x text-purple-falga"></i>
         <i class="fa-solid fa-angle-right fa-stack-1x text-white"></i>
@@ -161,12 +173,15 @@
     </div>
     <div class="industrial-carousel md:my-6">
       <div class="industrial-carousel-ar">
-        <div class="industrial-carousel-yes carousel4">
-          <div class="carousel-cell4 w-full h-full">
-            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/aerial.jpg') }}" alt="">
+        <div class="industrial-carousel-yes carousel5">
+          <div class="carousel-cell5 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/5_1_Aerial.jpg') }}" alt="">
           </div>
-          <div class="carousel-cell4 w-full h-full">
-            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/aerial.jpg') }}" alt="">
+          <div class="carousel-cell5 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/5_2_Aerial.jpg') }}" alt="">
+          </div>
+          <div class="carousel-cell5 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/5_3_Aerial.jpg') }}" alt="">
           </div>
         </div>
       </div>
@@ -183,7 +198,7 @@
   </div>
 </div>
 <div class="falga-container flex flex-wrap md:flex-row-reverse items-center py-10 md:py-16">
-  <div class="hidden md:flex carousel-button-right5 cursor-pointer">
+  <div class="hidden md:flex carousel-button-right6 cursor-pointer">
     <span class="fa-stack fa-xl my-auto">
       <i class="fa-solid fa-circle fa-stack-2x text-purple-falga"></i>
       <i class="fa-solid fa-angle-right fa-stack-1x text-white"></i>
@@ -191,13 +206,16 @@
   </div>
   <div class="industrial-carousel md:my-6">
     <div class="industrial-carousel-ar">
-      <div class="industrial-carousel-yes carousel5">
-        <div class="carousel-cell5 w-full h-full">
-          <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/miscellaneous.jpg') }}" alt="">
-        </div>
-        <div class="carousel-cell5 w-full h-full">
-          <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/miscellaneous.jpg') }}" alt="">
-        </div>
+      <div class="industrial-carousel-yes carousel6">
+          <div class="carousel-cell6 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/6_1_Miscellaneous.jpg') }}" alt="">
+          </div>
+          <div class="carousel-cell6 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/6_2_Miscellaneous.jpg') }}" alt="">
+          </div>
+          <div class="carousel-cell6 w-full h-full">
+            <img class="lozad h-full w-full object-cover" data-src="{{ mix('img/industrial-rental/6_3_Miscellaneous.jpg') }}" alt="">
+          </div>
       </div>
     </div>
   </div>

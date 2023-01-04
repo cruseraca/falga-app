@@ -1,0 +1,1 @@
+$(document).ready((function(){document.querySelector("#financial-tab"),document.querySelector("#financial"),document.querySelector("#sustainability-tab"),document.querySelector("#sustainability"),document.querySelector("#presentation-tab"),document.querySelector("#presentation"),document.querySelector("#governance-tab"),document.querySelector("#governance")}));

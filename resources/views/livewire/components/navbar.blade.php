@@ -19,7 +19,7 @@
                 Our Business
             </a>
             <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-purple-falga mx-4">
-                ESG
+                Sustainability
             </a>
             <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-purple-falga mx-4">
                 Media

@@ -12,11 +12,11 @@ export default defineConfig({
             "resources/css/property.css",
             "resources/css/industrial.css",
             "resources/css/oil-gas.css",
-            "resources/css/esg.css",
+            "resources/css/sustainability.css",
             "resources/js/app.js",
             "resources/js/homepage.js",
             "resources/js/industrial.js",
-            "resources/js/esg.js",
+            "resources/js/sustainability.js",
         ]),
     ],
 });
