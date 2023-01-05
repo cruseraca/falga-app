@@ -19,7 +19,7 @@
 <div class="falga-container flex mb-16 flex-col md:flex-row">
     <div>
         <div class="falga-section-title red-falga">
-            <div class="p-2 md:p-6 border-b-2 mt-12 md:mt-24">Reports</div>
+            <div class="p-2 md:p-6 border-b-2 mt-12 md:mt-24">Sustainability</div>
         </div>
         <div class="mb-4 falga-section-title red-falga overflow-auto">
             <ul class="flex md:flex-col items-stretch" id="esg-tab" role="tablist">

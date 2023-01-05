@@ -9,6 +9,7 @@ class MediaPage extends Component
     public $all_items;
     public $titles = [
         "portfolio" => "Project Portfolio",
+        "news" => "News",
         "blog" => "Blog",
         "video" => "Video",
     ];

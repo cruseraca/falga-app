@@ -81,7 +81,7 @@
       </div>
     </div>
     <div class="flex flex-wrap items-stretch justify-center">
-      @if($q == 'news')
+      {{-- @if($q == 'news')
       @foreach($items as $item)
       <div class="falga-mni-item mt-8 md:mt-12 md:ml-12">
         <img class="lozad object-cover h-[242px] w-full" data-src="{{ $item["image"] }}" />
@@ -92,7 +92,7 @@
         </div>
       </div>
       @endforeach
-      @else
+      @else --}}
       @foreach($items as $item)
       <div class="falga-mni-item mt-8 md:mt-12 md:ml-12">
         <img class="lozad object-cover h-[242px] w-full" data-src="{{ $item["image"] }}" />
@@ -100,7 +100,7 @@
         <div class="flex mx-6 text-xs mt-1 mb-6">{{ $item["description"] }}</div>
       </div>
       @endforeach
-      @endif
+      {{-- @endif --}}
     </div>
       @if($all_items_count > 4)
       @php
