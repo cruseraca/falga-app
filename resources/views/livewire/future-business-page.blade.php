@@ -1,6 +1,7 @@
 {{-- Banner --}}
 <div class="main-banner mt-[61px] md:mt-[77px]">
   <picture>
+    <source srcset="{{ mix("img/our-business/future-business.webp") }}" type="image/webp" />
     <source srcset="{{ mix("img/our-business/future-business.jpg") }}" />
     <img alt="" />
   </picture>

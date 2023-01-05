@@ -7,7 +7,8 @@
 {{-- Banner --}}
 <div class="main-banner mt-[61px] md:mt-[77px]">
   <picture>
-    <source srcset="{{ mix("img/media-and-information/banner-progressive.jpeg") }}" />
+    <source srcset="{{ mix("img/media-and-information/banner.webp") }}" type="image/webp" />
+    <source srcset="{{ mix("img/media-and-information/banner.jpg") }}" />
     <img alt="" />
   </picture>
   <div class="main-banner-container">
