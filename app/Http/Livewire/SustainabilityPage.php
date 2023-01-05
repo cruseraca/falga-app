@@ -9,8 +9,8 @@ class SustainabilityPage extends Component
     public $all_items;
     public $titles = [
         "financial" => "Financial Highlights",
-        "report" => "Report",
-        "system" => "System",
+        "reports" => "Reports",
+        "strategy-management" => "Strategy & Management",
         "governance" => "Corporate Governance",
     ];
     public $q;
@@ -29,7 +29,7 @@ class SustainabilityPage extends Component
                 ["title" => "Financial Highlights 5", "date" => "20 September 2022", "file" => asset("pdf/contoh.pdf")],
                 ["title" => "Financial Highlights 6", "date" => "21 September 2022", "file" => asset("pdf/contoh.pdf")],
             ],
-            "report" => [
+            "reports" => [
                 ["title" => "Sustainability Reports 1", "date" => "16 September 2022", "file" => asset("pdf/contoh.pdf")],
                 ["title" => "Sustainability Reports 2", "date" => "17 September 2022", "file" => asset("pdf/contoh.pdf")],
                 ["title" => "Sustainability Reports 3", "date" => "18 September 2022", "file" => asset("pdf/contoh.pdf")],
@@ -37,7 +37,7 @@ class SustainabilityPage extends Component
                 ["title" => "Sustainability Reports 5", "date" => "20 September 2022", "file" => asset("pdf/contoh.pdf")],
                 ["title" => "Sustainability Reports 6", "date" => "21 September 2022", "file" => asset("pdf/contoh.pdf")],
             ],
-            "system" => [
+            "strategy-management" => [
                 ["title" => "Corporate Presentation 1", "date" => "16 September 2022", "file" => asset("pdf/contoh.pdf")],
                 ["title" => "Corporate Presentation 2", "date" => "17 September 2022", "file" => asset("pdf/contoh.pdf")],
                 ["title" => "Corporate Presentation 3", "date" => "18 September 2022", "file" => asset("pdf/contoh.pdf")],
@@ -56,7 +56,7 @@ class SustainabilityPage extends Component
         ];
         /** @var \Illuminate\Http\Request $request */
         $request = app('request');
-        $this->q = empty($request->input('q')) ? "report" : $request->input('q');
+        $this->q = empty($request->input('q')) ? "strategy-management" : $request->input('q');
         $this->title = $this->titles[$this->q];
         $this->items = $this->all_items[$this->q];
     }

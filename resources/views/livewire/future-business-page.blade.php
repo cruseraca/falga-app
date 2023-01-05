@@ -1,9 +1,15 @@
 {{-- Banner --}}
-<div class="lozad md:w-full bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]" data-background-image="{{ mix('img/our-business/future-business.jpg') }}">
-  <div class="container text-center h-[400px] text-white flex flex-col justify-end items-center mx-auto" style="margin-bottom: 80px">
-    <h1 class="font-poppins font-extrabold text-xl md:text-2xl lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px #000000;">
-      Future Business
-    </h1>
+<div class="main-banner mt-[61px] md:mt-[77px]">
+  <picture>
+    <source srcset="{{ mix("img/our-business/future-business.jpg") }}" />
+    <img alt="" />
+  </picture>
+  <div class="main-banner-container">
+    <div class="falga-container">
+      <h1 class="font-poppins text-white text-center font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+        Future Business
+      </h1>
+    </div>
   </div>
 </div>
 @component('components.bread-crumbs', ["items" => [

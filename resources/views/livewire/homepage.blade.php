@@ -9,31 +9,33 @@
 @section('meta_description')
 <meta name="description" content="Core Emphasis on Business Building through Sustainable Investing">
 @overwrite
-{{-- Hero --}}
-<div class="sm:w-full bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px] relative">
-  <picture class="top-0 left-0 z-0 absolute w-full h-full">
-    <source media="(min-width:1280px)" srcset="{{ mix('img/hero-image-2.1536.webp') }}" type="image/webp" class="w-full h-full" />
-    <source media="(min-width:1024px)" srcset="{{ mix('img/hero-image-2.1280.webp') }}" type="image/webp" class="w-full h-full" />
-    <source media="(min-width:768px)" srcset="{{ mix('img/hero-image-2.1024.webp') }}" type="image/webp" class="w-full h-full" />
-    <source media="(min-width:640px)" srcset="{{ mix('img/hero-image-2.768.webp') }}" type="image/webp" class="w-full h-full" />
-    <source media="(min-width:412px)" srcset="{{ mix('img/hero-image-2.640.webp') }}" type="image/webp" class="w-full h-full" />
-    <source media="(min-width:0)" srcset="{{ mix('img/hero-image-2.412.webp') }}" type="image/webp" class="w-full h-full" />
-    <source media="(min-width:1280px)" srcset="{{ mix('img/hero-image-2.1536.jpg') }}" type="image/jpeg" class="w-full h-full" />
-    <source media="(min-width:1024px)" srcset="{{ mix('img/hero-image-2.1280.jpg') }}" type="image/jpeg" class="w-full h-full" />
-    <source media="(min-width:768px)" srcset="{{ mix('img/hero-image-2.1024.jpg') }}" type="image/jpeg" class="w-full h-full" />
-    <source media="(min-width:640px)" srcset="{{ mix('img/hero-image-2.768.jpg') }}" type="image/jpeg" class="w-full h-full" />
-    <source media="(min-width:412px)" srcset="{{ mix('img/hero-image-2.640.jpg') }}" type="image/jpeg" class="w-full h-full" />
-    <source media="(min-width:0)" srcset="{{ mix('img/hero-image-2.412.jpg') }}" type="image/jpeg" class="w-full h-full" />
-    <img alt="" src="{{ mix('img/hero-image-2.jpg') }}" class="object-cover object-top w-full h-full" />
+{{-- Banner --}}
+<div class="main-banner mt-[61px] md:mt-[77px]">
+  <picture>
+    <source media="(min-width:1280px)" srcset="{{ mix('img/hero-image-2.1536.webp') }}" type="image/webp" />
+    <source media="(min-width:1024px)" srcset="{{ mix('img/hero-image-2.1280.webp') }}" type="image/webp" />
+    <source media="(min-width:768px)" srcset="{{ mix('img/hero-image-2.1024.webp') }}" type="image/webp" />
+    <source media="(min-width:640px)" srcset="{{ mix('img/hero-image-2.768.webp') }}" type="image/webp" />
+    <source media="(min-width:412px)" srcset="{{ mix('img/hero-image-2.640.webp') }}" type="image/webp" />
+    <source media="(min-width:0)" srcset="{{ mix('img/hero-image-2.412.webp') }}" type="image/webp" />
+    <source media="(min-width:1280px)" srcset="{{ mix('img/hero-image-2.1536.jpg') }}" />
+    <source media="(min-width:1024px)" srcset="{{ mix('img/hero-image-2.1280.jpg') }}" />
+    <source media="(min-width:768px)" srcset="{{ mix('img/hero-image-2.1024.jpg') }}" />
+    <source media="(min-width:640px)" srcset="{{ mix('img/hero-image-2.768.jpg') }}" />
+    <source media="(min-width:412px)" srcset="{{ mix('img/hero-image-2.640.jpg') }}" />
+    <source media="(min-width:0)" srcset="{{ mix('img/hero-image-2.412.jpg') }}" />
+    <img alt="" src="{{ mix('img/hero-image-2.jpg') }}" class="object-top" />
   </picture>
-  <div class="falga-container relative z-10 text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center uppercase" style="margin-bottom: 80px">
-    <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed">
-      Core Emphasis on Business Building through Sustainable Investing
-    </h1>
-    <a href="{{ url("about-us") }}" class="falga-button mt-8 uppercase" style="padding-left: 28px">Learn More <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+  <div class="main-banner-container">
+    <div class="falga-container text-white text-center">
+      <h1 class="font-poppins font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase md:mt-[30%] max-w-[810px]" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+        Core Emphasis on Business Building through Sustainable Investing
+      </h1>
+      <a href="{{ url("about-us") }}" class="falga-button mt-2 sm:mt-4 md:mt-8 uppercase pl-7 self-center whitespace-nowrap">Learn More <svg style="width:24px;height:24px" viewBox="0 0 24 24">
         <path fill="currentColor" d="M10,17L15,12L10,7V17Z" />
       </svg>
-    </a>
+      </a>
+    </div>
   </div>
 </div>
 {{-- Falga at glance --}}

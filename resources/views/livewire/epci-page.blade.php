@@ -3,12 +3,18 @@
 <link href="{{ mix('css/epci.css') }}" rel="stylesheet">
 @endpush
 {{-- Banner --}}
-<div class="lozad sm:w-full bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]" data-background-image="{{ mix("img/epci-business/banner.jpg") }}">
-    <div class="falga-container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center" style="padding-bottom: 226px">
-        <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
-            ENGINEERING, PROCUREMENT, CONSTRUCTION AND INSTALLATION(EPCI)
-        </h1>
+<div class="main-banner mt-[61px] md:mt-[77px]">
+  <picture>
+    <source srcset="{{ mix("img/epci-business/banner.jpg") }}" />
+    <img alt="" />
+  </picture>
+  <div class="main-banner-container">
+    <div class="falga-container">
+      <h1 class="font-poppins text-white text-center font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase max-w-[810px]" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+        ENGINEERING, PROCUREMENT, CONSTRUCTION AND INSTALLATION(EPCI)
+      </h1>
     </div>
+  </div>
 </div>
 @component('components.bread-crumbs', ["items" => [
 [ "title" => "HOME", "href" => url("") ],

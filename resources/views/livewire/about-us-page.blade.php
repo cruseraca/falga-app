@@ -2,13 +2,17 @@
 <link href="{{ mix('css/about-us.css') }}" rel="stylesheet">
 @endpush
 {{-- Banner --}}
-<div class="lozad sm:w-full falga-banner bg-no-repeat bg-cover bg-top flex mt-[61px] md:mt-[77px]" data-background-image="{{ mix("img/about-us/banner-2.jpg") }}">
-  <div class="falga-banner-inner">
-    <div class="falga-container text-center text-white flex flex-col justify-end items-center md:pb-[80px] h-full">
-      <h1 class="font-poppins font-extrabold lg:text-4xl max-w-3xl lg:leading-relaxed uppercase">
+<div class="main-banner mt-[61px] md:mt-[77px]">
+  <picture>
+    <source srcset="{{ mix("img/about-us/banner-2.jpg") }}" />
+    <img alt="" />
+  </picture>
+  <div class="main-banner-container">
+    <div class="falga-container text-white text-center">
+      <h1 class="font-poppins font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase md:mt-[30%]" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
         ABOUT US
       </h1>
-      <div class="md:mt-8 normal-case md:text-2xl">
+      <div class="md:mt-8 normal-case sm:text-xl md:text-2xl" style="text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);">
         FALGA is an Indonesian-incorporated Investment Holding Company that strives to continuously build viable large-scale businesses that deliver sustainable performance
       </div>
     </div>

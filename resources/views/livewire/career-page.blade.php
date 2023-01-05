@@ -2,10 +2,18 @@
 <link href="{{ mix('css/career.css') }}" rel="stylesheet">
 @endpush
 {{-- Banner --}}
-<div class="lozad sm:w-full falga-banner bg-no-repeat bg-center bg-cover flex mt-[61px] md:mt-[77px] items-center justify-center" data-background-image="{{ mix("img/career/banner.png") }}">
-    <h1 class="font-poppins text-white my-[212px] md:my-[312px] text-center font-extrabold lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px #000000;">
+<div class="main-banner mt-[61px] md:mt-[77px]">
+  <picture>
+    <source srcset="{{ mix("img/career/banner.png") }}" />
+    <img alt="" />
+  </picture>
+  <div class="main-banner-container">
+    <div class="falga-container">
+      <h1 class="font-poppins text-white text-center font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
         Career
-    </h1>
+      </h1>
+    </div>
+  </div>
 </div>
 @component('components.bread-crumbs', ["items" => [
 [ "title" => "HOME", "href" => url("") ],

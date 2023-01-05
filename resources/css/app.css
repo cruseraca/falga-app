@@ -91,3 +91,40 @@
     font-size: 28px;
   }
 }
+
+.main-banner {
+  width: 100vw;
+  position: relative;
+  padding-top: 63.5%;
+  padding-top: 53.402777778%;
+}
+@media (min-width: 1440px) {
+  .main-banner {
+    padding-top: 825.5px;
+    padding-top: 769px;
+  }
+}
+.main-banner > .main-banner-container,
+.main-banner > img,
+.main-banner > picture,
+.main-banner > picture > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+.main-banner > .main-banner-container {
+  z-index: 1;
+}
+.main-banner > .main-banner-container > .falga-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}

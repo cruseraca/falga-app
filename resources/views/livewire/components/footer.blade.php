@@ -24,7 +24,7 @@
               </span>
               <ul class="list-unstyled">
                 <li>
-                  <a href="{{ url('about-us') }}" class="block text-sm py-4 md:py-1">About</a>
+                  <a href="{{ url('about-us') }}" class="block text-sm py-4 md:py-1">About Us</a>
                 </li>
                 <li>
                   <a href="{{ url('about-us#vision-missions') }}" class="block text-sm py-4 md:py-1">Vision & Missions</a>
@@ -61,10 +61,10 @@
               <span class="block text-sm font-semibold my-2 mt-4">Sustainability</span>
               <ul class="list-unstyled">
                 <li>
-                  <a href="{{ url('sustainability?q=report#breadrumbs') }}" class="block text-sm py-4 md:py-1">Report</a>
+                  <a href="{{ url('sustainability?q=strategy-management#breadrumbs') }}" class="block text-sm py-4 md:py-1">Strategy & Management</a>
                 </li>
                 <li>
-                  <a href="{{ url('sustainability?q=system#breadrumbs') }}" class="block text-sm py-4 md:py-1">System</a>
+                  <a href="{{ url('sustainability?q=reports#breadrumbs') }}" class="block text-sm py-4 md:py-1">Reports</a>
                 </li>
                 {{-- <li>
                   <a href="{{ url('esg?q=governance#breadrumbs') }}" class="block text-sm py-4 md:py-1">Good Corporate Governance</a>

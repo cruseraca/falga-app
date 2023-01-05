@@ -7,13 +7,25 @@
 <script src="{{ mix('js/industrial.js') }}"></script>
 @endpush
 {{-- Banner --}}
-<div class="lozad md:w-full bg-no-repeat bg-cover bg-center flex mt-[61px] md:mt-[77px]" data-background-image="{{ mix('img/industrial-rental/banner.jpg') }}">
-  <div class="container text-center h-[400px] lg:h-[766px] text-white flex flex-col justify-end items-center mx-auto" style="margin-bottom: 80px">
-    <h1 class="font-poppins font-extrabold text-xl md:text-2xl lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px #000000;">
-      INDUSTRIAL EQUIPMENT RENTAL
-    </h1>
+<div class="main-banner mt-[61px] md:mt-[77px]">
+  <picture>
+    <source srcset="{{ mix("img/industrial-rental/banner.jpg") }}" />
+    <img alt="" />
+  </picture>
+  <div class="main-banner-container">
+    <div class="falga-container">
+      <h1 class="font-poppins text-white text-center font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+        INDUSTRIAL EQUIPMENT RENTAL
+      </h1>
+    </div>
   </div>
 </div>
+@component('components.bread-crumbs', ["items" => [
+[ "title" => "HOME", "href" => url("") ],
+[ "title" => "OUR BUSINESS", "href" => url("our-business") ],
+[ "title" => "Industrial Rental Business", "color" => "red-falga" ]
+]])
+@endcomponent
 <div class="falga-container my-5 md:my-10">
   <div class="falga-section-title mb-4 md:mb-8">Industrial Rental Business</div>
   <p class="font-sans text-[16px] text-justify">FALGA provides industrial machinery and construction equipment rental services with functionality and quality. Our group offers wide assortment of industrial tools from ordinary machines like Generator Set to Specialized tools like Jacking System. We also offer full-service delivery by providing routine maintenance by our technicians on the construction equipment and tool rentals.</p>
