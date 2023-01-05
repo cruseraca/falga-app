@@ -11,3 +11,6 @@
   max-width: 368px;
   overflow: hidden;
 }
+.falga-mni-item.video {
+  border-radius: 0;
+}

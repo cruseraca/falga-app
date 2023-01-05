@@ -241,14 +241,14 @@ class ProjectsPage extends Component
                 "title" => "Main Pipe, Service Pipe and MR/S Cluster Pulogadung Stage II",
                 "location" => "Jakarta, Indonesia",
                 "category" => "Category",
-                "image" => mix("img/projects-portfolio/32_Pipa_Pulo-progressive.jpeg")
+                "image" => mix("img/projects-portfolio/33_Pipe_Replacement-progressive.jpeg")
             ],
             [
                 "id" => "33",
                 "title" => "Premium Oil Tank Discharge Pipeline Replacement",
                 "location" => "Padalarang, Indonesia",
                 "category" => "Category",
-                "image" => mix("img/projects-portfolio/33_Pipe_Replacement-progressive.jpeg")
+                "image" => mix("img/projects-portfolio/32_Pipa_Pulo-progressive.jpeg")
             ],
             [
                 "id" => "34",

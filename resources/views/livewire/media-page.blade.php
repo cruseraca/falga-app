@@ -81,18 +81,16 @@
       </div>
     </div>
     <div class="flex flex-wrap items-stretch justify-center">
-      {{-- @if($q == 'news')
+      @if($q == 'video')
+      @push('styles')
+        <x-embed-styles />
+      @endpush
       @foreach($items as $item)
-      <div class="falga-mni-item mt-8 md:mt-12 md:ml-12">
-        <img class="lozad object-cover h-[242px] w-full" data-src="{{ $item["image"] }}" />
-        <div class="font-bold text-red-falga mt-6 mx-6 capitalize">{{ $item["title"] }}</div>
-        <div class="flex mx-6 text-xs mt-1 mb-6">
-          <div class="pr-4 border-r border-black">{{ $item["location"] }}</div>
-          <div class="pl-4">{{ $item["category"] }}</div>
-        </div>
+      <div class="falga-mni-item mt-8 md:mt-12 md:ml-12 video">
+        <x-embed url="{{ 'https://www.youtube.com/watch?v='.$item['video_id'] }}" />
       </div>
       @endforeach
-      @else --}}
+      @else
       @foreach($items as $item)
       <div class="falga-mni-item mt-8 md:mt-12 md:ml-12">
         <img class="lozad object-cover h-[242px] w-full" data-src="{{ $item["image"] }}" />
@@ -100,7 +98,7 @@
         <div class="flex mx-6 text-xs mt-1 mb-6">{{ $item["description"] }}</div>
       </div>
       @endforeach
-      {{-- @endif --}}
+      @endif
     </div>
       @if($all_items_count > 4)
       @php
