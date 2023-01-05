@@ -36,21 +36,6 @@
                   <a href="{{ url('about-us#key-person') }}" class="block text-sm py-4 md:py-1">Key Person</a>
                 </li>
               </ul>
-              <span class="block text-sm font-semibold my-2 mt-4">Sustainability</span>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="{{ url('sustainability?q=report#breadrumbs') }}" class="block text-sm py-4 md:py-1">Report</a>
-                </li>
-                <li>
-                  <a href="{{ url('sustainability?q=system#breadrumbs') }}" class="block text-sm py-4 md:py-1">System</a>
-                </li>
-                {{-- <li>
-                  <a href="{{ url('esg?q=governance#breadrumbs') }}" class="block text-sm py-4 md:py-1">Good Corporate Governance</a>
-                </li> --}}
-              </ul>
-              <a href="{{ url('career') }}" class="block text-sm font-semibold py-4 md:py-2 mt-4">Career</a>
-            </div>
-            <div class="w-full lg:w-6/12 px-4">
               <span class="block text-blueGray-500 text-sm font-semibold py-4 md:py-2">
                 <a href="{{ url('our-business') }}">Our Business</a>
               </span>
@@ -71,6 +56,20 @@
                   <a href="{{ url('future-business') }}" class="block text-sm py-4 md:py-1">Future Business</a>
                 </li>
               </ul>
+            </div>
+            <div class="w-full lg:w-6/12 px-4">
+              <span class="block text-sm font-semibold my-2 mt-4">Sustainability</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="{{ url('sustainability?q=report#breadrumbs') }}" class="block text-sm py-4 md:py-1">Report</a>
+                </li>
+                <li>
+                  <a href="{{ url('sustainability?q=system#breadrumbs') }}" class="block text-sm py-4 md:py-1">System</a>
+                </li>
+                {{-- <li>
+                  <a href="{{ url('esg?q=governance#breadrumbs') }}" class="block text-sm py-4 md:py-1">Good Corporate Governance</a>
+                </li> --}}
+              </ul>
               <a href="{{ url('projects') }}" class="block text-sm font-semibold py-4 md:py-2 mt-4">Projects</a>
               <a href="{{ url('media-and-information') }}" class="block text-sm font-semibold py-4 md:py-2 mt-4">Media</a>
               <ul class="list-unstyled">
@@ -84,6 +83,7 @@
                   <a href="{{ url('media-and-information?q=video#breadrumbs') }}" class="block text-sm py-4 md:py-1">Videos</a>
                 </li>
               </ul>
+              <a href="{{ url('career') }}" class="block text-sm font-semibold py-4 md:py-2 mt-4">Career</a>
             </div>
           </div>
         </div>

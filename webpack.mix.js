@@ -62,16 +62,14 @@ js.a.forEach((file) => {
 css.a.forEach((file) => {
     mix.css(file.replace(/^public/, "resources"), file, css_plugins);
 });
-img.a.forEach((file) => {
-    mix.copy(file.replace(/^public/, "resources"), file);
-});
+mix.copyDirectory('resources/img', 'public/img')
 lib.a.forEach((file) => {
     mix.copy(file.replace(/^public/, "resources"), file);
     mix.minify(file);
 });
 
 if (mix.inProduction()) {
-    mix.version();
+    mix.version(img.a);
 }
 
 mix.browserSync({
