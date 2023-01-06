@@ -1,7 +1,7 @@
 <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-screen z-[1000] top-0 left-0 border-b border-gray-200 dark:border-gray-600">
     <div class="container flex flex-wrap justify-between items-center mx-auto h-auto">
         <a href="{{ url('') }}">
-            <img class="lozad h-9 sm:h-14 object-cover w-[152.733px]" data-src="{{ mix('img/logo-falga.svg') }}" alt="FALGA">
+            <img class="lozad h-[36px] w-[98.1833px] sm:h-[56px] sm:w-[152.733px] object-cover" data-src="{{ mix('img/logo-falga.svg') }}" alt="FALGA">
         </a>
         <div class="flex shrink">
             <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
@@ -62,6 +62,9 @@
                                 <li>
                                     <a href="{{ url('future-business') }}" class="block py-2 px-8 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Future Bussiness</a>
                                 </li>
+                                <li>
+                                    <a href="{{ url('projects') }}" class="block py-2 px-8 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga border-t">Project Portfolio</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -92,12 +95,12 @@
                                 <li>
                                     <a href="{{ url('future-business') }}" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Future Bussiness</a>
                                 </li>
+                                <li>
+                                    <a href="{{ url('projects') }}" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga border-t">Project Portfolio</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                </li>
-                <li>
-                    <a href="{{ url('projects') }}" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-falga md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">Projects</a>
                 </li>
                 <li class="hidden md:block">
                     <a href="{{ url('sustainability') }}" data-popover-target="sustainability-pop" type="button" class="py-2 pr-4 pl-3 w-full text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-falga md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent uppercase font-bold">Sustainability</a>
