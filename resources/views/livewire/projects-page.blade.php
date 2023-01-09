@@ -5,6 +5,18 @@
 <script src="https://unpkg.com/flowbite@1.5.4/dist/datepicker.js"></script>
 @endpush
 {{-- Banner --}}
+<style>
+  .main-banner {
+    padding-top: 66.666666667%;
+  }
+
+  @media (min-width: 1440px) {
+    .main-banner {
+      padding-top: 915px;
+    }
+  }
+
+</style>
 <div class="main-banner mt-[61px] md:mt-[77px]">
   <picture>
     <source srcset="{{ mix("img/projects-portfolio/banner.webp") }}" type="image/webp" />
@@ -57,27 +69,23 @@
         <a href="{{ url("projects?page=".($page - 1)."#breadrumbs") }}" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Prev</a>
       </li>
       @endif
-      @for($i = $first_visible_page; $i <= $last_visible_page; $i++)
-        @if($i==$page)
-        <li>
-          <a href="{{ url("projects?page=".$i."#breadrumbs") }}" aria-current="page" class="px-3 py-2 text-red-falga border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">{{ $i }}</a>
+      @for($i = $first_visible_page; $i <= $last_visible_page; $i++) @if($i==$page) <li>
+        <a href="{{ url("projects?page=".$i."#breadrumbs") }}" aria-current="page" class="px-3 py-2 text-red-falga border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">{{ $i }}</a>
         </li>
         @else
         <li>
           <a href="{{ url("projects?page=".$i."#breadrumbs") }}" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">{{ $i }}</a>
         </li>
         @endif
-      @endfor
-      @if($page < $page_count)
-      <li>
-        <a href="{{ url("projects?page=".($page + 1)."#breadrumbs") }}" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Next</a>
-      </li>
-      @endif
-      @if($page + 1 < $page_count)
-      <li>
-        <a href="{{ url("projects?page=".$page_count."#breadrumbs") }}" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 rounded-r-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Last</a>
-      </li>
-      @endif
+        @endfor
+        @if($page < $page_count) <li>
+          <a href="{{ url("projects?page=".($page + 1)."#breadrumbs") }}" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Next</a>
+          </li>
+          @endif
+          @if($page + 1 < $page_count) <li>
+            <a href="{{ url("projects?page=".$page_count."#breadrumbs") }}" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 rounded-r-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Last</a>
+            </li>
+            @endif
     </ul>
   </nav>
   @endif

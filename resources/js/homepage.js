@@ -2,7 +2,7 @@ const init_carousel = () => {
     var $carousel = $(".carousel").flickity({
         wrapAround: true,
         pageDots: false,
-        autoPlay: true,
+        autoPlay: false,
         initialIndex: 1,
         prevNextButtons: false,
     });
