@@ -61,7 +61,7 @@
   </div>
   <div class="flex flex-wrap md:divide-x-[16px] divide-transparent items-stretch">
     <x-core-value-item title="Uplifting" description="Positive work environment that encourage meaningful relationship, ignite energy & elevate organization-wide performance"></x-core-value-item>
-    <x-core-value-item title="Stewardship" description="Responsible management to incorporate ESG principles into enterprise-wide organization design & practices"></x-core-value-item>
+    <x-core-value-item title="Stewardship" description="Responsible management that incorporate ethics, morals and sustainability into enterprise-wide design and practices"></x-core-value-item>
     <x-core-value-item title="Excellence" description="Pursuant of superior quality in strategy, people, process, resources, technology, products & services"></x-core-value-item>
     <x-core-value-item title="Fluidity" description="Strategic agility, organizational dynamics and transformative capabilities to adapt with constantly rapid change"></x-core-value-item>
     <x-core-value-item title="Unity" description="Cohesive, collaborative culture in workforce diversity that unite different skills and expertise to deliver optimal performance"></x-core-value-item>
