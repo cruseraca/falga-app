@@ -215,19 +215,19 @@
         </div>
       </div>
       <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
-        <a href="{{ url("future-business") }}" class="h-full w-full">
-          <img data-src="{{ mix('img/slider/future.png') }}" alt="Future Bussiness" class="lozad h-full w-full object-fill" />
-        </a>
-        <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
-          <p>Future Bussiness</p>
-        </div>
-      </div>
-      <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
         <a href="{{ url("prop-business") }}" class="h-full w-full">
           <img data-src="{{ mix('img/slider/property.png') }}" alt="Property & Hospitality" class="lozad h-full w-full object-fill" />
         </a>
         <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
           <p>Property & Hospitality</p>
+        </div>
+      </div>
+      <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
+        <a href="{{ url("future-business") }}" class="h-full w-full">
+          <img data-src="{{ mix('img/slider/future.png') }}" alt="Future Bussiness" class="lozad h-full w-full object-fill" />
+        </a>
+        <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
+          <p>Future Bussiness</p>
         </div>
       </div>
       <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
