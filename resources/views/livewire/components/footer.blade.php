@@ -10,17 +10,17 @@
             <div class="py-4 md:py-2 mr-1">:</div>
             <div class="flex-1"><a href="tel:+62215760931" class="inline-block py-4 md:py-2">(021) 576-0931</a></div>
           </div>
-          <div class="flex">
+          <div class="flex text-sm">
             <div class="font-semibold py-4 md:py-2 min-w-[80px]">Email</div>
             <div class="py-4 md:py-2 mr-1">:</div>
             <div class="flex-1"><a href="mailto:corporate.secretary@falga.co.id" class="inline-block py-4 md:py-2">corporate.secretary@falga.co.id</a></div>
           </div>
-          <div class="flex items-start">
+          <div class="flex text-sm items-start">
             <div class="font-semibold py-4 md:py-2 min-w-[80px]">Address</div>
             <div class="py-4 md:py-2 mr-1">:</div>
             <div class="flex-1 py-4 md:py-2">DEA Tower II 7th Floor, Jl. Mega Kuningan Barat No.1-2, Kuningan, Kecamatan Setiabudi, Daerah Khusus Ibukota Jakarta 12950</div>
           </div>
-          <div class="flex">
+          <div class="flex text-sm">
             <div class="font-semibold py-4 md:py-2 min-w-[80px]">Website</div>
             <div class="py-4 md:py-2 mr-1">:</div>
             <div class="flex-1"><a href="{{ url('') }}" class="inline-block py-4 md:py-2">www.falga.co.id</a></div>
