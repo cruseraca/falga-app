@@ -10,7 +10,7 @@ class MediaPage extends Component
     public $titles = [
         "news" => "News",
         "blog" => "Blog",
-        "video" => "Video",
+        "video" => "Videos",
     ];
     public $q;
     public $title;

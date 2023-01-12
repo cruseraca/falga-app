@@ -55,10 +55,13 @@
                 <li>
                   <a href="{{ url('future-business') }}" class="block text-sm py-4 md:py-1">Future Business</a>
                 </li>
+                <li>
+                  <a href="{{ url('projects') }}" class="block text-sm py-4 md:py-1">Project Portfolio</a>
+                </li>
               </ul>
             </div>
             <div class="w-full lg:w-6/12 px-4">
-              <span class="block text-sm font-semibold my-2 mt-4">Sustainability</span>
+              <span class="block text-sm font-semibold py-4 md:py-2">Sustainability</span>
               <ul class="list-unstyled">
                 <li>
                   <a href="{{ url('sustainability?q=strategy-management#breadrumbs') }}" class="block text-sm py-4 md:py-1">Strategy & Management</a>
@@ -70,8 +73,8 @@
                   <a href="{{ url('esg?q=governance#breadrumbs') }}" class="block text-sm py-4 md:py-1">Good Corporate Governance</a>
                 </li> --}}
               </ul>
-              <a href="{{ url('projects') }}" class="block text-sm font-semibold py-4 md:py-2 mt-4">Projects</a>
-              <a href="{{ url('media-and-information') }}" class="block text-sm font-semibold py-4 md:py-2 mt-4">Media</a>
+              {{-- <a href="{{ url('projects') }}" class="block text-sm font-semibold py-4 md:py-2 mt-4">Projects</a> --}}
+              <a href="{{ url('media-and-information') }}" class="block text-sm font-semibold py-4 md:py-2 md:mt-4">Media</a>
               <ul class="list-unstyled">
                 <li>
                   <a href="{{ url('media-and-information?q=news#breadrumbs') }}" class="block text-sm py-4 md:py-1">News</a>
@@ -80,10 +83,10 @@
                   <a href="{{ url('media-and-information?q=blog#breadrumbs') }}" class="block text-sm py-4 md:py-1">Blog</a>
                 </li>
                 <li>
-                  <a href="{{ url('media-and-information?q=video#breadrumbs') }}" class="block text-sm py-4 md:py-1">Videos</a>
+                  <a href="{{ url('media-and-information?q=video#breadrumbs') }}" class="block text-sm py-4 md:py-1">Video</a>
                 </li>
               </ul>
-              <a href="{{ url('career') }}" class="block text-sm font-semibold py-4 md:py-2 mt-4">Career</a>
+              <a href="{{ url('career') }}" class="block text-sm font-semibold py-4 md:py-2 md:mt-4">Career</a>
             </div>
           </div>
         </div>

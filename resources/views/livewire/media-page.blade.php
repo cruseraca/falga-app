@@ -42,7 +42,7 @@
           <a href="{{ url("media-and-information?q=blog#breadrumbs") }}" class="{{ $q == "blog" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap uppercase" id="blog-tab" type="button" role="tab" aria-controls="blog" aria-selected="false">Blog</a>
         </li>
         <li class="mr-2 md:mr-0" role="presentation">
-          <a href="{{ url("media-and-information?q=video#breadrumbs") }}" class="{{ $q == "video" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap uppercase" id="video-tab" type="button" role="tab" aria-controls="video" aria-selected="false">Video</a>
+          <a href="{{ url("media-and-information?q=video#breadrumbs") }}" class="{{ $q == "video" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap uppercase" id="video-tab" type="button" role="tab" aria-controls="video" aria-selected="false">Videos</a>
         </li>
       </ul>
     </div>
