@@ -14,8 +14,7 @@
         <br />Our Businesses
       </h1>
       <div class="md:mt-8 normal-case sm:text-xl md:text-2xl" style="text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);">
-        FALGA is an Indonesian-incorporated Investment Holding Company that strives to continuously build viable
-        large-scale businesses that deliver sustainable performance
+        Established Five Business Pillars that consist of EPCI, Oil & Gas Retail, Industrial Equipment Rental, Property & Hospitality and Future Business
       </div>
     </div>
   </div>

@@ -207,6 +207,22 @@
     </div>
     <div class="carousel sm:w-[85%] mx-auto w-screen">
       <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
+        <a href="{{ url("epci-business") }}" class="h-full w-full">
+          <img data-src="{{ mix('img/slider/image-7-progressive.jpeg') }}" alt="EPCI Business" class="lozad h-full w-full object-cover object-center">
+        </a>
+        <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
+          <p>Engineering, Procurement, Construction, and Installation (EPCI)</p>
+        </div>
+      </div>
+      <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
+        <a href="{{ url("oil-and-gas-business") }}" class="h-full w-full">
+          <img data-src="{{ mix('img/slider/pom-bensin-progressive.jpeg') }}" alt="Oil & Gas Retail" class="lozad h-full w-full object-cover object-center-bottom" />
+        </a>
+        <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
+          <p>Oil & Gas Retail</p>
+        </div>
+      </div>
+      <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
         <a href="{{ url("industrial-rental") }}" class="h-full w-full">
           <img data-src="{{ mix('img/slider/industrial.png') }}" alt="Industrial Equipment Rental" class="lozad h-full w-full object-cover object-center-bottom" />
         </a>
@@ -228,22 +244,6 @@
         </a>
         <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
           <p>Future Bussiness</p>
-        </div>
-      </div>
-      <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
-        <a href="{{ url("epci-business") }}" class="h-full w-full">
-          <img data-src="{{ mix('img/slider/image-7-progressive.jpeg') }}" alt="EPCI Business" class="lozad h-full w-full object-cover object-center">
-        </a>
-        <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
-          <p>Engineering, Procurement, Construction, and Installation (EPCI)</p>
-        </div>
-      </div>
-      <div class="carousel-cell w-2/3 sm:w-[30%] mx-1 sm:mx-4 rounded-xl flex overflow-hidden">
-        <a href="{{ url("oil-and-gas-business") }}" class="h-full w-full">
-          <img data-src="{{ mix('img/slider/pom-bensin-progressive.jpeg') }}" alt="Oil & Gas Retail" class="lozad h-full w-full object-cover object-center-bottom" />
-        </a>
-        <div class="absolute bottom-10 inset-x-0 text-white text-center text-lg p-2 bg-black/20">
-          <p>Oil & Gas Retail</p>
         </div>
       </div>
     </div>

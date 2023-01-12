@@ -11,10 +11,13 @@
     <img alt="" />
   </picture>
   <div class="main-banner-container">
-    <div class="falga-container">
-      <h1 class="font-poppins text-white text-center font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+    <div class="falga-container text-white text-center">
+      <h1 class="font-poppins font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase md:mt-[30%]" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
         Sustainability
       </h1>
+      <div class="md:mt-8 normal-case sm:text-xl md:text-2xl" style="text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);">
+        Integrating sustainability approaches into our strategic and value-creation practices
+      </div>
     </div>
   </div>
 </div>
