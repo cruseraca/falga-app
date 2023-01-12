@@ -65,10 +65,10 @@
       </div>
     </div>
     <div class="flex-1 flex items-center mx-4 min-w-[320px] pt-3">
-      <div class="item-content item-content-map max-w-md">
+      <div class="item-content item-content-map">
         <div class="item-content-line bg-[#972540]"></div>
         <h5 class="falga-section-title">OUR LOCATIONS</h5>
-        <p class="font-sans font-normal text-justify md:text-lg mt-4 md:mt-8">Located in Jakarta, Indonesia 22 Privately owned & managed</p>
+        <p class="font-sans font-normal text-justify md:text-lg mt-4 md:mt-8">FALGA privately owns and directly manages all of our real estate assets in 22 different locations across Jakarta, Indonesia</p>
         <div class="flex items-center mt-4"><img class="object-contain w-7 h-7 mr-2" src="{{ mix('img/property/key-g.png') }}" alt="k" /> 5 Budget Lodges</div>
         <div class="flex items-center mt-1"><img class="object-contain w-7 h-7 mr-2" src="{{ mix('img/property/key-r.png') }}" alt="r" /> 17 Boarding Houses</div>
       </div>

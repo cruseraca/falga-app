@@ -5,15 +5,25 @@
       <div class="flex flex-wrap flex-col sm:flex-row text-left lg:text-left">
         <div class="order-last sm:order-first sm:w-1/2 lg:w-6/12 px-4 mb-10">
           <img data-src="{{ mix('img/logo-falga-white.png') }}" alt="Falga" class="lozad h-[60px] w-[171.1px] object-cover">
-          <div class="grid grid-cols-5 mt-10 text-sm">
-            <div class="font-semibold py-4 md:py-2">Phone</div>
-            <div class="col-span-4">: <a href="tel:+62215760931" class="inline-block py-4 md:py-2">(021) 576-0931</a></div>
-            <div class="font-semibold py-4 md:py-2">Email</div>
-            <div class="col-span-4">: <a href="mailto:corporate.secretary@falga.co.id" class="inline-block py-4 md:py-2">corporate.secretary@falga.co.id</a></div>
-            <div class="font-semibold py-4 md:py-2">Address</div>
-            <div class="col-span-4 py-4 md:py-2">: DEA Tower II 7th Floor, Jl. Mega Kuningan Barat No.1-2, Kuningan, Kecamatan Setiabudi, Daerah Khusus Ibukota Jakarta 12950</div>
-            <div class="font-semibold py-4 md:py-2">Website</div>
-            <div class="col-span-4">: <a href="{{ url('') }}" class="inline-block py-4 md:py-2">www.falga.co.id</a></div>
+          <div class="flex mt-10 text-sm">
+            <div class="font-semibold py-4 md:py-2 min-w-[80px]">Phone</div>
+            <div class="py-4 md:py-2 mr-1">:</div>
+            <div class="flex-1"><a href="tel:+62215760931" class="inline-block py-4 md:py-2">(021) 576-0931</a></div>
+          </div>
+          <div class="flex">
+            <div class="font-semibold py-4 md:py-2 min-w-[80px]">Email</div>
+            <div class="py-4 md:py-2 mr-1">:</div>
+            <div class="flex-1"><a href="mailto:corporate.secretary@falga.co.id" class="inline-block py-4 md:py-2">corporate.secretary@falga.co.id</a></div>
+          </div>
+          <div class="flex items-start">
+            <div class="font-semibold py-4 md:py-2 min-w-[80px]">Address</div>
+            <div class="py-4 md:py-2 mr-1">:</div>
+            <div class="flex-1 py-4 md:py-2">DEA Tower II 7th Floor, Jl. Mega Kuningan Barat No.1-2, Kuningan, Kecamatan Setiabudi, Daerah Khusus Ibukota Jakarta 12950</div>
+          </div>
+          <div class="flex">
+            <div class="font-semibold py-4 md:py-2 min-w-[80px]">Website</div>
+            <div class="py-4 md:py-2 mr-1">:</div>
+            <div class="flex-1"><a href="{{ url('') }}" class="inline-block py-4 md:py-2">www.falga.co.id</a></div>
           </div>
         </div>
         <div class="sm:w-1/2 lg:w-6/12 sm:pl-10 pr-4">
@@ -36,7 +46,7 @@
                   <a href="{{ url('about-us#key-person') }}" class="block text-sm py-4 md:py-1">Key Person</a>
                 </li>
               </ul>
-              <span class="block text-blueGray-500 text-sm font-semibold py-4 md:py-2">
+              <span class="block text-blueGray-500 text-sm font-semibold py-4 md:py-2 md:mt-4">
                 <a href="{{ url('our-business') }}">Our Business</a>
               </span>
               <ul class="list-unstyled">
@@ -83,7 +93,7 @@
                   <a href="{{ url('media-and-information?q=blog#breadrumbs') }}" class="block text-sm py-4 md:py-1">Blog</a>
                 </li>
                 <li>
-                  <a href="{{ url('media-and-information?q=video#breadrumbs') }}" class="block text-sm py-4 md:py-1">Video</a>
+                  <a href="{{ url('media-and-information?q=video#breadrumbs') }}" class="block text-sm py-4 md:py-1">Videos</a>
                 </li>
               </ul>
               <a href="{{ url('career') }}" class="block text-sm font-semibold py-4 md:py-2 md:mt-4">Career</a>
@@ -92,8 +102,8 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-wrap items-center md:justify-between justify-center bg-white">
-      <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+    <div class="bg-white">
+      <div class="container mx-auto px-4">
         <div class="text-xs py-4">
           Copyright © {{ date('Y') }} | <a href="https://www.falga.co.id" class="font-black hover:text-gray-800" target="_blank">FALGA GROUP</a>
         </div>

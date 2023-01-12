@@ -26,7 +26,7 @@
   <div class="main-banner-container">
     <div class="falga-container">
       <h1 class="font-poppins text-white text-center font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
-        Projects
+        Project Portfolio
       </h1>
     </div>
   </div>
