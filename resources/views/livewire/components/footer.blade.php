@@ -18,7 +18,7 @@
           <div class="flex text-sm items-start">
             <div class="font-semibold py-4 md:py-2 min-w-[80px]">Address</div>
             <div class="py-4 md:py-2 mr-1">:</div>
-            <div class="flex-1 py-4 md:py-2">DEA Tower II 7th Floor, Jl. Mega Kuningan Barat No.1-2, Kuningan, Kecamatan Setiabudi, Daerah Khusus Ibukota Jakarta 12950</div>
+            <div class="flex-1 py-4 md:py-2">Dea Tower II 7th Floor, Jl. Mega Kuningan Barat No.1-2, Kuningan, Kecamatan Setiabudi, Daerah Khusus Ibukota Jakarta 12950</div>
           </div>
           <div class="flex text-sm">
             <div class="font-semibold py-4 md:py-2 min-w-[80px]">Website</div>
