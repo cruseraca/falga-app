@@ -29,10 +29,27 @@
 @endcomponent
 <div class="falga-container flex mb-16 flex-col md:flex-row">
   <div>
-    <div class="falga-section-title small red-falga">
+    <div class="falga-section-title small red-falga md:hidden">
+      <div id="dropdownTitleButton" data-dropdown-toggle="title" class="p-2 md:p-6 border-b-2 mt-12 md:mt-24 cursor-pointer flex justify-between items-center">Sustainability <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </div>
+      <!-- Dropdown menu -->
+      <div id="title" class="z-10 hidden bg-white divide-y divide-gray-100 rounded dark:bg-gray-700 w-full shadow-md">
+        <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownTitleButton">
+          <li>
+            <a href="{{ url("sustainability?q=strategy-management#breadrumbs") }}" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{{ $titles["strategy-management"] }}</a>
+          </li>
+          <li>
+            <a href="{{ url("sustainability?q=reports#breadrumbs") }}" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{{ $titles["reports"] }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="falga-section-title small red-falga hidden md:block">
       <div class="p-2 md:p-6 border-b-2 mt-12 md:mt-24">Sustainability</div>
     </div>
-    <div class="mb-4 falga-section-title small red-falga overflow-auto">
+    <div class="mb-4 falga-section-title small red-falga overflow-auto hidden md:block">
       <ul class="flex md:flex-col items-stretch" id="esg-tab" role="tablist">
         <li class="mr-2 md:mr-0 min-w-[280px]" role="presentation">
           <a href="{{ url("sustainability?q=strategy-management#breadrumbs") }}" class="{{ $q == "strategy-management" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap" id="sustainability-tab" type="button" role="tab" aria-controls="sustainability" aria-selected="false">{{ $titles["strategy-management"] }}</a>
