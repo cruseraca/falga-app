@@ -74,6 +74,11 @@
           </div>
         </li>
         <li class="md:hidden">
+          <a href="{{ url('our-business') }}" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-falga md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">
+            Our Business
+          </a>
+        </li>
+        {{-- <li class="md:hidden">
           <button id="our-business-mn" data-dropdown-toggle="our-business-dm" class="flex justify-between items-center py-2 pr-4 pl-3 w-full text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-falga md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent uppercase font-bold">
             Our Bussiness<svg class="ml-1 w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
@@ -105,7 +110,7 @@
               </ul>
             </div>
           </div>
-        </li>
+        </li> --}}
         <li class="hidden md:block">
           <a href="{{ url('sustainability') }}" data-popover-target="sustainability-pop" type="button" class="py-2 pr-4 pl-3 w-full text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-falga md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent uppercase font-bold">Sustainability</a>
           <div data-popover id="sustainability-pop" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">

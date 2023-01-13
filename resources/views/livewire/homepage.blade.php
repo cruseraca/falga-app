@@ -71,16 +71,16 @@
     <img class="lozad" alt="future bussiness" data-src="{{ mix('img/homepage/future-bussiness-n.png') }}" />
   </a>
 </div>
-<div class="max-w-screen flex flex-col mx-auto my-6 md:my-20 font-poppins">
-  <div class="flex flex-col divide-y px-6 md:flex-row md:divide-x md:divide-y-0 divide-red-falga font-sans text-sm md:text-base">
-    <div class="py-6 md:basis-1/2 md:py-6 md:pr-10 md:pl-40 text-justify">
+<div class="falga-container my-6 md:my-20 font-poppins">
+  <div class="flex flex-col divide-y md:flex-row md:divide-x md:divide-y-0 divide-red-falga font-sans text-sm md:text-base">
+    <div class="py-6 md:basis-1/2 md:py-6 md:pr-10 text-justify">
       <strong class="text-red-falga">FALGA GROUP</strong> is an Indonesian-incorporated
       investment holding company founded in 1986 with ownership interests
       in EPCI Contractor, Oil & Gas Retail, Properties and Industrial
       Equipment Rental companies. Our Group integrates agile operating
       models and proactively appraise future business opportunities.
     </div>
-    <div class="py-6 md:basis-1/2 md:py-6 md:pl-10 md:pr-40 text-justify">
+    <div class="py-6 md:basis-1/2 md:py-6 md:pl-10 text-justify">
       <strong class="text-red-falga">FALGA GROUP</strong> core priorities are building viable
       large-scale businesses that can stand against industry disruptions
       and economic shocks through organizational agility and resilience.
@@ -90,23 +90,23 @@
   </div>
 </div>
 {{-- Information --}}
-<div class="container mx-auto my-10 sm:my-20">
+<div class="falga-container mx-auto my-10 sm:my-20">
   <div class="text-center my-10 px-4">
     <p class="falga-section-title">
       OUR FOCUS ON INDONESIA ECONOMIC PROSPECT
     </p>
   </div>
-  <div class="flex flex-col sm:flex-row justify-between gap-4 px-20 sm:px-0">
-    <div class="flex flex-col w-auto rounded-lg border py-5 shadow-box text-center">
-      <div class="my-auto mx-6 xl:mx-16">
+  <div class="flex flex-row flex-wrap justify-between gap-2 md:gap-4">
+    <div class="flex-1 min-w-[155px] md:min-w-[250px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
+      <div class="my-auto md:mx-6">
         <p class="font-black text-md">GDP per Capita (2021)</p>
         <p class="font-black text-2xl my-3 text-red-falga">$ 4,291</p>
         <p class="font-black text-xs">The Highest in South-East Asia</p>
         <p class="font-light text-xs">Source: World Bank</p>
       </div>
     </div>
-    <div class="flex flex-col w-auto rounded-lg border py-5 px-2 shadow-box text-center">
-      <div class="my-auto mx-6 xl:mx-16">
+    <div class="flex-1 min-w-[155px] md:min-w-[250px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
+      <div class="my-auto md:mx-6">
         <p class="font-black text-md">GDP Growth (2Q2022, yoy)</p>
         <p class="font-black text-2xl my-3 text-red-falga">5,44%</p>
         <p class="font-black text-xs">
@@ -115,8 +115,8 @@
         <p class="font-light text-xs">Source: World Bank</p>
       </div>
     </div>
-    <div class="flex flex-col w-auto rounded-lg border py-5 px-2 shadow-box text-center">
-      <div class="my-auto mx-6 xl:mx-16">
+    <div class="flex-1 min-w-[155px] md:min-w-[250px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
+      <div class="my-auto md:mx-6">
         <p class="font-black text-md">Internet Users (Jan 2022)</p>
         <p class="font-black text-2xl my-3 text-red-falga">204,7 M</p>
         <p class="font-black text-xs">
@@ -125,18 +125,16 @@
         <p class="font-light text-xs">Source: Data Reportal</p>
       </div>
     </div>
-    <div class="flex flex-col w-auto rounded-lg border py-5 px-2 shadow-box text-center">
-      <div class="my-auto mx-6 xl:mx-16">
+    <div class="flex-1 min-w-[155px] md:min-w-[250px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
+      <div class="my-auto md:mx-6">
         <p class="font-black text-md">Population (2021)</p>
         <p class="font-black text-2xl my-3 text-red-falga">273 M</p>
         <p class="font-black text-xs">4th Highest in the World</p>
         <p class="font-light text-xs">Source: Worldometers</p>
       </div>
     </div>
-  </div>
-  <div class="flex flex-col sm:flex-row justify-between my-4 sm:my-10 gap-4 px-20 sm:px-0">
-    <div class="flex flex-col w-auto rounded-lg border py-5 px-2 shadow-box text-center">
-      <div class="my-auto mx-6 xl:mx-16">
+    <div class="flex-1 min-w-[155px] md:min-w-[250px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
+      <div class="my-auto md:mx-6">
         <p class="font-black text-md">
           Trade Balance<br />
           (Jun 2022)
@@ -146,8 +144,8 @@
         <p class="font-light text-xs">Source: BPS Indonesia</p>
       </div>
     </div>
-    <div class="flex flex-col w-auto sm:w-1/4 rounded-lg border py-5 px-2 shadow-box text-center">
-      <div class="my-auto mx-6 xl:mx-16">
+    <div class="flex-1 min-w-[155px] md:min-w-[250px] flex flex-col sm:w-1/4 rounded-lg border py-5 px-2 shadow-box text-center">
+      <div class="my-auto mx-6">
         <p class="font-black text-md">
           Population below<br />40 years old (2021)
         </p>
@@ -156,8 +154,8 @@
         <p class="font-light text-xs">Source: BPS Indonesia</p>
       </div>
     </div>
-    <div class="flex flex-col w-auto rounded-lg border py-5 px-2 shadow-box text-center">
-      <div class="my-auto mx-6 xl:mx-16">
+    <div class="flex-1 min-w-[155px] md:min-w-[250px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
+      <div class="my-auto md:mx-6">
         <p class="font-black text-md">Digital Economy (2021)</p>
         <p class="font-black text-2xl my-3 text-red-falga">$ 70 B</p>
         <p class="font-black text-xs">Highest in South-East Asia</p>
@@ -166,8 +164,8 @@
         </p>
       </div>
     </div>
-    <div class="flex flex-col w-auto rounded-lg border py-5 px-2 shadow-box text-center">
-      <div class="my-auto mx-6 xl:mx-16">
+    <div class="flex-1 min-w-[155px] md:min-w-[250px] lg:min-w-[430px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
+      <div class="my-auto md:mx-6">
         <p class="font-black text-md">
           Infrastructure Development<br />
           (2016-2022)
@@ -186,7 +184,7 @@
       </div>
     </div>
   </div>
-  <div class="text-xs mx-10 sm:mx-0">
+  <div class="text-xs mt-4">
     *) including USA, Singapore, South Korea, China, Taiwan, etc
   </div>
 </div>
