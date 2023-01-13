@@ -9,6 +9,11 @@
 @section('meta_description')
 <meta name="description" content="Core Emphasis on Business Building through Sustainable Investing">
 @overwrite
+<style>
+.main-banner {
+  min-height: 320px;
+}
+</style>
 {{-- Banner --}}
 <div class="main-banner mt-[61px] md:mt-[77px]">
   <picture>

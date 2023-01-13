@@ -1,3 +1,24 @@
 .falga-tab-active {
   background-color: #f2f2f2;
 }
+.falga-sustainability-approach {
+  position: relative;
+  width: 100%;
+  padding-top: 89.750597882%;
+}
+@media (min-width: 1024px) {
+  .falga-sustainability-approach {
+    padding-top: 48.012012012%;
+  }
+}
+.falga-sustainability-approach > picture,
+.falga-sustainability-approach > picture > img,
+.falga-sustainability-approach > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+}

@@ -91,6 +91,15 @@
     font-size: 28px;
   }
 }
+.falga-section-title.small {
+  font-size: 16px;
+  font-weight: bold;
+}
+@media (min-width: 640px) {
+  .falga-section-title.small {
+    font-size: 18px;
+  }
+}
 
 .main-banner {
   width: 100vw;

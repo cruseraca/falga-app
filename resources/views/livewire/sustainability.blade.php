@@ -29,10 +29,10 @@
 @endcomponent
 <div class="falga-container flex mb-16 flex-col md:flex-row">
   <div>
-    <div class="falga-section-title red-falga">
+    <div class="falga-section-title small red-falga">
       <div class="p-2 md:p-6 border-b-2 mt-12 md:mt-24">Sustainability</div>
     </div>
-    <div class="mb-4 falga-section-title red-falga overflow-auto">
+    <div class="mb-4 falga-section-title small red-falga overflow-auto">
       <ul class="flex md:flex-col items-stretch" id="esg-tab" role="tablist">
         <li class="mr-2 md:mr-0 min-w-[280px]" role="presentation">
           <a href="{{ url("sustainability?q=strategy-management#breadrumbs") }}" class="{{ $q == "strategy-management" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap" id="sustainability-tab" type="button" role="tab" aria-controls="sustainability" aria-selected="false">{{ $titles["strategy-management"] }}</a>
@@ -48,6 +48,30 @@
   </div>
   <div id="esg-tab-content" class="flex-1 md:border-l">
     <div class="falga-section-title red-falga mt-8 py-3 border-b-2 border-gray-600 md:ml-8 md:px-8">{{ $title }}</div>
+    @if($q == 'strategy-management')
+    <div class="flex flex-col w-full md:px-8 py-4 border-b md:ml-8 mt-2 md:text-base">
+      <div class="font-bold">SUSTAINABILITY FRAMEWORK</div>
+      <div class="mt-2">
+        FALGA believes strong sustainability proposition is linked to higher value creation for our business. The following are 7 elements of sustainability framework that guides FALGA's sustainable approach:
+      </div>
+      <div class="falga-sustainability-approach">
+        <picture class="lozad" data-alt="" data-iesrc="{{ mix('img/sustainability/sustainability_approach_md.png') }}">
+          <source srcset="{{ mix('img/sustainability/sustainability_approach_lg.webp') }}" type="image/webp" media="(min-width: 1024px)" />
+          <source srcset="{{ mix('img/sustainability/sustainability_approach_md.webp') }}" type="image/webp" />
+          <source srcset="{{ mix('img/sustainability/sustainability_approach_lg.png') }}" media="(min-width: 1024px)" />
+          <source srcset="{{ mix('img/sustainability/sustainability_approach_md.png') }}" />
+        </picture>
+      </div>
+      <div class="font-bold mt-8">ISO APPLICATION:</div>
+      <ul class="list-disc ml-4">
+        <li>ISO <span class="min-w-[48.0167px] text-right inline-block">14001:</span> <span>2015:</span> Environmental Management System</li>
+        <li>ISO <span class="min-w-[48.0167px] text-right inline-block">45001:</span> <span>2018:</span> Occupational Health and Safety Management System</li>
+        <li>ISO <span class="min-w-[48.0167px] text-right inline-block">9001:</span> <span>2015:</span> Quality Management System</li>
+        <li>ISO <span class="min-w-[48.0167px] text-right inline-block">37001:</span> <span>2015:</span> Anti Bribery Management System</li>
+        <li>ISO <span class="min-w-[48.0167px] text-right inline-block">26000:</span> <span>2010:</span> Guidance on social responsibility</li>
+      </ul>
+    </div>
+    @else
     @foreach($items as $item)
     <div class="flex flex-col md:flex-row md:items-center w-full md:px-8 py-4 border-b md:ml-8">
       <div class="flex-1">
@@ -60,5 +84,6 @@
       </div>
     </div>
     @endforeach
+    @endif
   </div>
 </div>

@@ -72,16 +72,16 @@ class MediaPage extends Component
             ],
             "video" => [
                 [
-                    "title" => "duis at consectetur lorem",
-                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim praesent elementum facilisis leo vel fringilla est ullamcorper eget.",
-                    "image" => mix("img/hero-image.jpg"),
-                    "video_id" => "4tDjvbCEdgU"
-                ],
-                [
                     "title" => "volutpat ac tincidunt vitae",
                     "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo vel fringilla est.",
                     "image" => mix("img/hero-image.jpg"),
                     "video_id" => "ThpRlt9o2_0"
+                ],
+                [
+                    "title" => "duis at consectetur lorem",
+                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim praesent elementum facilisis leo vel fringilla est ullamcorper eget.",
+                    "image" => mix("img/hero-image.jpg"),
+                    "video_id" => "4tDjvbCEdgU"
                 ],
             ],
         ];
