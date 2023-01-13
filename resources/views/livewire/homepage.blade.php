@@ -10,9 +10,31 @@
 <meta name="description" content="Core Emphasis on Business Building through Sustainable Investing">
 @overwrite
 <style>
-.main-banner {
-  min-height: 320px;
-}
+  .main-banner {
+    min-height: 320px;
+  }
+
+  .falga-button.banner-button {
+    padding-left: 32px;
+  }
+  .falga-button.banner-button > svg {
+    width: 26px;
+    height: 26px;
+    margin-bottom: 1px;
+  }
+
+  @media (max-width: 767.8px) {
+    .falga-button.banner-button {
+      padding: 0 4px 0 12px;
+      font-size: 12px;
+      min-height: 32px;
+    }
+    .falga-button.banner-button > svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
 </style>
 {{-- Banner --}}
 <div class="main-banner mt-[61px] md:mt-[77px]">
@@ -36,9 +58,9 @@
       <h1 class="font-poppins font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase md:mt-[30%] max-w-[810px]" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
         Core Emphasis on Business Building through Sustainable Investing
       </h1>
-      <a href="{{ url("about-us") }}" class="falga-button mt-2 sm:mt-4 md:mt-6 uppercase pl-7 self-center whitespace-nowrap" style="padding-left: 32px">Learn More <svg style="width:26px;height:26px" viewBox="0 0 24 24">
-        <path fill="currentColor" d="M10,17L15,12L10,7V17Z" />
-      </svg>
+      <a href="{{ url("about-us") }}" class="falga-button mt-2 sm:mt-4 md:mt-6 uppercase pl-7 self-center whitespace-nowrap banner-button">Learn More <svg viewBox="0 0 24 24">
+          <path fill="currentColor" d="M10,17L15,12L10,7V17Z" />
+        </svg>
       </a>
     </div>
   </div>
