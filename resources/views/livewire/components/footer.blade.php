@@ -71,7 +71,10 @@
               </ul>
             </div>
             <div class="w-full lg:w-6/12 px-4">
-              <span class="block text-sm font-semibold py-4 md:py-4 pb-2 md:pb-2 mt-3 md:mt-0">Sustainability</span>
+              <span class="block text-blueGray-500 text-sm font-semibold">
+                <a href="{{ url('sustainability') }}" class="py-4 md:py-4 pb-2 md:pb-2 block">Sustainability</a>
+              </span>
+              {{-- <span class="block text-sm font-semibold py-4 md:py-4 pb-2 md:pb-2 mt-3 md:mt-0">Sustainability</span> --}}
               <ul class="list-unstyled">
                 <li>
                   <a href="{{ url('sustainability?q=strategy-management#breadrumbs') }}" class="block text-sm py-1 md:py-1">Strategy & Management</a>

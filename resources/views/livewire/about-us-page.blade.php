@@ -45,7 +45,7 @@
         To enhance talent capabilities and synergies through healthy and sustainable workforce ecosystem
       </div>
       <div class="mt-3 text-sm md:text-base">
-        To encourage ESG integration in business and investment workflow
+        To foster integrated sustainability across business and investment workflows
       </div>
       <div class="mt-3 text-sm md:text-base">
         To continue exploration of new business building through appraisals of business viability and sustainability
