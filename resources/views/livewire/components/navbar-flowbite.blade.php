@@ -1,10 +1,10 @@
 <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-screen z-[1000] top-0 left-0 border-b border-gray-200 dark:border-gray-600">
   <div class="container flex flex-wrap justify-between items-center mx-auto h-auto">
     @if(Request::path() == '/')
-    <img class="lozad h-[36px] w-[98.1833px] sm:h-[56px] sm:w-[152.733px] object-cover" data-src="{{ mix('img/logo-falga.svg') }}" alt="FALGA">
+    <img class="h-[36px] w-[98.1833px] sm:h-[56px] sm:w-[152.733px] object-cover" src="{{ mix('img/logo-falga.svg') }}" alt="FALGA">
     @else
     <a href="{{ url('') }}">
-      <img class="lozad h-[36px] w-[98.1833px] sm:h-[56px] sm:w-[152.733px] object-cover" data-src="{{ mix('img/logo-falga.svg') }}" alt="FALGA">
+      <img class="h-[36px] w-[98.1833px] sm:h-[56px] sm:w-[152.733px] object-cover" src="{{ mix('img/logo-falga.svg') }}" alt="FALGA">
     </a>
     @endif
     <div class="flex shrink">

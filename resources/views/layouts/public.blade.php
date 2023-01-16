@@ -23,6 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
   </noscript>
 
+  <link rel="prefetch" href="{{ mix('img/logo-falga.svg') }}" />
 
   <!-- Scripts -->
   <script src="{{ mix('js/app.js') }}" defer></script>
