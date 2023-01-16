@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-  <title>{{ config("app.name", "Falga") }}</title>
+  <title>{{ config("app.name", "Falga") }} Group</title>
   @section('meta_description')
-  <meta name="description" content="Core Emphasis on Business Building through Sustainable Investing">
+  <meta name="description" content="Falga Group is Core Emphasis on Business Building through Sustainable Investing">
   @show
   @section('favicon')
   <link rel="icon" type="image/x-icon" href="{{ mix('favicon.ico') }}">
