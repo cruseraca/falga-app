@@ -84,7 +84,7 @@ class ProjectsPage extends Component
             ],
             [
                 "id" => "10",
-                "title" => "Repair of 2 x 250 MT of LPG Spherical Storage Tank in Fuel Tank Farm",
+                "title" => "2 x 250 MT of LPG Spherical Storage Tank in Fuel Tank Farm",
                 "location" => "Makassar, Indonesia",
                 "category" => "Category",
                 "image" => mix("img/projects-portfolio/10_Tangki_Makassar-progressive.jpeg")

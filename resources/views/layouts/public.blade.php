@@ -5,13 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="csrf-token" content="{{ csrf_token() }}" />
 
+  @section('meta_title')
   <title>{{ config("app.name", "Falga") }} Group</title>
+  @show
   @section('meta_description')
   <meta name="description" content="Falga Group is Core Emphasis on Business Building through Sustainable Investing">
   @show
   @section('favicon')
   <link rel="icon" type="image/x-icon" href="{{ mix('favicon.ico') }}">
   @show
+
+  <script type="application/json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Corporation",
+      "name": "Falga Group",
+      "alternateName": "Falga Group Indonesia",
+      "url": "https://www.falga.co.id",
+      "description": "FALGA GROUP is an Indonesian-incorporated investment holding company founded in 1986 with ownership interests in EPCI Contractor, Oil & Gas Retail, Properties and Industrial Equipment Rental companies. Our Group integrates agile operating models and proactively appraise future business opportunities.",
+      "logo": "https://www.falga.co.id/favicon.ico?id=0d95f32e435f832d2df7002f231b65d2",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "07:30:00",
+        "closes": "21:00:00"
+      },
+      "sameAs": [
+        "https://www.instagram.com/falgagroup/",
+        "https://mobile.twitter.com/falgagroup"
+      ]
+    }
+  </script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
