@@ -20,7 +20,7 @@ class ContactController extends Controller
         ]);
 
         try{
-            // $contact = Contact::create($request->all());
+            $contact = Contact::create($request->all());
 
             $content = array(
                 'success' => true,

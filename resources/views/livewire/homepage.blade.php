@@ -13,28 +13,40 @@
   .main-banner {
     min-height: 320px;
   }
-
   .falga-button.banner-button {
-    padding-left: 32px;
+    display: flex;
+    align-items: center;
+    line-height: 14px;
   }
   .falga-button.banner-button > svg {
-    width: 26px;
-    height: 26px;
-    margin-bottom: 1px;
+    width: 19px;
+    height: 19px;
   }
-
+  @media (min-width: 768px) {
+    .falga-button.banner-button > span {
+      margin-top: 1px;
+      padding-left: 4px;
+    }
+    .falga-button.banner-button > svg {
+      margin-left: 4px;
+    }
+  }
   @media (max-width: 767.8px) {
     .falga-button.banner-button {
-      padding: 0 4px 0 12px;
+      padding: 0 4px 0 4px;
       font-size: 12px;
       min-height: 32px;
     }
     .falga-button.banner-button > svg {
-      width: 20px;
-      height: 20px;
+      width: 15px;
+      height: 15px;
+      margin-left: 2px;
+    }
+    .falga-button.banner-button > span {
+      margin-top: 1px;
+      padding-left: 2px;
     }
   }
-
 </style>
 {{-- Banner --}}
 <div class="main-banner mt-[61px] md:mt-[77px]">
@@ -58,9 +70,7 @@
       <h1 class="font-poppins font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase md:mt-[30%] max-w-[810px]" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
         Core Emphasis on Business Building through Sustainable Investing
       </h1>
-      <a href="{{ url("about-us") }}" class="falga-button mt-2 sm:mt-4 md:mt-6 uppercase pl-7 self-center whitespace-nowrap banner-button">Learn More <svg viewBox="0 0 24 24">
-          <path fill="currentColor" d="M10,17L15,12L10,7V17Z" />
-        </svg>
+      <a href="{{ url("about-us") }}" class="falga-button mt-2 sm:mt-4 md:mt-6 uppercase self-center whitespace-nowrap banner-button"><span>Learn More</span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" fill="currentColor"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/></svg>
       </a>
     </div>
   </div>
