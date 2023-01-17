@@ -10,7 +10,7 @@ const initCarousels = () => {
             wrapAround: true,
             pageDots: false,
             autoPlay: false,
-            initialIndex: 1,
+            initialIndex: 0,
             prevNextButtons: false,
         });
         // next
