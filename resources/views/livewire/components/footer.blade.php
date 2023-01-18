@@ -8,22 +8,29 @@
           <div class="flex mt-10 text-sm">
             <div class="font-semibold py-1 md:py-1 min-w-[80px]">Phone</div>
             <div class="py-1 md:py-1 mr-1">:</div>
-            <div class="flex-1"><a href="tel:+62215760931" class="inline-block py-1 md:py-1">(021) 576-0931</a></div>
+            <div class="flex-1"><a href="tel:+62215760931" class="inline-block py-1 md:py-1 hover:opacity-60">(021) 576-0931</a></div>
           </div>
           <div class="flex text-sm">
             <div class="font-semibold py-1 md:py-1 min-w-[80px]">Email</div>
             <div class="py-1 md:py-1 mr-1">:</div>
-            <div class="flex-1"><a href="mailto:corporate.secretary@falga.co.id" class="inline-block py-1 md:py-1">corporate.secretary@falga.co.id</a></div>
+            <div class="flex-1"><a href="mailto:corporate.secretary@falga.co.id" class="inline-block py-1 md:py-1 hover:opacity-60">corporate.secretary@falga.co.id</a></div>
           </div>
           <div class="flex text-sm items-start">
             <div class="font-semibold py-1 md:py-1 min-w-[80px]">Address</div>
             <div class="py-1 md:py-1 mr-1">:</div>
-            <div class="flex-1 py-1 md:py-1">Dea Tower II 7th Floor, Jl. Mega Kuningan Barat No.1-2, Kuningan, Kecamatan Setiabudi, Daerah Khusus Ibukota Jakarta 12950</div>
+            <div class="flex-1">
+              <a
+                href="https://maps.google.com/maps?ll=-6.22846,106.824097&z=16&t=m&hl=id&gl=ID&mapclient=embed&q=Dea%20Tower%20Jl.%20Mega%20Kuningan%20Barat%20No.1%20RT.5%2FRW.2%2C%20Kuningan%2C%20East%20Kuningan%20Setiabudi%2C%20South%20Jakarta%20City%2C%20Jakarta%2012950"
+                class="inline-block py-1 md:py-1 text-sm hover:opacity-60"
+              >
+                Dea Tower II 7th Floor, Jl. Mega Kuningan Barat No.1-2, Kuningan, Kecamatan Setiabudi, Daerah Khusus Ibukota Jakarta 12950
+              </a>
+            </div>
           </div>
           <div class="flex text-sm">
             <div class="font-semibold py-1 md:py-1 min-w-[80px]">Website</div>
             <div class="py-1 md:py-1 mr-1">:</div>
-            <div class="flex-1"><a href="{{ url('') }}" class="inline-block py-1 md:py-1">www.falga.co.id</a></div>
+            <div class="flex-1"><a href="{{ url('') }}" class="inline-block py-1 md:py-1 hover:opacity-60">www.falga.co.id</a></div>
           </div>
         </div>
         <div class="sm:w-1/2 lg:w-6/12 sm:pl-10">
@@ -106,7 +113,7 @@
     <div class="bg-white">
       <div class="container mx-auto">
         <div class="text-xs py-4 px-8">
-          Copyright © {{ date('Y') }} | <a href="https://www.falga.co.id" class="font-black hover:text-gray-800" target="_blank">FALGA GROUP</a>
+          Copyright © {{ date('Y') }} | <a href="https://www.falga.co.id" class="font-black hover:text-gray-800 hover:opacity-70" target="_blank">FALGA GROUP</a>
         </div>
       </div>
     </div>
