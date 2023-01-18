@@ -10,9 +10,6 @@
 <meta name="description" content="Falga Group is Core Emphasis on Business Building through Sustainable Investing">
 @overwrite
 <style>
-  .main-banner {
-    min-height: 320px;
-  }
   .falga-button.banner-button {
     display: flex;
     align-items: center;

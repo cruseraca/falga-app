@@ -12,7 +12,7 @@
       <h1 class="font-poppins font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase md:mt-[30%]" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
         ABOUT US
       </h1>
-      <div class="md:mt-8 normal-case sm:text-xl md:text-2xl" style="text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);">
+      <div class="md:mt-8 normal-case text-sm sm:text-xl md:text-2xl" style="text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);">
         FALGA is an Indonesian-incorporated Investment Holding Company that strives to continuously build viable large-scale businesses that deliver sustainable performance
       </div>
     </div>

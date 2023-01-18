@@ -10,10 +10,9 @@
   <div class="main-banner-container">
     <div class="falga-container text-white text-center">
       <h1 class="font-poppins font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase md:mt-[30%]" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
-        Building Agility, Resilience and Sustainability
-        <br />Our Businesses
+        Building Agility, Resilience and Sustainability<br class="hidden sm:inline" /> Our Businesses
       </h1>
-      <div class="md:mt-8 normal-case sm:text-xl md:text-2xl" style="text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);">
+      <div class="md:mt-8 normal-case text-sm sm:text-xl md:text-2xl" style="text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);">
         Established Five Business Pillars that consist of EPCI, Oil & Gas Retail, Industrial Equipment Rental, Property & Hospitality and Future Business
       </div>
     </div>

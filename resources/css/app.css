@@ -103,8 +103,8 @@
 .main-banner {
   width: 100vw;
   position: relative;
-  padding-top: 63.5%;
   padding-top: 53.402777778%;
+  min-height: 320px;
 }
 @media (min-width: 1440px) {
   .main-banner {
