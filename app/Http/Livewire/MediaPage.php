@@ -28,45 +28,45 @@ class MediaPage extends Component
         $this->all_items = [
             "news" => [
                 [
-                    "title" => "nunc faucibus a pellentesque",
-                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis in eu mi bibendum neque.",
+                    "title" => "News 1",
+                    "description" => "Media & Information",
                     "image" => mix("img/hero-image.jpg")
                 ],
                 [
-                    "title" => "non sodales neque sodales",
-                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi.",
+                    "title" => "News 2",
+                    "description" => "Media & Information",
                     "image" => mix("img/hero-image.jpg")
                 ],
                 [
-                    "title" => "tellus mauris a diam",
-                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis.",
+                    "title" => "News 3",
+                    "description" => "Media & Information",
                     "image" => mix("img/hero-image.jpg")
                 ],
                 [
-                    "title" => "pretium viverra suspendisse potenti",
-                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Luctus venenatis lectus magna fringilla.",
+                    "title" => "News 4",
+                    "description" => "Media & Information",
                     "image" => mix("img/hero-image.jpg")
                 ],
             ],
             "blog" => [
                 [
-                    "title" => "nunc faucibus a pellentesque",
-                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis in eu mi bibendum neque.",
+                    "title" => "Blog 1",
+                    "description" => "Media & Information",
                     "image" => mix("img/hero-image.jpg")
                 ],
                 [
-                    "title" => "non sodales neque sodales",
-                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi.",
+                    "title" => "Blog 2",
+                    "description" => "Media & Information",
                     "image" => mix("img/hero-image.jpg")
                 ],
                 [
-                    "title" => "tellus mauris a diam",
-                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique senectus et netus et malesuada fames ac turpis.",
+                    "title" => "Blog 3",
+                    "description" => "Media & Information",
                     "image" => mix("img/hero-image.jpg")
                 ],
                 [
-                    "title" => "pretium viverra suspendisse potenti",
-                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Luctus venenatis lectus magna fringilla.",
+                    "title" => "Blog 4",
+                    "description" => "Media & Information",
                     "image" => mix("img/hero-image.jpg")
                 ],
             ],
