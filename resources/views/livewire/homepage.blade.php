@@ -213,20 +213,20 @@
   </div>
 </div>
 {{-- Slider Our Business --}}
-<div class="sm:container mx-auto sm:my-20 sm:px-6">
+<div class="falga-container sm:my-20">
   <div class="text-center mt-14 sm:mt-28 mb-12 sm:mb-14">
     <p class="falga-section-title uppercase">
       Our Business
     </p>
   </div>
   <div class="sm:relative flex">
-    <div class="flex absolute invisible sm:visible left-0 top-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 carousel-button-left cursor-pointer">
+    <div class="flex absolute invisible sm:visible left-0 top-1/2 sm:-translate-y-1/2 carousel-button-left cursor-pointer">
       <span class="fa-stack fa-xl my-auto">
         <i class="fa-solid fa-circle fa-stack-2x text-purple-falga"></i>
         <i class="fa-solid fa-angle-left fa-stack-1x text-white"></i>
       </span>
     </div>
-    <div class="flex absolute invisible sm:visible right-0 top-1/2 sm:translate-x-1/2 sm:-translate-y-1/2 carousel-button-right cursor-pointer">
+    <div class="flex absolute invisible sm:visible right-0 top-1/2 sm:-translate-y-1/2 carousel-button-right cursor-pointer">
       <span class="fa-stack fa-xl my-auto">
         <i class="fa-solid fa-circle fa-stack-2x text-purple-falga"></i>
         <i class="fa-solid fa-angle-right fa-stack-1x text-white"></i>
