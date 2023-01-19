@@ -32,13 +32,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 16px;
-  border-radius: 8px;
-  min-width: 128px;
-  min-height: 40px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  min-width: 8rem;
+  min-height: 2.5rem;
   box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease-in-out;
-  font-size: 14px;
+  font-size: 0.875rem;
   border: 1px solid #40559b;
 }
 .falga-button:hover {
@@ -48,19 +48,19 @@
 }
 .falga-button-white {
   color: #7e7e7e;
-  padding: 7px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 0.4375rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   background-color: #ffffff;
   text-align: center;
-  border-radius: 20px;
-  font-size: 16px;
+  border-radius: 1.25rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .falga-button-white-icon {
-  margin-left: 12px;
+  margin-left: 0.75rem;
 }
 .falga-button-white:hover {
   background-color: #87ceeb;
@@ -68,8 +68,8 @@
 }
 .falga-container {
   max-width: 1260px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 @media screen and (min-width: 1300px) {
   .falga-container {
@@ -81,22 +81,22 @@
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 22px;
+  font-size: 1.375rem;
   color: #972540;
   text-transform: uppercase;
 }
 @media (min-width: 640px) {
   .falga-section-title {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 }
 .falga-section-title.small {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
 }
 @media (min-width: 640px) {
   .falga-section-title.small {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 

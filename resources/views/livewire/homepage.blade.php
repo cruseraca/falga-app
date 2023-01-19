@@ -15,33 +15,33 @@
     align-items: center;
   }
   .falga-button.banner-button > svg {
-    width: 19px;
-    height: 19px;
+    width: 1.1875rem;
+    height: 1.1875rem;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 48rem) {
     .falga-button.banner-button > span {
     }
     .falga-button.banner-button > svg {
-      margin-left: 4px;
+      margin-left: 0.25rem;
     }
   }
   @media (max-width: 767.8px) {
     .falga-button.banner-button {
-      padding: 0 4px 0 4px;
-      font-size: 12px;
-      min-height: 32px;
+      padding: 0 0.25rem 0 0.25rem;
+      font-size: 0.75rem;
+      min-height: 2rem;
     }
     .falga-button.banner-button > svg {
-      width: 15px;
-      height: 15px;
-      margin-left: 2px;
+      width: 0.9375rem;
+      height: 0.9375rem;
+      margin-left: 0.125rem;
     }
     .falga-button.banner-button > span {
     }
   }
 </style>
 {{-- Banner --}}
-<div class="main-banner mt-[61px] md:mt-[77px]">
+<div class="main-banner mt-[3.8125rem] md:mt-[4.8125rem]">
   <picture>
     <source media="(min-width:1280px)" srcset="{{ mix('img/hero-image-2.1536.webp') }}" type="image/webp" />
     <source media="(min-width:1024px)" srcset="{{ mix('img/hero-image-2.1280.webp') }}" type="image/webp" />
@@ -59,7 +59,7 @@
   </picture>
   <div class="main-banner-container">
     <div class="falga-container text-white text-center">
-      <h1 class="font-poppins font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase md:mt-[30%] max-w-[810px]" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+      <h1 class="font-poppins font-extrabold sm:text-2xl md:text-3xl lg:text-4xl lg:leading-relaxed uppercase md:mt-[30%] max-w-[50.625rem]" style="text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
         Core Emphasis on Business Building through Sustainable Investing
       </h1>
       <a href="{{ url("about-us") }}" class="falga-button mt-2 sm:mt-4 md:mt-6 uppercase self-center whitespace-nowrap banner-button"><span>Learn More</span>
@@ -121,7 +121,7 @@
     </p>
   </div>
   <div class="flex flex-row flex-wrap justify-between gap-2 md:gap-4">
-    <div class="flex-1 min-w-[155px] md:min-w-[250px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
+    <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
       <div class="my-auto md:mx-6">
         <p class="font-black text-md">GDP per Capita (2021)</p>
         <p class="font-black text-2xl my-3 text-red-falga">$ 4,291</p>
@@ -129,7 +129,7 @@
         <p class="font-light text-xs">Source: World Bank</p>
       </div>
     </div>
-    <div class="flex-1 min-w-[155px] md:min-w-[250px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
+    <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
       <div class="my-auto md:mx-6">
         <p class="font-black text-md">GDP Growth (2Q2022, yoy)</p>
         <p class="font-black text-2xl my-3 text-red-falga">5,44%</p>
@@ -139,7 +139,7 @@
         <p class="font-light text-xs">Source: World Bank</p>
       </div>
     </div>
-    <div class="flex-1 min-w-[155px] md:min-w-[250px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
+    <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
       <div class="my-auto md:mx-6">
         <p class="font-black text-md">Internet Users (Jan 2022)</p>
         <p class="font-black text-2xl my-3 text-red-falga">204,7 M</p>
@@ -149,7 +149,7 @@
         <p class="font-light text-xs">Source: Data Reportal</p>
       </div>
     </div>
-    <div class="flex-1 min-w-[155px] md:min-w-[250px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
+    <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
       <div class="my-auto md:mx-6">
         <p class="font-black text-md">Population (2021)</p>
         <p class="font-black text-2xl my-3 text-red-falga">273 M</p>
@@ -157,7 +157,7 @@
         <p class="font-light text-xs">Source: Worldometers</p>
       </div>
     </div>
-    <div class="flex-1 min-w-[155px] md:min-w-[250px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
+    <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
       <div class="my-auto md:mx-6">
         <p class="font-black text-md">
           Trade Balance<br />
@@ -168,7 +168,7 @@
         <p class="font-light text-xs">Source: BPS Indonesia</p>
       </div>
     </div>
-    <div class="flex-1 min-w-[155px] md:min-w-[250px] flex flex-col sm:w-1/4 rounded-lg border py-5 px-2 shadow-box text-center">
+    <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col sm:w-1/4 rounded-lg border py-5 px-2 shadow-box text-center">
       <div class="my-auto mx-6">
         <p class="font-black text-md">
           Population below<br />40 years old (2021)
@@ -178,7 +178,7 @@
         <p class="font-light text-xs">Source: BPS Indonesia</p>
       </div>
     </div>
-    <div class="flex-1 min-w-[155px] md:min-w-[250px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
+    <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
       <div class="my-auto md:mx-6">
         <p class="font-black text-md">Digital Economy (2021)</p>
         <p class="font-black text-2xl my-3 text-red-falga">$ 70 B</p>
@@ -188,7 +188,7 @@
         </p>
       </div>
     </div>
-    <div class="flex-1 min-w-[155px] md:min-w-[250px] lg:min-w-[430px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
+    <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] lg:min-w-[430px] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
       <div class="my-auto md:mx-6">
         <p class="font-black text-md">
           Infrastructure Development<br />
@@ -315,7 +315,7 @@
         <p class="falga-section-title text-center my-10">
           Site Map
         </p>
-        <div class="w-4/5 h-[300px] sm:w-[500px] sm:h-[400px] mx-auto">
+        <div class="w-4/5 h-[18.75rem] sm:w-[31.25rem] sm:h-[25rem] mx-auto">
           <iframe class="lozad" title="FALGA" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2672018290027!2d106.82190816512019!3d-6.228460295491357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e4a175a33f%3A0xc96c83f443f46e81!2sDea%20Tower%2C%20Jl.%20Mega%20Kuningan%20Barat%20No.1%2C%20RT.5%2FRW.2%2C%20Kuningan%2C%20East%20Kuningan%2C%20Setiabudi%2C%20South%20Jakarta%20City%2C%20Jakarta%2012950!5e0!3m2!1sid!2sid!4v1668005572898!5m2!1sid!2sid" width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
