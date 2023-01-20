@@ -59,7 +59,7 @@
   <div class="mt-4 md:mt-12 text-sm md:text-base">
     FALGA GROUP's core values are to be USEFUL. These values have carried our group to thrive for almost 4 decades. Our core values aim to shape agility, resilience and sustainability in our portfolio of businesses to continue to thrive in this disruptive era.
   </div>
-  <div class="flex flex-wrap md:divide-x-[16px] divide-transparent items-stretch">
+  <div class="flex flex-wrap -mx-1 md:-mx-2 divide-transparent items-stretch">
     <x-core-value-item title="Uplifting" description="Positive work environment that encourage meaningful relationship, ignite energy & elevate corporate performance"></x-core-value-item>
     <x-core-value-item title="Stewardship" description="Responsible management that incorporate ethics, morals and sustainability into enterprise-wide design and practices"></x-core-value-item>
     <x-core-value-item title="Excellence" description="Pursuant of superior quality in strategy, people, process, resources, technology, products & services"></x-core-value-item>

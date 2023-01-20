@@ -103,14 +103,33 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 192px;
+  min-width: 150px;
   flex: 1;
   font-family: "Istok Web", sans-serif;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+@media (min-width: 768px) {
+  .falga-cv-item {
+    min-width: 192px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .falga-cv-item {
+    min-width: 270px;
+  }
+}
+@media (min-width: 1280px) {
+  .falga-cv-item {
+    min-width: 150px;
+  }
 }
 .falga-cv-item .circle-bg {
   position: relative;
-  width: 117px;
-  height: 117px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   background: linear-gradient(
     131.61deg,
@@ -126,21 +145,34 @@
   margin-left: 38px;
   margin-right: 38px;
 }
+@media (min-width: 768px) {
+  .falga-cv-item .circle-bg {
+    width: 117px;
+    height: 117px;
+  }
+}
 .falga-cv-item .circle {
-  width: 103px;
-  height: 103px;
+  width: 60px;
+  height: 60px;
   background-color: white;
   color: #352479;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 900;
   border-radius: 50%;
 }
+@media (min-width: 768px) {
+  .falga-cv-item .circle {
+    font-size: 36px;
+    width: 103px;
+    height: 103px;
+  }
+}
 .falga-cv-bg {
   position: relative;
-  margin-top: -58px;
+  margin-top: -35px;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.12);
   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.4);
@@ -151,16 +183,27 @@
   align-items: stretch;
   flex: 1;
 }
+@media (min-width: 768px) {
+  .falga-cv-bg {
+    margin-top: -58px;
+  }
+}
 .falga-cv-bg .title {
-  padding-top: 78px;
-  font-size: 24px;
+  padding-top: 40px;
+  font-size: 18px;
   font-weight: 700;
   text-align: center;
   padding-left: 12px;
   padding-right: 12px;
 }
+@media (min-width: 768px) {
+  .falga-cv-bg .title {
+    padding-top: 78px;
+    font-size: 24px;
+  }
+}
 .falga-cv-bg .description {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   text-align: center;
   margin-top: 9px;
@@ -168,6 +211,11 @@
   padding-left: 12px;
   padding-right: 12px;
   flex: 1;
+}
+@media (min-width: 768px) {
+  .falga-cv-bg .description {
+    font-size: 16px;
+  }
 }
 .falga-cv-bg .underline {
   height: 16px;
