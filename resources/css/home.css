@@ -4,8 +4,6 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  margin-left: -1.25rem;
-  margin-right: -1.25rem;
 }
 
 .home-partners-container {
@@ -22,98 +20,102 @@
 }
 
 .home-partners-row {
+  position: relative;
+  padding-top: 36.429920635%;
+  width: 100%;
+}
+
+.home-partners-row > div {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .home-partners-items {
-  margin: 1rem;
+  object-fit: contain;
+  margin: 1.26984127%;
 }
 
 .home-partners-items-pertamina {
-  width: 21.8125rem;
-  height: 5.07291875rem;
-  object-fit: contain;
-}
-
-.home-partners-items-pgn {
-  width: 6.25rem;
-  height: 9.7770625rem;
-  object-fit: contain;
-}
-
-.home-partners-items-wika {
-  width: 7.375rem;
-  height: 4.965625rem;
-  object-fit: contain;
-}
-
-.home-partners-items-waskita {
-  width: 7.75rem;
-  height: 6.8583125rem;
-  object-fit: contain;
-}
-
-.home-partners-items-siemens {
-  width: 18.75rem;
-  height: 3.86979375rem;
-  object-fit: contain;
+  width: 39.126984127%;
+  height: 24.962692014%;
 }
 
 .home-partners-items-schneider {
-  width: 16.75rem;
-  height: 4.99166875rem;
-  object-fit: contain;
+  width: 23.80952381%;
+  height: 17.399508079%;
+}
+
+.home-partners-items-pgn {
+  width: 7.936507937%;
+  height: 34.080001394%;
+  margin-left: 0;
+}
+
+.home-partners-items-wika {
+  width: 9.365079365%;
+  height: 17.308727128%;
+}
+
+.home-partners-items-waskita {
+  width: 9.841269841%;
+  height: 23.906086267%;
+}
+
+.home-partners-items-siemens {
+  width: 23,.80952381%;
+  height: 13.488977532%;
 }
 
 .home-partners-items-yokogawa {
-  width: 16.0625rem;
-  height: 4.95729375rem;
-  object-fit: contain;
+  width: 20.396825397%;
+  height: 17.279686809%;
 }
 
 .home-partners-items-patterson {
-  width: 10.9375rem;
-  height: 6.15208125rem;
-  object-fit: contain;
+  width: 13.888888889%;
+  height: 21.444369163%;
+  margin-right: 0;
 }
 
 .home-partners-items-emco {
-  width: 12.6875rem;
-  height: 4.43020625rem;
-  object-fit: contain;
+  width: 16.111111111%;
+  height: 15.442412808%;
+  margin-left: 0;
 }
 
 .home-partners-items-sulzer {
-  width: 9.25rem;
-  height: 1.571875rem;
-  object-fit: contain;
+  width: 11.746031746%;
+  height: 5.479099903%;
 }
 
 .home-partners-items-ingersoll {
-  width: 15.125rem;
-  height: 3.45104375rem;
-  object-fit: contain;
+  width: 19.206349206%;
+  height: 12.029336604%;
 }
 
 .home-partners-items-deutz {
-  width: 5.75rem;
-  height: 5.75rem;
-  object-fit: contain;
+  width: 7.301587302%;
+  height: 20.042830658%;
 }
 
 .home-partners-items-kansai {
-  width: 9.9375rem;
-  height: 3.57916875rem;
-  object-fit: contain;
+  width: 12.619047619%;
+  height: 12.475943157%;
 }
 
 .home-partners-items-inter {
-  width: 14.875rem;
-  height: 1.896875rem;
-  object-fit: contain;
+  width: 18.888888889%;
+  height: 6.611955548%;
+  margin-right: 0;
 }
 
 .home-glance {

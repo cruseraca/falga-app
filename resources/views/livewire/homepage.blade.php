@@ -14,31 +14,36 @@
     display: flex;
     align-items: center;
   }
-  .falga-button.banner-button > svg {
+
+  .falga-button.banner-button>svg {
     width: 1.1875rem;
     height: 1.1875rem;
   }
+
   @media (min-width: 48rem) {
-    .falga-button.banner-button > span {
-    }
-    .falga-button.banner-button > svg {
+    .falga-button.banner-button>span {}
+
+    .falga-button.banner-button>svg {
       margin-left: 0.25rem;
     }
   }
+
   @media (max-width: 767.8px) {
     .falga-button.banner-button {
       padding: 0 0.25rem 0 0.25rem;
       font-size: 0.75rem;
       min-height: 2rem;
     }
-    .falga-button.banner-button > svg {
+
+    .falga-button.banner-button>svg {
       width: 0.9375rem;
       height: 0.9375rem;
       margin-left: 0.125rem;
     }
-    .falga-button.banner-button > span {
-    }
+
+    .falga-button.banner-button>span {}
   }
+
 </style>
 {{-- Banner --}}
 <div class="main-banner mt-[3.8125rem] md:mt-[4.8125rem]">
@@ -288,22 +293,24 @@
 <div class="falga-container home-partners-container my-8 md:mt-12">
   <div class="home-partners">
     <div class="home-partners-row">
-      <img data-src="{{ mix('img/logo/logo-pertamina.png') }}" alt="pertamina" class="lozad home-partners-items home-partners-items-pertamina" />
-      <img data-src="{{ mix('img/logo/logo-schneider.png') }}" alt="schneider" class="lozad home-partners-items home-partners-items-schneider" />
-    </div>
-    <div class="home-partners-row">
-      <img data-src="{{ mix('img/logo/logo-pgn.png') }}" alt="pgn" class="lozad home-partners-items home-partners-items-pgn" />
-      <img data-src="{{ mix('img/logo/logo-wika.png') }}" alt="wika" class="lozad home-partners-items home-partners-items-wika" />
-      <img data-src="{{ mix('img/logo/logo-waskita.png') }}" alt="waskita" class="lozad home-partners-items home-partners-items-waskita" />
-      <img data-src="{{ mix('img/logo/logo-endress-2.png') }}" alt="endress hauser" class="lozad home-partners-items home-partners-items-siemens" />
-      <img data-src="{{ mix('img/logo/logo-yokogawa.png') }}" alt="yokogawa" class="lozad home-partners-items home-partners-items-yokogawa" />
-      <img data-src="{{ mix('img/logo/logo-patterson.png') }}" alt="patterson" class="lozad home-partners-items home-partners-items-patterson" />
-      <img data-src="{{ mix('img/logo/logo-emco-2.png') }}" alt="emco" class="lozad home-partners-items home-partners-items-emco" />
-      <img data-src="{{ mix('img/logo/logo-sulzer.png') }}" alt="sulzer" class="lozad home-partners-items home-partners-items-sulzer" />
-      <img data-src="{{ mix('img/logo/logo-ingersoll-1.png') }}" alt="ingersoll" class="lozad home-partners-items home-partners-items-ingersoll" />
-      <img data-src="{{ mix('img/logo/logo-deutz.svg') }}" alt="deutz" class="lozad home-partners-items home-partners-items-deutz" />
-      <img data-src="{{ mix('img/logo/logo-kansai.png') }}" alt="kansai" class="lozad home-partners-items home-partners-items-kansai" />
-      <img data-src="{{ mix('img/logo/logo-inter.png') }}" alt="inter" class="lozad home-partners-items home-partners-items-inter" />
+      <div>
+        <div class="flex-1 min-w-[15.873015873%]"></div>
+        <img data-src="{{ mix('img/logo/logo-pertamina.png') }}" alt="pertamina" class="lozad home-partners-items home-partners-items-pertamina" />
+        <img data-src="{{ mix('img/logo/logo-schneider.png') }}" alt="schneider" class="lozad home-partners-items home-partners-items-schneider" />
+        <div class="flex-1 min-w-[15.873015873%]"></div>
+        <img data-src="{{ mix('img/logo/logo-pgn.png') }}" alt="pgn" class="lozad home-partners-items home-partners-items-pgn" />
+        <img data-src="{{ mix('img/logo/logo-wika.png') }}" alt="wika" class="lozad home-partners-items home-partners-items-wika" />
+        <img data-src="{{ mix('img/logo/logo-waskita.png') }}" alt="waskita" class="lozad home-partners-items home-partners-items-waskita" />
+        <img data-src="{{ mix('img/logo/logo-endress-2.png') }}" alt="endress hauser" class="lozad home-partners-items home-partners-items-siemens" />
+        <img data-src="{{ mix('img/logo/logo-yokogawa.png') }}" alt="yokogawa" class="lozad home-partners-items home-partners-items-yokogawa" />
+        <img data-src="{{ mix('img/logo/logo-patterson.png') }}" alt="patterson" class="lozad home-partners-items home-partners-items-patterson" />
+        <img data-src="{{ mix('img/logo/logo-emco-2.png') }}" alt="emco" class="lozad home-partners-items home-partners-items-emco" />
+        <img data-src="{{ mix('img/logo/logo-sulzer.png') }}" alt="sulzer" class="lozad home-partners-items home-partners-items-sulzer" />
+        <img data-src="{{ mix('img/logo/logo-ingersoll-1.png') }}" alt="ingersoll" class="lozad home-partners-items home-partners-items-ingersoll" />
+        <img data-src="{{ mix('img/logo/logo-deutz.svg') }}" alt="deutz" class="lozad home-partners-items home-partners-items-deutz" />
+        <img data-src="{{ mix('img/logo/logo-kansai.png') }}" alt="kansai" class="lozad home-partners-items home-partners-items-kansai" />
+        <img data-src="{{ mix('img/logo/logo-inter.png') }}" alt="inter" class="lozad home-partners-items home-partners-items-inter" />
+      </div>
     </div>
   </div>
 </div>
