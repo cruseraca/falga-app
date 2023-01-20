@@ -6,7 +6,7 @@
       @if($position && !empty($position))
       <div class="falga-mp-item-position">{{ $position }}</div>
       @endif
-      <div class="mt-4 text-justify falga-mp-item-description">{{ $description }}</div>
+      <div class="mt-4 text-justify text-sm md:text-base falga-mp-item-description">{{ $description }}</div>
     </div>
   </div>
 </div>

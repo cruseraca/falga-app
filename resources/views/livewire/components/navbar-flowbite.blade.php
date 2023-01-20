@@ -153,11 +153,11 @@
           <a href="{{ url('media-and-information') }}" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-falga md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">Media</a>
         </li>
         <li>
-          <a href="{{ url('career') }}" class="text-sm md:text-xs lg:text-sm block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-falga md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">Career</a>
+          <a href="{{ url('career') }}" class="md:text-xs lg:text-sm block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-falga md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">Career</a>
         </li>
       </ul>
-      <div class="flex-1 flex justify-end">
-        <a href="{{ url('/#contact-us') }}" class="text-sm md:text-xs lg:text-sm falga-button">Contact Us</a>
+      <div class="bg-gray-50 flex-1 flex justify-end">
+        <a href="{{ url('/#contact-us') }}" class="text-sm md:text-xs lg:text-sm falga-button flex-1 md:flex-none">Contact Us</a>
       </div>
     </div>
   </div>

@@ -24,7 +24,7 @@
 ]])
 @endcomponent
 {{-- Vision & Mission --}}
-<div id="vision-missions" class="falga-container pt-16 md:pt-20">
+<div id="vision-missions" class="falga-container pt-6 md:pt-20">
   <div class="flex items-center">
     <div class="falga-vm-left hidden lg:block">
       <div class="ellipse-0"></div>
@@ -56,7 +56,7 @@
 {{-- Core Values --}}
 <div id="core-values" class="falga-container pt-16 md:pt-20">
   <div class="falga-section-title text-center">CORE VALUES</div>
-  <div class="mt-12 text-sm md:text-base">
+  <div class="mt-4 md:mt-12 text-sm md:text-base">
     FALGA GROUP's core values are to be USEFUL. These values have carried our group to thrive for almost 4 decades. Our core values aim to shape agility, resilience and sustainability in our portfolio of businesses to continue to thrive in this disruptive era.
   </div>
   <div class="flex flex-wrap md:divide-x-[16px] divide-transparent items-stretch">
