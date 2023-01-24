@@ -21,6 +21,7 @@
             <div class="flex-1">
               <a
                 href="https://maps.google.com/maps?ll=-6.22846,106.824097&z=16&t=m&hl=id&gl=ID&mapclient=embed&q=Dea%20Tower%20Jl.%20Mega%20Kuningan%20Barat%20No.1%20RT.5%2FRW.2%2C%20Kuningan%2C%20East%20Kuningan%20Setiabudi%2C%20South%20Jakarta%20City%2C%20Jakarta%2012950"
+                rel=”noreferrer”
                 class="inline-block py-1 md:py-1 text-sm hover:opacity-60"
               >
                 Dea Tower II 7th Floor, Jl. Mega Kuningan Barat No.1-2, Kuningan, Kecamatan Setiabudi, Daerah Khusus Ibukota Jakarta 12950
@@ -31,6 +32,26 @@
             <div class="font-semibold py-1 md:py-1 min-w-[80px]">Website</div>
             <div class="py-1 md:py-1 mr-1">:</div>
             <div class="flex-1"><a href="{{ url('') }}" class="inline-block py-1 md:py-1 hover:opacity-60">www.falga.co.id</a></div>
+          </div>
+          <div class="flex mt-2">
+            <a href="mailto:corporate.secretary@falga.co.id" target="_blank" rel=”noreferrer” class="w-9 h-9 flex items-center justify-center">
+              <img data-src="{{ mix('img/social/gmail.svg') }}" class="lozad w-8 h-8" alt="M"></img>
+            </a>
+            <a href="https://www.youtube.com/channel/UCl12rlNzr1b4z55Je3psHzg" target="_blank" rel=”noreferrer” class="w-9 h-9 flex items-center justify-center">
+              <img data-src="{{ mix('img/social/youtube.svg') }}" class="lozad w-8 h-8" alt="YT"></img>
+            </a>
+            <a href="https://www.linkedin.com/company/falga-group" target="_blank" rel=”noreferrer” class="w-9 h-9 flex items-center justify-center">
+              <img data-src="{{ mix('img/social/linkedin.svg') }}" class="lozad w-8 h-8" alt="iN"></img>
+            </a>
+            <a href="https://www.instagram.com/falgagroup" target="_blank" rel=”noreferrer” class="w-9 h-9 flex items-center justify-center">
+              <img data-src="{{ mix('img/social/instagram.svg') }}" class="lozad w-8 h-8" alt="I"></img>
+            </a>
+            <a href="https://www.facebook.com/falgagroup" target="_blank" rel=”noreferrer” class="w-9 h-9 flex items-center justify-center">
+              <img data-src="{{ mix('img/social/facebook.svg') }}" class="lozad w-8 h-8" alt="F"></img>
+            </a>
+            <a href="https://twitter.com/falgagroup" target="_blank" rel=”noreferrer” class="w-9 h-9 flex items-center justify-center">
+              <img data-src="{{ mix('img/social/facebook.svg') }}" class="lozad w-8 h-8" alt="T"></img>
+            </a>
           </div>
         </div>
         <div class="sm:w-1/2 lg:w-6/12 sm:pl-10">
