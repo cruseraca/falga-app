@@ -34,7 +34,7 @@
             <div class="flex-1"><a href="{{ url('') }}" class="inline-block py-1 md:py-1 hover:opacity-60">www.falga.co.id</a></div>
           </div>
           <div class="flex mt-2">
-            <a href="https://www.instagram.com/falgagroup" target="_blank" rel="noreferrer" class="w-9 h-9 flex items-center justify-center">
+            <a href="https://www.instagram.com/falga.group" target="_blank" rel="noreferrer" class="w-9 h-9 flex items-center justify-center">
               <img data-src="{{ mix('img/social/instagram.svg') }}" class="lozad w-8 h-8" alt="I"></img>
             </a>
             <a href="https://www.facebook.com/falgagroup" target="_blank" rel="noreferrer" class="w-9 h-9 flex items-center justify-center">
