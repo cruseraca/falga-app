@@ -34,23 +34,23 @@
             <div class="flex-1"><a href="{{ url('') }}" class="inline-block py-1 md:py-1 hover:opacity-60">www.falga.co.id</a></div>
           </div>
           <div class="flex mt-2">
-            <a href="mailto:corporate.secretary@falga.co.id" target="_blank" rel=”noreferrer” class="w-9 h-9 flex items-center justify-center">
-              <img data-src="{{ mix('img/social/gmail.svg') }}" class="lozad w-8 h-8" alt="M"></img>
-            </a>
-            <a href="https://www.youtube.com/channel/UCl12rlNzr1b4z55Je3psHzg" target="_blank" rel=”noreferrer” class="w-9 h-9 flex items-center justify-center">
-              <img data-src="{{ mix('img/social/youtube.svg') }}" class="lozad w-8 h-8" alt="YT"></img>
-            </a>
-            <a href="https://www.linkedin.com/company/falga-group" target="_blank" rel=”noreferrer” class="w-9 h-9 flex items-center justify-center">
-              <img data-src="{{ mix('img/social/linkedin.svg') }}" class="lozad w-8 h-8" alt="iN"></img>
-            </a>
-            <a href="https://www.instagram.com/falgagroup" target="_blank" rel=”noreferrer” class="w-9 h-9 flex items-center justify-center">
+            <a href="https://www.instagram.com/falgagroup" target="_blank" rel="noreferrer" class="w-9 h-9 flex items-center justify-center">
               <img data-src="{{ mix('img/social/instagram.svg') }}" class="lozad w-8 h-8" alt="I"></img>
             </a>
-            <a href="https://www.facebook.com/falgagroup" target="_blank" rel=”noreferrer” class="w-9 h-9 flex items-center justify-center">
+            <a href="https://www.facebook.com/falgagroup" target="_blank" rel="noreferrer" class="w-9 h-9 flex items-center justify-center">
               <img data-src="{{ mix('img/social/facebook.svg') }}" class="lozad w-8 h-8" alt="F"></img>
             </a>
-            <a href="https://twitter.com/falgagroup" target="_blank" rel=”noreferrer” class="w-9 h-9 flex items-center justify-center">
-              <img data-src="{{ mix('img/social/facebook.svg') }}" class="lozad w-8 h-8" alt="T"></img>
+            <a href="https://www.linkedin.com/company/falga-group" target="_blank" rel="noreferrer" class="w-9 h-9 flex items-center justify-center">
+              <img data-src="{{ mix('img/social/linkedin.svg') }}" class="lozad w-8 h-8" alt="iN"></img>
+            </a>
+            <a href="https://www.youtube.com/channel/UCl12rlNzr1b4z55Je3psHzg" target="_blank" rel="noreferrer" class="w-9 h-9 flex items-center justify-center">
+              <img data-src="{{ mix('img/social/youtube.svg') }}" class="lozad w-8 h-8" alt="YT"></img>
+            </a>
+            <a href="https://twitter.com/falgagroup" target="_blank" rel="noreferrer" class="w-9 h-9 flex items-center justify-center">
+              <img data-src="{{ mix('img/social/twitter.svg') }}" class="lozad w-8 h-8" alt="T"></img>
+            </a>
+            <a href="mailto:corporate.secretary@falga.co.id" target="_blank" rel="noreferrer" class="w-9 h-9 flex items-center justify-center">
+              <img data-src="{{ mix('img/social/gmail.svg') }}" class="lozad w-8 h-8" alt="M"></img>
             </a>
           </div>
         </div>
