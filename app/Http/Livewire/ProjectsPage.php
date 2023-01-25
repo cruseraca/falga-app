@@ -259,7 +259,7 @@ class ProjectsPage extends Component
             ],
             [
                 "id" => "35",
-                "title" => "2 x 5,000 Erection and Welding Spherical Tank Work M3 in LPG Terminal",
+                "title" => "2 x 5,000 Spherical Tank Work M3 in LPG Terminal",
                 "location" => "Semarang, Indonesia",
                 "category" => "Category",
                 "image" => mix("img/projects-portfolio/35_Spherical_Tank-progressive.jpeg")
