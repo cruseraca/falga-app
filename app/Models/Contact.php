@@ -11,7 +11,7 @@ class Contact extends Model
 {
     use HasFactory;
 
-    public $fillable = ['name', 'email', 'subject', 'message'];
+    public $fillable = ['name', 'email', 'subject', 'message', 'attachment'];
     protected $hidden = ['id'];
 
     public static function boot() {

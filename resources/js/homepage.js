@@ -23,7 +23,10 @@ const init_contact_us = () => {
         $.ajax({
             method: "POST",
             url: "/api/contact-us",
-            data: contact_us.serialize(),
+            data: new FormData(contact_us[0]),
+            enctype: "multipart/form-data",
+            processData: false, // Important!
+            contentType: false,
             success: (r) => {
                 modal.show();
                 description.text("Your message has been recorded.");

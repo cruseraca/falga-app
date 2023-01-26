@@ -330,29 +330,42 @@
         <p class="falga-section-title text-center mb-10 sm:mt-16">
           Contact Us
         </p>
-        <form id="contact-us-form" action="javascript:void(0)">
+        <form id="contact-us-form" action="javascript:void(0)" enctype="multipart/form-data">
           @csrf
           <div class="mb-6">
             <label class="block text-md font-medium text-red-falga">Full Name</label>
             <input id="name" name="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your full name" required />
             @error('name')
-            <p class="mt-2 text-sm text-red-600 dark:text-red-500"><span class="font-medium">{{ $message }}</p>
+            <p class="mt-2 text-sm text-red-600 dark:text-red-500"><span class="font-medium">{{ $message }}</span></p>
             @enderror
           </div>
           <div class="mb-6">
             <label for="email" class="block text-md font-medium text-red-falga">Email</label>
             <input id="email" name="email" type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your email" required />
             @error('email')
-            <p class="mt-2 text-sm text-red-600 dark:text-red-500"><span class="font-medium">{{ $message }}</p>
+            <p class="mt-2 text-sm text-red-600 dark:text-red-500"><span class="font-medium">{{ $message }}</span></p>
             @enderror
           </div>
           <div class="mb-6">
             <label class="block text-md font-medium text-red-falga">Subject</label>
             <input id="subject" name="subject" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your subject" required />
+            @error('subject')
+            <p class="mt-2 text-sm text-red-600 dark:text-red-500"><span class="font-medium">{{ $message }}</span></p>
+            @enderror
           </div>
           <div class="mb-6">
             <label class="block text-md font-medium text-red-falga">Message</label>
             <textarea id="message" name="message" rows="3" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your message"></textarea>
+            @error('message')
+            <p class="mt-2 text-sm text-red-600 dark:text-red-500"><span class="font-medium">{{ $message }}</span></p>
+            @enderror
+          </div>
+          <div class="mb-6">
+            <label class="block text-md font-medium text-red-falga">Attachment</label>
+            <input id="attachment" name="attachment" type="file" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Attachment File" />
+            @error('attachment')
+            <p class="mt-2 text-sm text-red-600 dark:text-red-500"><span class="font-medium">{{ $message }}</span></p>
+            @enderror
           </div>
           <div class="text-center">
             <button id="submit" type="submit" class="falga-button mt-8 uppercase mx-auto">
