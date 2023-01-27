@@ -5,6 +5,7 @@
 {{-- Banner --}}
 <div class="main-banner mt-[61px] md:mt-[77px]">
   <picture>
+    <source srcset="{{ mix("img/epci-business/banner.webp") }}" type="image/webp" />
     <source srcset="{{ mix("img/epci-business/banner.jpg") }}" />
     <img alt="" />
   </picture>
