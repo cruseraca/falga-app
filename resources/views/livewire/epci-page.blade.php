@@ -48,6 +48,7 @@
         WORK DIVISION
     </div>
     <div class="falga-wd mb-14">
+      <div class="falga-wd-aspect">
         <img data-src="{{ url('img/epci-business/civil.png') }}" class="lozad falga-wd-civil" data-popover-target="popover-civil" data-popover-trigger="hover" data-popover-placement="bottom" />
         <div data-popover id="popover-civil" role="tooltip" class="falga-wd-popover absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
             <div class="px-3 py-2 text-sm md:text-base font-normal">
@@ -91,5 +92,6 @@
             </div>
             <div data-popper-arrow></div>
         </div>
+      </div>
     </div>
 </div>
