@@ -12,7 +12,7 @@
       </button>
     </div>
     <div class="hidden justify-between items-center w-full md:max-w-[868px] md:flex md:flex-1 uppercase" id="navbar-sticky">
-      <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:items-center md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul class="flex flex-col p-4 mt-4 bg-white rounded-lg border border-gray-100 md:items-center md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li class="hidden md:block">
           <a href="{{ url('about-us') }}" data-popover-target="about-us-pop" type="button" class="text-sm md:text-xs lg:text-sm py-2 pr-4 pl-3 w-full text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-falga md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent uppercase font-bold">About Us</a>
           <div data-popover id="about-us-pop" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
@@ -156,7 +156,7 @@
           <a href="{{ url('career') }}" class="md:text-xs lg:text-sm block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-falga md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-bold">Career</a>
         </li>
       </ul>
-      <div class="bg-gray-50 flex-1 flex justify-end">
+      <div class="bg-white flex-1 flex justify-end">
         <a href="{{ url('/#contact-us') }}" class="text-sm md:text-xs lg:text-sm falga-button flex-1 md:flex-none">Contact Us</a>
       </div>
     </div>
