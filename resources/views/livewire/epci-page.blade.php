@@ -53,44 +53,44 @@
     </div>
     <div class="falga-wd mb-14">
       <div class="falga-wd-aspect">
-        <img data-src="{{ url('img/epci-business/civil.png') }}" id="civil" class="lozad falga-wd-civil" />
-        <div data-popover id="popover-civil" role="tooltip" class="falga-wd-popover absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+        <img data-src="{{ url('img/epci-business/civil.png') }}" id="epci-wd-civil" class="lozad falga-wd-civil" />
+        <div data-popover id="epci-wd-popover-civil" role="tooltip" class="falga-wd-popover absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
             <div class="px-3 py-2 text-sm md:text-base font-normal">
                 <p>Jetty, Piers & Ports, Residential & Commercial Buildings, Soil Investigation, DED, Platform Jetty Head, Piling Works, Concrete Works, Ladder: Access, Main Vertical, Interior Design, etc.</p>
             </div>
             <div data-popper-arrow></div>
         </div>
-        <img data-src="{{ url('img/epci-business/electrical.png') }}" id="electrical" class="lozad falga-wd-electrical" />
-        <div data-popover id="popover-electrical" role="tooltip" class="falga-wd-popover absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+        <img data-src="{{ url('img/epci-business/electrical.png') }}" id="epci-wd-electrical" class="lozad falga-wd-electrical" />
+        <div data-popover id="epci-wd-popover-electrical" role="tooltip" class="falga-wd-popover absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
             <div class="px-3 py-2 text-sm md:text-base font-normal">
                 <p>Variable Speed Drive (VSD), Switchgear, Capasitor Bank, Transformer, Uninterruptible Power Supply (UPS), Programmable Logic Controller (PLC), Cable & Lighting System, Grounding System, etc.</p>
             </div>
             <div data-popper-arrow></div>
         </div>
-        <img data-src="{{ url('img/epci-business/instrumentation.png') }}" id="instrumentation" class="lozad falga-wd-instrumentation" />
-        <div data-popover id="popover-instrumentation" role="tooltip" class="falga-wd-popover absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+        <img data-src="{{ url('img/epci-business/instrumentation.png') }}" id="epci-wd-instrumentation" class="lozad falga-wd-instrumentation" />
+        <div data-popover id="epci-wd-popover-instrumentation" role="tooltip" class="falga-wd-popover absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
             <div class="px-3 py-2 text-sm md:text-base font-normal">
                 <p>Automatic Tank Gauging (ATG), Custody Transfer, Radar Transmitter & Gauge, Metering System, Level, Flow, Motor Operated Valve (MOV), Surge Relief Valve, etc.</p>
             </div>
             <div data-popper-arrow></div>
         </div>
         <img data-src="{{ url('img/epci-business/work-division.png') }}" class="lozad falga-wd-c" />
-        <img data-src="{{ url('img/epci-business/mechanical.png') }}" id="mechanical" class="lozad falga-wd-mechanical" />
-        <div data-popover id="popover-mechanical" role="tooltip" class="falga-wd-popover absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+        <img data-src="{{ url('img/epci-business/mechanical.png') }}" id="epci-wd-mechanical" class="lozad falga-wd-mechanical" />
+        <div data-popover id="epci-wd-popover-mechanical" role="tooltip" class="falga-wd-popover absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
             <div class="px-3 py-2 text-sm md:text-base font-normal">
                 <p>LPG, Fuel & Aviation Tank Farms, Piperack & Piping Systems, Fuel Gas & LPG Filling Station, Horizontal Directional Drilling (HDD), Oil & LPG Tank Truck, Marine Loading Arm, etc.</p>
             </div>
             <div data-popper-arrow></div>
         </div>
-        <img data-src="{{ url('img/epci-business/automation.png') }}" id="automation" class="lozad falga-wd-automation" />
-        <div data-popover id="popover-automation" role="tooltip" class="falga-wd-popover absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+        <img data-src="{{ url('img/epci-business/automation.png') }}" id="epci-wd-automation" class="lozad falga-wd-automation" />
+        <div data-popover id="epci-wd-popover-automation" role="tooltip" class="falga-wd-popover absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
             <div class="px-3 py-2 text-sm md:text-base font-normal">
                 <p>Terminal Automation System (TAS), Safety Instrumented System (SIS), Fire and Gas System (FGS), Distributed Control System (DCS), HMI Operator Workstation (OWS), etc.</p>
             </div>
             <div data-popper-arrow></div>
         </div>
-        <img data-src="{{ url('img/epci-business/others.png') }}" id="others" class="lozad falga-wd-others" />
-        <div data-popover id="popover-others" role="tooltip" class="falga-wd-popover absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+        <img data-src="{{ url('img/epci-business/others.png') }}" id="epci-wd-others" class="lozad falga-wd-others" />
+        <div data-popover id="epci-wd-popover-others" role="tooltip" class="falga-wd-popover absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
             <div class="px-3 py-2 text-sm md:text-base font-normal">
                 <p>Marine Floating Hose, Hot Tapping, Non-Destructive Test (NDT), Hydrostatic Test, Post Weld Heat Treatment (PWHT), Marine Soil Investigation & test, Lateral Load Test, etc.</p>
             </div>

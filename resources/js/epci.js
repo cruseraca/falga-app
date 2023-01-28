@@ -1,21 +1,19 @@
-// import { Popover } from 'flowbite';
-const popover_names = [
-    "others",
-    "automation",
-    "civil",
-    "electrical",
-    "instrumentation",
-    "mechanical",
-];
-
 const init_popover = () => {
+    const popover_names = [
+        "others",
+        "automation",
+        "civil",
+        "electrical",
+        "instrumentation",
+        "mechanical",
+    ];
     let pops = [];
     popover_names.forEach((n) => {
         // set the popover content element
-        const $targetEl = $(`#popover-${n}`);
+        const $targetEl = $(`#epci-wd-popover-${n}`);
 
         // set the element that trigger the popover using hover or click
-        const $triggerEl = $(`#${n}`);
+        const $triggerEl = $(`#epci-wd-${n}`);
 
         // options with default values
         const options = {
