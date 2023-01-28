@@ -47,7 +47,7 @@
       </div>
     </div>
     <div class="font-poppins mt-4 md:mb-4 md:basis-1/2 md:px-16">
-      <div class="falga-section-title text-rose-800 font-black mb-2 md:mb-4 text-center">OIL & GAS RETAIL</div>
+      <div class="falga-section-title font-black mb-2 md:mb-4 text-center">OIL & GAS RETAIL</div>
       <div class="text-justify text-sm md:text-lg">FALGA owns and manages Fuel Gas Station (SPBU) and LPG Cylinder Retester Station (BPT LPG) across Indonesia compliant to the operational standards set by PERTAMINA as the Oil & Gas Indonesian SOE. Our Group continuously focuses on business process improvement in our existing stations and assesses potential new Oil & Gas Retail businesses.</div>
       <div class="text-center my-4 md:mt-8 flex justify-center">
         <a href="{{ url('oil-and-gas-business') }}" class="falga-button uppercase text-xs md:mx-auto">See All</a>
@@ -63,7 +63,7 @@
     </div>
   </div>
   <div class="font-poppins mt-4 md:mb-4 md:basis-1/2 md:px-16">
-    <div class="falga-section-title text-rose-800 font-black mb-2 md:mb-4 md:text-right">INDUSTRIAL EQUIPMENT RENTAL</div>
+    <div class="falga-section-title font-black mb-2 md:mb-4 md:text-right">INDUSTRIAL EQUIPMENT RENTAL</div>
     <div class="text-justify text-sm md:text-lg">FALGA provides industrial machinery and construction equipment rental services with functionality and quality. Our group offers wide assortment of industrial tools from ordinary machines like Generator Set to Specialized tools like Jacking System. We also offer full-service delivery by providing routine maintenance by our technicians on the construction equipment and tool rentals.</div>
     <div class="my-4 md:mt-8 md:float-right flex md:justify-end justify-center">
       <a href="{{ url('industrial-rental') }}" class="falga-button uppercase text-xs md:ml-0">See All</a>
@@ -79,7 +79,7 @@
       </div>
     </div>
     <div class="font-poppins mt-4 md:mb-4 md:basis-1/2 md:px-16">
-      <div class="falga-section-title text-rose-800 font-black mb-2 md:mb-4">PROPERTY AND HOSPITALITY</div>
+      <div class="falga-section-title font-black mb-2 md:mb-4">PROPERTY AND HOSPITALITY</div>
       <div class="text-justify text-sm md:text-lg">FALGA owns and manages boarding houses and budget lodges that offer convenient, comfortable and affordable stay for our guests. As the demand for board housing increases in Indonesia, we strive to offer well-maintained facility and to continuously upgrade the housing quality by integrating smart technology.</div>
       <div class="text-center my-4 md:mt-8 flex md:justify-start justify-center">
         <a href="{{ url('prop-business') }}" class="falga-button uppercase text-xs md:ml-0">See All</a>
@@ -95,10 +95,27 @@
     </div>
   </div>
   <div class="font-poppins md:basis-1/2 mt-4 md:mb-4 md:px-24">
-    <div class="falga-section-title text-rose-800 font-black mb-2 md:mb-4 text-center">FUTURE BUSINESS</div>
+    <div class="falga-section-title font-black mb-2 md:mb-4 text-center">FUTURE BUSINESS</div>
     <div class="text-justify text-sm md:text-lg">FALGA proactively explore and appraise new businesses that can drive sustainable values. Our group positions our management strategy to be agile to market movement and to be open to new business prospects.</div>
     <div class="text-center my-4 md:mt-8 flex justify-center">
       <a href="{{ url('future-business') }}" class="falga-button uppercase text-xs md:mx-auto">See All</a>
     </div>
   </div>
+</div>
+<div class="bg-gray-100 h-2 md:h-4"></div>
+<div class="falga-container flex flex-col py-5 md:py-10">
+  <div class="falga-section-title text-center">Project Portfolio</div>
+  <div class="flex flex-wrap items-stretch justify-center">
+    @foreach($items as $item)
+    <div class="falga-mni-item mt-8 md:mt-12 md:ml-12">
+      <img class="lozad object-cover h-[242px] w-full" data-src="{{ $item["image"] }}" />
+      <div class="font-bold text-red-falga mt-6 mx-6 capitalize">{{ $item["title"] }}</div>
+      <div class="flex mx-6 text-xs mt-1 mb-6">
+        <div class="pr-4 border-r border-black">{{ $item["location"] }}</div>
+        <div class="pl-4">{{ $item["category"] }}</div>
+      </div>
+    </div>
+    @endforeach
+  </div>
+  <a href="{{ url('projects') }}" class="falga-button uppercase text-xs md:mx-auto self-center my-4 md:mt-8 ">See All</a>
 </div>
