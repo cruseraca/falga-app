@@ -1,4 +1,4 @@
-<nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-screen z-[1000] top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+<nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-[1000] top-0 left-0 border-b border-gray-200 dark:border-gray-600">
   <div class="falga-header flex flex-wrap justify-between items-center mx-auto h-auto">
     <a href="{{ url('') }}">
       <img class="h-[36px] w-[98.1833px] lg:h-[56px] lg:w-[152.733px] object-cover" src="{{ mix('img/logo-falga.svg') }}" alt="FALGA">
