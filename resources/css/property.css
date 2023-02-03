@@ -63,14 +63,16 @@
   border: 1px solid rgba(0, 0, 0, 0.12);
   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.4);
   border-radius: 12px;
-  padding: 16px 32px;
-  padding-left: 40px;
+  padding: 18px 24px;
+}
+@media (min-width: 761px) {
+  .item-content {
+    padding: 18px 32px;
+  }
 }
 .item.reverse .item-content {
   margin-right: 0;
   margin-left: 32px;
-  padding-left: 32px;
-  padding-right: 40px;
 }
 .item-content-line {
   width: 8px;
@@ -94,9 +96,9 @@
 @media (min-width: 761px) {
   .item-content {
     width: 100%;
-    padding: 32px 64px;
+    padding: 18px 32px;
     margin-top: -15%;
-    padding-left: 80px;
+    /* padding-left: 32px; */
     margin-right: auto;
     margin-bottom: 32px;
   }
@@ -109,8 +111,8 @@
   .item.reverse .item-content {
     margin-right: 0;
     margin-left: auto;
-    padding-left: 64px;
-    padding-right: 80px;
+    /* padding-left: 64px; */
+    /* padding-right: 80px; */
   }
 }
 

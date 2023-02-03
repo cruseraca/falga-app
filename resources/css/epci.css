@@ -85,24 +85,30 @@
   border: 1px solid rgba(0, 0, 0, 0.12);
   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.4);
   border-radius: 12px;
-  padding: 18px 32px;
+  padding: 18px 24px;
 }
 @media screen and (min-width: 761px) {
   .falga-epci-content {
     margin-left: auto;
     max-width: 640px;
     margin-top: 0;
+    padding: 18px 32px;
   }
 }
 .falga-epci-line {
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
-  width: 16px;
+  width: 8px;
   height: 100%;
   position: absolute;
   top: 0;
   right: -1px;
   bottom: 0;
+}
+@media screen and (min-width: 761px) {
+  .falga-epci-line {
+    width: 16px;
+  }
 }
 .falga-epci-o.reverse .falga-epci-images {
   right: 0;

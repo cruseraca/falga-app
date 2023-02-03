@@ -19,12 +19,12 @@
               About Us
             </a>
             <div class="md:hidden md:text-xs lg:text-sm cursor-pointer py-2 px-4">
-              <i id="navbar-popover-trigger-icon" class="fa-solid fa-chevron-down"></i>
+              <i id="navbar-popover-trigger-icon" class="fa-solid fa-caret-down"></i>
             </div>
           </div>
           <div data-popover id="navbar-popover-about" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
             <div class="py-2">
-              <ul class="py-1 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+              <ul class="py-1 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="navbar-popover-trigger-link">
                 <li>
                   <a href="{{ url('about-us') }}" class="block py-2 px-8 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga border-b font-bold">About Us</a>
                 </li>
@@ -52,12 +52,12 @@
               Our Business
             </a>
             <div class="md:hidden md:text-xs lg:text-sm cursor-pointer py-2 px-4">
-              <i id="navbar-popover-trigger-icon" class="fa-solid fa-chevron-down"></i>
+              <i id="navbar-popover-trigger-icon" class="fa-solid fa-caret-down"></i>
             </div>
           </div>
           <div data-popover id="navbar-popover-business" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
             <div class="py-2">
-              <ul class="py-1 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+              <ul class="py-1 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="navbar-popover-trigger-link">
                 <li>
                   <a href="{{ url('our-business') }}" class="block py-2 px-8 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga border-b font-bold">Our Business</a>
                 </li>
@@ -157,7 +157,7 @@
               Sustainability
             </a>
             <div class="md:hidden md:text-xs lg:text-sm cursor-pointer py-2 px-4">
-              <i id="navbar-popover-trigger-icon" class="fa-solid fa-chevron-down"></i>
+              <i id="navbar-popover-trigger-icon" class="fa-solid fa-caret-down"></i>
             </div>
           </div>
           <div data-popover id="navbar-popover-sustainability" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
@@ -203,7 +203,7 @@
               Media
             </a>
             <div class="md:hidden md:text-xs lg:text-sm cursor-pointer py-2 px-4">
-              <i id="navbar-popover-trigger-icon" class="fa-solid fa-chevron-down"></i>
+              <i id="navbar-popover-trigger-icon" class="fa-solid fa-caret-down"></i>
             </div>
           </div>
           <div data-popover id="navbar-popover-media" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
