@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-  <link rel="canonical" href="<?php echo "https://www.".$_SERVER['HTTP_POST']; ?>" />
+  <link rel="canonical" href="{{ 'https://www.'.$_SERVER['HTTP_HOST'] }}" />
 
   @section('meta_title')
   <title>{{ config("app.name", "Falga") }} Group Indonesia | Falga</title>
   @show
   @section('meta_description')
-  <meta name="description" content="Falga Group is Core Emphasis on Business Building through Sustainable Investing">
+  <meta name="description" content="Falga or Falga Group is Core Emphasis on Business Building through Sustainable Investing">
   @show
   @section('favicon')
   <link rel="icon" type="image/x-icon" href="{{ mix('favicon.ico') }}">
@@ -21,10 +21,10 @@
     {
       "@context": "https://schema.org",
       "@type": "Corporation",
-      "name": "Falga Group",
+      "name": "Falga",
       "alternateName": "Falga Group Indonesia",
       "url": "https://www.falga.co.id",
-      "description": "FALGA GROUP is an Indonesian-incorporated investment holding company founded in 1986 with ownership interests in EPCI Contractor, Oil & Gas Retail, Properties and Industrial Equipment Rental companies. Our Group integrates agile operating models and proactively appraise future business opportunities.",
+      "description": "Falga or FALGA GROUP is an Indonesian-incorporated investment holding company founded in 1986 with ownership interests in EPCI Contractor, Oil & Gas Retail, Properties and Industrial Equipment Rental companies. Our Group integrates agile operating models and proactively appraise future business opportunities.",
       "logo": "https://www.falga.co.id/favicon.ico?id=0d95f32e435f832d2df7002f231b65d2",
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
