@@ -80,7 +80,7 @@ const init_navbar_popover = () => {
         const $link = $triggerEl.find("#navbar-popover-trigger-link");
         const options = {
             placement: "bottom",
-            triggerType: "hover",
+            triggerType: "none",
             offset: 0,
             onHide: () => {
                 if (open === popover) {
@@ -94,11 +94,15 @@ const init_navbar_popover = () => {
             },
         };
         /** @type {Popover} */
-        const popover = new Popover($targetEl[0], $triggerEl[0], options);
+        const popover = new Dropdown($targetEl[0], $triggerEl[0], options);
         popover.hide();
 
         const l = listeners(popover);
-        $link.on("mouseenter", l.show).on("focus", l.show);
+        $triggerEl
+            .on("mouseenter", l.show)
+            .on("focus", l.show)
+            .on("mouseleave", l.hide)
+            .on("blur", l.hide);
         $icon.on("click", l.click);
     });
 };
