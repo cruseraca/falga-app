@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="csrf-token" content="{{ csrf_token() }}" />
 
+  <link rel="canonical" href="<?php echo "https://www.".$_SERVER['HTTP_POST']; ?>" />
+
   @section('meta_title')
-  <title>{{ config("app.name", "Falga") }} Group</title>
+  <title>{{ config("app.name", "Falga") }} Group Indonesia | Falga</title>
   @show
   @section('meta_description')
   <meta name="description" content="Falga Group is Core Emphasis on Business Building through Sustainable Investing">
