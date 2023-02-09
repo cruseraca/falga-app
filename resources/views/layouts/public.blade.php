@@ -76,7 +76,7 @@
   </div>
   @livewire('components.footer')
   <script src="{{ mix('lib/js/jquery.min.min.js') }}"></script>
-  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+  <script src="https://unpkg.com/flowbite@1.6.3/dist/flowbite.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
   @stack('scripts')
 </body>

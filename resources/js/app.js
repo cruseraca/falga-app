@@ -27,12 +27,42 @@ const init_navbar_popover = () => {
     /** @type {Popover | false} */
     let open = false;
     $window.on("resize", () => {
-        console.log('resize')
         width = $window.width();
         if (open) {
             open.hide();
         }
     });
+
+    /** @param {Popover} popover */
+    const listeners = (popover) => {
+        return {
+            show: () => {
+                if (width >= 768) {
+                    popover.show();
+                }
+                if (width < 768) {
+                    popover.hide();
+                }
+            },
+            hide: () => {
+                if (width >= 768) {
+                    popover.hide();
+                }
+            },
+            click: () => {
+                if (width < 768) {
+                    if (open === popover) {
+                        popover.hide();
+                    } else {
+                        if (open && open !== popover) {
+                            open.hide();
+                        }
+                        popover.show();
+                    }
+                }
+            },
+        };
+    };
     popover_names.forEach((n) => {
         // set the popover content element
         const $targetEl = $(`#navbar-popover-${n}`);
@@ -50,19 +80,15 @@ const init_navbar_popover = () => {
         const $link = $triggerEl.find("#navbar-popover-trigger-link");
         const options = {
             placement: "bottom",
-            triggerType: "none",
+            triggerType: "hover",
             offset: 0,
             onHide: () => {
-                console.log('onHide')
-                console.log(width)
                 if (open === popover) {
                     open = false;
                 }
                 $icon.removeClass("navbar-popover-trigger-icon");
             },
             onShow: () => {
-                console.log('onShow')
-                console.log(width)
                 open = popover;
                 $icon.addClass("navbar-popover-trigger-icon");
             },
@@ -71,41 +97,9 @@ const init_navbar_popover = () => {
         const popover = new Popover($targetEl[0], $triggerEl[0], options);
         popover.hide();
 
-        $link
-            .on("mouseenter", () => {
-                console.log('mouseenter')
-                console.log(width)
-                if (width >= 768) {
-                    // if (open && open !== popover) {
-                    //     open.hide()
-                    // }
-                    // popover.show();
-                }
-                if (width < 768) {
-                    popover.hide()
-                }
-            })
-            .on("mouseleave", () => {
-                console.log('mouseleave')
-                console.log(width)
-                if (width >= 768) {
-                    // popover.hide();
-                }
-            });
-        $icon.on("click", () => {
-            console.log('click')
-            console.log(width)
-            if (width < 768) {
-                if (open === popover) {
-                    popover.hide();
-                } else {
-                    if (open && open !== popover) {
-                        open.hide()
-                    }
-                    popover.show();
-                }
-            }
-        });
+        const l = listeners(popover);
+        $link.on("mouseenter", l.show).on("focus", l.show);
+        $icon.on("click", l.click);
     });
 };
 
