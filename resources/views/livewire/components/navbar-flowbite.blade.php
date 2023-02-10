@@ -18,8 +18,8 @@
             <a id="navbar-popover-trigger-link" href="{{ url('about-us') }}" type="button" class="md:text-xs lg:text-sm py-2 pr-4 pl-3 w-full text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-falga md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent uppercase font-bold">
               About Us
             </a>
-            <div class="md:hidden md:text-xs lg:text-sm cursor-pointer py-2 px-4">
-              <i id="navbar-popover-trigger-icon" class="fa-solid fa-caret-down"></i>
+            <div id="navbar-popover-trigger-icon" class="md:hidden md:text-xs lg:text-sm cursor-pointer py-2 px-4">
+              <i class="fa-solid fa-caret-down"></i>
             </div>
           </div>
           <div id="navbar-popover-about" class="z-10 hidden w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
@@ -46,8 +46,8 @@
             <a id="navbar-popover-trigger-link" href="{{ url('our-business') }}" type="button" class="md:text-xs lg:text-sm py-2 pr-4 pl-3 w-full text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-falga md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent uppercase font-bold">
               Our Business
             </a>
-            <div class="md:hidden md:text-xs lg:text-sm cursor-pointer py-2 px-4">
-              <i id="navbar-popover-trigger-icon" class="fa-solid fa-caret-down"></i>
+            <div id="navbar-popover-trigger-icon" class="md:hidden md:text-xs lg:text-sm cursor-pointer py-2 px-4">
+              <i class="fa-solid fa-caret-down"></i>
             </div>
           </div>
           <div id="navbar-popover-business" role="tooltip" class="z-10 hidden w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
@@ -83,8 +83,8 @@
             <a id="navbar-popover-trigger-link" href="{{ url('sustainability') }}" type="button" class="md:text-xs lg:text-sm py-2 pr-4 pl-3 w-full text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-falga md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent uppercase font-bold">
               Sustainability
             </a>
-            <div class="md:hidden md:text-xs lg:text-sm cursor-pointer py-2 px-4">
-              <i id="navbar-popover-trigger-icon" class="fa-solid fa-caret-down"></i>
+            <div id="navbar-popover-trigger-icon" class="md:hidden md:text-xs lg:text-sm cursor-pointer py-2 px-4">
+              <i class="fa-solid fa-caret-down"></i>
             </div>
           </div>
           <div id="navbar-popover-sustainability" role="tooltip" class="z-10 hidden w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
@@ -108,8 +108,8 @@
             <a id="navbar-popover-trigger-link" href="{{ url('media-and-information') }}" type="button" class="md:text-xs lg:text-sm py-2 pr-4 pl-3 w-full text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-falga md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent uppercase font-bold">
               Media
             </a>
-            <div class="md:hidden md:text-xs lg:text-sm cursor-pointer py-2 px-4">
-              <i id="navbar-popover-trigger-icon" class="fa-solid fa-caret-down"></i>
+            <div id="navbar-popover-trigger-icon" class="md:hidden md:text-xs lg:text-sm cursor-pointer py-2 px-4">
+              <i class="fa-solid fa-caret-down"></i>
             </div>
           </div>
           <div id="navbar-popover-media" role="tooltip" class="z-10 hidden w-64 text-sm font-light text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
