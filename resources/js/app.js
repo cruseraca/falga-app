@@ -18,51 +18,21 @@ const init_lozad = () => {
  * @typedef {object} Popover
  * @property {() => void} show
  * @property {() => void} hide
+ * @property {() => boolean} isVisible
  */
 
 const init_navbar_popover = () => {
     const $window = $(window);
-    let width = $window.width();
     const popover_names = ["about", "business", "sustainability", "media"];
-    /** @type {Popover | false} */
-    let open = false;
+    /** @type {{ open: false | Popover }} */
+    const holder = { open: false };
     $window.on("resize", () => {
-        width = $window.width();
+        console.log("resize");
+        const { open } = holder;
         if (open) {
             open.hide();
         }
     });
-
-    /** @param {Popover} popover */
-    const listeners = (popover) => {
-        return {
-            show: () => {
-                if (width >= 768) {
-                    // popover.show();
-                }
-                if (width < 768) {
-                    popover.hide();
-                }
-            },
-            hide: () => {
-                if (width >= 768) {
-                    // popover.hide();
-                }
-            },
-            click: () => {
-                if (width < 768) {
-                    if (open === popover) {
-                        popover.hide();
-                    } else {
-                        if (open && open !== popover) {
-                            open.hide();
-                        }
-                        popover.show();
-                    }
-                }
-            },
-        };
-    };
     popover_names.forEach((n) => {
         // set the popover content element
         const $targetEl = $(`#navbar-popover-${n}`);
@@ -78,32 +48,47 @@ const init_navbar_popover = () => {
 
         const $icon = $triggerEl.find("#navbar-popover-trigger-icon");
         const $link = $triggerEl.find("#navbar-popover-trigger-link");
+        /** @type {{ popover: Popover }} */
+        const p = {};
         const options = {
             placement: "bottom",
             triggerType: "hover",
             offset: 0,
             onHide: () => {
-                if (open === popover) {
-                    open = false;
-                }
                 $icon.removeClass("navbar-popover-trigger-icon");
             },
-            onShow: () => {
-                open = popover;
+            onShow: (r) => {
+                holder.open = r;
+                p.popover = r;
                 $icon.addClass("navbar-popover-trigger-icon");
             },
         };
-        /** @type {Popover} */
-        const popover = new Dropdown($targetEl[0], $triggerEl[0], options);
-        popover.hide();
+        p.popover = new Dropdown($targetEl[0], $link[0], options);
+        p.popover.hide();
 
-        const l = listeners(popover);
-        $triggerEl
-            .on("mouseenter", l.show)
-            .on("focus", l.show)
-            // .on("mouseleave", l.hide)
-            // .on("blur", l.hide);
-        $icon.on("click", l.click);
+        const show = () => {
+            if (window.innerWidth < 768) {
+                holder.open = false;
+                p.popover.hide();
+            }
+        };
+        const click = () => {
+            const { open } = holder;
+            const { popover } = p;
+            if (window.innerWidth < 768) {
+                if (holder.open == p.popover) {
+                    holder.open = false;
+                    popover.hide();
+                } else {
+                    if (open && open != popover) {
+                        open.hide();
+                    }
+                    popover.show();
+                }
+            }
+        };
+        $link.on("mouseenter", show).on("focus", show);
+        $icon.on("click", click);
     });
 };
 
