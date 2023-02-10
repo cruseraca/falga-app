@@ -38,7 +38,7 @@ const init_navbar_popover = () => {
         return {
             show: () => {
                 if (width >= 768) {
-                    popover.show();
+                    // popover.show();
                 }
                 if (width < 768) {
                     popover.hide();
@@ -46,7 +46,7 @@ const init_navbar_popover = () => {
             },
             hide: () => {
                 if (width >= 768) {
-                    popover.hide();
+                    // popover.hide();
                 }
             },
             click: () => {
@@ -80,7 +80,7 @@ const init_navbar_popover = () => {
         const $link = $triggerEl.find("#navbar-popover-trigger-link");
         const options = {
             placement: "bottom",
-            triggerType: "none",
+            triggerType: "hover",
             offset: 0,
             onHide: () => {
                 if (open === popover) {
@@ -101,8 +101,8 @@ const init_navbar_popover = () => {
         $triggerEl
             .on("mouseenter", l.show)
             .on("focus", l.show)
-            .on("mouseleave", l.hide)
-            .on("blur", l.hide);
+            // .on("mouseleave", l.hide)
+            // .on("blur", l.hide);
         $icon.on("click", l.click);
     });
 };
