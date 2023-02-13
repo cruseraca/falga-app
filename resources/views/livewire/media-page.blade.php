@@ -98,8 +98,12 @@
         <x-embed-styles />
       @endpush
       @foreach($items as $item)
-      <div class="falga-mni-item mt-8 md:mt-12 md:ml-12 video">
-        <x-embed url="{{ 'https://www.youtube.com/watch?v='.$item['video_id'] }}" />
+      <div class="falga-mni-item mt-8 md:mt-12 md:ml-12">
+        <div class="w-full">
+          <x-embed url="{{ 'https://www.youtube.com/watch?v='.$item['video_id'] }}" />
+        </div>
+        <div class="font-bold text-red-falga mt-6 mx-6 capitalize">{{ $item["title"] }}</div>
+        <div class="flex mx-6 text-xs mt-1 mb-6">{{ $item["description"] }}</div>
       </div>
       @endforeach
       @else

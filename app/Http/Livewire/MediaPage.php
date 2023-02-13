@@ -72,14 +72,14 @@ class MediaPage extends Component
             ],
             "video" => [
                 [
-                    "title" => "volutpat ac tincidunt vitae",
-                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo vel fringilla est.",
+                    "title" => "Commissioning Gas in LPG Pressurized Terminal Jayapura 2x1000 MT Pertamina",
+                    "description" => "Commissioning Gas In - LPG Pressurized Terminal in Jayapura 2x1000 MT & Jetty 6500 DWT.",
                     "image" => mix("img/hero-image.jpg"),
                     "video_id" => "ThpRlt9o2_0"
                 ],
                 [
-                    "title" => "duis at consectetur lorem",
-                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim praesent elementum facilisis leo vel fringilla est ullamcorper eget.",
+                    "title" => "Prior to Commissioning LPG Terminal (Farm) Jayapura 2x1000 MT Pertamina",
+                    "description" => "Prior to Commissioning - LPG Pressurized Terminal in Jayapura 2x1000 MT & Jetty 6500 DWT.",
                     "image" => mix("img/hero-image.jpg"),
                     "video_id" => "4tDjvbCEdgU"
                 ],
