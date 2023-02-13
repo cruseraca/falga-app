@@ -6,6 +6,9 @@
 <script src="{{ mix('lib/js/flickity.pkgd.min.min.js') }}"></script>
 <script src="{{ mix('js/homepage.js') }}"></script>
 @endpush
+@section('meta_title')
+<title>{{ config("app.name", "Falga") }} Group Indonesia | Falga</title>
+@overwrite
 @section('meta_description')
 <meta name="description" content="Falga Group's Core Emphasis on business building through sustainable investing">
 @overwrite
