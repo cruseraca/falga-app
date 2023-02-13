@@ -11,7 +11,7 @@
   <title>{{ config("app.name", "Falga") }} Group Indonesia | Falga</title>
   @show
   @section('meta_description')
-  <meta name="description" content="Falga or Falga Group's Core Emphasis on Business Building through Sustainable Investing">
+  <meta name="description" content="Falga Group's Core Emphasis on business building through sustainable investing">
   @show
   @section('favicon')
   <link rel="icon" type="image/x-icon" href="{{ mix('favicon.ico') }}">

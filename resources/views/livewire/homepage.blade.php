@@ -7,7 +7,7 @@
 <script src="{{ mix('js/homepage.js') }}"></script>
 @endpush
 @section('meta_description')
-<meta name="description" content="Falga Group is Core Emphasis on Business Building through Sustainable Investing">
+<meta name="description" content="Falga Group's Core Emphasis on business building through sustainable investing">
 @overwrite
 <style>
   .falga-button.banner-button {
