@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-  <link rel="canonical" href="{{ 'https://'.(str_starts_with($_SERVER['HTTP_HOST'], 'www.') ? '' : 'www.').$_SERVER['HTTP_HOST'] }}" />
+  @if(!str_starts_with($_SERVER['HTTP_HOST'], 'www.'))
+    <link rel="canonical" href="{{ preg_replace('/^https{0,1}:\/\//', 'https://www.', Request::fullUrl()) }}" />
+  @else
+    <link rel="canonical" href="{{ Request::fullUrl() }}" />
+  @endif
 
   @section('meta_title')
   <title>{{ config("app.name", "Falga") }} Group Indonesia | Falga</title>
