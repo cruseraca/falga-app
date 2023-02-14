@@ -24,13 +24,13 @@
 [ "title" => "CAREER", "color" => "red-falga" ]
 ]])
 @endcomponent
-<div class="falga-container">
+<div class="falga-container flex flex-col items-stretch">
     <div class="w-full text-center falga-section-title red-falga uppercae my-16">{{ "We're Hiring!" }}</div>
-    <div class="overflow-x-auto relative mb-8">
+    <div class="overflow-x-auto relative mb-4">
         <table class="w-full text-base text-left text-gray-500 dark:text-gray-400">
             <thead class="text-base text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                    <th scope="col" class="py-3 px-6">
+                    <th scope="col" class="py-3 pr-6">
                         <div class="relative">
                             <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -75,7 +75,7 @@
                             </ul>
                         </div>
                     </th>
-                    <th scope="col" class="py-3 px-6">
+                    <th scope="col" class="py-3 pl-6">
                         <button id="type-bt" data-dropdown-toggle="type" class="bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-red-falga focus:border-red-falga p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-falga dark:focus:border-red-falga flex items-baseline w-full text-left" type="button"><div class="flex-1">Work Type</div> <i class="fa-solid fa-chevron-down"></i></button>
                         <!-- Dropdown menu -->
                         <div id="type" class="hidden z-10 w-255 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 border">
@@ -97,7 +97,7 @@
             <tbody>
                 @foreach($items as $item)
                 <tr class="border-t text-black font-poppins">
-                    <th scope="row" class="py-9 px-6 text-base font-semibold text-gray-900 whitespace-nowrap dark:text-white">
+                    <th scope="row" class="py-9 pr-6 text-base font-semibold text-gray-900 whitespace-nowrap dark:text-white">
                         {{ $item["title"] }}
                     </th>
                     <td class="py-9 px-6 text-base">
@@ -106,7 +106,7 @@
                     <td class="py-9 px-6 text-base">
                         {{ $item["department"] }}
                     </td>
-                    <td class="py-9 px-6 text-base">
+                    <td class="py-9 pl-6 text-base">
                         {{ $item["type"] }}
                     </td>
                 </tr>
@@ -114,4 +114,7 @@
             </tbody>
         </table>
     </div>
+    <a href="{{ url('#contact-us') }}" class="falga-button mb-12 uppercase min-w-[200px] md:min-w-[262px] block self-start">
+      Contact Us
+    </a>
 </div>
