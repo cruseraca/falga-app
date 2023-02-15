@@ -93,7 +93,7 @@ class MediaPage extends Component
         /** @var \Illuminate\Http\Request $request */
         $request = app('request');
         $this->q = empty($request->input('q')) ? "news" : $request->input('q');
-        if (!in_array($this->q, $this->titles)) {
+        if (!in_array($this->q, $this->qs)) {
             return;
         }
         $this->title = $this->titles[$this->q];
@@ -110,7 +110,7 @@ class MediaPage extends Component
 
     public function mount()
     {
-        if (!in_array($this->q, $this->titles)) {
+        if (!in_array($this->q, $this->qs)) {
             if ($this->q == 'portfolio') {
                 return redirect()->to('/projects');
             }
