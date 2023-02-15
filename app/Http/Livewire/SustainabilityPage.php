@@ -14,7 +14,7 @@ class SustainabilityPage extends Component
         "governance" => "Corporate Governance",
     ];
     public $q;
-    public $title;
+    public $title = '';
 
     public $items = [];
 
@@ -57,6 +57,9 @@ class SustainabilityPage extends Component
         /** @var \Illuminate\Http\Request $request */
         $request = app('request');
         $this->q = empty($request->input('q')) ? "strategy-management" : $request->input('q');
+        if (!array_key_exists($this->q, $this->titles)) {
+            return;
+        }
         $this->title = $this->titles[$this->q];
         $this->items = $this->all_items[$this->q];
     }

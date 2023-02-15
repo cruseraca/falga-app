@@ -34,6 +34,9 @@ Route::get('/prop-business', PropertyPage::class);
 Route::get('/future-business', FutureBusinessPage::class);
 Route::get('/industrial-rental', IndustrialRentalPage::class);
 Route::get('/sustainability', SustainabilityPage::class);
+Route::get('/esg', function () {
+    return redirect('/sustainability');
+});
 Route::get('/career', CareerPage::class);
 Route::get('/projects', ProjectsPage::class);
 Route::get('/media-and-information', MediaPage::class);
