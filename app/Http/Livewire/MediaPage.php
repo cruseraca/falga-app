@@ -78,13 +78,13 @@ class MediaPage extends Component
             "video" => [
                 [
                     "title" => "Commissioning Gas in LPG Pressurized Terminal Jayapura 2x1000 MT Pertamina",
-                    "description" => "Commissioning Gas In - LPG Pressurized Terminal in Jayapura 2x1000 MT & Jetty 6500 DWT.",
+                    "description" => "1st LPG Terminal in Papua.\nCommissioning Gas In - LPG Pressurized Terminal in Jayapura 2x1000 MT & Jetty 6500 DWT.",
                     "image" => mix("img/hero-image.jpg"),
                     "video_id" => "ThpRlt9o2_0"
                 ],
                 [
                     "title" => "Prior to Commissioning LPG Terminal (Farm) Jayapura 2x1000 MT Pertamina",
-                    "description" => "Prior to Commissioning - LPG Pressurized Terminal in Jayapura 2x1000 MT & Jetty 6500 DWT.",
+                    "description" => "1st LPG Terminal in Papua.\nPrior to Commissioning - LPG Pressurized Terminal in Jayapura 2x1000 MT & Jetty 6500 DWT.",
                     "image" => mix("img/hero-image.jpg"),
                     "video_id" => "4tDjvbCEdgU"
                 ],
