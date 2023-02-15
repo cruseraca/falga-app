@@ -110,12 +110,6 @@ class MediaPage extends Component
 
     public function render()
     {
-        if (!in_array($this->q, $this->titles)) {
-            if ($this->q == 'portfolio') {
-                return redirect()->to('/projects');
-            }
-            return redirect()->to('/');
-        }
         return view('livewire.media-page')->layout('layouts.public');
     }
 }
