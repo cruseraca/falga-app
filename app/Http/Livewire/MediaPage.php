@@ -108,6 +108,15 @@ class MediaPage extends Component
         $this->items = array_slice($this->items, $offset, $count);
     }
 
+    public function mount()
+    {
+        if (!in_array($this->q, $this->titles)) {
+            if ($this->q == 'portfolio') {
+                return redirect()->to('/projects');
+            }
+        }
+    }
+
     public function render()
     {
         return view('livewire.media-page')->layout('layouts.public');
