@@ -13,6 +13,11 @@ class MediaPage extends Component
         "video" => "Videos",
     ];
     public $q;
+    public $qs = [
+        "news",
+        "blog",
+        "video",
+    ];
     public $title;
 
     public $items = [];
@@ -88,6 +93,9 @@ class MediaPage extends Component
         /** @var \Illuminate\Http\Request $request */
         $request = app('request');
         $this->q = empty($request->input('q')) ? "news" : $request->input('q');
+        if (!in_array($this->q, $this->titles)) {
+            return;
+        }
         $this->title = $this->titles[$this->q];
         $this->items = $this->all_items[$this->q];
         $this->all_items_count = count($this->items);
@@ -102,6 +110,12 @@ class MediaPage extends Component
 
     public function render()
     {
+        if (!in_array($this->q, $this->titles)) {
+            if ($this->q == 'portfolio') {
+                return redirect()->to('/projects');
+            }
+            return redirect()->to('/');
+        }
         return view('livewire.media-page')->layout('layouts.public');
     }
 }
