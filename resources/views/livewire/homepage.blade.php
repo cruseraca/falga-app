@@ -131,10 +131,10 @@
   <div class="flex flex-row flex-wrap justify-between gap-2 md:gap-4">
     <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
       <div class="my-auto md:mx-6">
-        <p class="font-black text-md">GDP per Capita (2021)</p>
-        <p class="font-black text-2xl my-3 text-red-falga">$ 4,291</p>
+        <p class="font-black text-md">GDP (2022)</p>
+        <p class="font-black text-2xl my-3 text-red-falga">$ 1,28 T</p>
         <p class="font-black text-xs">The Highest in South-East Asia</p>
-        <p class="font-light text-xs">Source: World Bank</p>
+        <p class="font-light text-xs">Source: IMF</p>
       </div>
     </div>
     <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
@@ -159,8 +159,8 @@
     </div>
     <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
       <div class="my-auto md:mx-6">
-        <p class="font-black text-md">Population (2021)</p>
-        <p class="font-black text-2xl my-3 text-red-falga">273 M</p>
+        <p class="font-black text-md">Population (2023)</p>
+        <p class="font-black text-2xl my-3 text-red-falga">281 M</p>
         <p class="font-black text-xs">4th Highest in the World</p>
         <p class="font-light text-xs">Source: Worldometers</p>
       </div>
@@ -179,11 +179,11 @@
     <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col sm:w-1/4 rounded-lg border py-5 px-2 shadow-box text-center">
       <div class="my-auto mx-6">
         <p class="font-black text-md">
-          Population below<br />40 years old (2021)
+          Population below<br />40 years old (2022)
         </p>
-        <p class="font-black text-2xl my-3 text-red-falga">64,68%</p>
+        <p class="font-black text-2xl my-3 text-red-falga">64%</p>
         <p class="font-black text-xs">Which equal to 176 million</p>
-        <p class="font-light text-xs">Source: BPS Indonesia</p>
+        <p class="font-light text-xs">Source: Dukcapil</p>
       </div>
     </div>
     <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
