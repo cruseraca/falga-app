@@ -66,11 +66,11 @@
     </div>
     <div class="mb-4 falga-section-title red-falga overflow-auto">
       <ul class="flex md:flex-col items-stretch text-base sm:text-xl" id="esg-tab" role="tablist">
-        <li class="mr-1 sm:mr-2 md:mr-0 md:min-w-[280px]" role="presentation">
-          <a href="{{ url("sustainability?q=strategy-management#breadrumbs") }}" class="{{ $q == "strategy-management" ? "falga-tab-active" : "" }} inline-block px-1 py-2 sm:p-2 md:p-6 border-b-2 w-full whitespace-nowrap" id="sustainability-tab" type="button" role="tab" aria-controls="sustainability" aria-selected="false">{{ $titles["strategy-management"] }}</a>
+        <li class="flex-1 md:flex-auto md:min-w-[280px]" role="presentation">
+          <a href="{{ url("sustainability?q=strategy-management#breadrumbs") }}" class="{{ $q == "strategy-management" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap" id="sustainability-tab" type="button" role="tab" aria-controls="sustainability" aria-selected="false">{{ $titles["strategy-management"] }}</a>
         </li>
-        <li class="md:min-w-[280px]" role="presentation">
-          <a href="{{ url("sustainability?q=reports#breadrumbs") }}" class="{{ $q == "reports" ? "falga-tab-active" : "" }} inline-block px-1 py-2 sm:p-2 md:p-6 border-b-2 w-full whitespace-nowrap" id="presentation-tab" type="button" role="tab" aria-controls="presentation" aria-selected="false">{{ $titles["reports"] }}</a>
+        <li class="flex-1 md:flex-auto md:min-w-[280px]" role="presentation">
+          <a href="{{ url("sustainability?q=reports#breadrumbs") }}" class="{{ $q == "reports" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap" id="presentation-tab" type="button" role="tab" aria-controls="presentation" aria-selected="false">{{ $titles["reports"] }}</a>
         </li>
       </ul>
     </div>
