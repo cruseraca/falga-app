@@ -159,7 +159,7 @@
     </div>
     <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
       <div class="my-auto md:mx-6">
-        <p class="font-black text-md">Population (2023)</p>
+        <p class="font-black text-md">Population (Feb 2023)</p>
         <p class="font-black text-2xl my-3 text-red-falga">281 M</p>
         <p class="font-black text-xs">4th Highest in the World</p>
         <p class="font-light text-xs">Source: Worldometers</p>
