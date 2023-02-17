@@ -189,7 +189,7 @@
     <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
       <div class="my-auto md:mx-6">
         <p class="font-black text-md">Digital Economy (2021)</p>
-        <p class="font-black text-2xl my-3 text-red-falga">$ 70 B</p>
+        <p class="font-black text-2xl my-3 text-red-falga">$ 77 B</p>
         <p class="font-black text-xs">Highest in South-East Asia</p>
         <p class="font-light text-xs">
           Source: Google, Temasek, and Bain
