@@ -132,7 +132,10 @@
     <div class="flex-1 min-w-[9.6875rem] md:min-w-[15.625rem] flex flex-col rounded-lg border py-5 px-2 shadow-box text-center">
       <div class="my-auto md:mx-6">
         <p class="font-black text-md">GDP (2022)</p>
-        <p class="font-black text-2xl my-3 text-red-falga">IDR 19,58 Q</p>
+        <p class="font-black text-2xl my-3 text-red-falga">$ 1,25 T</p>
+        <p class="font-light text-xs">
+          exchange rate by Des 30, 2022 ($1 = IDR 15.670)
+        </p>
         <p class="font-black text-xs">The Highest in South-East Asia</p>
         <p class="font-light text-xs">Source: BPS Indonesia</p>
       </div>
