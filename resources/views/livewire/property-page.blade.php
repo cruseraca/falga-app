@@ -23,7 +23,7 @@
 @endcomponent
 <div class="falga-container my-5 md:my-10">
   <div class="falga-section-title mb-4 md:mb-8">Property & Hospitality</div>
-  <p class="font-sans text-[16px] text-justify">FALGA owns and manages boarding houses and budget lodges that offer convenient, comforatable and affordable stay for our guests. As the demand for board housing increases in Indonesia, we strive to offer well-maintained facility and continuously upgrade the housing quality by integrating smart technology.</p>
+  <p class="font-sans text-[16px] text-justify">FALGA owns and manages boarding houses and budget lodges that offer convenient, comfortable and affordable stay for our guests. As the demand for board housing increases in Indonesia, we strive to offer well-maintained facility and continuously upgrade the housing quality by integrating smart technology.</p>
 </div>
 <div class="falga-container flex flex-col py-4 md:py-12 md:relative">
   <div class="item">
