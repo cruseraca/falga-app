@@ -108,11 +108,21 @@
       @endforeach
       @else
       @foreach($items as $item)
-      <div class="falga-mni-item mt-8 md:mt-12 md:ml-12">
-        <img class="lozad object-cover h-[242px] w-full" data-src="{{ $item["image"] }}" />
-        <div class="font-bold text-red-falga mt-6 mx-6 capitalize">{{ $item["title"] }}</div>
-        <div class="flex mx-6 text-xs mt-1 mb-6">{{ $item["description"] }}</div>
-      </div>
+        @if(array_key_exists('url', $item))
+        <a class="falga-mni-item mt-8 md:mt-12 md:ml-12" href="{{ $item["url"] }}">
+          <div class="h-[242px] w-full overflow-hidden">
+            <img class="lozad object-cover h-[242px] w-full hover:scale-125" data-src="{{ $item["image"] }}" />
+          </div>
+          <div class="font-bold text-red-falga mt-6 mx-6 capitalize">{{ $item["title"] }}</div>
+          <div class="flex mx-6 text-xs mt-1 mb-6">{{ $item["description"] }}</div>
+        </a>
+        @else
+        <div class="falga-mni-item mt-8 md:mt-12 md:ml-12">
+          <img class="lozad object-cover h-[242px] w-full" data-src="{{ $item["image"] }}" />
+          <div class="font-bold text-red-falga mt-6 mx-6 capitalize">{{ $item["title"] }}</div>
+          <div class="flex mx-6 text-xs mt-1 mb-6">{{ $item["description"] }}</div>
+        </div>
+        @endif
       @endforeach
       @endif
     </div>

@@ -11,6 +11,15 @@
   max-width: 368px;
   overflow: hidden;
 }
+.falga-mni-item:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.falga-mni-item > div > img {
+  transition: transform ease-in-out 0.3s;
+}
+.falga-mni-item:hover > div > img {
+  transform: scale(1.1);
+}
 .falga-mni-item.video {
   border-radius: 0;
 }

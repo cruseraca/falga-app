@@ -33,14 +33,16 @@ class MediaPage extends Component
         $this->all_items = [
             "news" => [
                 [
-                    "title" => "News 1",
-                    "description" => "Media & Information",
-                    "image" => mix("img/hero-image.jpg")
+                    "title" => "Falga Group Mendukung Pendidikan Anak Sekolah Dasar di Jayapura",
+                    "description" => "PT. Favor Alpha Omega (FALGA) Group melalui Yayasan GNOTA telah membantu 100 Anak Asuh, Pembangunan Sarana dan Prasarana sekolah serta pembuatan sumur air bersih guna mendukung kegiatan belajar murid di SD INPRESS kuipons Jayapura.",
+                    "image" => mix("img/media-and-information/news/falga-gnota.jpg"),
+                    "url" => "http://www.gn-ota.or.id/falga-group-mendukung-pendidikan-anak-sekolah-dasar-di-jayapura/",
                 ],
                 [
-                    "title" => "News 2",
-                    "description" => "Media & Information",
-                    "image" => mix("img/hero-image.jpg")
+                    "title" => "FALGA Group Supports Elementary School Education in Jayapura",
+                    "description" => "PT. Favor Alpha Omega (FALGA) Group through the GNOTA Foundation has helped 100 foster children, built school facilities and infrastructure and built clean water wells to support student learning activities at SD INPRESS Kuipons Jayapura.",
+                    "image" => mix("img/media-and-information/news/falga-gnota.jpg"),
+                    "url" => "http://www.gn-ota.or.id/en/falga-group-supports-elementary-school-education-in-jayapura/",
                 ],
                 [
                     "title" => "News 3",
