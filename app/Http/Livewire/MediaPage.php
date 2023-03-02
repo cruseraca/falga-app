@@ -38,21 +38,6 @@ class MediaPage extends Component
                     "image" => mix("img/media-and-information/news/falga-gnota.jpg"),
                     "url" => "http://www.gn-ota.or.id/en/falga-group-supports-elementary-school-education-in-jayapura/",
                 ],
-                [
-                    "title" => "News 2",
-                    "description" => "Media & Information",
-                    "image" => mix("img/hero-image.jpg")
-                ],
-                [
-                    "title" => "News 3",
-                    "description" => "Media & Information",
-                    "image" => mix("img/hero-image.jpg")
-                ],
-                [
-                    "title" => "News 4",
-                    "description" => "Media & Information",
-                    "image" => mix("img/hero-image.jpg")
-                ],
             ],
             "blog" => [
                 [
