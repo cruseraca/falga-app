@@ -35,7 +35,7 @@
             EPCI Business
         </p>
         <p class="text-justify">
-            FALGA EPCI Business has robust track record in Engineering, Procurement, Construction and Installation (EPCI) projects since 1986 with more than 110 EPCI Infrastructure Projects delivered with high quality services and solutions for Indonesian SOEs and Public/Private Companies. CSU is committed to provide comprehensive EPCI services for clients across infrastructure industry that deliver quality, certainty, safety and capital efficiency. Our team of highly skilled and experienced professionals combine multiple aspects of technical & non-technical resources to ensure delivery of project timeline and cost target while ensuring regulatory compliance in our deliverables.
+            FALGA EPCI Business has robust track record in Engineering, Procurement, Construction and Installation (EPCI) projects since 1986 with more than 110 EPCI Infrastructure Projects delivered with high quality services and solutions for Indonesian SOEs and Public/Private Companies. We are committed to provide comprehensive EPCI services for clients across infrastructure industry that deliver quality, certainty, safety and capital efficiency. Our team of highly skilled and experienced professionals combine multiple aspects of technical & non-technical resources to ensure delivery of project timeline and cost target while ensuring regulatory compliance in our deliverables.
         </p>
         <div class="flex">
             <a href="https://csu.co.id" target="_blank" class="falga-button mt-8 uppercase">our subholding</a>
