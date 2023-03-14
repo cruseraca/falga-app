@@ -38,9 +38,9 @@
         <li class="mr-2 md:mr-0" role="presentation">
           <a href="{{ url("media-and-information?q=news#breadrumbs") }}" class="{{ $q == "news" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap uppercase" id="news-tab" type="button" role="tab" aria-controls="news" aria-selected="false">News</a>
         </li>
-        <li class="mr-2 md:mr-0" role="presentation">
+        {{-- <li class="mr-2 md:mr-0" role="presentation">
           <a href="{{ url("media-and-information?q=blog#breadrumbs") }}" class="{{ $q == "blog" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap uppercase" id="blog-tab" type="button" role="tab" aria-controls="blog" aria-selected="false">Blog</a>
-        </li>
+        </li> --}}
         <li class="mr-2 md:mr-0" role="presentation">
           <a href="{{ url("media-and-information?q=video#breadrumbs") }}" class="{{ $q == "video" ? "falga-tab-active" : "" }} inline-block p-2 md:p-6 border-b-2 w-full whitespace-nowrap uppercase" id="video-tab" type="button" role="tab" aria-controls="video" aria-selected="false">Videos</a>
         </li>
@@ -125,8 +125,9 @@
         @endif
       @endforeach
       @endif
+      <div class="h-0 flex-1 min-w-[300px] max-w-[368px] md:ml-12"></div>
     </div>
-      @if($all_items_count > 4)
+      @if($all_items_count > $count)
       @php
       $first_visible_page = max($page - 2, 1);
       $last_visible_page = min($page_count, $page + 2);

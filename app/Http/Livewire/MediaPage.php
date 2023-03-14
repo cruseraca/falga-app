@@ -28,6 +28,8 @@ class MediaPage extends Component
 
     public $page_count = 1;
 
+    public $count = 6;
+
     public function __construct()
     {
         $this->all_items = [
@@ -74,6 +76,24 @@ class MediaPage extends Component
                     "image" => mix("img/hero-image.jpg"),
                     "video_id" => "4tDjvbCEdgU"
                 ],
+                [
+                    "title" => "Simbolisasi & Kunjungan Edukasi Gabriel dari Papua",
+                    "description" => "Gabriel dan Bapak Sujono datang dari Jayapura ke Jakarta dalam rangka menghadiri simbolisasi penyerahan donasi anak asuh dari OTA @falga.group di kantor Yayasan GNOTA.\nKegiatan dilanjutkan dengan kunjungan edukasi ke tempat-tempat ikonik di Jakarta seperti Monas, Kota Tua, Museum Keramik, dan lain sebagainya.\nYuk lihat keseruan Gabriel dan Bapak Sujono selama 3 hari di Jakarta.",
+                    "image" => mix("img/hero-image.jpg"),
+                    "video_id" => "_56KLyUQ1ms"
+                ],
+                [
+                    "title" => "Sepatah Kata dari Bapak Ronald Edy Simamora OTA Falga Group",
+                    "description" => "di acara Simboliasi Donasi Anak Asuh melalui Yayasan GNOTA.",
+                    "image" => mix("img/hero-image.jpg"),
+                    "video_id" => "GJoCzYYVSVs"
+                ],
+                [
+                    "title" => "Sepatah Kata dari Bapak Tommy Hesarid Simamora OTA dari Falga Group",
+                    "description" => "di acara Simboliasi Donasi Anak Asuh melalui Yayasan GNOTA.",
+                    "image" => mix("img/hero-image.jpg"),
+                    "video_id" => "u4kRsp7tvWk"
+                ]
             ],
         ];
         /** @var \Illuminate\Http\Request $request */
@@ -88,7 +108,8 @@ class MediaPage extends Component
         if (!empty($request->input('page')) && intval($request->input('page'))) {
             $this->page = intval($request->input('page'));
         }
-        $count = 4;
+        $count = $this->q == 'video' ? 6 : 4;
+        $this->count = $count;
         $offset = ($this->page - 1) * $count;
         $this->page_count = ceil($this->all_items_count / $count);
         $this->items = array_slice($this->items, $offset, $count);

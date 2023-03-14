@@ -121,9 +121,9 @@
                 <li>
                   <a href="{{ url('media-and-information?q=news') }}" class="block py-2 px-8 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">News</a>
                 </li>
-                <li>
+                {{-- <li>
                   <a href="{{ url('media-and-information?q=blog') }}" class="block py-2 px-8 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Blog</a>
-                </li>
+                </li> --}}
                 <li>
                   <a href="{{ url('media-and-information?q=video') }}" class="block py-2 px-8 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white hover:text-red-falga">Videos</a>
                 </li>

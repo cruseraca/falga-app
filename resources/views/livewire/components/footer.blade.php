@@ -118,9 +118,9 @@
                 <li>
                   <a href="{{ url('media-and-information?q=news#breadrumbs') }}" class="block text-sm py-1 md:py-1 hover:opacity-70">News</a>
                 </li>
-                <li>
+                {{-- <li>
                   <a href="{{ url('media-and-information?q=blog#breadrumbs') }}" class="block text-sm py-1 md:py-1 hover:opacity-70">Blog</a>
-                </li>
+                </li> --}}
                 <li>
                   <a href="{{ url('media-and-information?q=video#breadrumbs') }}" class="block text-sm py-1 md:py-1 hover:opacity-70">Videos</a>
                 </li>
