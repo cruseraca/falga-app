@@ -103,7 +103,7 @@
           <x-embed url="{{ 'https://www.youtube.com/watch?v='.$item['video_id'] }}" />
         </div>
         <div class="font-bold text-red-falga mt-6 mx-6 capitalize">{{ $item["title"] }}</div>
-        <div class="flex mx-6 text-xs mt-1 mb-6">{{ $item["description"] }}</div>
+        <div class="flex mx-6 text-xs mt-1 mb-6 whitespace-pre-wrap">{{ $item["description"] }}</div>
       </div>
       @endforeach
       @else
@@ -114,13 +114,13 @@
             <img class="lozad object-cover h-[242px] w-full hover:scale-125" data-src="{{ $item["image"] }}" />
           </div>
           <div class="font-bold text-red-falga mt-6 mx-6 capitalize">{{ $item["title"] }}</div>
-          <div class="flex mx-6 text-xs mt-1 mb-6">{{ $item["description"] }}</div>
+          <div class="flex mx-6 text-xs mt-1 mb-6 whitespace-pre-wrap">{{ $item["description"] }}</div>
         </a>
         @else
         <div class="falga-mni-item mt-8 md:mt-12 md:ml-12">
           <img class="lozad object-cover h-[242px] w-full" data-src="{{ $item["image"] }}" />
           <div class="font-bold text-red-falga mt-6 mx-6 capitalize">{{ $item["title"] }}</div>
-          <div class="flex mx-6 text-xs mt-1 mb-6">{{ $item["description"] }}</div>
+          <div class="flex mx-6 text-xs mt-1 mb-6 whitespace-pre-wrap">{{ $item["description"] }}</div>
         </div>
         @endif
       @endforeach
