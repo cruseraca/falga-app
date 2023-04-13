@@ -93,6 +93,18 @@ class MediaPage extends Component
                     "description" => "di acara Simboliasi Donasi Anak Asuh melalui Yayasan GNOTA.",
                     "image" => mix("img/hero-image.jpg"),
                     "video_id" => "u4kRsp7tvWk"
+                ],
+                [
+                    "title" => "Wujudkan Konstruksi Ramah Lingkungan Lewat Sustainable Construction",
+                    "description" => "Indonesia terus mendorong pembangunan berkelanjutan sebagai bagian dari komitmen Net Zero Carbo 20260. Salah satu pengembangan \"Sustainability In The Construction Ecosystem\" Tanah Air dilaksanakan melalui program penyelenggaraan konstruksi nasional dalam pembangunan Ibu Kota Nusantara (IKN).\nCEO & Managing Partner Falga Group, Ronald Edy Simamora mengatakan aplikasi Sustainability In The Construction di Indonesia memasuki tahap awal. Falga Group dalam menerapkan pembangunan Sustainability In The Construction dilaksanakan lewat penggunaan material emisi rendah hingga material yang tahan ledakan untuk mengurangi efek sosial dan sistem otomasi untuk mengoptimalkan energi yang rendah emisi.\nSeperti apa urgensi penerapan Sustainable Construction dalam pembangunan di Indonesia? Selengkapnya saksikan dialog Safrina Nasution dengan CEO & Managing Partner Falga Group, Ronald Edy Simamora dalam Evening Up,CNBC Indonesia (Selasa, 11 /04/2023)",
+                    "image" => mix("img/hero-image.jpg"),
+                    "video_id" => "aC1KdyQyKp8"
+                ],
+                [
+                    "title" => "Sustainable Construction, Masa Depan Konstruksi Indonesia",
+                    "description" => "Istilah 'konstruksi berkelanjutan' semakin populer seiring pembangunan Ibu Kota Negara atau IKN yang melibatkan alam, teknologi dan energi terbarukan.\nNamun sebenarnya seperti apa potensi Indonesia mengaplikasikan konstruksi berkelanjutan? Dan apakah Indonesia telah siap menopang implementasi konstruksi berkelanjutan? Selengkapnya akan dibahas dalam pemaparan Dina Gurning: Sustainable Construction, Masa Depan Konstruksi Indonesia dalam Evening Up, CNBC  Indonesia (Selasa, 11 /04/2023)",
+                    "image" => mix("img/hero-image.jpg"),
+                    "video_id" => "GTBgclI8P0Q"
                 ]
             ],
         ];
