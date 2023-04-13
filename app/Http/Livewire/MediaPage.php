@@ -40,6 +40,36 @@ class MediaPage extends Component
                     "image" => mix("img/media-and-information/news/falga-gnota.jpg"),
                     "url" => "http://www.gn-ota.or.id/en/falga-group-supports-elementary-school-education-in-jayapura/",
                 ],
+                [
+                    "title" => "Falga Group Ungkap Urgensi Konstruksi Berkelanjutan",
+                    "description" => "Falga Group mencoba untuk berperan mendorong dan meningkatkan proyek Sustainable Construction yang berkelanjutan.",
+                    "image" => mix("img/media-and-information/news/cnbc.jpeg"),
+                    "url" => "https://www.cnbcindonesia.com/news/20230410202452-4-428716/falga-group-ungkap-urgensi-konstruksi-berkelanjutan",
+                ],
+                [
+                    "title" => "Falga Group Dorong Pembangunan dengan Konsep Konstruksi Berkelanjutan",
+                    "description" => "Falga Group mendorong pembangunan dengan konsep sustainable construction agar sesuai standar ESG sekaligus membantu pencapaian Net Zero Emission (NZE) 2060.",
+                    "image" => mix("img/media-and-information/news/cnn.jpeg"),
+                    "url" => "https://www.cnnindonesia.com/ekonomi/20230411204126-97-936435/falga-group-dorong-pembangunan-dengan-konsep-konstruksi-berkelanjutan",
+                ],
+                [
+                    "title" => "Wujudkan Nett Zero Emision 2060 Falga Group Terapkan Sustainable Construction",
+                    "description" => "Sektor konstruksi menjadi salah satu penopang perekonomian nasional Indonesia, selain konsumsi dan manufaktur.",
+                    "image" => mix("img/media-and-information/news/kontan.jpg"),
+                    "url" => "https://industri.kontan.co.id/news/wujudkan-nett-zero-emision-2060-falga-group-terapkan-sustainable-construction",
+                ],
+                [
+                    "title" => "Pembangunan Konstruksi Berkelanjutan di Jakarta Terus Didorong",
+                    "description" => "Falga Group terus mendorong untuk pembangunan konstruksi berkelanjutan di Jakarta.",
+                    "image" => mix("img/media-and-information/news/republika.jpg"),
+                    "url" => "https://news.republika.co.id/berita/rsy9fx330/pembangunan-konstruksi-berkelanjutan-di-jakarta-terus-didorong",
+                ],
+                [
+                    "title" => "Upaya Falga Group Dorong Proyek Konstruksi Berkelanjutan di RI",
+                    "description" => "Sektor konstruksi memegang peranan penting dalam roda perekonomian nasional Tanah Air, di samping konsumsi dan manufaktur.",
+                    "image" => mix("img/media-and-information/news/detik.jpeg"),
+                    "url" => "https://finance.detik.com/infrastruktur/d-6666858/upaya-falga-group-dorong-proyek-konstruksi-berkelanjutan-di-ri",
+                ],
             ],
             "blog" => [
                 [
@@ -120,7 +150,7 @@ class MediaPage extends Component
         if (!empty($request->input('page')) && intval($request->input('page'))) {
             $this->page = intval($request->input('page'));
         }
-        $count = $this->q == 'video' ? 6 : 4;
+        $count = $this->q == 'video' || $this->q == 'news' ? 6 : 4;
         $this->count = $count;
         $offset = ($this->page - 1) * $count;
         $this->page_count = ceil($this->all_items_count / $count);
