@@ -47,16 +47,28 @@ class MediaPage extends Component
                     "url" => "https://www.cnnindonesia.com/ekonomi/20230411204126-97-936435/falga-group-dorong-pembangunan-dengan-konsep-konstruksi-berkelanjutan",
                 ],
                 [
-                    "title" => "Detik: Upaya Falga Group Dorong Proyek Konstruksi Berkelanjutan di RI",
-                    "description" => "Sektor konstruksi memegang peranan penting dalam roda perekonomian nasional Tanah Air, di samping konsumsi dan manufaktur.",
-                    "image" => mix("img/media-and-information/news/detik.jpeg"),
-                    "url" => "https://finance.detik.com/infrastruktur/d-6666858/upaya-falga-group-dorong-proyek-konstruksi-berkelanjutan-di-ri",
+                    "title" => "Kompas: Falga Group Dorong Percepatan Implementasi Konstruksi Berkelanjutan di Indonesia",
+                    "description" => "Sektor konstruksi menjadi salah satu penyumbang terbesar produk domestik bruto (PDB) Indonesia. Data dari Badan Pusat Statistik (BPS) menyebut, sektor",
+                    "image" => mix("img/media-and-information/news/kompas.jpg"),
+                    "url" => "https://biz.kompas.com/read/2023/04/14/094158328/falga-group-dorong-percepatan-implementasi-konstruksi-berkelanjutan-di-indonesia",
+                ],
+                [
+                    "title" => "Liputan6: PSN Terminal LPG Jayapura Pertama di Papua Usung Konsep Net Zero Emission",
+                    "description" => "PT Cipta Sanalida Utama telah selesai mengerjakan proyek konstruksi dengan konsep Sustainable Construction untuk Proyek Strategis Nasional (PSN) Terminal LPG Jayapura yang pertama di Papua.",
+                    "image" => mix("img/media-and-information/news/liputan6.jpeg"),
+                    "url" => "https://www.liputan6.com/bisnis/read/5261564/psn-terminal-lpg-jayapura-pertama-di-papua-usung-konsep-net-zero-emission",
                 ],
                 [
                     "title" => "Kontan: Wujudkan Nett Zero Emision 2060 Falga Group Terapkan Sustainable Construction",
                     "description" => "Sektor konstruksi menjadi salah satu penopang perekonomian nasional Indonesia, selain konsumsi dan manufaktur.",
                     "image" => mix("img/media-and-information/news/kontan.jpg"),
                     "url" => "https://industri.kontan.co.id/news/wujudkan-nett-zero-emision-2060-falga-group-terapkan-sustainable-construction",
+                ],
+                [
+                    "title" => "Detik: Upaya Falga Group Dorong Proyek Konstruksi Berkelanjutan di RI",
+                    "description" => "Sektor konstruksi memegang peranan penting dalam roda perekonomian nasional Tanah Air, di samping konsumsi dan manufaktur.",
+                    "image" => mix("img/media-and-information/news/detik.jpeg"),
+                    "url" => "https://finance.detik.com/infrastruktur/d-6666858/upaya-falga-group-dorong-proyek-konstruksi-berkelanjutan-di-ri",
                 ],
                 [
                     "title" => "IDX: Wujudkan Net Zero Emision 2060, Falga Group Terapkan Sustainable Construction",
@@ -69,6 +81,12 @@ class MediaPage extends Component
                     "description" => "Falga Group terus mendorong untuk pembangunan konstruksi berkelanjutan di Jakarta.",
                     "image" => mix("img/media-and-information/news/republika.jpg"),
                     "url" => "https://news.republika.co.id/berita/rsy9fx330/pembangunan-konstruksi-berkelanjutan-di-jakarta-terus-didorong",
+                ],
+                [
+                    "title" => "ANTARA News: Falga Group selesaikan proyek 'Sustainable Construction' di Jayapura",
+                    "description" => "Falga Group Indonesia melalui anak perusahaan PT Cipta Sanalida Utama telah menyelesaikan proyek konstruksi berkonsep Sustainable Construction untuk Proyek ...",
+                    "image" => mix("img/media-and-information/news/antara.jpeg"),
+                    "url" => "https://www.antaranews.com/berita/3487782/falga-group-selesaikan-proyek-sustainable-construction-di-jayapura",
                 ],
                 [
                     "title" => "FALGA Group Supports Elementary School Education in Jayapura",
