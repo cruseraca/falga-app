@@ -51,19 +51,15 @@
 {{-- Banner --}}
 <div class="main-banner mt-[3.8125rem] md:mt-[4.8125rem]">
   <picture>
-    <source media="(min-width:1280px)" srcset="{{ mix('img/hero-image-2.1536.webp') }}" type="image/webp" />
-    <source media="(min-width:1024px)" srcset="{{ mix('img/hero-image-2.1280.webp') }}" type="image/webp" />
-    <source media="(min-width:768px)" srcset="{{ mix('img/hero-image-2.1024.webp') }}" type="image/webp" />
-    <source media="(min-width:640px)" srcset="{{ mix('img/hero-image-2.768.webp') }}" type="image/webp" />
-    <source media="(min-width:412px)" srcset="{{ mix('img/hero-image-2.640.webp') }}" type="image/webp" />
-    <source media="(min-width:0)" srcset="{{ mix('img/hero-image-2.412.webp') }}" type="image/webp" />
-    <source media="(min-width:1280px)" srcset="{{ mix('img/hero-image-2.1536.jpg') }}" />
-    <source media="(min-width:1024px)" srcset="{{ mix('img/hero-image-2.1280.jpg') }}" />
-    <source media="(min-width:768px)" srcset="{{ mix('img/hero-image-2.1024.jpg') }}" />
-    <source media="(min-width:640px)" srcset="{{ mix('img/hero-image-2.768.jpg') }}" />
-    <source media="(min-width:412px)" srcset="{{ mix('img/hero-image-2.640.jpg') }}" />
-    <source media="(min-width:0)" srcset="{{ mix('img/hero-image-2.412.jpg') }}" />
-    <img alt="" src="{{ mix('img/hero-image-2.jpg') }}" class="object-top" />
+    <source media="(min-width:1367px)" srcset="{{ mix('img/core-emphasis-1920.webp') }}" type="image/webp" />
+    <source media="(min-width:881px)" srcset="{{ mix('img/core-emphasis-1366.webp') }}" type="image/webp" />
+    <source media="(min-width:561px)" srcset="{{ mix('img/core-emphasis-880.webp') }}" type="image/webp" />
+    <source media="(min-width:0)" srcset="{{ mix('img/core-emphasis-560.webp') }}" type="image/webp" />
+    <source media="(min-width:1367px)" srcset="{{ mix('img/core-emphasis-1920.jpg') }}" />
+    <source media="(min-width:881px)" srcset="{{ mix('img/core-emphasis-1366.jpg') }}" />
+    <source media="(min-width:561px)" srcset="{{ mix('img/core-emphasis-880.jpg') }}" />
+    <source media="(min-width:0)" srcset="{{ mix('img/core-emphasis-560.jpg') }}" />
+    <img alt="" src="{{ mix('img/core-emphasis.jpg') }}" class="object-top" />
   </picture>
   <div class="main-banner-container">
     <div class="falga-container text-white text-center">

@@ -30,12 +30,7 @@ class SustainabilityPage extends Component
                 ["title" => "Financial Highlights 6", "date" => "21 September 2022", "file" => asset("pdf/contoh.pdf")],
             ],
             "reports" => [
-                ["title" => "Sustainability Reports 1", "date" => "16 September 2022", "file" => asset("pdf/contoh.pdf")],
-                ["title" => "Sustainability Reports 2", "date" => "17 September 2022", "file" => asset("pdf/contoh.pdf")],
-                ["title" => "Sustainability Reports 3", "date" => "18 September 2022", "file" => asset("pdf/contoh.pdf")],
-                ["title" => "Sustainability Reports 4", "date" => "19 September 2022", "file" => asset("pdf/contoh.pdf")],
-                ["title" => "Sustainability Reports 5", "date" => "20 September 2022", "file" => asset("pdf/contoh.pdf")],
-                ["title" => "Sustainability Reports 6", "date" => "21 September 2022", "file" => asset("pdf/contoh.pdf")],
+                ["title" => "Sustainability Highlights 2023", "date" => "24 Juni 2023", "file" => asset("pdf/FALGA Sustainability Highlights.pdf")],
             ],
             "strategy-management" => [
                 ["title" => "Corporate Presentation 1", "date" => "16 September 2022", "file" => asset("pdf/contoh.pdf")],
