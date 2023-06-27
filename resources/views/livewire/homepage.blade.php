@@ -34,14 +34,17 @@
   @media (max-width: 1080px) {
     .falga-button.banner-button {
       font-size: 0.75rem;
+      min-height: 1.5rem;
+      min-width: 4rem;
     }
   }
 
   @media (max-width: 767.8px) {
     .falga-button.banner-button {
-      padding: 0 0.25rem 0 0.25rem;
+      padding: 0 0.6rem 0 0.6rem;
       font-size: 0.65rem;
-      min-height: 2rem;
+      min-height: 1.5rem;
+      min-width: 4rem;
     }
 
     .falga-button.banner-button>svg {
