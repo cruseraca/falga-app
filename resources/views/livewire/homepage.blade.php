@@ -31,10 +31,16 @@
     }
   }
 
+  @media (max-width: 1080px) {
+    .falga-button.banner-button {
+      font-size: 0.75rem;
+    }
+  }
+
   @media (max-width: 767.8px) {
     .falga-button.banner-button {
       padding: 0 0.25rem 0 0.25rem;
-      font-size: 0.75rem;
+      font-size: 0.65rem;
       min-height: 2rem;
     }
 

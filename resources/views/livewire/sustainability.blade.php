@@ -104,8 +104,8 @@
     @foreach($items as $item)
     <div class="flex flex-col md:flex-row md:items-center w-full md:px-8 py-4 border-b md:ml-8">
       <div class="flex-1">
-        <div class="text-xl md:text-3xl">{{ $item["title"] }}</div>
-        <div class="text-sm md:text-base mt-2">{{ $item["date"] }}</div>
+        <div class="text-lg sm:text-xl md:text-3xl">{{ $item["title"] }}</div>
+        <div class="text-xs sm:text-sm md:text-base mt-2">{{ $item["date"] }}</div>
       </div>
       <div class="flex justify-end">
         <a href={{ $item["file"] }} download="{{ $item["title"] }}.pdf" class="p-4 text-red-falga underline">Download</a>
