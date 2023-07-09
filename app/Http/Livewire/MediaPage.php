@@ -35,6 +35,12 @@ class MediaPage extends Component
         $this->all_items = [
             "news" => [
                 [
+                    "title" => "Falga Group won Asia Pacific CIO Outlook's annual listing of 5 companies in Indonesia that are at the forefront of providing Procurement services and impacting the industry.",
+                    "description" => "Falga Group won Asia Pacific CIO Outlook's annual listing of 5 companies in Indonesia that are at the forefront of providing Procurement services and impacting the industry.",
+                    "image" => mix("img/media-and-information/news/apac.png"),
+                    "url" => "https://www.apacciooutlook.com/falga-group"
+                ],
+                [
                     "title" => "CNBC Indonesia: Falga Group Ungkap Urgensi Konstruksi Berkelanjutan",
                     "description" => "Falga Group mencoba untuk berperan mendorong dan meningkatkan proyek Sustainable Construction yang berkelanjutan.",
                     "image" => mix("img/media-and-information/news/cnbc.jpeg"),
@@ -120,7 +126,7 @@ class MediaPage extends Component
             "video" => [
                 [
                     "title" => "Wujudkan Konstruksi Ramah Lingkungan Lewat Sustainable Construction",
-                    "description" => "Indonesia terus mendorong pembangunan berkelanjutan sebagai bagian dari komitmen Net Zero Carbo 20260. Salah satu pengembangan \"Sustainability In The Construction Ecosystem\" Tanah Air dilaksanakan melalui program penyelenggaraan konstruksi nasional dalam pembangunan Ibu Kota Nusantara (IKN).",
+                    "description" => "Indonesia terus mendorong pembangunan berkelanjutan sebagai bagian dari komitmen Net Zero Carbon 2060. Salah satu pengembangan \"Sustainability In The Construction Ecosystem\" Tanah Air dilaksanakan melalui program penyelenggaraan konstruksi nasional dalam pembangunan Ibu Kota Nusantara (IKN).",
                     "image" => mix("img/hero-image.jpg"),
                     "video_id" => "aC1KdyQyKp8"
                 ],
