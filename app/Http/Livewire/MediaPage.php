@@ -35,8 +35,8 @@ class MediaPage extends Component
         $this->all_items = [
             "news" => [
                 [
-                    "title" => "Falga Group won Asia Pacific CIO Outlook's annual listing of 5 companies in Indonesia that are at the forefront of providing Procurement services and impacting the industry.",
-                    "description" => "Falga Group won Asia Pacific CIO Outlook's annual listing of 5 companies in Indonesia that are at the forefront of providing Procurement services and impacting the industry.",
+                    "title" => "Falga Group won Asia Pacific CIO Outlook's Top Procurement Services Provider in Indonesia 2023",
+                    "description" => "Falga Group won Asia Pacific CIO Outlook's Top Procurement Services Provider in Indonesia 2023.",
                     "image" => mix("img/media-and-information/news/apac.png"),
                     "url" => "https://www.apacciooutlook.com/falga-group"
                 ],
