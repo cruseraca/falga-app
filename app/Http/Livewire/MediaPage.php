@@ -36,7 +36,7 @@ class MediaPage extends Component
             "news" => [
                 [
                     "title" => "Falga Group won Asia Pacific CIO Outlook's Top Procurement Services Provider in Indonesia 2023",
-                    "description" => "Falga Group won Asia Pacific CIO Outlook's Top Procurement Services Provider in Indonesia 2023.",
+                    "description" => "Falga Group won Asia Pacific CIO Outlook's annual listing of 5 companies in Indonesia that are at the forefront of providing Procurement services and impacting the industry.",
                     "image" => mix("img/media-and-information/news/apac.png"),
                     "url" => "https://www.apacciooutlook.com/falga-group"
                 ],
@@ -49,7 +49,7 @@ class MediaPage extends Component
                 [
                     "title" => "CNN Indonesia: Falga Group Dorong Pembangunan dengan Konsep Konstruksi Berkelanjutan",
                     "description" => "Falga Group mendorong pembangunan dengan konsep sustainable construction agar sesuai standar ESG sekaligus membantu pencapaian Net Zero Emission (NZE) 2060.",
-                    "image" => mix("img/media-and-information/news/cnn.jpeg"),
+                    "image" => mix("img/media-and-information/news/cnn.jpg"),
                     "url" => "https://www.cnnindonesia.com/ekonomi/20230411204126-97-936435/falga-group-dorong-pembangunan-dengan-konsep-konstruksi-berkelanjutan",
                 ],
                 [
