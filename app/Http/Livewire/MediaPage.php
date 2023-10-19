@@ -155,6 +155,18 @@ class MediaPage extends Component
                     "video_id" => "_56KLyUQ1ms"
                 ],
                 [
+                    "title" => "THE PROCESS OF CONSTRUCTING 2 UNITS LPG STORAGE TANKS @ 2500 MT ARUN, ACEH",
+                    "description" => "The Process of Constructing 2 units LPG (Spherical) Tanks @ 2,500 Metric Ton @ Integrated LPG Terminal Pertamina Arun, Aceh, Indonesia.",
+                    "image" => mix("img/hero-image.jpg"),
+                    "video_id" => "WrOeN548XE0"
+                ],
+                [
+                    "title" => "THE PROCESS OF BUILDING 1 UNIT OIL STORAGE TANK @20,000 KILO LITER",
+                    "description" => "The process of building 1 unit Oil (Cylindrical) Storage Tank @ 20,000 Kilo Liter (125,796 Barrel) @ Integrated Fuel Terminal Pertamina Plumpang, Jakarta, Indonesia.",
+                    "image" => mix("img/hero-image.jpg"),
+                    "video_id" => "IvEypjxYV_o"
+                ],
+                [
                     "title" => "Sepatah Kata dari Bapak Ronald Edy Simamora OTA Falga Group",
                     "description" => "di acara Simboliasi Donasi Anak Asuh melalui Yayasan GNOTA.",
                     "image" => mix("img/hero-image.jpg"),
