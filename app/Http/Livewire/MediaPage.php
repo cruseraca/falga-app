@@ -149,12 +149,6 @@ class MediaPage extends Component
                     "video_id" => "4tDjvbCEdgU"
                 ],
                 [
-                    "title" => "Simbolisasi & Kunjungan Edukasi Gabriel dari Papua",
-                    "description" => "Gabriel dan Bapak Sujono datang dari Jayapura ke Jakarta dalam rangka menghadiri simbolisasi penyerahan donasi anak asuh dari OTA @falga.group di kantor Yayasan GNOTA.",
-                    "image" => mix("img/hero-image.jpg"),
-                    "video_id" => "_56KLyUQ1ms"
-                ],
-                [
                     "title" => "The Process of Constructing 2 Units LPG Storage Tanks @ 2500 Mt Arun, Aceh",
                     "description" => "The Process of Constructing 2 units LPG (Spherical) Tanks @ 2,500 Metric Ton @ Integrated LPG Terminal Pertamina Arun, Aceh, Indonesia.",
                     "image" => mix("img/hero-image.jpg"),
@@ -165,6 +159,12 @@ class MediaPage extends Component
                     "description" => "The process of building 1 unit Oil (Cylindrical) Storage Tank @ 20,000 Kilo Liter (125,796 Barrel) @ Integrated Fuel Terminal Pertamina Plumpang, Jakarta, Indonesia.",
                     "image" => mix("img/hero-image.jpg"),
                     "video_id" => "IvEypjxYV_o"
+                ],
+                [
+                    "title" => "Simbolisasi & Kunjungan Edukasi Gabriel dari Papua",
+                    "description" => "Gabriel dan Bapak Sujono datang dari Jayapura ke Jakarta dalam rangka menghadiri simbolisasi penyerahan donasi anak asuh dari OTA @falga.group di kantor Yayasan GNOTA.",
+                    "image" => mix("img/hero-image.jpg"),
+                    "video_id" => "_56KLyUQ1ms"
                 ],
                 [
                     "title" => "Sepatah Kata dari Bapak Ronald Edy Simamora OTA Falga Group",
