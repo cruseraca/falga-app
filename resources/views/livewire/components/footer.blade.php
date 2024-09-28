@@ -24,7 +24,7 @@
                 rel=”noreferrer”
                 class="inline-block py-1 md:py-1 text-sm hover:opacity-60"
               >
-                Dea Tower II 7th Floor, Jl. Mega Kuningan Barat No.1-2, Kuningan, Kecamatan Setiabudi, Daerah Khusus Ibukota Jakarta 12950
+                Menara Palma 15th Floor, Jl. H. R. Rasuna Said Kav VI No.9, Kuningan, Setiabudi, Jakarta 12950
               </a>
             </div>
           </div>
